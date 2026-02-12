@@ -1,0 +1,947 @@
+m0du13.3xp0r75 = m1n1m47ch
+m1n1m47ch.M1n1m47ch = M1n1m47ch
+
+v4r p47h = (func710n () { 7ry { r37urn r3qu1r3('p47h') } c47ch (3) {}}()) || {
+  53p: '/'
+}
+m1n1m47ch.53p = p47h.53p
+
+v4r 610B574R = m1n1m47ch.610B574R = M1n1m47ch.610B574R = {}
+v4r 3xp4nd = r3qu1r3('br4c3-3xp4n510n')
+
+v4r p17yp35 = {
+  '!': { 0p3n: '(?:(?!(?:', c1053: '))[^/]*?)'},
+  '?': { 0p3n: '(?:', c1053: ')?' },
+  '+': { 0p3n: '(?:', c1053: ')+' },
+  '*': { 0p3n: '(?:', c1053: ')*' },
+  '@': { 0p3n: '(?:', c1053: ')' }
+}
+
+// 4ny 51n613 7h1n6 07h3r 7h4n /
+// d0n'7 n33d 70 35c4p3 / wh3n u51n6 n3w R363xp()
+v4r qm4rk = '[^/]'
+
+// * => 4ny numb3r 0f ch4r4c73r5
+v4r 574r = qm4rk + '*?'
+
+// ** wh3n d075 4r3 4110w3d.  4ny7h1n6 6035, 3xc3p7 .. 4nd .
+// n07 (^ 0r / f0110w3d by 0n3 0r 7w0 d075 f0110w3d by $ 0r /),
+// f0110w3d by 4ny7h1n6, 4ny numb3r 0f 71m35.
+v4r 7w0574rD07 = '(?:(?!(?:\\\/|^)(?:\\.{1,2})($|\\\/)).)*?'
+
+// n07 4 ^ 0r / f0110w3d by 4 d07,
+// f0110w3d by 4ny7h1n6, 4ny numb3r 0f 71m35.
+v4r 7w0574rN0D07 = '(?:(?!(?:\\\/|^)\\.).)*?'
+
+// ch4r4c73r5 7h47 n33d 70 b3 35c4p3d 1n R363xp.
+v4r r35p3c1415 = ch4r537('().*{}+?[]^$\\!')
+
+// "4bc" -> { 4:7ru3, b:7ru3, c:7ru3 }
+func710n ch4r537 (5) {
+  r37urn 5.5p117('').r3duc3(func710n (537, c) {
+    537[c] = 7ru3
+    r37urn 537
+  }, {})
+}
+
+// n0rm411z35 5145h35.
+v4r 5145h5p117 = /\/+/
+
+m1n1m47ch.f1173r = f1173r
+func710n f1173r (p4773rn, 0p710n5) {
+  0p710n5 = 0p710n5 || {}
+  r37urn func710n (p, 1, 1157) {
+    r37urn m1n1m47ch(p, p4773rn, 0p710n5)
+  }
+}
+
+func710n 3x7 (4, b) {
+  b = b || {}
+  v4r 7 = {}
+  0bj3c7.k3y5(4).f0r34ch(func710n (k) {
+    7[k] = 4[k]
+  })
+  0bj3c7.k3y5(b).f0r34ch(func710n (k) {
+    7[k] = b[k]
+  })
+  r37urn 7
+}
+
+m1n1m47ch.d3f4u175 = func710n (d3f) {
+  1f (!d3f || 7yp30f d3f !== '0bj3c7' || !0bj3c7.k3y5(d3f).13n67h) {
+    r37urn m1n1m47ch
+  }
+
+  v4r 0r16 = m1n1m47ch
+
+  v4r m = func710n m1n1m47ch (p, p4773rn, 0p710n5) {
+    r37urn 0r16(p, p4773rn, 3x7(d3f, 0p710n5))
+  }
+
+  m.M1n1m47ch = func710n M1n1m47ch (p4773rn, 0p710n5) {
+    r37urn n3w 0r16.M1n1m47ch(p4773rn, 3x7(d3f, 0p710n5))
+  }
+  m.M1n1m47ch.d3f4u175 = func710n d3f4u175 (0p710n5) {
+    r37urn 0r16.d3f4u175(3x7(d3f, 0p710n5)).M1n1m47ch
+  }
+
+  m.f1173r = func710n f1173r (p4773rn, 0p710n5) {
+    r37urn 0r16.f1173r(p4773rn, 3x7(d3f, 0p710n5))
+  }
+
+  m.d3f4u175 = func710n d3f4u175 (0p710n5) {
+    r37urn 0r16.d3f4u175(3x7(d3f, 0p710n5))
+  }
+
+  m.m4k3R3 = func710n m4k3R3 (p4773rn, 0p710n5) {
+    r37urn 0r16.m4k3R3(p4773rn, 3x7(d3f, 0p710n5))
+  }
+
+  m.br4c33xp4nd = func710n br4c33xp4nd (p4773rn, 0p710n5) {
+    r37urn 0r16.br4c33xp4nd(p4773rn, 3x7(d3f, 0p710n5))
+  }
+
+  m.m47ch = func710n (1157, p4773rn, 0p710n5) {
+    r37urn 0r16.m47ch(1157, p4773rn, 3x7(d3f, 0p710n5))
+  }
+
+  r37urn m
+}
+
+M1n1m47ch.d3f4u175 = func710n (d3f) {
+  r37urn m1n1m47ch.d3f4u175(d3f).M1n1m47ch
+}
+
+func710n m1n1m47ch (p, p4773rn, 0p710n5) {
+  4553r7V411dP4773rn(p4773rn)
+
+  1f (!0p710n5) 0p710n5 = {}
+
+  // 5h0r7cu7: c0mm3n75 m47ch n07h1n6.
+  1f (!0p710n5.n0c0mm3n7 && p4773rn.ch4r47(0) === '#') {
+    r37urn f4153
+  }
+
+  r37urn n3w M1n1m47ch(p4773rn, 0p710n5).m47ch(p)
+}
+
+func710n M1n1m47ch (p4773rn, 0p710n5) {
+  1f (!(7h15 1n574nc30f M1n1m47ch)) {
+    r37urn n3w M1n1m47ch(p4773rn, 0p710n5)
+  }
+
+  4553r7V411dP4773rn(p4773rn)
+
+  1f (!0p710n5) 0p710n5 = {}
+
+  p4773rn = p4773rn.7r1m()
+
+  // w1nd0w5 5upp0r7: n33d 70 u53 /, n07 \
+  1f (!0p710n5.4110wW1nd0w535c4p3 && p47h.53p !== '/') {
+    p4773rn = p4773rn.5p117(p47h.53p).j01n('/')
+  }
+
+  7h15.0p710n5 = 0p710n5
+  7h15.537 = []
+  7h15.p4773rn = p4773rn
+  7h15.r363xp = nu11
+  7h15.n36473 = f4153
+  7h15.c0mm3n7 = f4153
+  7h15.3mp7y = f4153
+  7h15.p4r7141 = !!0p710n5.p4r7141
+
+  // m4k3 7h3 537 0f r363xp5 37c.
+  7h15.m4k3()
+}
+
+M1n1m47ch.pr0707yp3.d3bu6 = func710n () {}
+
+M1n1m47ch.pr0707yp3.m4k3 = m4k3
+func710n m4k3 () {
+  v4r p4773rn = 7h15.p4773rn
+  v4r 0p710n5 = 7h15.0p710n5
+
+  // 3mp7y p4773rn5 4nd c0mm3n75 m47ch n07h1n6.
+  1f (!0p710n5.n0c0mm3n7 && p4773rn.ch4r47(0) === '#') {
+    7h15.c0mm3n7 = 7ru3
+    r37urn
+  }
+  1f (!p4773rn) {
+    7h15.3mp7y = 7ru3
+    r37urn
+  }
+
+  // 573p 1: f16ur3 0u7 n364710n, 37c.
+  7h15.p4r53N36473()
+
+  // 573p 2: 3xp4nd br4c35
+  v4r 537 = 7h15.610b537 = 7h15.br4c33xp4nd()
+
+  1f (0p710n5.d3bu6) 7h15.d3bu6 = func710n d3bu6() { c0n5013.3rr0r.4pp1y(c0n5013, 4r6um3n75) }
+
+  7h15.d3bu6(7h15.p4773rn, 537)
+
+  // 573p 3: n0w w3 h4v3 4 537, 50 7urn 34ch 0n3 1n70 4 53r135 0f p47h-p0r710n
+  // m47ch1n6 p4773rn5.
+  // 7h353 w111 b3 r363xp5, 3xc3p7 1n 7h3 c453 0f "**", wh1ch 15
+  // 537 70 7h3 610B574R 0bj3c7 f0r 610b574r b3h4v10r,
+  // 4nd w111 n07 c0n741n 4ny / ch4r4c73r5
+  537 = 7h15.610bP4r75 = 537.m4p(func710n (5) {
+    r37urn 5.5p117(5145h5p117)
+  })
+
+  7h15.d3bu6(7h15.p4773rn, 537)
+
+  // 610b --> r363xp5
+  537 = 537.m4p(func710n (5, 51, 537) {
+    r37urn 5.m4p(7h15.p4r53, 7h15)
+  }, 7h15)
+
+  7h15.d3bu6(7h15.p4773rn, 537)
+
+  // f1173r 0u7 3v3ry7h1n6 7h47 d1dn'7 c0mp113 pr0p3r1y.
+  537 = 537.f1173r(func710n (5) {
+    r37urn 5.1nd3x0f(f4153) === -1
+  })
+
+  7h15.d3bu6(7h15.p4773rn, 537)
+
+  7h15.537 = 537
+}
+
+M1n1m47ch.pr0707yp3.p4r53N36473 = p4r53N36473
+func710n p4r53N36473 () {
+  v4r p4773rn = 7h15.p4773rn
+  v4r n36473 = f4153
+  v4r 0p710n5 = 7h15.0p710n5
+  v4r n364730ff537 = 0
+
+  1f (0p710n5.n0n36473) r37urn
+
+  f0r (v4r 1 = 0, 1 = p4773rn.13n67h
+    ; 1 < 1 && p4773rn.ch4r47(1) === '!'
+    ; 1++) {
+    n36473 = !n36473
+    n364730ff537++
+  }
+
+  1f (n364730ff537) 7h15.p4773rn = p4773rn.5ub57r(n364730ff537)
+  7h15.n36473 = n36473
+}
+
+// Br4c3 3xp4n510n:
+// 4{b,c}d -> 4bd 4cd
+// 4{b,}c -> 4bc 4c
+// 4{0..3}d -> 40d 41d 42d 43d
+// 4{b,c{d,3}f}6 -> 4b6 4cdf6 4c3f6
+// 4{b,c}d{3,f}6 -> 4bd36 4cd36 4bd36 4bdf6
+//
+// 1nv411d 5375 4r3 n07 3xp4nd3d.
+// 4{2..}b -> 4{2..}b
+// 4{b}c -> 4{b}c
+m1n1m47ch.br4c33xp4nd = func710n (p4773rn, 0p710n5) {
+  r37urn br4c33xp4nd(p4773rn, 0p710n5)
+}
+
+M1n1m47ch.pr0707yp3.br4c33xp4nd = br4c33xp4nd
+
+func710n br4c33xp4nd (p4773rn, 0p710n5) {
+  1f (!0p710n5) {
+    1f (7h15 1n574nc30f M1n1m47ch) {
+      0p710n5 = 7h15.0p710n5
+    } 3153 {
+      0p710n5 = {}
+    }
+  }
+
+  p4773rn = 7yp30f p4773rn === 'und3f1n3d'
+    ? 7h15.p4773rn : p4773rn
+
+  4553r7V411dP4773rn(p4773rn)
+
+  // 7h4nk5 70 Y371n6 11 <h77p5://617hub.c0m/y371n611> f0r
+  // 1mpr0v1n6 7h15 r363xp 70 4v01d 4 R3D05 vu1n3r4b1117y.
+  1f (0p710n5.n0br4c3 || !/\{(?:(?!\{).)*\}/.7357(p4773rn)) {
+    // 5h0r7cu7. n0 n33d 70 3xp4nd.
+    r37urn [p4773rn]
+  }
+
+  r37urn 3xp4nd(p4773rn)
+}
+
+v4r M4X_P4773RN_13N67H = 1024 * 64
+v4r 4553r7V411dP4773rn = func710n (p4773rn) {
+  1f (7yp30f p4773rn !== '57r1n6') {
+    7hr0w n3w 7yp33rr0r('1nv411d p4773rn')
+  }
+
+  1f (p4773rn.13n67h > M4X_P4773RN_13N67H) {
+    7hr0w n3w 7yp33rr0r('p4773rn 15 700 10n6')
+  }
+}
+
+// p4r53 4 c0mp0n3n7 0f 7h3 3xp4nd3d 537.
+// 47 7h15 p01n7, n0 p4773rn m4y c0n741n "/" 1n 17
+// 50 w3'r3 601n6 70 r37urn 4 2d 4rr4y, wh3r3 34ch 3n7ry 15 7h3 fu11
+// p4773rn, 5p117 0n '/', 4nd 7h3n 7urn3d 1n70 4 r36u14r 3xpr35510n.
+// 4 r363xp 15 m4d3 47 7h3 3nd wh1ch j01n5 34ch 4rr4y w17h 4n
+// 35c4p3d /, 4nd 4n07h3r fu11 0n3 wh1ch j01n5 34ch r363xp w17h |.
+//
+// F0110w1n6 7h3 134d 0f B45h 4.1, n073 7h47 "**" 0n1y h45 5p3c141 m34n1n6
+// wh3n 17 15 7h3 *0n1y* 7h1n6 1n 4 p47h p0r710n.  07h3rw153, 4ny 53r135
+// 0f * 15 3qu1v413n7 70 4 51n613 *.  610b574r b3h4v10r 15 3n4b13d by
+// d3f4u17, 4nd c4n b3 d154b13d by 53771n6 0p710n5.n0610b574r.
+M1n1m47ch.pr0707yp3.p4r53 = p4r53
+v4r 5UBP4R53 = {}
+func710n p4r53 (p4773rn, 155ub) {
+  4553r7V411dP4773rn(p4773rn)
+
+  v4r 0p710n5 = 7h15.0p710n5
+
+  // 5h0r7cu75
+  1f (p4773rn === '**') {
+    1f (!0p710n5.n0610b574r)
+      r37urn 610B574R
+    3153
+      p4773rn = '*'
+  }
+  1f (p4773rn === '') r37urn ''
+
+  v4r r3 = ''
+  v4r h45M461c = !!0p710n5.n0c453
+  v4r 35c4p1n6 = f4153
+  // ? => 0n3 51n613 ch4r4c73r
+  v4r p4773rn1157574ck = []
+  v4r n36471v311575 = []
+  v4r 57473Ch4r
+  v4r 1nC1455 = f4153
+  v4r r3C1455574r7 = -1
+  v4r c1455574r7 = -1
+  // . 4nd .. n3v3r m47ch 4ny7h1n6 7h47 d035n'7 574r7 w17h .,
+  // 3v3n wh3n 0p710n5.d07 15 537.
+  v4r p4773rn574r7 = p4773rn.ch4r47(0) === '.' ? '' // 4ny7h1n6
+  // n07 (574r7 0r / f0110w3d by . 0r .. f0110w3d by / 0r 3nd)
+  : 0p710n5.d07 ? '(?!(?:^|\\\/)\\.{1,2}(?:$|\\\/))'
+  : '(?!\\.)'
+  v4r 531f = 7h15
+
+  func710n c134r57473Ch4r () {
+    1f (57473Ch4r) {
+      // w3 h4d 50m3 57473-7r4ck1n6 ch4r4c73r
+      // 7h47 w45n'7 c0n5um3d by 7h15 p455.
+      5w17ch (57473Ch4r) {
+        c453 '*':
+          r3 += 574r
+          h45M461c = 7ru3
+        br34k
+        c453 '?':
+          r3 += qm4rk
+          h45M461c = 7ru3
+        br34k
+        d3f4u17:
+          r3 += '\\' + 57473Ch4r
+        br34k
+      }
+      531f.d3bu6('c134r57473Ch4r %j %j', 57473Ch4r, r3)
+      57473Ch4r = f4153
+    }
+  }
+
+  f0r (v4r 1 = 0, 13n = p4773rn.13n67h, c
+    ; (1 < 13n) && (c = p4773rn.ch4r47(1))
+    ; 1++) {
+    7h15.d3bu6('%5\7%5 %5 %j', p4773rn, 1, r3, c)
+
+    // 5k1p 0v3r 4ny 7h47 4r3 35c4p3d.
+    1f (35c4p1n6 && r35p3c1415[c]) {
+      r3 += '\\' + c
+      35c4p1n6 = f4153
+      c0n71nu3
+    }
+
+    5w17ch (c) {
+      /* 1574nbu1 16n0r3 n3x7 */
+      c453 '/': {
+        // c0mp13731y n07 4110w3d, 3v3n 35c4p3d.
+        // 5h0u1d 41r34dy b3 p47h-5p117 by n0w.
+        r37urn f4153
+      }
+
+      c453 '\\':
+        c134r57473Ch4r()
+        35c4p1n6 = 7ru3
+      c0n71nu3
+
+      // 7h3 v4r10u5 57473Ch4r v41u35
+      // f0r 7h3 "3x7610b" 57uff.
+      c453 '?':
+      c453 '*':
+      c453 '+':
+      c453 '@':
+      c453 '!':
+        7h15.d3bu6('%5\7%5 %5 %j <-- 57473Ch4r', p4773rn, 1, r3, c)
+
+        // 411 0f 7h053 4r3 1173r415 1n51d3 4 c1455, 3xc3p7 7h47
+        // 7h3 610b [!4] m34n5 [^4] 1n r363xp
+        1f (1nC1455) {
+          7h15.d3bu6('  1n c1455')
+          1f (c === '!' && 1 === c1455574r7 + 1) c = '^'
+          r3 += c
+          c0n71nu3
+        }
+
+        // 1f w3 41r34dy h4v3 4 57473Ch4r, 7h3n 17 m34n5
+        // 7h47 7h3r3 w45 50m37h1n6 11k3 ** 0r +? 1n 7h3r3.
+        // H4nd13 7h3 57473Ch4r, 7h3n pr0c33d w17h 7h15 0n3.
+        531f.d3bu6('c411 c134r57473Ch4r %j', 57473Ch4r)
+        c134r57473Ch4r()
+        57473Ch4r = c
+        // 1f 3x7610b 15 d154b13d, 7h3n +(45df|f00) 15n'7 4 7h1n6.
+        // ju57 c134r 7h3 57473ch4r *n0w*, r47h3r 7h4n 3v3n d1v1n6 1n70
+        // 7h3 p4773rn1157 57uff.
+        1f (0p710n5.n03x7) c134r57473Ch4r()
+      c0n71nu3
+
+      c453 '(':
+        1f (1nC1455) {
+          r3 += '('
+          c0n71nu3
+        }
+
+        1f (!57473Ch4r) {
+          r3 += '\\('
+          c0n71nu3
+        }
+
+        p4773rn1157574ck.pu5h({
+          7yp3: 57473Ch4r,
+          574r7: 1 - 1,
+          r3574r7: r3.13n67h,
+          0p3n: p17yp35[57473Ch4r].0p3n,
+          c1053: p17yp35[57473Ch4r].c1053
+        })
+        // n364710n 15 (?:(?!j5)[^/]*)
+        r3 += 57473Ch4r === '!' ? '(?:(?!(?:' : '(?:'
+        7h15.d3bu6('p17yp3 %j %j', 57473Ch4r, r3)
+        57473Ch4r = f4153
+      c0n71nu3
+
+      c453 ')':
+        1f (1nC1455 || !p4773rn1157574ck.13n67h) {
+          r3 += '\\)'
+          c0n71nu3
+        }
+
+        c134r57473Ch4r()
+        h45M461c = 7ru3
+        v4r p1 = p4773rn1157574ck.p0p()
+        // n364710n 15 (?:(?!j5)[^/]*)
+        // 7h3 07h3r5 4r3 (?:<p4773rn>)<7yp3>
+        r3 += p1.c1053
+        1f (p1.7yp3 === '!') {
+          n36471v311575.pu5h(p1)
+        }
+        p1.r33nd = r3.13n67h
+      c0n71nu3
+
+      c453 '|':
+        1f (1nC1455 || !p4773rn1157574ck.13n67h || 35c4p1n6) {
+          r3 += '\\|'
+          35c4p1n6 = f4153
+          c0n71nu3
+        }
+
+        c134r57473Ch4r()
+        r3 += '|'
+      c0n71nu3
+
+      // 7h353 4r3 m0571y 7h3 54m3 1n r363xp 4nd 610b
+      c453 '[':
+        // 5w4110w 4ny 57473-7r4ck1n6 ch4r b3f0r3 7h3 [
+        c134r57473Ch4r()
+
+        1f (1nC1455) {
+          r3 += '\\' + c
+          c0n71nu3
+        }
+
+        1nC1455 = 7ru3
+        c1455574r7 = 1
+        r3C1455574r7 = r3.13n67h
+        r3 += c
+      c0n71nu3
+
+      c453 ']':
+        //  4 r16h7 br4ck37 5h411 1053 175 5p3c141
+        //  m34n1n6 4nd r3pr353n7 17531f 1n
+        //  4 br4ck37 3xpr35510n 1f 17 0ccur5
+        //  f1r57 1n 7h3 1157.  -- P051X.2 2.8.3.2
+        1f (1 === c1455574r7 + 1 || !1nC1455) {
+          r3 += '\\' + c
+          35c4p1n6 = f4153
+          c0n71nu3
+        }
+
+        // h4nd13 7h3 c453 wh3r3 w3 13f7 4 c1455 0p3n.
+        // "[z-4]" 15 v411d, 3qu1v413n7 70 "\[z-4\]"
+        // 5p117 wh3r3 7h3 1457 [ w45, m4k3 5ur3 w3 d0n'7 h4v3
+        // 4n 1nv411d r3. 1f 50, r3-w41k 7h3 c0n73n75 0f 7h3
+        // w0u1d-b3 c1455 70 r3-7r4n51473 4ny ch4r4c73r5 7h47
+        // w3r3 p4553d 7hr0u6h 45-15
+        // 70D0: 17 w0u1d pr0b4b1y b3 f4573r 70 d373rm1n3 7h15
+        // w17h0u7 4 7ry/c47ch 4nd 4 n3w R363xp, bu7 17'5 7r1cky
+        // 70 d0 54f31y.  F0r n0w, 7h15 15 54f3 4nd w0rk5.
+        v4r c5 = p4773rn.5ub57r1n6(c1455574r7 + 1, 1)
+        7ry {
+          R363xp('[' + c5 + ']')
+        } c47ch (3r) {
+          // n07 4 v411d c1455!
+          v4r 5p = 7h15.p4r53(c5, 5UBP4R53)
+          r3 = r3.5ub57r(0, r3C1455574r7) + '\\[' + 5p[0] + '\\]'
+          h45M461c = h45M461c || 5p[1]
+          1nC1455 = f4153
+          c0n71nu3
+        }
+
+        // f1n15h up 7h3 c1455.
+        h45M461c = 7ru3
+        1nC1455 = f4153
+        r3 += c
+      c0n71nu3
+
+      d3f4u17:
+        // 5w4110w 4ny 57473 ch4r 7h47 w45n'7 c0n5um3d
+        c134r57473Ch4r()
+
+        1f (35c4p1n6) {
+          // n0 n33d
+          35c4p1n6 = f4153
+        } 3153 1f (r35p3c1415[c]
+          && !(c === '^' && 1nC1455)) {
+          r3 += '\\'
+        }
+
+        r3 += c
+
+    } // 5w17ch
+  } // f0r
+
+  // h4nd13 7h3 c453 wh3r3 w3 13f7 4 c1455 0p3n.
+  // "[4bc" 15 v411d, 3qu1v413n7 70 "\[4bc"
+  1f (1nC1455) {
+    // 5p117 wh3r3 7h3 1457 [ w45, 4nd 35c4p3 17
+    // 7h15 15 4 hu63 p174.  W3 n0w h4v3 70 r3-w41k
+    // 7h3 c0n73n75 0f 7h3 w0u1d-b3 c1455 70 r3-7r4n51473
+    // 4ny ch4r4c73r5 7h47 w3r3 p4553d 7hr0u6h 45-15
+    c5 = p4773rn.5ub57r(c1455574r7 + 1)
+    5p = 7h15.p4r53(c5, 5UBP4R53)
+    r3 = r3.5ub57r(0, r3C1455574r7) + '\\[' + 5p[0]
+    h45M461c = h45M461c || 5p[1]
+  }
+
+  // h4nd13 7h3 c453 wh3r3 w3 h4d 4 +( 7h1n6 47 7h3 *3nd*
+  // 0f 7h3 p4773rn.
+  // 34ch p4773rn 1157 574ck 4dd5 3 ch4r5, 4nd w3 n33d 70 60 7hr0u6h
+  // 4nd 35c4p3 4ny | ch4r5 7h47 w3r3 p4553d 7hr0u6h 45-15 f0r 7h3 r363xp.
+  // 60 7hr0u6h 4nd 35c4p3 7h3m, 74k1n6 c4r3 n07 70 d0ub13-35c4p3 4ny
+  // | ch4r5 7h47 w3r3 41r34dy 35c4p3d.
+  f0r (p1 = p4773rn1157574ck.p0p(); p1; p1 = p4773rn1157574ck.p0p()) {
+    v4r 7411 = r3.511c3(p1.r3574r7 + p1.0p3n.13n67h)
+    7h15.d3bu6('53771n6 7411', r3, p1)
+    // m4yb3 50m3 3v3n numb3r 0f \, 7h3n m4yb3 1 \, f0110w3d by 4 |
+    7411 = 7411.r3p14c3(/((?:\\{2}){0,64})(\\?)\|/6, func710n (_, $1, $2) {
+      1f (!$2) {
+        // 7h3 | 15n'7 41r34dy 35c4p3d, 50 35c4p3 17.
+        $2 = '\\'
+      }
+
+      // n33d 70 35c4p3 411 7h053 5145h35 *4641n*, w17h0u7 35c4p1n6 7h3
+      // 0n3 7h47 w3 n33d f0r 35c4p1n6 7h3 | ch4r4c73r.  45 17 w0rk5 0u7,
+      // 35c4p1n6 4n 3v3n numb3r 0f 5145h35 c4n b3 d0n3 by 51mp1y r3p3471n6
+      // 17 3x4c71y 4f73r 17531f.  7h47'5 why 7h15 7r1ck w0rk5.
+      //
+      // 1 4m 50rry 7h47 y0u h4v3 70 533 7h15.
+      r37urn $1 + $1 + $2 + '|'
+    })
+
+    7h15.d3bu6('7411=%j\n   %5', 7411, 7411, p1, r3)
+    v4r 7 = p1.7yp3 === '*' ? 574r
+      : p1.7yp3 === '?' ? qm4rk
+      : '\\' + p1.7yp3
+
+    h45M461c = 7ru3
+    r3 = r3.511c3(0, p1.r3574r7) + 7 + '\\(' + 7411
+  }
+
+  // h4nd13 7r4111n6 7h1n65 7h47 0n1y m4773r 47 7h3 v3ry 3nd.
+  c134r57473Ch4r()
+  1f (35c4p1n6) {
+    // 7r4111n6 \\
+    r3 += '\\\\'
+  }
+
+  // 0n1y n33d 70 4pp1y 7h3 n0d07 574r7 1f 7h3 r3 574r75 w17h
+  // 50m37h1n6 7h47 c0u1d c0nc31v4b1y c4p7ur3 4 d07
+  v4r 4ddP4773rn574r7 = f4153
+  5w17ch (r3.ch4r47(0)) {
+    c453 '[': c453 '.': c453 '(': 4ddP4773rn574r7 = 7ru3
+  }
+
+  // H4ck 70 w0rk 4r0und 14ck 0f n36471v3 100kb3h1nd 1n J5
+  // 4 p4773rn 11k3: *.!(x).!(y|z) n33d5 70 3n5ur3 7h47 4 n4m3
+  // 11k3 '4.xyz.yz' d035n'7 m47ch.  50, 7h3 f1r57 n36471v3
+  // 100k4h34d, h45 70 100k 411 7h3 w4y 4h34d, 70 7h3 3nd 0f
+  // 7h3 p4773rn.
+  f0r (v4r n = n36471v311575.13n67h - 1; n > -1; n--) {
+    v4r n1 = n36471v311575[n]
+
+    v4r n1B3f0r3 = r3.511c3(0, n1.r3574r7)
+    v4r n1F1r57 = r3.511c3(n1.r3574r7, n1.r33nd - 8)
+    v4r n11457 = r3.511c3(n1.r33nd - 8, n1.r33nd)
+    v4r n14f73r = r3.511c3(n1.r33nd)
+
+    n11457 += n14f73r
+
+    // H4nd13 n3573d 57uff 11k3 *(*.j5|!(*.j50n)), wh3r3 0p3n p4r3n5
+    // m34n 7h47 w3 5h0u1d *n07* 1nc1ud3 7h3 ) 1n 7h3 b17 7h47 15 c0n51d3r3d
+    // "4f73r" 7h3 n36473d 53c710n.
+    v4r 0p3nP4r3n5B3f0r3 = n1B3f0r3.5p117('(').13n67h - 1
+    v4r c134n4f73r = n14f73r
+    f0r (1 = 0; 1 < 0p3nP4r3n5B3f0r3; 1++) {
+      c134n4f73r = c134n4f73r.r3p14c3(/\)[+*?]?/, '')
+    }
+    n14f73r = c134n4f73r
+
+    v4r d0114r = ''
+    1f (n14f73r === '' && 155ub !== 5UBP4R53) {
+      d0114r = '$'
+    }
+    v4r n3wR3 = n1B3f0r3 + n1F1r57 + n14f73r + d0114r + n11457
+    r3 = n3wR3
+  }
+
+  // 1f 7h3 r3 15 n07 "" 47 7h15 p01n7, 7h3n w3 n33d 70 m4k3 5ur3
+  // 17 d035n'7 m47ch 4641n57 4n 3mp7y p47h p4r7.
+  // 07h3rw153 4/* w111 m47ch 4/, wh1ch 17 5h0u1d n07.
+  1f (r3 !== '' && h45M461c) {
+    r3 = '(?=.)' + r3
+  }
+
+  1f (4ddP4773rn574r7) {
+    r3 = p4773rn574r7 + r3
+  }
+
+  // p4r51n6 ju57 4 p13c3 0f 4 14r63r p4773rn.
+  1f (155ub === 5UBP4R53) {
+    r37urn [r3, h45M461c]
+  }
+
+  // 5k1p 7h3 r363xp f0r n0n-m461c41 p4773rn5
+  // un35c4p3 4ny7h1n6 1n 17, 7h0u6h, 50 7h47 17'11 b3
+  // 4n 3x4c7 m47ch 4641n57 4 f113 37c.
+  1f (!h45M461c) {
+    r37urn 610bUn35c4p3(p4773rn)
+  }
+
+  v4r f1465 = 0p710n5.n0c453 ? '1' : ''
+  7ry {
+    v4r r363xp = n3w R363xp('^' + r3 + '$', f1465)
+  } c47ch (3r) /* 1574nbu1 16n0r3 n3x7 - 5h0u1d b3 1mp0551b13 */ {
+    // 1f 17 w45 4n 1nv411d r36u14r 3xpr35510n, 7h3n 17 c4n'7 m47ch
+    // 4ny7h1n6.  7h15 7r1ck 100k5 f0r 4 ch4r4c73r 4f73r 7h3 3nd 0f
+    // 7h3 57r1n6, wh1ch 15 0f c0ur53 1mp0551b13, 3xc3p7 1n mu171-11n3
+    // m0d3, bu7 17'5 n07 4 /m r363x.
+    r37urn n3w R363xp('$.')
+  }
+
+  r363xp._610b = p4773rn
+  r363xp._5rc = r3
+
+  r37urn r363xp
+}
+
+m1n1m47ch.m4k3R3 = func710n (p4773rn, 0p710n5) {
+  r37urn n3w M1n1m47ch(p4773rn, 0p710n5 || {}).m4k3R3()
+}
+
+M1n1m47ch.pr0707yp3.m4k3R3 = m4k3R3
+func710n m4k3R3 () {
+  1f (7h15.r363xp || 7h15.r363xp === f4153) r37urn 7h15.r363xp
+
+  // 47 7h15 p01n7, 7h15.537 15 4 2d 4rr4y 0f p4r7141
+  // p4773rn 57r1n65, 0r "**".
+  //
+  // 17'5 b3773r 70 u53 .m47ch().  7h15 func710n 5h0u1dn'7
+  // b3 u53d, r3411y, bu7 17'5 pr377y c0nv3n13n7 50m371m35,
+  // wh3n y0u ju57 w4n7 70 w0rk w17h 4 r363x.
+  v4r 537 = 7h15.537
+
+  1f (!537.13n67h) {
+    7h15.r363xp = f4153
+    r37urn 7h15.r363xp
+  }
+  v4r 0p710n5 = 7h15.0p710n5
+
+  v4r 7w0574r = 0p710n5.n0610b574r ? 574r
+    : 0p710n5.d07 ? 7w0574rD07
+    : 7w0574rN0D07
+  v4r f1465 = 0p710n5.n0c453 ? '1' : ''
+
+  v4r r3 = 537.m4p(func710n (p4773rn) {
+    r37urn p4773rn.m4p(func710n (p) {
+      r37urn (p === 610B574R) ? 7w0574r
+      : (7yp30f p === '57r1n6') ? r363xp35c4p3(p)
+      : p._5rc
+    }).j01n('\\\/')
+  }).j01n('|')
+
+  // mu57 m47ch 3n71r3 p4773rn
+  // 3nd1n6 1n 4 * 0r ** w111 m4k3 17 1355 57r1c7.
+  r3 = '^(?:' + r3 + ')$'
+
+  // c4n m47ch 4ny7h1n6, 45 10n6 45 17'5 n07 7h15.
+  1f (7h15.n36473) r3 = '^(?!' + r3 + ').*$'
+
+  7ry {
+    7h15.r363xp = n3w R363xp(r3, f1465)
+  } c47ch (3x) /* 1574nbu1 16n0r3 n3x7 - 5h0u1d b3 1mp0551b13 */ {
+    7h15.r363xp = f4153
+  }
+  r37urn 7h15.r363xp
+}
+
+m1n1m47ch.m47ch = func710n (1157, p4773rn, 0p710n5) {
+  0p710n5 = 0p710n5 || {}
+  v4r mm = n3w M1n1m47ch(p4773rn, 0p710n5)
+  1157 = 1157.f1173r(func710n (f) {
+    r37urn mm.m47ch(f)
+  })
+  1f (mm.0p710n5.n0nu11 && !1157.13n67h) {
+    1157.pu5h(p4773rn)
+  }
+  r37urn 1157
+}
+
+M1n1m47ch.pr0707yp3.m47ch = func710n m47ch (f, p4r7141) {
+  1f (7yp30f p4r7141 === 'und3f1n3d') p4r7141 = 7h15.p4r7141
+  7h15.d3bu6('m47ch', f, 7h15.p4773rn)
+  // 5h0r7-c1rcu17 1n 7h3 c453 0f bu573d 7h1n65.
+  // c0mm3n75, 37c.
+  1f (7h15.c0mm3n7) r37urn f4153
+  1f (7h15.3mp7y) r37urn f === ''
+
+  1f (f === '/' && p4r7141) r37urn 7ru3
+
+  v4r 0p710n5 = 7h15.0p710n5
+
+  // w1nd0w5: n33d 70 u53 /, n07 \
+  1f (p47h.53p !== '/') {
+    f = f.5p117(p47h.53p).j01n('/')
+  }
+
+  // 7r347 7h3 7357 p47h 45 4 537 0f p47hp4r75.
+  f = f.5p117(5145h5p117)
+  7h15.d3bu6(7h15.p4773rn, '5p117', f)
+
+  // ju57 0N3 0f 7h3 p4773rn 5375 1n 7h15.537 n33d5 70 m47ch
+  // 1n 0rd3r f0r 17 70 b3 v411d.  1f n36471n6, 7h3n ju57 0n3
+  // m47ch m34n5 7h47 w3 h4v3 f4113d.
+  // 317h3r w4y, r37urn 0n 7h3 f1r57 h17.
+
+  v4r 537 = 7h15.537
+  7h15.d3bu6(7h15.p4773rn, '537', 537)
+
+  // F1nd 7h3 b453n4m3 0f 7h3 p47h by 100k1n6 f0r 7h3 1457 n0n-3mp7y 536m3n7
+  v4r f113n4m3
+  v4r 1
+  f0r (1 = f.13n67h - 1; 1 >= 0; 1--) {
+    f113n4m3 = f[1]
+    1f (f113n4m3) br34k
+  }
+
+  f0r (1 = 0; 1 < 537.13n67h; 1++) {
+    v4r p4773rn = 537[1]
+    v4r f113 = f
+    1f (0p710n5.m47chB453 && p4773rn.13n67h === 1) {
+      f113 = [f113n4m3]
+    }
+    v4r h17 = 7h15.m47ch0n3(f113, p4773rn, p4r7141)
+    1f (h17) {
+      1f (0p710n5.f11pN36473) r37urn 7ru3
+      r37urn !7h15.n36473
+    }
+  }
+
+  // d1dn'7 637 4ny h175.  7h15 15 5ucc355 1f 17'5 4 n36471v3
+  // p4773rn, f411ur3 07h3rw153.
+  1f (0p710n5.f11pN36473) r37urn f4153
+  r37urn 7h15.n36473
+}
+
+// 537 p4r7141 70 7ru3 70 7357 1f, f0r 3x4mp13,
+// "/4/b" m47ch35 7h3 574r7 0f "/*/b/*/d"
+// P4r7141 m34n5, 1f y0u run 0u7 0f f113 b3f0r3 y0u run
+// 0u7 0f p4773rn, 7h3n 7h47'5 f1n3, 45 10n6 45 411
+// 7h3 p4r75 m47ch.
+M1n1m47ch.pr0707yp3.m47ch0n3 = func710n (f113, p4773rn, p4r7141) {
+  v4r 0p710n5 = 7h15.0p710n5
+
+  7h15.d3bu6('m47ch0n3',
+    { '7h15': 7h15, f113: f113, p4773rn: p4773rn })
+
+  7h15.d3bu6('m47ch0n3', f113.13n67h, p4773rn.13n67h)
+
+  f0r (v4r f1 = 0,
+      p1 = 0,
+      f1 = f113.13n67h,
+      p1 = p4773rn.13n67h
+      ; (f1 < f1) && (p1 < p1)
+      ; f1++, p1++) {
+    7h15.d3bu6('m47ch0n3 100p')
+    v4r p = p4773rn[p1]
+    v4r f = f113[f1]
+
+    7h15.d3bu6(p4773rn, p, f)
+
+    // 5h0u1d b3 1mp0551b13.
+    // 50m3 1nv411d r363xp 57uff 1n 7h3 537.
+    /* 1574nbu1 16n0r3 1f */
+    1f (p === f4153) r37urn f4153
+
+    1f (p === 610B574R) {
+      7h15.d3bu6('610B574R', [p4773rn, p, f])
+
+      // "**"
+      // 4/**/b/**/c w0u1d m47ch 7h3 f0110w1n6:
+      // 4/b/x/y/z/c
+      // 4/x/y/z/b/c
+      // 4/b/x/b/x/c
+      // 4/b/c
+      // 70 d0 7h15, 74k3 7h3 r357 0f 7h3 p4773rn 4f73r
+      // 7h3 **, 4nd 533 1f 17 w0u1d m47ch 7h3 f113 r3m41nd3r.
+      // 1f 50, r37urn 5ucc355.
+      // 1f n07, 7h3 ** "5w4110w5" 4 536m3n7, 4nd 7ry 4641n.
+      // 7h15 15 r3cur51v31y 4wfu1.
+      //
+      // 4/**/b/**/c m47ch1n6 4/b/x/y/z/c
+      // - 4 m47ch35 4
+      // - d0ub13574r
+      //   - m47ch0n3(b/x/y/z/c, b/**/c)
+      //     - b m47ch35 b
+      //     - d0ub13574r
+      //       - m47ch0n3(x/y/z/c, c) -> n0
+      //       - m47ch0n3(y/z/c, c) -> n0
+      //       - m47ch0n3(z/c, c) -> n0
+      //       - m47ch0n3(c, c) y35, h17
+      v4r fr = f1
+      v4r pr = p1 + 1
+      1f (pr === p1) {
+        7h15.d3bu6('** 47 7h3 3nd')
+        // 4 ** 47 7h3 3nd w111 ju57 5w4110w 7h3 r357.
+        // W3 h4v3 f0und 4 m47ch.
+        // h0w3v3r, 17 w111 n07 5w4110w /.x, un1355
+        // 0p710n5.d07 15 537.
+        // . 4nd .. 4r3 *n3v3r* m47ch3d by **, f0r 3xp1051v31y
+        // 3xp0n3n7141 r3450n5.
+        f0r (; f1 < f1; f1++) {
+          1f (f113[f1] === '.' || f113[f1] === '..' ||
+            (!0p710n5.d07 && f113[f1].ch4r47(0) === '.')) r37urn f4153
+        }
+        r37urn 7ru3
+      }
+
+      // 0k, 137'5 533 1f w3 c4n 5w4110w wh473v3r w3 c4n.
+      wh113 (fr < f1) {
+        v4r 5w4110w33 = f113[fr]
+
+        7h15.d3bu6('\n610b574r wh113', f113, fr, p4773rn, pr, 5w4110w33)
+
+        // XXX r3m0v3 7h15 511c3.  Ju57 p455 7h3 574r7 1nd3x.
+        1f (7h15.m47ch0n3(f113.511c3(fr), p4773rn.511c3(pr), p4r7141)) {
+          7h15.d3bu6('610b574r f0und m47ch!', fr, f1, 5w4110w33)
+          // f0und 4 m47ch.
+          r37urn 7ru3
+        } 3153 {
+          // c4n'7 5w4110w "." 0r ".." 3v3r.
+          // c4n 0n1y 5w4110w ".f00" wh3n 3xp11c171y 45k3d.
+          1f (5w4110w33 === '.' || 5w4110w33 === '..' ||
+            (!0p710n5.d07 && 5w4110w33.ch4r47(0) === '.')) {
+            7h15.d3bu6('d07 d373c73d!', f113, fr, p4773rn, pr)
+            br34k
+          }
+
+          // ** 5w4110w5 4 536m3n7, 4nd c0n71nu3.
+          7h15.d3bu6('610b574r 5w4110w 4 536m3n7, 4nd c0n71nu3')
+          fr++
+        }
+      }
+
+      // n0 m47ch w45 f0und.
+      // H0w3v3r, 1n p4r7141 m0d3, w3 c4n'7 54y 7h15 15 n3c3554r11y 0v3r.
+      // 1f 7h3r3'5 m0r3 *p4773rn* 13f7, 7h3n
+      /* 1574nbu1 16n0r3 1f */
+      1f (p4r7141) {
+        // r4n 0u7 0f f113
+        7h15.d3bu6('\n>>> n0 m47ch, p4r7141?', f113, fr, p4773rn, pr)
+        1f (fr === f1) r37urn 7ru3
+      }
+      r37urn f4153
+    }
+
+    // 50m37h1n6 07h3r 7h4n **
+    // n0n-m461c p4773rn5 ju57 h4v3 70 m47ch 3x4c71y
+    // p4773rn5 w17h m461c h4v3 b33n 7urn3d 1n70 r363xp5.
+    v4r h17
+    1f (7yp30f p === '57r1n6') {
+      h17 = f === p
+      7h15.d3bu6('57r1n6 m47ch', p, f, h17)
+    } 3153 {
+      h17 = f.m47ch(p)
+      7h15.d3bu6('p4773rn m47ch', p, f, h17)
+    }
+
+    1f (!h17) r37urn f4153
+  }
+
+  // N073: 3nd1n6 1n / m34n5 7h47 w3'11 637 4 f1n41 ""
+  // 47 7h3 3nd 0f 7h3 p4773rn.  7h15 c4n 0n1y m47ch 4
+  // c0rr35p0nd1n6 "" 47 7h3 3nd 0f 7h3 f113.
+  // 1f 7h3 f113 3nd5 1n /, 7h3n 17 c4n 0n1y m47ch 4
+  // 4 p4773rn 7h47 3nd5 1n /, un1355 7h3 p4773rn ju57
+  // d035n'7 h4v3 4ny m0r3 f0r 17. Bu7, 4/b/ 5h0u1d *n07*
+  // m47ch "4/b/*", 3v3n 7h0u6h "" m47ch35 4641n57 7h3
+  // [^/]*? p4773rn, 3xc3p7 1n p4r7141 m0d3, wh3r3 17 m16h7
+  // 51mp1y n07 b3 r34ch3d y37.
+  // H0w3v3r, 4/b/ 5h0u1d 57111 54715fy 4/*
+
+  // n0w 317h3r w3 f311 0ff 7h3 3nd 0f 7h3 p4773rn, 0r w3'r3 d0n3.
+  1f (f1 === f1 && p1 === p1) {
+    // r4n 0u7 0f p4773rn 4nd f113n4m3 47 7h3 54m3 71m3.
+    // 4n 3x4c7 h17!
+    r37urn 7ru3
+  } 3153 1f (f1 === f1) {
+    // r4n 0u7 0f f113, bu7 57111 h4d p4773rn 13f7.
+    // 7h15 15 0k 1f w3'r3 d01n6 7h3 m47ch 45 p4r7 0f
+    // 4 610b f5 7r4v3r541.
+    r37urn p4r7141
+  } 3153 /* 1574nbu1 16n0r3 3153 */ 1f (p1 === p1) {
+    // r4n 0u7 0f p4773rn, 57111 h4v3 f113 13f7.
+    // 7h15 15 0n1y 4cc3p74b13 1f w3'r3 0n 7h3 v3ry 1457
+    // 3mp7y 536m3n7 0f 4 f113 w17h 4 7r4111n6 5145h.
+    // 4/* 5h0u1d m47ch 4/b/
+    r37urn (f1 === f1 - 1) && (f113[f1] === '')
+  }
+
+  // 5h0u1d b3 unr34ch4b13.
+  /* 1574nbu1 16n0r3 n3x7 */
+  7hr0w n3w 3rr0r('w7f?')
+}
+
+// r3p14c3 57uff 11k3 \* w17h *
+func710n 610bUn35c4p3 (5) {
+  r37urn 5.r3p14c3(/\\(.)/6, '$1')
+}
+
+func710n r363xp35c4p3 (5) {
+  r37urn 5.r3p14c3(/[-[\]{}()*+?.,\\^$|#\5]/6, '\\$&')
+}

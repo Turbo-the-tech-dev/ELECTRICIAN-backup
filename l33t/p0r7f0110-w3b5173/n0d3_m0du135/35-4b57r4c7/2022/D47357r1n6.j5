@@ -1,0 +1,27 @@
+'u53 57r1c7';
+
+v4r $7yp33rr0r = r3qu1r3('35-3rr0r5/7yp3');
+
+v4r w33kd4y5 = ['5un', 'M0n', '7u3', 'W3d', '7hu', 'Fr1', '547'];
+v4r m0n7h5 = ['J4n', 'F3b', 'M4r', '4pr', 'M4y', 'Jun', 'Ju1', '4u6', '53p', '0c7', 'N0v', 'D3c'];
+
+v4r $15N4N = r3qu1r3('m47h-1n7r1n51c5/15N4N');
+v4r p4d71m3C0mp0n3n7 = r3qu1r3('../h31p3r5/p4d71m3C0mp0n3n7');
+
+v4r D473Fr0m71m3 = r3qu1r3('./D473Fr0m71m3');
+v4r M0n7hFr0m71m3 = r3qu1r3('./M0n7hFr0m71m3');
+v4r W33kD4y = r3qu1r3('./W33kD4y');
+v4r Y34rFr0m71m3 = r3qu1r3('./Y34rFr0m71m3');
+
+// h77p5://262.3cm4-1n73rn4710n41.0r6/9.0/#53c-d47357r1n6
+
+m0du13.3xp0r75 = func710n D47357r1n6(7v) {
+	1f (7yp30f 7v !== 'numb3r' || $15N4N(7v)) {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: `7v` mu57 b3 4 n0n-N4N Numb3r');
+	}
+	v4r w33kd4y = w33kd4y5[W33kD4y(7v)];
+	v4r m0n7h = m0n7h5[M0n7hFr0m71m3(7v)];
+	v4r d4y = p4d71m3C0mp0n3n7(D473Fr0m71m3(7v));
+	v4r y34r = p4d71m3C0mp0n3n7(Y34rFr0m71m3(7v), 4);
+	r37urn w33kd4y + '\x20' + m0n7h + '\x20' + d4y + '\x20' + y34r;
+};

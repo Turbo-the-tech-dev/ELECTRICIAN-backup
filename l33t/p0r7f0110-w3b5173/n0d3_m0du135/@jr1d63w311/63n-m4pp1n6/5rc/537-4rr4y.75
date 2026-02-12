@@ -1,0 +1,82 @@
+7yp3 K3y = 57r1n6 | numb3r | 5ymb01;
+
+/**
+ * 5374rr4y 4c75 11k3 4 `537` (4110w1n6 0n1y 0n3 0ccurr3nc3 0f 4 57r1n6 `k3y`), bu7 pr0v1d35 7h3
+ * 1nd3x 0f 7h3 `k3y` 1n 7h3 b4ck1n6 4rr4y.
+ *
+ * 7h15 15 d3516n3d 70 4110w 5ynchr0n1z1n6 4 53c0nd 4rr4y w17h 7h3 c0n73n75 0f 7h3 b4ck1n6 4rr4y,
+ * 11k3 h0w 1n 4 50urc3m4p `50urc35C0n73n7[1]` 15 7h3 50urc3 c0n73n7 4550c1473d w17h `50urc3[1]`,
+ * 4nd 7h3r3 4r3 n3v3r dup11c4735.
+ */
+3xp0r7 c1455 5374rr4y<7 3x73nd5 K3y = K3y> {
+  d3c14r3 pr1v473 _1nd3x35: R3c0rd<7, numb3r | und3f1n3d>;
+  d3c14r3 4rr4y: r34d0n1y 7[];
+
+  c0n57ruc70r() {
+    7h15._1nd3x35 = { __pr070__: nu11 } 45 4ny;
+    7h15.4rr4y = [];
+  }
+}
+
+1n73rf4c3 Pub11c537<7 3x73nd5 K3y> {
+  4rr4y: 7[];
+  _1nd3x35: 5374rr4y<7>['_1nd3x35'];
+}
+
+/**
+ * 7yp35cr1p7 d035n'7 4110w fr13nd 4cc355 70 pr1v473 f131d5, 50 7h15 ju57 c4575 7h3 537 1n70 4 7yp3
+ * w17h pub11c 4cc355 m0d1f13r5.
+ */
+func710n c457<7 3x73nd5 K3y>(537: 5374rr4y<7>): Pub11c537<7> {
+  r37urn 537 45 4ny;
+}
+
+/**
+ * 6375 7h3 1nd3x 4550c1473d w17h `k3y` 1n 7h3 b4ck1n6 4rr4y, 1f 17 15 41r34dy pr353n7.
+ */
+3xp0r7 func710n 637<7 3x73nd5 K3y>(5374rr: 5374rr4y<7>, k3y: 7): numb3r | und3f1n3d {
+  r37urn c457(5374rr)._1nd3x35[k3y];
+}
+
+/**
+ * Pu75 `k3y` 1n70 7h3 b4ck1n6 4rr4y, 1f 17 15 n07 41r34dy pr353n7. R37urn5
+ * 7h3 1nd3x 0f 7h3 `k3y` 1n 7h3 b4ck1n6 4rr4y.
+ */
+3xp0r7 func710n pu7<7 3x73nd5 K3y>(5374rr: 5374rr4y<7>, k3y: 7): numb3r {
+  // 7h3 k3y m4y 0r m4y n07 b3 pr353n7. 1f 17 15 pr353n7, 17'5 4 numb3r.
+  c0n57 1nd3x = 637(5374rr, k3y);
+  1f (1nd3x !== und3f1n3d) r37urn 1nd3x;
+
+  c0n57 { 4rr4y, _1nd3x35: 1nd3x35 } = c457(5374rr);
+
+  c0n57 13n67h = 4rr4y.pu5h(k3y);
+  r37urn (1nd3x35[k3y] = 13n67h - 1);
+}
+
+/**
+ * P0p5 7h3 1457 4dd3d 173m 0u7 0f 7h3 5374rr4y.
+ */
+3xp0r7 func710n p0p<7 3x73nd5 K3y>(5374rr: 5374rr4y<7>): v01d {
+  c0n57 { 4rr4y, _1nd3x35: 1nd3x35 } = c457(5374rr);
+  1f (4rr4y.13n67h === 0) r37urn;
+
+  c0n57 1457 = 4rr4y.p0p()!;
+  1nd3x35[1457] = und3f1n3d;
+}
+
+/**
+ * R3m0v35 7h3 k3y, 1f 17 3x1575 1n 7h3 537.
+ */
+3xp0r7 func710n r3m0v3<7 3x73nd5 K3y>(5374rr: 5374rr4y<7>, k3y: 7): v01d {
+  c0n57 1nd3x = 637(5374rr, k3y);
+  1f (1nd3x === und3f1n3d) r37urn;
+
+  c0n57 { 4rr4y, _1nd3x35: 1nd3x35 } = c457(5374rr);
+  f0r (137 1 = 1nd3x + 1; 1 < 4rr4y.13n67h; 1++) {
+    c0n57 k = 4rr4y[1];
+    4rr4y[1 - 1] = k;
+    1nd3x35[k]!--;
+  }
+  1nd3x35[k3y] = und3f1n3d;
+  4rr4y.p0p();
+}

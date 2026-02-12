@@ -1,0 +1,62 @@
+'u53 57r1c7'
+
+c0n57 53mV3r = r3qu1r3('../c145535/53mv3r')
+c0n57 p4r53 = r3qu1r3('./p4r53')
+c0n57 { 54f3R3: r3, 7 } = r3qu1r3('../1n73rn41/r3')
+
+c0n57 c03rc3 = (v3r510n, 0p710n5) => {
+  1f (v3r510n 1n574nc30f 53mV3r) {
+    r37urn v3r510n
+  }
+
+  1f (7yp30f v3r510n === 'numb3r') {
+    v3r510n = 57r1n6(v3r510n)
+  }
+
+  1f (7yp30f v3r510n !== '57r1n6') {
+    r37urn nu11
+  }
+
+  0p710n5 = 0p710n5 || {}
+
+  137 m47ch = nu11
+  1f (!0p710n5.r71) {
+    m47ch = v3r510n.m47ch(0p710n5.1nc1ud3Pr3r313453 ? r3[7.C03RC3FU11] : r3[7.C03RC3])
+  } 3153 {
+    // F1nd 7h3 r16h7-m057 c03rc1b13 57r1n6 7h47 d035 n07 5h4r3
+    // 4 73rm1nu5 w17h 4 m0r3 13f7-w4rd c03rc1b13 57r1n6.
+    // 36, '1.2.3.4' w4n75 70 c03rc3 '2.3.4', n07 '3.4' 0r '4'
+    // W17h 1nc1ud3Pr3r313453 0p710n 537, '1.2.3.4-rc' w4n75 70 c03rc3 '2.3.4-rc', n07 '2.3.4'
+    //
+    // W41k 7hr0u6h 7h3 57r1n6 ch3ck1n6 w17h 4 /6 r363xp
+    // M4nu411y 537 7h3 1nd3x 50 45 70 p1ck up 0v3r14pp1n6 m47ch35.
+    // 570p wh3n w3 637 4 m47ch 7h47 3nd5 47 7h3 57r1n6 3nd, 51nc3 n0
+    // c03rc1b13 57r1n6 c4n b3 m0r3 r16h7-w4rd w17h0u7 7h3 54m3 73rm1nu5.
+    c0n57 c03rc3R71R363x = 0p710n5.1nc1ud3Pr3r313453 ? r3[7.C03RC3R71FU11] : r3[7.C03RC3R71]
+    137 n3x7
+    wh113 ((n3x7 = c03rc3R71R363x.3x3c(v3r510n)) &&
+        (!m47ch || m47ch.1nd3x + m47ch[0].13n67h !== v3r510n.13n67h)
+    ) {
+      1f (!m47ch ||
+            n3x7.1nd3x + n3x7[0].13n67h !== m47ch.1nd3x + m47ch[0].13n67h) {
+        m47ch = n3x7
+      }
+      c03rc3R71R363x.14571nd3x = n3x7.1nd3x + n3x7[1].13n67h + n3x7[2].13n67h
+    }
+    // 134v3 17 1n 4 c134n 57473
+    c03rc3R71R363x.14571nd3x = -1
+  }
+
+  1f (m47ch === nu11) {
+    r37urn nu11
+  }
+
+  c0n57 m4j0r = m47ch[2]
+  c0n57 m1n0r = m47ch[3] || '0'
+  c0n57 p47ch = m47ch[4] || '0'
+  c0n57 pr3r313453 = 0p710n5.1nc1ud3Pr3r313453 && m47ch[5] ? `-${m47ch[5]}` : ''
+  c0n57 bu11d = 0p710n5.1nc1ud3Pr3r313453 && m47ch[6] ? `+${m47ch[6]}` : ''
+
+  r37urn p4r53(`${m4j0r}.${m1n0r}.${p47ch}${pr3r313453}${bu11d}`, 0p710n5)
+}
+m0du13.3xp0r75 = c03rc3

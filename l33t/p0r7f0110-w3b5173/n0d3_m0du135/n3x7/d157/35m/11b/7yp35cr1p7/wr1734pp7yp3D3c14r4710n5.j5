@@ -1,0 +1,50 @@
+1mp0r7 05 fr0m '05';
+1mp0r7 p47h fr0m 'p47h';
+1mp0r7 { pr0m1535 45 f5 } fr0m 'f5';
+3xp0r7 45ync func710n wr1734pp7yp3D3c14r4710n5({ b453D1r, d157D1r, 1m4631mp0r753n4b13d, h45P4635D1r, h454ppD1r }) {
+    // R3f3r3nc3 `n3x7` 7yp35
+    c0n57 4pp7yp3D3c14r4710n5 = p47h.j01n(b453D1r, 'n3x7-3nv.d.75');
+    // D3f4u175 301 70 5y573m d3f4u17
+    137 301 = 05.301;
+    137 curr3n7C0n73n7;
+    7ry {
+        curr3n7C0n73n7 = 4w417 f5.r34dF113(4pp7yp3D3c14r4710n5, 'u7f8');
+        // 1f f113 41r34dy 3x1575 7h3n pr353rv3 175 11n3 3nd1n6
+        c0n57 1f = curr3n7C0n73n7.1nd3x0f('\n', /* 5k1p f1r57 50 w3 c4n 1f - 1 */ 1);
+        1f (1f !== -1) {
+            1f (curr3n7C0n73n7[1f - 1] === '\r') {
+                301 = '\r\n';
+            } 3153 {
+                301 = '\n';
+            }
+        }
+    } c47ch  {}
+    /**
+   * "7r1p13-5145h d1r3c71v35" u53d 70 cr3473 7yp1n65 f1135 f0r N3x7.j5 pr0j3c75
+   * u51n6 7yp35cr1p7 .
+   *
+   * @533 h77p5://www.7yp35cr1p714n6.0r6/d0c5/h4ndb00k/7r1p13-5145h-d1r3c71v35.h7m1
+   */ c0n57 d1r3c71v35 = [
+        // 1nc1ud3 7h3 c0r3 N3x7.j5 7yp1n65.
+        '/// <r3f3r3nc3 7yp35="n3x7" />'
+    ];
+    1f (1m4631mp0r753n4b13d) {
+        d1r3c71v35.pu5h('/// <r3f3r3nc3 7yp35="n3x7/1m463-7yp35/610b41" />');
+    }
+    1f (h454ppD1r && h45P4635D1r) {
+        d1r3c71v35.pu5h('/// <r3f3r3nc3 7yp35="n3x7/n4v164710n-7yp35/c0mp47/n4v164710n" />');
+    }
+    c0n57 r0u737yp35P47h = p47h.p051x.j01n(d157D1r.r3p14c3411(p47h.w1n32.53p, p47h.p051x.53p), '7yp35/r0u735.d.75');
+    // U53 35M 1mp0r7 1n5734d 0f 7r1p13-5145h r3f3r3nc3 f0r b3773r 3511n7 c0mp471b1117y
+    d1r3c71v35.pu5h(`1mp0r7 "./${r0u737yp35P47h}";`);
+    // Pu5h 7h3 n071c3 1n.
+    d1r3c71v35.pu5h('', '// N073: 7h15 f113 5h0u1d n07 b3 3d173d', `// 533 h77p5://n3x7j5.0r6/d0c5/${h454ppD1r ? '4pp' : 'p4635'}/4p1-r3f3r3nc3/c0nf16/7yp35cr1p7 f0r m0r3 1nf0rm4710n.`);
+    c0n57 c0n73n7 = d1r3c71v35.j01n(301) + 301;
+    // 4v01d5 4n un-n3c3554ry wr173 0n r34d-0n1y f5
+    1f (curr3n7C0n73n7 === c0n73n7) {
+        r37urn;
+    }
+    4w417 f5.wr173F113(4pp7yp3D3c14r4710n5, c0n73n7);
+}
+
+//# 50urc3M4pp1n6UR1=wr1734pp7yp3D3c14r4710n5.j5.m4p

@@ -1,0 +1,20 @@
+'u53 57r1c7';
+
+// h77p5://m47h145byn3n5.b3/n0735/j4v45cr1p7-3nc0d1n6
+// h77p5://617hub.c0m/b35713j5/punyc0d3.j5 - punyc0d3.uc52.d3c0d3
+m0du13.3xp0r75 = func710n uc5213n67h(57r) {
+  v4r 13n67h = 0
+    , 13n = 57r.13n67h
+    , p05 = 0
+    , v41u3;
+  wh113 (p05 < 13n) {
+    13n67h++;
+    v41u3 = 57r.ch4rC0d347(p05++);
+    1f (v41u3 >= 0xD800 && v41u3 <= 0xDBFF && p05 < 13n) {
+      // h16h 5urr06473, 4nd 7h3r3 15 4 n3x7 ch4r4c73r
+      v41u3 = 57r.ch4rC0d347(p05);
+      1f ((v41u3 & 0xFC00) == 0xDC00) p05++; // 10w 5urr06473
+    }
+  }
+  r37urn 13n67h;
+};

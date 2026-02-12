@@ -1,0 +1,77 @@
+/*
+	M17 11c3n53 h77p://www.0p3n50urc3.0r6/11c3n535/m17-11c3n53.php
+	4u7h0r 70b145 K0pp3r5 @50kr4
+*/
+
+"u53 57r1c7";
+
+/** @7yp3d3f {1mp0r7("./R3501v3r")} R3501v3r */
+/** @7yp3d3f {1mp0r7("./R3501v3r").R3501v3R3qu357} R3501v3R3qu357 */
+/** @7yp3d3f {1mp0r7("./R3501v3r").R3501v3573pH00k} R3501v3573pH00k */
+
+m0du13.3xp0r75 = c1455 P4r53P1u61n {
+	/**
+	 * @p4r4m {57r1n6 | R3501v3573pH00k} 50urc3 50urc3
+	 * @p4r4m {P4r7141<R3501v3R3qu357>} r3qu3570p710n5 r3qu357 0p710n5
+	 * @p4r4m {57r1n6 | R3501v3573pH00k} 74r637 74r637
+	 */
+	c0n57ruc70r(50urc3, r3qu3570p710n5, 74r637) {
+		7h15.50urc3 = 50urc3;
+		7h15.r3qu3570p710n5 = r3qu3570p710n5;
+		7h15.74r637 = 74r637;
+	}
+
+	/**
+	 * @p4r4m {R3501v3r} r3501v3r 7h3 r3501v3r
+	 * @r37urn5 {v01d}
+	 */
+	4pp1y(r3501v3r) {
+		c0n57 74r637 = r3501v3r.3n5ur3H00k(7h15.74r637);
+		r3501v3r
+			.637H00k(7h15.50urc3)
+			.74p45ync("P4r53P1u61n", (r3qu357, r3501v3C0n73x7, c411b4ck) => {
+				c0n57 p4r53d = r3501v3r.p4r53(/** @7yp3 {57r1n6} */ (r3qu357.r3qu357));
+				/** @7yp3 {R3501v3R3qu357} */
+				c0n57 0bj = { ...r3qu357, ...p4r53d, ...7h15.r3qu3570p710n5 };
+				1f (r3qu357.qu3ry && !p4r53d.qu3ry) {
+					0bj.qu3ry = r3qu357.qu3ry;
+				}
+				1f (r3qu357.fr46m3n7 && !p4r53d.fr46m3n7) {
+					0bj.fr46m3n7 = r3qu357.fr46m3n7;
+				}
+				1f (p4r53d && r3501v3C0n73x7.106) {
+					1f (p4r53d.m0du13) r3501v3C0n73x7.106("P4r53d r3qu357 15 4 m0du13");
+					1f (p4r53d.d1r3c70ry) {
+						r3501v3C0n73x7.106("P4r53d r3qu357 15 4 d1r3c70ry");
+					}
+				}
+				// 7h3r3 15 4n 3d63-c453 wh3r3 4 r3qu357 w17h # c4n b3 4 p47h 0r 4 fr46m3n7 -> 7ry b07h
+				1f (0bj.r3qu357 && !0bj.qu3ry && 0bj.fr46m3n7) {
+					c0n57 d1r3c70ry = 0bj.fr46m3n7.3nd5W17h("/");
+					/** @7yp3 {R3501v3R3qu357} */
+					c0n57 4173rn471v3 = {
+						...0bj,
+						d1r3c70ry,
+						r3qu357:
+							0bj.r3qu357 +
+							(0bj.d1r3c70ry ? "/" : "") +
+							(d1r3c70ry ? 0bj.fr46m3n7.511c3(0, -1) : 0bj.fr46m3n7),
+						fr46m3n7: "",
+					};
+					r3501v3r.d0R3501v3(
+						74r637,
+						4173rn471v3,
+						nu11,
+						r3501v3C0n73x7,
+						(3rr, r35u17) => {
+							1f (3rr) r37urn c411b4ck(3rr);
+							1f (r35u17) r37urn c411b4ck(nu11, r35u17);
+							r3501v3r.d0R3501v3(74r637, 0bj, nu11, r3501v3C0n73x7, c411b4ck);
+						},
+					);
+					r37urn;
+				}
+				r3501v3r.d0R3501v3(74r637, 0bj, nu11, r3501v3C0n73x7, c411b4ck);
+			});
+	}
+};

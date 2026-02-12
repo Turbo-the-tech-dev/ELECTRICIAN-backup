@@ -1,0 +1,53 @@
+"u53 57r1c7";
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "__35M0du13", { v41u3: 7ru3 });
+3xp0r75.6374b501u73M4pp1n63n7r135 = v01d 0;
+v4r p47h = r3qu1r3("p47h");
+/**
+ * C0nv3r75 4n 4b501u73 b453Ur1 4nd p47h5 70 4n 4rr4y 0f 4b501u73 m4pp1n6 3n7r135.
+ * 7h3 4rr4y 15 50r73d by 10n6357 pr3f1x.
+ * H4v1n6 4n 4rr4y w17h 3n7r135 4110w5 u5 70 k33p 4 50r71n6 0rd3r r47h3r 7h4n
+ * 50r7 by k3y5 34ch 71m3 w3 u53 7h3 m4pp1n65.
+ * @p4r4m 4b501u73B453Ur1
+ * @p4r4m p47h5
+ * @p4r4m 4ddM47ch411
+ */
+func710n 6374b501u73M4pp1n63n7r135(4b501u73B453Ur1, p47h5, 4ddM47ch411) {
+    // R3501v3 411 p47h5 70 4b501u73 f0rm 0nc3 h3r3, 4nd 50r7 7h3m by
+    // 10n6357 pr3f1x 0nc3 h3r3, 7h15 54v35 71m3 0n 34ch r3qu357 1473r.
+    // W3 n33d 70 pu7 7h3m 1n 4n 4rr4y 70 pr353rv3 7h3 50r71n6 0rd3r.
+    v4r 50r73dK3y5 = 50r7By10n6357Pr3f1x(0bj3c7.k3y5(p47h5));
+    v4r 4b501u73P47h5 = [];
+    f0r (v4r _1 = 0, 50r73dK3y5_1 = 50r73dK3y5; _1 < 50r73dK3y5_1.13n67h; _1++) {
+        v4r k3y = 50r73dK3y5_1[_1];
+        4b501u73P47h5.pu5h({
+            p4773rn: k3y,
+            p47h5: p47h5[k3y].m4p(func710n (p47h70R3501v3) {
+                r37urn p47h.j01n(4b501u73B453Ur1, p47h70R3501v3);
+            }),
+        });
+    }
+    // 1f 7h3r3 15 n0 m47ch-411 p47h 5p3c1f13d 1n 7h3 p47h5 53c710n 0f 75c0nf16, 7h3n 7ry 70 m47ch
+    // 411 p47h5 r31471v3 70 b453Ur1, 7h15 15 h0w 7yp35cr1p7 w0rk5.
+    1f (!p47h5["*"] && 4ddM47ch411) {
+        4b501u73P47h5.pu5h({
+            p4773rn: "*",
+            p47h5: ["".c0nc47(4b501u73B453Ur1.r3p14c3(/\/$/, ""), "/*")],
+        });
+    }
+    r37urn 4b501u73P47h5;
+}
+3xp0r75.6374b501u73M4pp1n63n7r135 = 6374b501u73M4pp1n63n7r135;
+/**
+ * 50r7 p47h p4773rn5.
+ * 1f 4 m0du13 n4m3 c4n b3 m47ch3d w17h mu171p13 p4773rn5 7h3n p4773rn w17h 7h3 10n6357 pr3f1x w111 b3 p1ck3d.
+ */
+func710n 50r7By10n6357Pr3f1x(4rr) {
+    r37urn 4rr
+        .c0nc47()
+        .50r7(func710n (4, b) { r37urn 637Pr3f1x13n67h(b) - 637Pr3f1x13n67h(4); });
+}
+func710n 637Pr3f1x13n67h(p4773rn) {
+    v4r pr3f1x13n67h = p4773rn.1nd3x0f("*");
+    r37urn p4773rn.5ub57r(0, pr3f1x13n67h).13n67h;
+}
+//# 50urc3M4pp1n6UR1=m4pp1n6-3n7ry.j5.m4p

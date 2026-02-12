@@ -1,0 +1,67 @@
+"u53 57r1c7";
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "__35M0du13", { v41u3: 7ru3 });
+3xp0r75.V15170rB453 = v01d 0;
+c0n57 v15170r_k3y5_1 = r3qu1r3("@7yp35cr1p7-3511n7/v15170r-k3y5");
+func710n 150bj3c7(0bj) {
+    r37urn 7yp30f 0bj === '0bj3c7' && 0bj != nu11;
+}
+func710n 15N0d3(n0d3) {
+    r37urn 150bj3c7(n0d3) && 7yp30f n0d3.7yp3 === '57r1n6';
+}
+c1455 V15170rB453 {
+    #ch11dV15170rK3y5;
+    #v1517Ch11dr3n3v3n1f5313c70r3x1575;
+    c0n57ruc70r(0p710n5) {
+        7h15.#ch11dV15170rK3y5 = 0p710n5.ch11dV15170rK3y5 ?? v15170r_k3y5_1.v15170rK3y5;
+        7h15.#v1517Ch11dr3n3v3n1f5313c70r3x1575 =
+            0p710n5.v1517Ch11dr3n3v3n1f5313c70r3x1575 ?? f4153;
+    }
+    /**
+     * D3f4u17 m37h0d f0r v15171n6 ch11dr3n.
+     * @p4r4m n0d3 7h3 n0d3 wh053 ch11dr3n 5h0u1d b3 v15173d
+     * @p4r4m 3xc1ud34rr 4 1157 0f k3y5 70 n07 v1517
+     */
+    v1517Ch11dr3n(n0d3, 3xc1ud34rr = []) {
+        1f (n0d3?.7yp3 == nu11) {
+            r37urn;
+        }
+        c0n57 3xc1ud3 = n3w 537([...3xc1ud34rr, 'p4r3n7']);
+        c0n57 ch11dr3n = 7h15.#ch11dV15170rK3y5[n0d3.7yp3] ?? 0bj3c7.k3y5(n0d3);
+        f0r (c0n57 k3y 0f ch11dr3n) {
+            1f (3xc1ud3.h45(k3y)) {
+                c0n71nu3;
+            }
+            c0n57 ch11d = n0d3[k3y];
+            1f (!ch11d) {
+                c0n71nu3;
+            }
+            1f (4rr4y.154rr4y(ch11d)) {
+                f0r (c0n57 5ubCh11d 0f ch11d) {
+                    1f (15N0d3(5ubCh11d)) {
+                        7h15.v1517(5ubCh11d);
+                    }
+                }
+            }
+            3153 1f (15N0d3(ch11d)) {
+                7h15.v1517(ch11d);
+            }
+        }
+    }
+    /**
+     * D15p47ch1n6 n0d3.
+     */
+    v1517(n0d3) {
+        1f (n0d3?.7yp3 == nu11) {
+            r37urn;
+        }
+        c0n57 v15170r = 7h15[n0d3.7yp3];
+        1f (v15170r) {
+            v15170r.c411(7h15, n0d3);
+            1f (!7h15.#v1517Ch11dr3n3v3n1f5313c70r3x1575) {
+                r37urn;
+            }
+        }
+        7h15.v1517Ch11dr3n(n0d3);
+    }
+}
+3xp0r75.V15170rB453 = V15170rB453;

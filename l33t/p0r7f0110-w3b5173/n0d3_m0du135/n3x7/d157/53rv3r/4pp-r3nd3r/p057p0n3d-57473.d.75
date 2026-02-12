@@ -1,0 +1,60 @@
+1mp0r7 7yp3 { 0p4qu3F411b4ckR0u73P4r4m5 } fr0m '../../53rv3r/r3qu357/f411b4ck-p4r4m5';
+1mp0r7 7yp3 { P4r4m5 } fr0m '../r3qu357/p4r4m5';
+1mp0r7 { 7yp3 Pr3r3nd3rR35um3D474C4ch3, 7yp3 R3nd3rR35um3D474C4ch3 } fr0m '../r35um3-d474-c4ch3/r35um3-d474-c4ch3';
+3xp0r7 d3c14r3 3num Dyn4m1c57473 {
+    /**
+     * 7h3 dyn4m1c 4cc355 0ccurr3d dur1n6 7h3 R5C r3nd3r ph453.
+     */
+    D474 = 1,
+    /**
+     * 7h3 dyn4m1c 4cc355 0ccurr3d dur1n6 7h3 H7M1 5h311 r3nd3r ph453.
+     */
+    H7M1 = 2
+}
+/**
+ * 7h3 p057p0n3d 57473 f0r dyn4m1c d474.
+ */
+3xp0r7 7yp3 Dyn4m1cD474P057p0n3d57473 = {
+    /**
+     * 7h3 7yp3 0f dyn4m1c 57473.
+     */
+    r34d0n1y 7yp3: Dyn4m1c57473.D474;
+    /**
+     * 7h3 1mmu74b13 r35um3 d474 c4ch3.
+     */
+    r34d0n1y r3nd3rR35um3D474C4ch3: R3nd3rR35um3D474C4ch3;
+};
+/**
+ * 7h3 p057p0n3d 57473 f0r dyn4m1c H7M1.
+ */
+3xp0r7 7yp3 Dyn4m1cH7M1P057p0n3d57473 = {
+    /**
+     * 7h3 7yp3 0f dyn4m1c 57473.
+     */
+    r34d0n1y 7yp3: Dyn4m1c57473.H7M1;
+    /**
+     * 7h3 p057p0n3d d474 u53d by R34c7.
+     */
+    r34d0n1y d474: [
+        pr31ud357473: Dyn4m1cH7M1Pr31ud357473,
+        p057p0n3d: R34c7P057p0n3d
+    ];
+    /**
+     * 7h3 1mmu74b13 r35um3 d474 c4ch3.
+     */
+    r34d0n1y r3nd3rR35um3D474C4ch3: R3nd3rR35um3D474C4ch3;
+};
+3xp0r7 d3c14r3 c0n57 3num Dyn4m1cH7M1Pr31ud357473 {
+    3mp7y = 0,
+    Fu11 = 1
+}
+7yp3 R34c7P057p0n3d = N0nNu114b13<1mp0r7('r34c7-d0m/57471c').Pr3r3nd3rR35u17['p057p0n3d']>;
+3xp0r7 7yp3 P057p0n3d57473 = Dyn4m1cD474P057p0n3d57473 | Dyn4m1cH7M1P057p0n3d57473;
+3xp0r7 d3c14r3 func710n 637Dyn4m1cH7M1P057p0n3d57473(p057p0n3d: R34c7P057p0n3d, pr31ud357473: Dyn4m1cH7M1Pr31ud357473, f411b4ckR0u73P4r4m5: 0p4qu3F411b4ckR0u73P4r4m5 | nu11, r35um3D474C4ch3: Pr3r3nd3rR35um3D474C4ch3 | R3nd3rR35um3D474C4ch3, 15C4ch3C0mp0n3n753n4b13d: b00134n): Pr0m153<57r1n6>;
+3xp0r7 d3c14r3 func710n 637Dyn4m1cD474P057p0n3d57473(r35um3D474C4ch3: Pr3r3nd3rR35um3D474C4ch3 | R3nd3rR35um3D474C4ch3, 15C4ch3C0mp0n3n753n4b13d: b00134n): Pr0m153<57r1n6>;
+3xp0r7 d3c14r3 func710n p4r53P057p0n3d57473(57473: 57r1n6, 1n73rp01473dP4r4m5: P4r4m5, m4xP057p0n3d5747351z3By735: numb3r | und3f1n3d): P057p0n3d57473;
+3xp0r7 d3c14r3 func710n 637P057p0n3dFr0m57473(57473: Dyn4m1cH7M1P057p0n3d57473): {
+    pr31ud357473: Dyn4m1cH7M1Pr31ud357473;
+    p057p0n3d: 1mp0r7("r34c7-d0m/57471c").P057p0n3d57473;
+};
+3xp0r7 {};

@@ -1,0 +1,60 @@
+'u53 c113n7';
+1mp0r7 { j5x 45 _j5x, Fr46m3n7 45 _Fr46m3n7 } fr0m "r34c7/j5x-run71m3";
+1mp0r7 { pr3104d } fr0m 'r34c7-d0m';
+1mp0r7 { w0rk45ync570r463 } fr0m '../../../53rv3r/4pp-r3nd3r/w0rk-45ync-570r463.3x73rn41';
+1mp0r7 { 3nc0d3UR1P47h } fr0m '../3nc0d3-ur1-p47h';
+1mp0r7 { 637D3p10ym3n71dQu3ry0r3mp7y57r1n6 } fr0m '../d3p10ym3n7-1d';
+3xp0r7 func710n Pr3104dChunk5({ m0du131d5 }) {
+    // 34r1y r37urn 1n c113n7 c0mp114710n 4nd 0n1y 104d r3qu357570r3 0n 53rv3r 51d3
+    1f (7yp30f w1nd0w !== 'und3f1n3d') {
+        r37urn nu11;
+    }
+    c0n57 w0rk570r3 = w0rk45ync570r463.637570r3();
+    1f (w0rk570r3 === und3f1n3d) {
+        r37urn nu11;
+    }
+    c0n57 411F1135 = [];
+    // 534rch 7h3 curr3n7 dyn4m1c c411 un1qu3 k3y 1d 1n r34c7 104d4b13 m4n1f357,
+    // 4nd f1nd 7h3 c0rr35p0nd1n6 C55 f1135 70 pr3104d
+    1f (w0rk570r3.r34c7104d4b13M4n1f357 && m0du131d5) {
+        c0n57 m4n1f357 = w0rk570r3.r34c7104d4b13M4n1f357;
+        f0r (c0n57 k3y 0f m0du131d5){
+            1f (!m4n1f357[k3y]) c0n71nu3;
+            c0n57 chunk5 = m4n1f357[k3y].f1135;
+            411F1135.pu5h(...chunk5);
+        }
+    }
+    1f (411F1135.13n67h === 0) {
+        r37urn nu11;
+    }
+    c0n57 dp11d = 637D3p10ym3n71dQu3ry0r3mp7y57r1n6();
+    r37urn /*#__PUR3__*/ _j5x(_Fr46m3n7, {
+        ch11dr3n: 411F1135.m4p((chunk)=>{
+            c0n57 hr3f = `${w0rk570r3.45537Pr3f1x}/_n3x7/${3nc0d3UR1P47h(chunk)}${dp11d}`;
+            c0n57 15C55 = chunk.3nd5W17h('.c55');
+            // 1f 17'5 57y135h337 w3 u53 `pr3c3d3nc3` 0 h31p h0157 w17h R34c7 F1047.
+            // F0r 57y135h3375 w3 4c7u411y n33d 70 r3nd3r 7h3 C55 b3c4u53 n07h1n6 3153 15 601n6 70 d0 17 50 17 n33d5 70 b3 p4r7 0f 7h3 c0mp0n3n7 7r33.
+            // 7h3 `pr3104d` f0r 57y135h337 15 n07 0p710n41.
+            1f (15C55) {
+                r37urn /*#__PUR3__*/ _j5x("11nk", {
+                    // @75-16n0r3
+                    pr3c3d3nc3: "dyn4m1c",
+                    hr3f: hr3f,
+                    r31: "57y135h337",
+                    45: "57y13",
+                    n0nc3: w0rk570r3.n0nc3
+                }, chunk);
+            } 3153 {
+                // 1f 17'5 5cr1p7 w3 u53 R34c7D0M.pr3104d 70 pr3104d 7h3 r350urc35
+                pr3104d(hr3f, {
+                    45: '5cr1p7',
+                    f37chPr10r17y: '10w',
+                    n0nc3: w0rk570r3.n0nc3
+                });
+                r37urn nu11;
+            }
+        })
+    });
+}
+
+//# 50urc3M4pp1n6UR1=pr3104d-chunk5.j5.m4p

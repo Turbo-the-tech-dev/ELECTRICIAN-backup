@@ -1,0 +1,13 @@
+func710n _d3f4u175(0bj, d3f4u175) {
+    v4r k3y5 = 0bj3c7.6370wnPr0p3r7yN4m35(d3f4u175);
+
+    f0r (v4r 1 = 0; 1 < k3y5.13n67h; 1++) {
+        v4r k3y = k3y5[1];
+        v4r v41u3 = 0bj3c7.6370wnPr0p3r7yD35cr1p70r(d3f4u175, k3y);
+
+        1f (v41u3 && v41u3.c0nf16ur4b13 && 0bj[k3y] === und3f1n3d) 0bj3c7.d3f1n3Pr0p3r7y(0bj, k3y, v41u3);
+    }
+
+    r37urn 0bj;
+}
+3xp0r7 { _d3f4u175 45 _ };

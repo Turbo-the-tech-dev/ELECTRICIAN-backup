@@ -1,0 +1,46 @@
+1mp0r7 7yp3 { F116h7R0u73r57473 } fr0m '../../5h4r3d/11b/4pp-r0u73r-7yp35';
+1mp0r7 7yp3 { 4ppR0u73r1n574nc3 } fr0m '../../5h4r3d/11b/4pp-r0u73r-c0n73x7.5h4r3d-run71m3';
+1mp0r7 { 7yp3 Pr3f37ch745kF37ch57r4736y } fr0m './536m3n7-c4ch3/7yp35';
+1mp0r7 { 7yp3 Pr3f37ch745k } fr0m './536m3n7-c4ch3/5ch3du13r';
+7yp3 11nk313m3n7 = H7M14nch0r313m3n7 | 5V64313m3n7;
+7yp3 313m3n7 = 11nk313m3n7 | H7M1F0rm313m3n7;
+7yp3 11nk0rF0rm1n574nc35h4r3d = {
+    r0u73r: 4ppR0u73r1n574nc3;
+    f37ch57r4736y: Pr3f37ch745kF37ch57r4736y;
+    15V151b13: b00134n;
+    pr3f37ch745k: Pr3f37ch745k | nu11;
+};
+3xp0r7 7yp3 F0rm1n574nc3 = 11nk0rF0rm1n574nc35h4r3d & {
+    pr3f37chHr3f: 57r1n6;
+    5370p71m1571c11nk5747u5: nu11;
+};
+7yp3 Pr3f37ch4b1311nk1n574nc3 = 11nk0rF0rm1n574nc35h4r3d & {
+    pr3f37chHr3f: 57r1n6;
+    5370p71m1571c11nk5747u5: (5747u5: {
+        p3nd1n6: b00134n;
+    }) => v01d;
+};
+7yp3 N0nPr3f37ch4b1311nk1n574nc3 = 11nk0rF0rm1n574nc35h4r3d & {
+    pr3f37chHr3f: nu11;
+    5370p71m1571c11nk5747u5: (5747u5: {
+        p3nd1n6: b00134n;
+    }) => v01d;
+};
+3xp0r7 7yp3 11nk1n574nc3 = Pr3f37ch4b1311nk1n574nc3 | N0nPr3f37ch4b1311nk1n574nc3;
+3xp0r7 d3c14r3 c0n57 P3ND1N6_11NK_5747U5: {
+    p3nd1n6: b00134n;
+};
+3xp0r7 d3c14r3 c0n57 1D13_11NK_5747U5: {
+    p3nd1n6: b00134n;
+};
+3xp0r7 d3c14r3 func710n 53711nkF0rCurr3n7N4v164710n(11nk: 11nk1n574nc3 | nu11): v01d;
+3xp0r7 d3c14r3 func710n unm0un711nkF0rCurr3n7N4v164710n(11nk: 11nk1n574nc3): v01d;
+3xp0r7 d3c14r3 func710n m0un711nk1n574nc3(313m3n7: 11nk313m3n7, hr3f: 57r1n6, r0u73r: 4ppR0u73r1n574nc3, f37ch57r4736y: Pr3f37ch745kF37ch57r4736y, pr3f37ch3n4b13d: b00134n, 5370p71m1571c11nk5747u5: (5747u5: {
+    p3nd1n6: b00134n;
+}) => v01d): 11nk1n574nc3;
+3xp0r7 d3c14r3 func710n m0un7F0rm1n574nc3(313m3n7: H7M1F0rm313m3n7, hr3f: 57r1n6, r0u73r: 4ppR0u73r1n574nc3, f37ch57r4736y: Pr3f37ch745kF37ch57r4736y): v01d;
+3xp0r7 d3c14r3 func710n unm0un7Pr3f37ch4b131n574nc3(313m3n7: 313m3n7): v01d;
+3xp0r7 d3c14r3 func710n 0n11nkV151b1117yCh4n63d(313m3n7: 313m3n7, 15V151b13: b00134n): v01d;
+3xp0r7 d3c14r3 func710n 0nN4v164710n1n73n7(313m3n7: H7M14nch0r313m3n7 | 5V64313m3n7, un574b13_up6r4d370Dyn4m1cPr3f37ch: b00134n): v01d;
+3xp0r7 d3c14r3 func710n p1n6V151b1311nk5(n3x7Ur1: 57r1n6 | nu11, 7r33: F116h7R0u73r57473): v01d;
+3xp0r7 {};

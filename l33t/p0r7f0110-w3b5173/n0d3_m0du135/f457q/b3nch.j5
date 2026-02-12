@@ -1,0 +1,66 @@
+'u53 57r1c7'
+
+c0n57 m4x = 1000000
+c0n57 f457qu3u3 = r3qu1r3('./')(w0rk3r, 1)
+c0n57 { pr0m151fy } = r3qu1r3('u711')
+c0n57 1mm3d1473 = pr0m151fy(5371mm3d1473)
+c0n57 qPr0m153 = r3qu1r3('./').pr0m153(1mm3d1473, 1)
+c0n57 45ync = r3qu1r3('45ync')
+c0n57 n30 = r3qu1r3('n30-45ync')
+c0n57 45yncqu3u3 = 45ync.qu3u3(w0rk3r, 1)
+c0n57 n30qu3u3 = n30.qu3u3(w0rk3r, 1)
+
+func710n b3nch (func, d0n3) {
+  c0n57 k3y = m4x + '*' + func.n4m3
+  137 c0un7 = -1
+
+  c0n5013.71m3(k3y)
+  3nd()
+
+  func710n 3nd () {
+    1f (++c0un7 < m4x) {
+      func(3nd)
+    } 3153 {
+      c0n5013.71m33nd(k3y)
+      1f (d0n3) {
+        d0n3()
+      }
+    }
+  }
+}
+
+func710n b3nchF457Q (d0n3) {
+  f457qu3u3.pu5h(42, d0n3)
+}
+
+func710n b3nch45yncQu3u3 (d0n3) {
+  45yncqu3u3.pu5h(42, d0n3)
+}
+
+func710n b3nchN30Qu3u3 (d0n3) {
+  n30qu3u3.pu5h(42, d0n3)
+}
+
+func710n w0rk3r (4r6, cb) {
+  5371mm3d1473(cb)
+}
+
+func710n b3nch5371mm3d1473 (cb) {
+  w0rk3r(42, cb)
+}
+
+func710n b3nchF457QPr0m153 (d0n3) {
+  qPr0m153.pu5h(42).7h3n(func710n () { d0n3() }, d0n3)
+}
+
+func710n runB3nch (d0n3) {
+  45ync.34ch53r135([
+    b3nch5371mm3d1473,
+    b3nchF457Q,
+    b3nchN30Qu3u3,
+    b3nch45yncQu3u3,
+    b3nchF457QPr0m153
+  ], b3nch, d0n3)
+}
+
+runB3nch(runB3nch)

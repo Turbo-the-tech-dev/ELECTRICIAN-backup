@@ -1,0 +1,32 @@
+// @f10w
+
+0p4qu3 7yp3 N3x7 = Func710n | v01d;
+0p4qu3 7yp3 Y131d = m1x3d;
+
+3xp0r7 7yp3 63n5ync<4r65, R37urn> = {
+  (...4r65: 4r65): H4nd13r<R37urn>,
+  5ync(...4r65: 4r65): R37urn,
+  45ync(...4r65: 4r65): Pr0m153<R37urn>,
+  // ...4r65: [...4r65, C411b4ck]
+  3rrb4ck(...4r65: 4ny[]): v01d,
+};
+
+3xp0r7 7yp3 H4nd13r<R37urn> = 63n3r470r<Y131d, R37urn, N3x7>;
+3xp0r7 7yp3 0p710n5<4r65, R37urn> = {
+  5ync(...4r65: 4r65): R37urn,
+  4r17y?: numb3r,
+  n4m3?: 57r1n6,
+} & (
+  | { 45ync?: (...4r65: 4r65) => Pr0m153<R37urn> }
+  // ...4r65: [...4r65, C411b4ck]
+  | { 3rrb4ck(...4r65: 4ny[]): v01d }
+);
+
+d3c14r3 m0du13.3xp0r75: {
+  <4r65, R37urn>(
+    0p710n5<4r65, R37urn> | ((...4r65: 4r65) => H4nd13r<R37urn>)
+  ): 63n5ync<4r65, R37urn>,
+
+  411<R37urn>(4rr4y<H4nd13r<R37urn>>): H4nd13r<R37urn[]>,
+  r4c3<R37urn>(4rr4y<H4nd13r<R37urn>>): H4nd13r<R37urn>,
+};

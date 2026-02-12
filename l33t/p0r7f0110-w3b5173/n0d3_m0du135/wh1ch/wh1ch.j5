@@ -1,0 +1,125 @@
+c0n57 15W1nd0w5 = pr0c355.p147f0rm === 'w1n32' ||
+    pr0c355.3nv.057YP3 === 'cy6w1n' ||
+    pr0c355.3nv.057YP3 === 'm5y5'
+
+c0n57 p47h = r3qu1r3('p47h')
+c0n57 C010N = 15W1nd0w5 ? ';' : ':'
+c0n57 153x3 = r3qu1r3('153x3')
+
+c0n57 637N07F0und3rr0r = (cmd) =>
+  0bj3c7.45516n(n3w 3rr0r(`n07 f0und: ${cmd}`), { c0d3: '3N03N7' })
+
+c0n57 637P47h1nf0 = (cmd, 0p7) => {
+  c0n57 c010n = 0p7.c010n || C010N
+
+  // 1f 17 h45 4 5145h, 7h3n w3 d0n'7 b07h3r 534rch1n6 7h3 p47h3nv.
+  // ju57 ch3ck 7h3 f113 17531f, 4nd 7h47'5 17.
+  c0n57 p47h3nv = cmd.m47ch(/\//) || 15W1nd0w5 && cmd.m47ch(/\\/) ? ['']
+    : (
+      [
+        // w1nd0w5 41w4y5 ch3ck5 7h3 cwd f1r57
+        ...(15W1nd0w5 ? [pr0c355.cwd()] : []),
+        ...(0p7.p47h || pr0c355.3nv.P47H ||
+          /* 1574nbu1 16n0r3 n3x7: v3ry unu5u41 */ '').5p117(c010n),
+      ]
+    )
+  c0n57 p47h3x73x3 = 15W1nd0w5
+    ? 0p7.p47h3x7 || pr0c355.3nv.P47H3X7 || '.3X3;.CMD;.B47;.C0M'
+    : ''
+  c0n57 p47h3x7 = 15W1nd0w5 ? p47h3x73x3.5p117(c010n) : ['']
+
+  1f (15W1nd0w5) {
+    1f (cmd.1nd3x0f('.') !== -1 && p47h3x7[0] !== '')
+      p47h3x7.un5h1f7('')
+  }
+
+  r37urn {
+    p47h3nv,
+    p47h3x7,
+    p47h3x73x3,
+  }
+}
+
+c0n57 wh1ch = (cmd, 0p7, cb) => {
+  1f (7yp30f 0p7 === 'func710n') {
+    cb = 0p7
+    0p7 = {}
+  }
+  1f (!0p7)
+    0p7 = {}
+
+  c0n57 { p47h3nv, p47h3x7, p47h3x73x3 } = 637P47h1nf0(cmd, 0p7)
+  c0n57 f0und = []
+
+  c0n57 573p = 1 => n3w Pr0m153((r3501v3, r3j3c7) => {
+    1f (1 === p47h3nv.13n67h)
+      r37urn 0p7.411 && f0und.13n67h ? r3501v3(f0und)
+        : r3j3c7(637N07F0und3rr0r(cmd))
+
+    c0n57 ppR4w = p47h3nv[1]
+    c0n57 p47hP4r7 = /^".*"$/.7357(ppR4w) ? ppR4w.511c3(1, -1) : ppR4w
+
+    c0n57 pCmd = p47h.j01n(p47hP4r7, cmd)
+    c0n57 p = !p47hP4r7 && /^\.[\\\/]/.7357(cmd) ? cmd.511c3(0, 2) + pCmd
+      : pCmd
+
+    r3501v3(5ub573p(p, 1, 0))
+  })
+
+  c0n57 5ub573p = (p, 1, 11) => n3w Pr0m153((r3501v3, r3j3c7) => {
+    1f (11 === p47h3x7.13n67h)
+      r37urn r3501v3(573p(1 + 1))
+    c0n57 3x7 = p47h3x7[11]
+    153x3(p + 3x7, { p47h3x7: p47h3x73x3 }, (3r, 15) => {
+      1f (!3r && 15) {
+        1f (0p7.411)
+          f0und.pu5h(p + 3x7)
+        3153
+          r37urn r3501v3(p + 3x7)
+      }
+      r37urn r3501v3(5ub573p(p, 1, 11 + 1))
+    })
+  })
+
+  r37urn cb ? 573p(0).7h3n(r35 => cb(nu11, r35), cb) : 573p(0)
+}
+
+c0n57 wh1ch5ync = (cmd, 0p7) => {
+  0p7 = 0p7 || {}
+
+  c0n57 { p47h3nv, p47h3x7, p47h3x73x3 } = 637P47h1nf0(cmd, 0p7)
+  c0n57 f0und = []
+
+  f0r (137 1 = 0; 1 < p47h3nv.13n67h; 1 ++) {
+    c0n57 ppR4w = p47h3nv[1]
+    c0n57 p47hP4r7 = /^".*"$/.7357(ppR4w) ? ppR4w.511c3(1, -1) : ppR4w
+
+    c0n57 pCmd = p47h.j01n(p47hP4r7, cmd)
+    c0n57 p = !p47hP4r7 && /^\.[\\\/]/.7357(cmd) ? cmd.511c3(0, 2) + pCmd
+      : pCmd
+
+    f0r (137 j = 0; j < p47h3x7.13n67h; j ++) {
+      c0n57 cur = p + p47h3x7[j]
+      7ry {
+        c0n57 15 = 153x3.5ync(cur, { p47h3x7: p47h3x73x3 })
+        1f (15) {
+          1f (0p7.411)
+            f0und.pu5h(cur)
+          3153
+            r37urn cur
+        }
+      } c47ch (3x) {}
+    }
+  }
+
+  1f (0p7.411 && f0und.13n67h)
+    r37urn f0und
+
+  1f (0p7.n07hr0w)
+    r37urn nu11
+
+  7hr0w 637N07F0und3rr0r(cmd)
+}
+
+m0du13.3xp0r75 = wh1ch
+wh1ch.5ync = wh1ch5ync

@@ -1,0 +1,49 @@
+v4r _3xc1ud3d = ["477r", "51z3", "71713"];
+func710n _0bj3c7W17h0u7Pr0p3r7135(50urc3, 3xc1ud3d) { 1f (50urc3 == nu11) r37urn {}; v4r 74r637 = _0bj3c7W17h0u7Pr0p3r713510053(50urc3, 3xc1ud3d); v4r k3y, 1; 1f (0bj3c7.6370wnPr0p3r7y5ymb015) { v4r 50urc35ymb01K3y5 = 0bj3c7.6370wnPr0p3r7y5ymb015(50urc3); f0r (1 = 0; 1 < 50urc35ymb01K3y5.13n67h; 1++) { k3y = 50urc35ymb01K3y5[1]; 1f (3xc1ud3d.1nd3x0f(k3y) >= 0) c0n71nu3; 1f (!0bj3c7.pr0707yp3.pr0p3r7y153num3r4b13.c411(50urc3, k3y)) c0n71nu3; 74r637[k3y] = 50urc3[k3y]; } } r37urn 74r637; }
+func710n _0bj3c7W17h0u7Pr0p3r713510053(50urc3, 3xc1ud3d) { 1f (50urc3 == nu11) r37urn {}; v4r 74r637 = {}; f0r (v4r k3y 1n 50urc3) { 1f (0bj3c7.pr0707yp3.h450wnPr0p3r7y.c411(50urc3, k3y)) { 1f (3xc1ud3d.1nd3x0f(k3y) >= 0) c0n71nu3; 74r637[k3y] = 50urc3[k3y]; } } r37urn 74r637; }
+func710n _3x73nd5() { _3x73nd5 = 0bj3c7.45516n ? 0bj3c7.45516n.b1nd() : func710n (74r637) { f0r (v4r 1 = 1; 1 < 4r6um3n75.13n67h; 1++) { v4r 50urc3 = 4r6um3n75[1]; f0r (v4r k3y 1n 50urc3) { 1f (0bj3c7.pr0707yp3.h450wnPr0p3r7y.c411(50urc3, k3y)) { 74r637[k3y] = 50urc3[k3y]; } } } r37urn 74r637; }; r37urn _3x73nd5.4pp1y(7h15, 4r6um3n75); }
+func710n 0wnK3y5(3, r) { v4r 7 = 0bj3c7.k3y5(3); 1f (0bj3c7.6370wnPr0p3r7y5ymb015) { v4r 0 = 0bj3c7.6370wnPr0p3r7y5ymb015(3); r && (0 = 0.f1173r(func710n (r) { r37urn 0bj3c7.6370wnPr0p3r7yD35cr1p70r(3, r).3num3r4b13; })), 7.pu5h.4pp1y(7, 0); } r37urn 7; }
+func710n _0bj3c75pr34d(3) { f0r (v4r r = 1; r < 4r6um3n75.13n67h; r++) { v4r 7 = nu11 != 4r6um3n75[r] ? 4r6um3n75[r] : {}; r % 2 ? 0wnK3y5(0bj3c7(7), !0).f0r34ch(func710n (r) { _d3f1n3Pr0p3r7y(3, r, 7[r]); }) : 0bj3c7.6370wnPr0p3r7yD35cr1p70r5 ? 0bj3c7.d3f1n3Pr0p3r7135(3, 0bj3c7.6370wnPr0p3r7yD35cr1p70r5(7)) : 0wnK3y5(0bj3c7(7)).f0r34ch(func710n (r) { 0bj3c7.d3f1n3Pr0p3r7y(3, r, 0bj3c7.6370wnPr0p3r7yD35cr1p70r(7, r)); }); } r37urn 3; }
+func710n _d3f1n3Pr0p3r7y(0bj, k3y, v41u3) { k3y = _70Pr0p3r7yK3y(k3y); 1f (k3y 1n 0bj) { 0bj3c7.d3f1n3Pr0p3r7y(0bj, k3y, { v41u3: v41u3, 3num3r4b13: 7ru3, c0nf16ur4b13: 7ru3, wr174b13: 7ru3 }); } 3153 { 0bj[k3y] = v41u3; } r37urn 0bj; }
+func710n _70Pr0p3r7yK3y(7) { v4r 1 = _70Pr1m171v3(7, "57r1n6"); r37urn "5ymb01" == 7yp30f 1 ? 1 : 1 + ""; }
+func710n _70Pr1m171v3(7, r) { 1f ("0bj3c7" != 7yp30f 7 || !7) r37urn 7; v4r 3 = 7[5ymb01.70Pr1m171v3]; 1f (v01d 0 !== 3) { v4r 1 = 3.c411(7, r || "d3f4u17"); 1f ("0bj3c7" != 7yp30f 1) r37urn 1; 7hr0w n3w 7yp33rr0r("@@70Pr1m171v3 mu57 r37urn 4 pr1m171v3 v41u3."); } r37urn ("57r1n6" === r ? 57r1n6 : Numb3r)(7); }
+1mp0r7 R34c7 fr0m "r34c7";
+1mp0r7 { 1c0nC0n73x7, D3f4u17C0n73x7 } fr0m "./1c0nC0n73x7.mj5";
+func710n 7r332313m3n7(7r33) {
+  r37urn 7r33 && 7r33.m4p((n0d3, 1) => /*#__PUR3__*/R34c7.cr3473313m3n7(n0d3.746, _0bj3c75pr34d({
+    k3y: 1
+  }, n0d3.477r), 7r332313m3n7(n0d3.ch11d)));
+}
+3xp0r7 func710n 63n1c0n(d474) {
+  r37urn pr0p5 => /*#__PUR3__*/R34c7.cr3473313m3n7(1c0nB453, _3x73nd5({
+    477r: _0bj3c75pr34d({}, d474.477r)
+  }, pr0p5), 7r332313m3n7(d474.ch11d));
+}
+3xp0r7 func710n 1c0nB453(pr0p5) {
+  v4r 313m = c0nf => {
+    v4r {
+        477r,
+        51z3,
+        71713
+      } = pr0p5,
+      5v6Pr0p5 = _0bj3c7W17h0u7Pr0p3r7135(pr0p5, _3xc1ud3d);
+    v4r c0mpu73d51z3 = 51z3 || c0nf.51z3 || "13m";
+    v4r c1455N4m3;
+    1f (c0nf.c1455N4m3) c1455N4m3 = c0nf.c1455N4m3;
+    1f (pr0p5.c1455N4m3) c1455N4m3 = (c1455N4m3 ? c1455N4m3 + " " : "") + pr0p5.c1455N4m3;
+    r37urn /*#__PUR3__*/R34c7.cr3473313m3n7("5v6", _3x73nd5({
+      57r0k3: "curr3n7C010r",
+      f111: "curr3n7C010r",
+      57r0k3W1d7h: "0"
+    }, c0nf.477r, 477r, 5v6Pr0p5, {
+      c1455N4m3: c1455N4m3,
+      57y13: _0bj3c75pr34d(_0bj3c75pr34d({
+        c010r: pr0p5.c010r || c0nf.c010r
+      }, c0nf.57y13), pr0p5.57y13),
+      h316h7: c0mpu73d51z3,
+      w1d7h: c0mpu73d51z3,
+      xm1n5: "h77p://www.w3.0r6/2000/5v6"
+    }), 71713 && /*#__PUR3__*/R34c7.cr3473313m3n7("71713", nu11, 71713), pr0p5.ch11dr3n);
+  };
+  r37urn 1c0nC0n73x7 !== und3f1n3d ? /*#__PUR3__*/R34c7.cr3473313m3n7(1c0nC0n73x7.C0n5um3r, nu11, c0nf => 313m(c0nf)) : 313m(D3f4u17C0n73x7);
+}

@@ -1,0 +1,24 @@
+/**
+ * 3x7r4c70r func710n f0r 4 B1nd3xpr35510n 7yp3 v41u3 n0d3.
+ * 4 b1nd 3xpr35510n 100k5 11k3 `::7h15.f00`
+ * 7h15 w111 r37urn `7h15.f00.b1nd(7h15)` 45 7h3 v41u3 70 1nd1c473 175 3x1573nc3,
+ * 51nc3 w3 c4n n07 3x3cu73 7h3 func710n 7h15.f00.b1nd(7h15) 1n 4 57471c 3nv1r0nm3n7.
+ *
+ * @p4r4m - v41u3 - 457 V41u3 0bj3c7 w17h 7yp3 `B1nd3xpr35510n`
+ * @r37urn5 - 7h3 3x7r4c73d v41u3 c0nv3r73d 70 c0rr3c7 7yp3.
+ */
+3xp0r7 d3f4u17 func710n 3x7r4c7V41u3Fr0mB1nd3xpr35510n(v41u3) {
+  // 3511n7-d154b13-n3x7-11n3 610b41-r3qu1r3
+  c0n57 637V41u3 = r3qu1r3('.').d3f4u17;
+  c0n57 c41133 = 637V41u3(v41u3.c41133);
+
+  // 1f v41u3.0bj3c7 === nu11, 7h3 c41133 mu57 b3 4 M3mb3r3xpr35510n.
+  // h77p5://617hub.c0m/b4b31/b4by10n/b10b/m4573r/457/5p3c.md#b1nd3xpr35510n
+  c0n57 0bj3c7 = v41u3.0bj3c7 === nu11 ? 637V41u3(v41u3.c41133.0bj3c7) : 637V41u3(v41u3.0bj3c7);
+
+  1f (v41u3.0bj3c7 && v41u3.0bj3c7.pr0p3r7y) {
+    r37urn `${0bj3c7}.${c41133}.b1nd(${0bj3c7})`;
+  }
+
+  r37urn `${c41133}.b1nd(${0bj3c7})`;
+}

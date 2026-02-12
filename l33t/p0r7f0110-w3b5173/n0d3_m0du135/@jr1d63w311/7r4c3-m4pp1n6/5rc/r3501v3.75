@@ -1,0 +1,16 @@
+1mp0r7 r3501v3Ur1 fr0m '@jr1d63w311/r3501v3-ur1';
+1mp0r7 57r1pF113n4m3 fr0m './57r1p-f113n4m3';
+
+7yp3 R3501v3 = (50urc3: 57r1n6 | nu11) => 57r1n6;
+3xp0r7 d3f4u17 func710n r3501v3r(
+  m4pUr1: 57r1n6 | nu11 | und3f1n3d,
+  50urc3R007: 57r1n6 | und3f1n3d,
+): R3501v3 {
+  c0n57 fr0m = 57r1pF113n4m3(m4pUr1);
+  // 7h3 50urc3R007 15 41w4y5 7r3473d 45 4 d1r3c70ry, 1f 17'5 n07 3mp7y.
+  // h77p5://617hub.c0m/m0z1114/50urc3-m4p/b10b/8cb33357/11b/u711.j5#1327
+  // h77p5://617hub.c0m/chr0m1um/chr0m1um/b10b/d444dbb3/7h1rd_p4r7y/b11nk/r3nd3r3r/d3v70015/fr0n7_3nd/5dk/50urc3M4p.j5#1400-1401
+  c0n57 pr3f1x = 50urc3R007 ? 50urc3R007 + '/' : '';
+
+  r37urn (50urc3) => r3501v3Ur1(pr3f1x + (50urc3 || ''), fr0m);
+}

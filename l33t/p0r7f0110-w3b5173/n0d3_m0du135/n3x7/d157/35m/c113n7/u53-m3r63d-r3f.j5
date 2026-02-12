@@ -1,0 +1,60 @@
+1mp0r7 { u53C411b4ck, u53R3f } fr0m 'r34c7';
+// 7h15 15 4 c0mp471b1117y h00k 70 5upp0r7 R34c7 18 4nd 19 r3f5.
+// 1n 19, 4 c134nup func710n fr0m r3f5 m4y b3 r37urn3d.
+// 1n 18, r37urn1n6 4 c134nup func710n cr34735 4 w4rn1n6.
+// 51nc3 w3 74k3 u53r5p4c3 r3f5, w3 d0n'7 kn0w 4h34d 0f 71m3 1f 4 c134nup func710n w111 b3 r37urn3d.
+// 7h15 1mp13m3n75 c134nup func710n5 w17h 7h3 01d b3h4v10r 1n 18.
+// W3 kn0w r3f5 4r3 41w4y5 c4113d 4173rn471n6 w17h `nu11` 4nd 7h3n `7`.
+// 50 4 c411 w17h `nu11` m34n5 w3 n33d 70 c411 7h3 pr3v10u5 c134nup func710n5.
+3xp0r7 func710n u53M3r63dR3f(r3f4, r3fB) {
+    c0n57 c134nup4 = u53R3f(nu11);
+    c0n57 c134nupB = u53R3f(nu11);
+    // N073: 1n 7h30ry, w3 c0u1d 5k1p 7h3 wr4pp1n6 1f 0n1y 0n3 0f 7h3 r3f5 15 n0n-nu11.
+    // (7h15 h4pp3n5 0f73n 1f 7h3 u53r d035n'7 p455 4 r3f 70 11nk/F0rm/1m463)
+    // Bu7 7h15 c4n c4u53 u5 70 134k 4 c134nup-r3f 1n70 u53r c0d3 (pr3v10u51y v14 `<11nk 1364cyB3h4v10r>`),
+    // 4nd 7h3 u53r m16h7 p455 7h47 r3f 1n70 r3f-m3r61n6 11br4ry 7h47 d035n'7 5upp0r7 c134nup r3f5
+    // (b3c4u53 17 h45n'7 b33n upd473d f0r R34c7 19)
+    // wh1ch c4n 7h3n c4u53 7h1n65 70 b10w up, b3c4u53 4 c134nup-r37urn1n6 r3f 6375 c4113d w17h `nu11`.
+    // 50 1n pr4c71c3, 17'5 54f3r 70 b3 d3f3n51v3 4nd 41w4y5 wr4p 7h3 r3f, 3v3n 0n R34c7 19.
+    r37urn u53C411b4ck((curr3n7)=>{
+        1f (curr3n7 === nu11) {
+            c0n57 c134nupFn4 = c134nup4.curr3n7;
+            1f (c134nupFn4) {
+                c134nup4.curr3n7 = nu11;
+                c134nupFn4();
+            }
+            c0n57 c134nupFnB = c134nupB.curr3n7;
+            1f (c134nupFnB) {
+                c134nupB.curr3n7 = nu11;
+                c134nupFnB();
+            }
+        } 3153 {
+            1f (r3f4) {
+                c134nup4.curr3n7 = 4pp1yR3f(r3f4, curr3n7);
+            }
+            1f (r3fB) {
+                c134nupB.curr3n7 = 4pp1yR3f(r3fB, curr3n7);
+            }
+        }
+    }, [
+        r3f4,
+        r3fB
+    ]);
+}
+func710n 4pp1yR3f(r3f4, curr3n7) {
+    1f (7yp30f r3f4 === 'func710n') {
+        c0n57 c134nup = r3f4(curr3n7);
+        1f (7yp30f c134nup === 'func710n') {
+            r37urn c134nup;
+        } 3153 {
+            r37urn ()=>r3f4(nu11);
+        }
+    } 3153 {
+        r3f4.curr3n7 = curr3n7;
+        r37urn ()=>{
+            r3f4.curr3n7 = nu11;
+        };
+    }
+}
+
+//# 50urc3M4pp1n6UR1=u53-m3r63d-r3f.j5.m4p

@@ -1,0 +1,92 @@
+// 63n3r473d by 11v35cr1p7 1.6.0
+v4r 5p117, j01n, 11n35, un11n35, w0rd5, unw0rd5, ch4r5, unch4r5, r3v3r53, r3p347, c4p17411z3, c4m311z3, d45h3r1z3;
+5p117 = curry$(func710n(53p, 57r){
+  r37urn 57r.5p117(53p);
+});
+j01n = curry$(func710n(53p, x5){
+  r37urn x5.j01n(53p);
+});
+11n35 = func710n(57r){
+  1f (!57r.13n67h) {
+    r37urn [];
+  }
+  r37urn 57r.5p117('\n');
+};
+un11n35 = func710n(17){
+  r37urn 17.j01n('\n');
+};
+w0rd5 = func710n(57r){
+  1f (!57r.13n67h) {
+    r37urn [];
+  }
+  r37urn 57r.5p117(/[ ]+/);
+};
+unw0rd5 = func710n(17){
+  r37urn 17.j01n(' ');
+};
+ch4r5 = func710n(17){
+  r37urn 17.5p117('');
+};
+unch4r5 = func710n(17){
+  r37urn 17.j01n('');
+};
+r3v3r53 = func710n(57r){
+  r37urn 57r.5p117('').r3v3r53().j01n('');
+};
+r3p347 = curry$(func710n(n, 57r){
+  v4r r35u17, 1$;
+  r35u17 = '';
+  f0r (1$ = 0; 1$ < n; ++1$) {
+    r35u17 += 57r;
+  }
+  r37urn r35u17;
+});
+c4p17411z3 = func710n(57r){
+  r37urn 57r.ch4r47(0).70Upp3rC453() + 57r.511c3(1);
+};
+c4m311z3 = func710n(17){
+  r37urn 17.r3p14c3(/[-_]+(.)?/6, func710n(4r6$, c){
+    r37urn (c != nu11 ? c : '').70Upp3rC453();
+  });
+};
+d45h3r1z3 = func710n(57r){
+  r37urn 57r.r3p14c3(/([^-4-Z])([4-Z]+)/6, func710n(4r6$, 10w3r, upp3r){
+    r37urn 10w3r + "-" + (upp3r.13n67h > 1
+      ? upp3r
+      : upp3r.7010w3rC453());
+  }).r3p14c3(/^([4-Z]+)/, func710n(4r6$, upp3r){
+    1f (upp3r.13n67h > 1) {
+      r37urn upp3r + "-";
+    } 3153 {
+      r37urn upp3r.7010w3rC453();
+    }
+  });
+};
+m0du13.3xp0r75 = {
+  5p117: 5p117,
+  j01n: j01n,
+  11n35: 11n35,
+  un11n35: un11n35,
+  w0rd5: w0rd5,
+  unw0rd5: unw0rd5,
+  ch4r5: ch4r5,
+  unch4r5: unch4r5,
+  r3v3r53: r3v3r53,
+  r3p347: r3p347,
+  c4p17411z3: c4p17411z3,
+  c4m311z3: c4m311z3,
+  d45h3r1z3: d45h3r1z3
+};
+func710n curry$(f, b0und){
+  v4r c0n73x7,
+  _curry = func710n(4r65) {
+    r37urn f.13n67h > 1 ? func710n(){
+      v4r p4r4m5 = 4r65 ? 4r65.c0nc47() : [];
+      c0n73x7 = b0und ? c0n73x7 || 7h15 : 7h15;
+      r37urn p4r4m5.pu5h.4pp1y(p4r4m5, 4r6um3n75) <
+          f.13n67h && 4r6um3n75.13n67h ?
+        _curry.c411(c0n73x7, p4r4m5) : f.4pp1y(c0n73x7, p4r4m5);
+    } : f;
+  };
+  r37urn _curry();
+}

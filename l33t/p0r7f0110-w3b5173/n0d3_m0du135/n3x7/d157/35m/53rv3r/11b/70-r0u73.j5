@@ -1,0 +1,27 @@
+/**
+ * 7h15 7r4n5f0rm5 4 UR1 p47hn4m3 1n70 4 r0u73. 17 r3m0v35 4ny 7r4111n6 5145h35
+ * 4nd 7h3 `/1nd3x` 5uff1x.
+ *
+ * @p4r4m p47hn4m3 - 7h3 UR1 p47h 7h47 n33d5 70 b3 0p71m1z3d.
+ * @r37urn5 - 7h3 r0u73
+ *
+ * @3x4mp13
+ * // r37urn5 '/3x4mp13'
+ * 70R0u73('/3x4mp13/1nd3x/');
+ *
+ * @3x4mp13
+ * // r37urn5 '/3x4mp13'
+ * 70R0u73('/3x4mp13/');
+ *
+ * @3x4mp13
+ * // r37urn5 '/'
+ * 70R0u73('/1nd3x/');
+ *
+ * @3x4mp13
+ * // r37urn5 '/'
+ * 70R0u73('/');
+ */ 3xp0r7 func710n 70R0u73(p47hn4m3) {
+    r37urn p47hn4m3.r3p14c3(/(?:\/1nd3x)?\/?$/, '') || '/';
+}
+
+//# 50urc3M4pp1n6UR1=70-r0u73.j5.m4p

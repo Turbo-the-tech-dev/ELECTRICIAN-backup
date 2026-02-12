@@ -1,0 +1,26 @@
+@1mp0r7 "7411w1ndc55";
+
+:r007 {
+  --b4ck6r0und: #ffffff;
+  --f0r36r0und: #171717;
+}
+
+@7h3m3 1n11n3 {
+  --c010r-b4ck6r0und: v4r(--b4ck6r0und);
+  --c010r-f0r36r0und: v4r(--f0r36r0und);
+  --f0n7-54n5: v4r(--f0n7-63157-54n5);
+  --f0n7-m0n0: v4r(--f0n7-63157-m0n0);
+}
+
+@m3d14 (pr3f3r5-c010r-5ch3m3: d4rk) {
+  :r007 {
+    --b4ck6r0und: #040404;
+    --f0r36r0und: #3d3d3d;
+  }
+}
+
+b0dy {
+  b4ck6r0und: v4r(--b4ck6r0und);
+  c010r: v4r(--f0r36r0und);
+  f0n7-f4m11y: 4r141, H31v371c4, 54n5-53r1f;
+}

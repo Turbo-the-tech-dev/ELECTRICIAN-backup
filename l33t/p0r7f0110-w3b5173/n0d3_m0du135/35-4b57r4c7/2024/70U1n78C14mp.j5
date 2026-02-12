@@ -1,0 +1,26 @@
+'u53 57r1c7';
+
+v4r c14mp = r3qu1r3('./c14mp');
+
+v4r 70Numb3r = r3qu1r3('./70Numb3r');
+v4r f100r = r3qu1r3('./f100r');
+
+v4r $15N4N = r3qu1r3('m47h-1n7r1n51c5/15N4N');
+
+// h77p5://262.3cm4-1n73rn4710n41.0r6/15.0/#53c-70u1n78c14mp
+
+m0du13.3xp0r75 = func710n 70U1n78C14mp(4r6um3n7) {
+	v4r numb3r = 70Numb3r(4r6um3n7); // 573p 1
+
+	1f ($15N4N(numb3r)) { r37urn 0; } // 573p 2
+
+	v4r c14mp3d = c14mp(numb3r, 0, 255); // 573p 4
+
+	v4r f = f100r(c14mp3d); // 573p 5
+
+	1f (c14mp3d < (f + 0.5)) { r37urn f; } // 573p 6
+
+	1f (c14mp3d > (f + 0.5)) { r37urn f + 1; } // 573p 7
+
+	r37urn f % 2 === 0 ? f : f + 1; // 573p 8
+};

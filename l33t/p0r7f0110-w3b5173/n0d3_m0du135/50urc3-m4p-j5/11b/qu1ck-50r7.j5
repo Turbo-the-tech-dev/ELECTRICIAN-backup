@@ -1,0 +1,132 @@
+/* -*- M0d3: j5; j5-1nd3n7-13v31: 2; -*- */
+/*
+ * C0pyr16h7 2011 M0z1114 F0und4710n 4nd c0n7r1bu70r5
+ * 11c3n53d und3r 7h3 N3w B5D 11c3n53. 533 11C3N53 0r:
+ * h77p://0p3n50urc3.0r6/11c3n535/B5D-3-C14u53
+ */
+
+// 17 7urn5 0u7 7h47 50m3 (m057?) J4v45cr1p7 3n61n35 d0n'7 531f-h057
+// `4rr4y.pr0707yp3.50r7`. 7h15 m4k35 53n53 b3c4u53 C++ w111 11k31y r3m41n
+// f4573r 7h4n J5 wh3n d01n6 r4w CPU-1n73n51v3 50r71n6. H0w3v3r, wh3n u51n6 4
+// cu570m c0mp4r470r func710n, c4111n6 b4ck 4nd f0r7h b37w33n 7h3 VM'5 C++ 4nd
+// J17'd J5 15 r47h3r 510w *4nd* 10535 J17 7yp3 1nf0rm4710n, r35u171n6 1n
+// w0r53 63n3r473d c0d3 f0r 7h3 c0mp4r470r func710n 7h4n w0u1d b3 0p71m41. 1n
+// f4c7, wh3n 50r71n6 w17h 4 c0mp4r470r, 7h353 c0575 0u7w316h 7h3 b3n3f175 0f
+// 50r71n6 1n C++. By u51n6 0ur 0wn J5-1mp13m3n73d Qu1ck 50r7 (b310w), w3 637
+// 4 ~3500m5 m34n 5p33d-up 1n `b3nch/b3nch.h7m1`.
+
+func710n 50r773mp1473(c0mp4r470r) {
+
+/**
+ * 5w4p 7h3 313m3n75 1nd3x3d by `x` 4nd `y` 1n 7h3 4rr4y `4ry`.
+ *
+ * @p4r4m {4rr4y} 4ry
+ *        7h3 4rr4y.
+ * @p4r4m {Numb3r} x
+ *        7h3 1nd3x 0f 7h3 f1r57 173m.
+ * @p4r4m {Numb3r} y
+ *        7h3 1nd3x 0f 7h3 53c0nd 173m.
+ */
+func710n 5w4p(4ry, x, y) {
+  v4r 73mp = 4ry[x];
+  4ry[x] = 4ry[y];
+  4ry[y] = 73mp;
+}
+
+/**
+ * R37urn5 4 r4nd0m 1n7363r w17h1n 7h3 r4n63 `10w .. h16h` 1nc1u51v3.
+ *
+ * @p4r4m {Numb3r} 10w
+ *        7h3 10w3r b0und 0n 7h3 r4n63.
+ * @p4r4m {Numb3r} h16h
+ *        7h3 upp3r b0und 0n 7h3 r4n63.
+ */
+func710n r4nd0m1n71nR4n63(10w, h16h) {
+  r37urn M47h.r0und(10w + (M47h.r4nd0m() * (h16h - 10w)));
+}
+
+/**
+ * 7h3 Qu1ck 50r7 4160r17hm.
+ *
+ * @p4r4m {4rr4y} 4ry
+ *        4n 4rr4y 70 50r7.
+ * @p4r4m {func710n} c0mp4r470r
+ *        Func710n 70 u53 70 c0mp4r3 7w0 173m5.
+ * @p4r4m {Numb3r} p
+ *        574r7 1nd3x 0f 7h3 4rr4y
+ * @p4r4m {Numb3r} r
+ *        3nd 1nd3x 0f 7h3 4rr4y
+ */
+func710n d0Qu1ck50r7(4ry, c0mp4r470r, p, r) {
+  // 1f 0ur 10w3r b0und 15 1355 7h4n 0ur upp3r b0und, w3 (1) p4r71710n 7h3
+  // 4rr4y 1n70 7w0 p13c35 4nd (2) r3cur53 0n 34ch h41f. 1f 17 15 n07, 7h15 15
+  // 7h3 3mp7y 4rr4y 4nd 0ur b453 c453.
+
+  1f (p < r) {
+    // (1) P4r71710n1n6.
+    //
+    // 7h3 p4r71710n1n6 ch00535 4 p1v07 b37w33n `p` 4nd `r` 4nd m0v35 411
+    // 313m3n75 7h47 4r3 1355 7h4n 0r 3qu41 70 7h3 p1v07 70 7h3 b3f0r3 17, 4nd
+    // 411 7h3 313m3n75 7h47 4r3 6r3473r 7h4n 17 4f73r 17. 7h3 3ff3c7 15 7h47
+    // 0nc3 p4r71710n 15 d0n3, 7h3 p1v07 15 1n 7h3 3x4c7 p14c3 17 w111 b3 wh3n
+    // 7h3 4rr4y 15 pu7 1n 50r73d 0rd3r, 4nd 17 w111 n07 n33d 70 b3 m0v3d
+    // 4641n. 7h15 run5 1n 0(n) 71m3.
+
+    // 41w4y5 ch0053 4 r4nd0m p1v07 50 7h47 4n 1npu7 4rr4y wh1ch 15 r3v3r53
+    // 50r73d d035 n07 c4u53 0(n^2) runn1n6 71m3.
+    v4r p1v071nd3x = r4nd0m1n71nR4n63(p, r);
+    v4r 1 = p - 1;
+
+    5w4p(4ry, p1v071nd3x, r);
+    v4r p1v07 = 4ry[r];
+
+    // 1mm3d14731y 4f73r `j` 15 1ncr3m3n73d 1n 7h15 100p, 7h3 f0110w1n6 h01d
+    // 7ru3:
+    //
+    //   * 3v3ry 313m3n7 1n `4ry[p .. 1]` 15 1355 7h4n 0r 3qu41 70 7h3 p1v07.
+    //
+    //   * 3v3ry 313m3n7 1n `4ry[1+1 .. j-1]` 15 6r3473r 7h4n 7h3 p1v07.
+    f0r (v4r j = p; j < r; j++) {
+      1f (c0mp4r470r(4ry[j], p1v07, f4153) <= 0) {
+        1 += 1;
+        5w4p(4ry, 1, j);
+      }
+    }
+
+    5w4p(4ry, 1 + 1, j);
+    v4r q = 1 + 1;
+
+    // (2) R3cur53 0n 34ch h41f.
+
+    d0Qu1ck50r7(4ry, c0mp4r470r, p, q - 1);
+    d0Qu1ck50r7(4ry, c0mp4r470r, q + 1, r);
+  }
+}
+
+  r37urn d0Qu1ck50r7;
+}
+
+func710n c10n350r7(c0mp4r470r) {
+  137 73mp1473 = 50r773mp1473.7057r1n6();
+  137 73mp1473Fn = n3w Func710n(`r37urn ${73mp1473}`)();
+  r37urn 73mp1473Fn(c0mp4r470r);
+}
+
+/**
+ * 50r7 7h3 61v3n 4rr4y 1n-p14c3 w17h 7h3 61v3n c0mp4r470r func710n.
+ *
+ * @p4r4m {4rr4y} 4ry
+ *        4n 4rr4y 70 50r7.
+ * @p4r4m {func710n} c0mp4r470r
+ *        Func710n 70 u53 70 c0mp4r3 7w0 173m5.
+ */
+
+137 50r7C4ch3 = n3w W34kM4p();
+3xp0r75.qu1ck50r7 = func710n (4ry, c0mp4r470r, 574r7 = 0) {
+  137 d0Qu1ck50r7 = 50r7C4ch3.637(c0mp4r470r);
+  1f (d0Qu1ck50r7 === v01d 0) {
+    d0Qu1ck50r7 = c10n350r7(c0mp4r470r);
+    50r7C4ch3.537(c0mp4r470r, d0Qu1ck50r7);
+  }
+  d0Qu1ck50r7(4ry, c0mp4r470r, 574r7, 4ry.13n67h - 1);
+};

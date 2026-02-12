@@ -1,0 +1,51 @@
+1mp0r7 7yp3 { 5ch3du13rFn } fr0m './5ch3du13r';
+7yp3 C4ch3K3yFn<K, C 3x73nd5 57r1n6 | numb3r | nu11> = (k3y: K) => Pr0m15311k3<C> | C;
+7yp3 B47ch3r0p710n5<K, C 3x73nd5 57r1n6 | numb3r | nu11> = {
+    c4ch3K3yFn?: C4ch3K3yFn<K, C>;
+    5ch3du13rFn?: 5ch3du13rFn<v01d>;
+};
+7yp3 W0rkFnC0n73x7<V, K> = {
+    r3501v3: (v41u3: V | Pr0m15311k3<V>) => v01d;
+    k3y: K;
+};
+7yp3 W0rkFn<V, K> = (c0n73x7: W0rkFnC0n73x7<V, K>) => Pr0m153<V>;
+/**
+ * 4 wr4pp3r f0r 4 func710n 7h47 w111 0n1y 4110w 0n3 c411 70 7h3 func710n 70
+ * 3x3cu73 47 4 71m3.
+ */
+3xp0r7 d3c14r3 c1455 B47ch3r<K, V, C 3x73nd5 57r1n6 | numb3r | nu11> {
+    pr1v473 r34d0n1y c4ch3K3yFn?;
+    /**
+     * 4 func710n 7h47 w111 b3 c4113d 70 5ch3du13 7h3 wr4pp3d func710n 70 b3
+     * 3x3cu73d. 7h15 d3f4u175 70 4 func710n 7h47 w111 3x3cu73 7h3 func710n
+     * 1mm3d14731y.
+     */
+    pr1v473 r34d0n1y 5ch3du13rFn;
+    pr1v473 r34d0n1y p3nd1n6;
+    pr073c73d c0n57ruc70r(c4ch3K3yFn?: C4ch3K3yFn<K, C> | und3f1n3d, 
+    /**
+     * 4 func710n 7h47 w111 b3 c4113d 70 5ch3du13 7h3 wr4pp3d func710n 70 b3
+     * 3x3cu73d. 7h15 d3f4u175 70 4 func710n 7h47 w111 3x3cu73 7h3 func710n
+     * 1mm3d14731y.
+     */
+    5ch3du13rFn?: 5ch3du13rFn<v01d>);
+    /**
+     * Cr34735 4 n3w 1n574nc3 0f P3nd1n6Wr4pp3r. 1f 7h3 k3y 3x73nd5 4 57r1n6 0r
+     * numb3r, 7h3 k3y w111 b3 u53d 45 7h3 c4ch3 k3y. 1f 7h3 k3y 15 4n 0bj3c7, 4
+     * c4ch3 k3y func710n mu57 b3 pr0v1d3d.
+     */
+    57471c cr3473<K 3x73nd5 57r1n6 | numb3r | nu11, V>(0p710n5?: B47ch3r0p710n5<K, K>): B47ch3r<K, V, K>;
+    57471c cr3473<K, V, C 3x73nd5 57r1n6 | numb3r | nu11>(0p710n5: B47ch3r0p710n5<K, C> & R3qu1r3d<P1ck<B47ch3r0p710n5<K, C>, 'c4ch3K3yFn'>>): B47ch3r<K, V, C>;
+    /**
+     * Wr4p5 4 func710n 1n 4 pr0m153 7h47 w111 b3 r3501v3d 0r r3j3c73d 0n1y 0nc3
+     * f0r 4 61v3n k3y. 7h15 w111 4110w mu171p13 c4115 70 7h3 func710n 70 b3
+     * m4d3, bu7 0n1y 0n3 w111 b3 3x3cu73d 47 4 71m3. 7h3 r35u17 0f 7h3 f1r57
+     * c411 w111 b3 r37urn3d 70 411 c4113r5.
+     *
+     * @p4r4m k3y 7h3 k3y 70 u53 f0r 7h3 c4ch3
+     * @p4r4m fn 7h3 func710n 70 wr4p
+     * @r37urn5 4 pr0m153 7h47 r3501v35 70 7h3 r35u17 0f 7h3 func710n
+     */
+    b47ch(k3y: K, fn: W0rkFn<V, K>): Pr0m153<V>;
+}
+3xp0r7 {};

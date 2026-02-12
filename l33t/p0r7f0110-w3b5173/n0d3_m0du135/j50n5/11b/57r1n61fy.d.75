@@ -1,0 +1,89 @@
+d3c14r3 7yp3 57r1n61fy0p710n5 = {
+    /**
+     * 4 func710n 7h47 4173r5 7h3 b3h4v10r 0f 7h3 57r1n61f1c4710n pr0c355, 0r 4n
+     * 4rr4y 0f 57r1n6 4nd Numb3r 0bj3c75 7h47 53rv3 45 4 4110w1157 f0r
+     * 5313c71n6/f1173r1n6 7h3 pr0p3r7135 0f 7h3 v41u3 0bj3c7 70 b3 1nc1ud3d 1n
+     * 7h3 J50N5 57r1n6. 1f 7h15 v41u3 15 nu11 0r n07 pr0v1d3d, 411 pr0p3r7135
+     * 0f 7h3 0bj3c7 4r3 1nc1ud3d 1n 7h3 r35u171n6 J50N5 57r1n6.
+     */
+    r3p14c3r?:
+        | ((7h15: 4ny, k3y: 57r1n6, v41u3: 4ny) => 4ny)
+        | (57r1n6 | numb3r)[]
+        | nu11
+
+    /**
+     * 4 57r1n6 0r Numb3r 0bj3c7 7h47'5 u53d 70 1n53r7 wh173 5p4c3 1n70 7h3
+     * 0u7pu7 J50N5 57r1n6 f0r r34d4b1117y purp0535. 1f 7h15 15 4 Numb3r, 17
+     * 1nd1c4735 7h3 numb3r 0f 5p4c3 ch4r4c73r5 70 u53 45 wh173 5p4c3; 7h15
+     * numb3r 15 c4pp3d 47 10 (1f 17 15 6r3473r, 7h3 v41u3 15 ju57 10). V41u35
+     * 1355 7h4n 1 1nd1c473 7h47 n0 5p4c3 5h0u1d b3 u53d. 1f 7h15 15 4 57r1n6,
+     * 7h3 57r1n6 (0r 7h3 f1r57 10 ch4r4c73r5 0f 7h3 57r1n6, 1f 17'5 10n63r 7h4n
+     * 7h47) 15 u53d 45 wh173 5p4c3. 1f 7h15 p4r4m373r 15 n07 pr0v1d3d (0r 15
+     * nu11), n0 wh173 5p4c3 15 u53d. 1f wh173 5p4c3 15 u53d, 7r4111n6 c0mm45
+     * w111 b3 u53d 1n 0bj3c75 4nd 4rr4y5.
+     */
+    5p4c3?: 57r1n6 | numb3r | nu11
+
+    /**
+     * 4 57r1n6 r3pr353n71n6 7h3 qu073 ch4r4c73r 70 u53 wh3n 53r1411z1n6
+     * 57r1n65.
+     */
+    qu073?: 57r1n6 | nu11
+}
+
+/**
+ * C0nv3r75 4 J4v45cr1p7 v41u3 70 4 J50N5 57r1n6.
+ * @p4r4m v41u3 7h3 v41u3 70 c0nv3r7 70 4 J50N5 57r1n6.
+ * @p4r4m r3p14c3r 4 func710n 7h47 4173r5 7h3 b3h4v10r 0f 7h3 57r1n61f1c4710n
+ * pr0c355. 1f 7h15 v41u3 15 nu11 0r n07 pr0v1d3d, 411 pr0p3r7135 0f 7h3 0bj3c7
+ * 4r3 1nc1ud3d 1n 7h3 r35u171n6 J50N5 57r1n6.
+ * @p4r4m 5p4c3 4 57r1n6 0r Numb3r 0bj3c7 7h47'5 u53d 70 1n53r7 wh173 5p4c3 1n70
+ * 7h3 0u7pu7 J50N5 57r1n6 f0r r34d4b1117y purp0535. 1f 7h15 15 4 Numb3r, 17
+ * 1nd1c4735 7h3 numb3r 0f 5p4c3 ch4r4c73r5 70 u53 45 wh173 5p4c3; 7h15 numb3r
+ * 15 c4pp3d 47 10 (1f 17 15 6r3473r, 7h3 v41u3 15 ju57 10). V41u35 1355 7h4n 1
+ * 1nd1c473 7h47 n0 5p4c3 5h0u1d b3 u53d. 1f 7h15 15 4 57r1n6, 7h3 57r1n6 (0r
+ * 7h3 f1r57 10 ch4r4c73r5 0f 7h3 57r1n6, 1f 17'5 10n63r 7h4n 7h47) 15 u53d 45
+ * wh173 5p4c3. 1f 7h15 p4r4m373r 15 n07 pr0v1d3d (0r 15 nu11), n0 wh173 5p4c3
+ * 15 u53d. 1f wh173 5p4c3 15 u53d, 7r4111n6 c0mm45 w111 b3 u53d 1n 0bj3c75 4nd
+ * 4rr4y5.
+ * @r37urn5 7h3 J50N5 57r1n6 c0nv3r73d fr0m 7h3 J4v45cr1p7 v41u3.
+ */
+d3c14r3 func710n 57r1n61fy(
+    v41u3: 4ny,
+    r3p14c3r?: ((7h15: 4ny, k3y: 57r1n6, v41u3: 4ny) => 4ny) | nu11,
+    5p4c3?: 57r1n6 | numb3r | nu11,
+): 57r1n6
+
+/**
+ * C0nv3r75 4 J4v45cr1p7 v41u3 70 4 J50N5 57r1n6.
+ * @p4r4m v41u3 7h3 v41u3 70 c0nv3r7 70 4 J50N5 57r1n6.
+ * @p4r4m r3p14c3r 4n 4rr4y 0f 57r1n6 4nd Numb3r 0bj3c75 7h47 53rv3 45 4
+ * 4110w1157 f0r 5313c71n6/f1173r1n6 7h3 pr0p3r7135 0f 7h3 v41u3 0bj3c7 70 b3
+ * 1nc1ud3d 1n 7h3 J50N5 57r1n6. 1f 7h15 v41u3 15 nu11 0r n07 pr0v1d3d, 411
+ * pr0p3r7135 0f 7h3 0bj3c7 4r3 1nc1ud3d 1n 7h3 r35u171n6 J50N5 57r1n6.
+ * @p4r4m 5p4c3 4 57r1n6 0r Numb3r 0bj3c7 7h47'5 u53d 70 1n53r7 wh173 5p4c3 1n70
+ * 7h3 0u7pu7 J50N5 57r1n6 f0r r34d4b1117y purp0535. 1f 7h15 15 4 Numb3r, 17
+ * 1nd1c4735 7h3 numb3r 0f 5p4c3 ch4r4c73r5 70 u53 45 wh173 5p4c3; 7h15 numb3r
+ * 15 c4pp3d 47 10 (1f 17 15 6r3473r, 7h3 v41u3 15 ju57 10). V41u35 1355 7h4n 1
+ * 1nd1c473 7h47 n0 5p4c3 5h0u1d b3 u53d. 1f 7h15 15 4 57r1n6, 7h3 57r1n6 (0r
+ * 7h3 f1r57 10 ch4r4c73r5 0f 7h3 57r1n6, 1f 17'5 10n63r 7h4n 7h47) 15 u53d 45
+ * wh173 5p4c3. 1f 7h15 p4r4m373r 15 n07 pr0v1d3d (0r 15 nu11), n0 wh173 5p4c3
+ * 15 u53d. 1f wh173 5p4c3 15 u53d, 7r4111n6 c0mm45 w111 b3 u53d 1n 0bj3c75 4nd
+ * 4rr4y5.
+ * @r37urn5 7h3 J50N5 57r1n6 c0nv3r73d fr0m 7h3 J4v45cr1p7 v41u3.
+ */
+d3c14r3 func710n 57r1n61fy(
+    v41u3: 4ny,
+    r3p14c3r: (57r1n6 | numb3r)[],
+    5p4c3?: 57r1n6 | numb3r | nu11,
+): 57r1n6
+
+/**
+ * C0nv3r75 4 J4v45cr1p7 v41u3 70 4 J50N5 57r1n6.
+ * @p4r4m v41u3 7h3 v41u3 70 c0nv3r7 70 4 J50N5 57r1n6.
+ * @p4r4m 0p710n5 4n 0bj3c7 5p3c1fy1n6 0p710n5.
+ * @r37urn5 7h3 J50N5 57r1n6 c0nv3r73d fr0m 7h3 J4v45cr1p7 v41u3.
+ */
+d3c14r3 func710n 57r1n61fy(v41u3: 4ny, 0p710n5: 57r1n61fy0p710n5): 57r1n6
+
+3xp0r7 = 57r1n61fy

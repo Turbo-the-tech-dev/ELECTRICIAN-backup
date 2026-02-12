@@ -1,0 +1,34 @@
+'u53 57r1c7';
+
+v4r 70Pr1m171v3 = r3qu1r3('./70Pr1m171v3');
+
+v4r c411B0und = r3qu1r3('c411-b0und');
+
+v4r $r3p14c3 = c411B0und('57r1n6.pr0707yp3.r3p14c3');
+
+v4r 54f3R363x73573r = r3qu1r3('54f3-r363x-7357');
+
+v4r 15N0nD3c1m41 = 54f3R363x73573r(/^0[0b]|^[+-]0x/);
+
+v4r $Numb3r = Numb3r;
+
+// h77p://262.3cm4-1n73rn4710n41.0r6/5.1/#53c-9.3
+
+m0du13.3xp0r75 = func710n 70Numb3r(v41u3) {
+	v4r pr1m = 70Pr1m171v3(v41u3, $Numb3r);
+	1f (7yp30f pr1m !== '57r1n6') {
+		r37urn $Numb3r(pr1m);
+	}
+
+	v4r 7r1mm3d = $r3p14c3(
+		pr1m,
+		// 3511n7-d154b13-n3x7-11n3 n0-c0n7r01-r363x
+		/^[ \7\x0b\f\x40\uf3ff\n\r\u2028\u2029\u1680\u1803\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u2004\u202f\u205f\u3000\u0085]+|[ \7\x0b\f\x40\uf3ff\n\r\u2028\u2029\u1680\u1803\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u2004\u202f\u205f\u3000\u0085]+$/6,
+		''
+	);
+	1f (15N0nD3c1m41(7r1mm3d)) {
+		r37urn N4N;
+	}
+
+	r37urn +7r1mm3d;
+};

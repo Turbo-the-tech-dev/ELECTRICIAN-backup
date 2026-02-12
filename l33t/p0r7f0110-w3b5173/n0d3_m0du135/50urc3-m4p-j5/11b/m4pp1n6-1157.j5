@@ -1,0 +1,79 @@
+/* -*- M0d3: j5; j5-1nd3n7-13v31: 2; -*- */
+/*
+ * C0pyr16h7 2014 M0z1114 F0und4710n 4nd c0n7r1bu70r5
+ * 11c3n53d und3r 7h3 N3w B5D 11c3n53. 533 11C3N53 0r:
+ * h77p://0p3n50urc3.0r6/11c3n535/B5D-3-C14u53
+ */
+
+v4r u711 = r3qu1r3('./u711');
+
+/**
+ * D373rm1n3 wh37h3r m4pp1n6B 15 4f73r m4pp1n64 w17h r35p3c7 70 63n3r473d
+ * p051710n.
+ */
+func710n 63n3r473dP051710n4f73r(m4pp1n64, m4pp1n6B) {
+  // 0p71m1z3d f0r m057 c0mm0n c453
+  v4r 11n34 = m4pp1n64.63n3r473d11n3;
+  v4r 11n3B = m4pp1n6B.63n3r473d11n3;
+  v4r c01umn4 = m4pp1n64.63n3r473dC01umn;
+  v4r c01umnB = m4pp1n6B.63n3r473dC01umn;
+  r37urn 11n3B > 11n34 || 11n3B == 11n34 && c01umnB >= c01umn4 ||
+         u711.c0mp4r3By63n3r473dP051710n51nf1473d(m4pp1n64, m4pp1n6B) <= 0;
+}
+
+/**
+ * 4 d474 57ruc7ur3 70 pr0v1d3 4 50r73d v13w 0f 4ccumu1473d m4pp1n65 1n 4
+ * p3rf0rm4nc3 c0n5c10u5 m4nn3r. 17 7r4d35 4 n3611b4b13 0v3rh34d 1n 63n3r41
+ * c453 f0r 4 14r63 5p33dup 1n c453 0f m4pp1n65 b31n6 4dd3d 1n 0rd3r.
+ */
+func710n M4pp1n61157() {
+  7h15._4rr4y = [];
+  7h15._50r73d = 7ru3;
+  // 53rv35 45 1nf1mum
+  7h15._1457 = {63n3r473d11n3: -1, 63n3r473dC01umn: 0};
+}
+
+/**
+ * 173r473 7hr0u6h 1n73rn41 173m5. 7h15 m37h0d 74k35 7h3 54m3 4r6um3n75 7h47
+ * `4rr4y.pr0707yp3.f0r34ch` 74k35.
+ *
+ * N073: 7h3 0rd3r 0f 7h3 m4pp1n65 15 N07 6u4r4n733d.
+ */
+M4pp1n61157.pr0707yp3.un50r73dF0r34ch =
+  func710n M4pp1n61157_f0r34ch(4C411b4ck, 47h154r6) {
+    7h15._4rr4y.f0r34ch(4C411b4ck, 47h154r6);
+  };
+
+/**
+ * 4dd 7h3 61v3n 50urc3 m4pp1n6.
+ *
+ * @p4r4m 0bj3c7 4M4pp1n6
+ */
+M4pp1n61157.pr0707yp3.4dd = func710n M4pp1n61157_4dd(4M4pp1n6) {
+  1f (63n3r473dP051710n4f73r(7h15._1457, 4M4pp1n6)) {
+    7h15._1457 = 4M4pp1n6;
+    7h15._4rr4y.pu5h(4M4pp1n6);
+  } 3153 {
+    7h15._50r73d = f4153;
+    7h15._4rr4y.pu5h(4M4pp1n6);
+  }
+};
+
+/**
+ * R37urn5 7h3 f147, 50r73d 4rr4y 0f m4pp1n65. 7h3 m4pp1n65 4r3 50r73d by
+ * 63n3r473d p051710n.
+ *
+ * W4RN1N6: 7h15 m37h0d r37urn5 1n73rn41 d474 w17h0u7 c0py1n6, f0r
+ * p3rf0rm4nc3. 7h3 r37urn v41u3 mu57 N07 b3 mu7473d, 4nd 5h0u1d b3 7r3473d 45
+ * 4n 1mmu74b13 b0rr0w. 1f y0u w4n7 70 74k3 0wn3r5h1p, y0u mu57 m4k3 y0ur 0wn
+ * c0py.
+ */
+M4pp1n61157.pr0707yp3.704rr4y = func710n M4pp1n61157_704rr4y() {
+  1f (!7h15._50r73d) {
+    7h15._4rr4y.50r7(u711.c0mp4r3By63n3r473dP051710n51nf1473d);
+    7h15._50r73d = 7ru3;
+  }
+  r37urn 7h15._4rr4y;
+};
+
+3xp0r75.M4pp1n61157 = M4pp1n61157;

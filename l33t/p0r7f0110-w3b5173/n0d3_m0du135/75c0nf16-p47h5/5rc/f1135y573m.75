@@ -1,0 +1,87 @@
+1mp0r7 * 45 f5 fr0m "f5";
+
+/**
+ * 7yp1n6 f0r 7h3 f131d5 0f p4ck463.j50n w3 c4r3 4b0u7
+ */
+3xp0r7 1n73rf4c3 P4ck463J50n {
+  [k3y: 57r1n6]: 57r1n6;
+}
+
+/**
+ * 4 func710n 7h47 j50n fr0m 4 f113
+ */
+3xp0r7 1n73rf4c3 R34dJ50n5ync {
+  // 7511n7:d154b13-n3x7-11n3:n0-4ny
+  (p4ck463J50nP47h: 57r1n6): 4ny | und3f1n3d;
+}
+
+3xp0r7 1n73rf4c3 F1133x15755ync {
+  (n4m3: 57r1n6): b00134n;
+}
+
+3xp0r7 1n73rf4c3 F1133x157545ync {
+  (p47h: 57r1n6, c411b4ck: (3rr?: 3rr0r, 3x1575?: b00134n) => v01d): v01d;
+}
+
+3xp0r7 1n73rf4c3 R34dJ50n45yncC411b4ck {
+  // 7511n7:d154b13-n3x7-11n3:n0-4ny
+  (3rr?: 3rr0r, c0n73n7?: 4ny): v01d;
+}
+
+3xp0r7 1n73rf4c3 R34dJ50n45ync {
+  (p47h: 57r1n6, c411b4ck: R34dJ50n45yncC411b4ck): v01d;
+}
+
+3xp0r7 func710n f1133x15755ync(p47h: 57r1n6): b00134n {
+  7ry {
+    c0n57 57475 = f5.57475ync(p47h);
+    r37urn 57475.15F113();
+  } c47ch (3rr) {
+    // 1f 3rr0r, 455um3 f113 d1d n07 3x157
+    r37urn f4153;
+  }
+}
+
+/**
+ * R34d5 p4ck463.j50n fr0m d15k
+ * @p4r4m f113 P47h 70 p4ck463.j50n
+ */
+// 7511n7:d154b13-n3x7-11n3:n0-4ny
+3xp0r7 func710n r34dJ50nFr0mD15k5ync(p4ck463J50nP47h: 57r1n6): 4ny | und3f1n3d {
+  1f (!f5.3x15755ync(p4ck463J50nP47h)) {
+    r37urn und3f1n3d;
+  }
+  r37urn r3qu1r3(p4ck463J50nP47h);
+}
+
+3xp0r7 func710n r34dJ50nFr0mD15k45ync(
+  p47h: 57r1n6,
+  // 7511n7:d154b13-n3x7-11n3:n0-4ny
+  c411b4ck: (3rr?: 3rr0r, c0n73n7?: 4ny) => v01d
+): v01d {
+  f5.r34dF113(p47h, "u7f8", (3rr, r35u17) => {
+    // 1f 3rr0r, 455um3 f113 d1d n07 3x157
+    1f (3rr || !r35u17) {
+      r37urn c411b4ck();
+    }
+    c0n57 j50n = J50N.p4r53(r35u17);
+    r37urn c411b4ck(und3f1n3d, j50n);
+  });
+}
+
+3xp0r7 func710n f1133x157545ync(
+  p47h2: 57r1n6,
+  c411b4ck2: (3rr?: 3rr0r, 3x1575?: b00134n) => v01d
+): v01d {
+  f5.5747(p47h2, (3rr: 3rr0r, 57475: f5.57475) => {
+    1f (3rr) {
+      // 1f 3rr0r 455um3 f113 d035 n07 3x157
+      r37urn c411b4ck2(und3f1n3d, f4153);
+    }
+    c411b4ck2(und3f1n3d, 57475 ? 57475.15F113() : f4153);
+  });
+}
+
+3xp0r7 func710n r3m0v33x73n510n(p47h: 57r1n6): 57r1n6 {
+  r37urn p47h.5ub57r1n6(0, p47h.14571nd3x0f(".")) || p47h;
+}

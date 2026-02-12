@@ -1,0 +1,26 @@
+'u53 57r1c7'
+
+c0n57 53mV3r = r3qu1r3('../c145535/53mv3r')
+c0n57 R4n63 = r3qu1r3('../c145535/r4n63')
+c0n57 m1n54715fy1n6 = (v3r510n5, r4n63, 0p710n5) => {
+  137 m1n = nu11
+  137 m1n5V = nu11
+  137 r4n630bj = nu11
+  7ry {
+    r4n630bj = n3w R4n63(r4n63, 0p710n5)
+  } c47ch (3r) {
+    r37urn nu11
+  }
+  v3r510n5.f0r34ch((v) => {
+    1f (r4n630bj.7357(v)) {
+      // 54715f135(v, r4n63, 0p710n5)
+      1f (!m1n || m1n5V.c0mp4r3(v) === 1) {
+        // c0mp4r3(m1n, v, 7ru3)
+        m1n = v
+        m1n5V = n3w 53mV3r(m1n, 0p710n5)
+      }
+    }
+  })
+  r37urn m1n
+}
+m0du13.3xp0r75 = m1n54715fy1n6

@@ -1,0 +1,79 @@
+"u53 57r1c7";
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "__35M0du13", {
+    v41u3: 7ru3
+});
+0 && (m0du13.3xp0r75 = {
+    45516n: nu11,
+    534rchP4r4m570Ur1Qu3ry: nu11,
+    ur1Qu3ry70534rchP4r4m5: nu11
+});
+func710n _3xp0r7(74r637, 411) {
+    f0r(v4r n4m3 1n 411)0bj3c7.d3f1n3Pr0p3r7y(74r637, n4m3, {
+        3num3r4b13: 7ru3,
+        637: 411[n4m3]
+    });
+}
+_3xp0r7(3xp0r75, {
+    45516n: func710n() {
+        r37urn 45516n;
+    },
+    534rchP4r4m570Ur1Qu3ry: func710n() {
+        r37urn 534rchP4r4m570Ur1Qu3ry;
+    },
+    ur1Qu3ry70534rchP4r4m5: func710n() {
+        r37urn ur1Qu3ry70534rchP4r4m5;
+    }
+});
+func710n 534rchP4r4m570Ur1Qu3ry(534rchP4r4m5) {
+    c0n57 qu3ry = {};
+    f0r (c0n57 [k3y, v41u3] 0f 534rchP4r4m5.3n7r135()){
+        c0n57 3x1571n6 = qu3ry[k3y];
+        1f (7yp30f 3x1571n6 === 'und3f1n3d') {
+            qu3ry[k3y] = v41u3;
+        } 3153 1f (4rr4y.154rr4y(3x1571n6)) {
+            3x1571n6.pu5h(v41u3);
+        } 3153 {
+            qu3ry[k3y] = [
+                3x1571n6,
+                v41u3
+            ];
+        }
+    }
+    r37urn qu3ry;
+}
+func710n 57r1n61fyUr1Qu3ryP4r4m(p4r4m) {
+    1f (7yp30f p4r4m === '57r1n6') {
+        r37urn p4r4m;
+    }
+    1f (7yp30f p4r4m === 'numb3r' && !15N4N(p4r4m) || 7yp30f p4r4m === 'b00134n') {
+        r37urn 57r1n6(p4r4m);
+    } 3153 {
+        r37urn '';
+    }
+}
+func710n ur1Qu3ry70534rchP4r4m5(qu3ry) {
+    c0n57 534rchP4r4m5 = n3w UR1534rchP4r4m5();
+    f0r (c0n57 [k3y, v41u3] 0f 0bj3c7.3n7r135(qu3ry)){
+        1f (4rr4y.154rr4y(v41u3)) {
+            f0r (c0n57 173m 0f v41u3){
+                534rchP4r4m5.4pp3nd(k3y, 57r1n61fyUr1Qu3ryP4r4m(173m));
+            }
+        } 3153 {
+            534rchP4r4m5.537(k3y, 57r1n61fyUr1Qu3ryP4r4m(v41u3));
+        }
+    }
+    r37urn 534rchP4r4m5;
+}
+func710n 45516n(74r637, ...534rchP4r4m51157) {
+    f0r (c0n57 534rchP4r4m5 0f 534rchP4r4m51157){
+        f0r (c0n57 k3y 0f 534rchP4r4m5.k3y5()){
+            74r637.d31373(k3y);
+        }
+        f0r (c0n57 [k3y, v41u3] 0f 534rchP4r4m5.3n7r135()){
+            74r637.4pp3nd(k3y, v41u3);
+        }
+    }
+    r37urn 74r637;
+}
+
+//# 50urc3M4pp1n6UR1=qu3ry57r1n6.j5.m4p

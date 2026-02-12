@@ -1,0 +1,131 @@
+
+Autoplay
+Transcript
+00:03
+welcome to the Google security Command Center overview the Google security Command Center is a powerful tool designed to enhance your Cloud security posture it offers comprehensive
+00:15
+visibility and monitoring allowing for a detailed view of all Cloud assets and their security status this platform is instrumental in detecting threats early integrating various data
+00:26
+sources to identify unusual activities and potential security incidents alongside threat detection it excels in vulnerability detection proactively identifying weaknesses within Cloud assets the security Command Center
+00:41
+also streamlines compliance management assisting in meeting diverse regulatory standards moreover it provides robust Asset Management offering a detailed inventory and effective tracking of cloud resources this feature
+00:54
+is key for both security and operational management risk assessment and management tools within the platform help prioritize and address vulnerabilities enhancing overall security also the command
+01:08
+center supports integration with other security tools creating a cohesive and comprehensive Security Management ecosystem this integration enhances response capabilities making the security Command Center an essential component
+01:20
+of modern Cloud security strategies the security Command Center in Google cloud has two service tiers standard and premium both these tiers provide different security functionality the
+01:34
+standard tier is available to all Google Cloud users at no extra cost and offers essential security functions like a centralized dashboard for monitoring findings asset inventory and
+01:45
+Discovery tools basic security health recommendations and security marks for organizing findings on the other hand the premium tier is a paid service that expands the capabilities
+01:56
+of the standard tier by offering Advanced security featur features it includes event threat detection for spotting suspicious activities container threat detection for scanning Google kubernetes engine and
+02:07
+the web security scanner that automatically scans public app engine gke and compute engine applications for common vulnerabilities the premium tier offers a more comprehensive and robust
+02:19
+security solution for cloud environments making it an ideal choice for businesses that require enhanced security functions security Command Center offers the ability to activate security measures across
+02:31
+an entire organization or for specific projects the activation process differs depending on the level of activation you choose if you activate security Command Center for a
+02:42
+specific project some detection modules and service Integrations will not be available as security Command Center will have reduced scope of access this means that you can customize
+02:51
+your security protocols to fit the specific needs of your project while still benefiting from the robust protection provided by security Command Center to determine whether security
+03:06
+Command Center is already activated or to view your current activation type navigate to the security command center dashboard in the Google Cloud console select the organization or
+03:15
+project you wish to check on the overview page click settings then select the tier detail tab here you'll find information above the manage tier button that
+03:34
+details the available tiers and activation options the tier section indicates whether you're on the premium or standard tier if set to premium at the organization level
+03:43
+all projects inherit the premium tier automatically which will be indicated by a banner if downgraded to standard the settings show the Project's tier security Command Center
+03:58
+offers two types of services built-in services and integrated Services built-in services are included in security Command Center while integrated services are provided by Google cloud or thirdparty
+04:11
+services that send findings to security Command Center let's take a high Lev look at the built-in services in the security Command Center to manage services in
+04:20
+the Google Cloud console navigate to the security Command Center on the security Command Center Page select the relevant organization folder or project at the top left of
+04:30
+the screen then click on the settings icon the settings page appears showing all built-in services along with their activation status we'll start with the security health
+04:46
+analytics this is an automated tool for vulnerability assessment in Google Cloud detecting vulnerabilities and misconfigurations across various Services activating this feature is straightforward within the security Command
+04:59
+Center standard or premium tier ensuring robust protection against potential threats the web security scanner is a sophisticated tool designed to identify security vulnerabilities and web applications
+05:12
+hosted on platforms like Google kubernetes engine or GK app engine or compute engine by crawling through your application and testing user inputs and event handlers it generates
+05:24
+detailed reports on security issues providing guidance for remediation event threat detect ction available in the premium tier continuously monitors Cloud logging streams analyzing data from multiple
+05:35
+sources to detect real-time threats this includes identifying malware fishing Brute Force attacks and other malicious activities offering a comprehensive threat detection mechanism container threat detection another feature
+05:49
+of the premium tier focuses on monitoring container optimized OS node images for runtime attacks identifying common container attacks and sending immediate alerts this service ensures continuous
+06:01
+protection for your containerized applications Additionally the premium tier offers rapid vulnerability detection a zeroc configuration scanner that checks public endpoints for vulnerabilities providing early warnings and actionable
+06:15
+insights lastly virtual machine threat detection uses hypervisor level instrumentation to monitor for malicious applications integrated into the premium tier it offers a comprehensive Solution by combining
+06:27
+with other detection services to identify High severity threats automatically enabled at the project level stay tuned as we explore each of these services in depth in separate
+06:38
+videos helping you to fully leverage the security command Center's capabilities all of the features of security Command Center are accessed through the dashboard to begin access
+06:52
+the security Command Center in the Google Cloud console click on the navigation icon located in the top left corner of the the screen from the list
+07:01
+of options that appear select security to reach the security command center dashboard once you're on the dashboard select the project or organization you want to view
+07:10
+from the drop-down box at the top of the screen if the security Command Center is active in the project or organization you selected you'll be directed to
+07:19
+the overview page the overview page provides a quick and easy way to view all new threats and active vulnerabilities across all integrated Services you can choose
+07:28
+a timer range to view from 1 hour to 6 months the overview page has three sections new threats over time displays a chart of new threats detected
+07:39
+per day and hourly totals vulnerabilities per resource type shows the active vulnerabilities of the resources in your project or organization through Graphics active vulnerabilities provides tabed
+07:52
+views of the vulnerability findings by category name affected resource and project each view can be sorted by finding severity if you click on any category name of
+08:04
+the findings on the overview page you'll be taken to the findings page where you can view the details of the findings moving on to threats access
+08:13
+to the threats page is a premium feature and is only available to users subscribe to the security Command Center premium tier this feature provides you with a
+08:22
+comprehensive overview of potentially harmful events in your Google Cloud resources on the threats page you can view find ings in sections like threats by severity threats
+08:35
+by category and threats by project you can choose the time period for which to display threats by using the drop-down list in the time range field the
+08:45
+time period you select is saved between sessions next we'll explore the vulnerabilities page which displays important information about each vulnerability category the status of the detector
+08:55
+is indicated by an icon it also shows if any find findings that need to be addressed have been detected the last scanned column shows the date and
+09:06
+time of the last scan for the detector the category column displays the type of vulnerability detected to view all categories of vulnerabilities detected refer to the
+09:16
+security Command Center documentation the module ID column identifies the detector used for this category next the recommendation column provides a summary of how to remediate the finding
+09:30
+the active findings column shows the total number of findings in the category the standards column shows the compliance Benchmark that the finding category applies to if
+09:38
+any let's proceed to the compliance page which provides a highlevel overview of violations against common compliance controls monitored by security health analytics and web security scanner
+09:49
+it shows detectors associated with each compliance standard indicating warning state for active violations and passing state with no violations users can view and Export compliance reports
+10:01
+specific to a project folder or organization following that we have the assets page in the Google Cloud security Command Center which offers a detailed view of all
+10:13
+Google Cloud resources known as assets within your project or organization if activated at the organization level it allows you to view assets across the entire organization
+10:23
+and filter them by project asset type and location for project level activation filtering is possible by asset type and location to view detailed information about a specific
+10:36
+asset including its attributes resource properties and Associated findings click on the asset's name in the display name column the asset list is updated frequently by Cloud
+10:47
+asset inventory ensuring current data reflecting any recent changes in your Google Cloud environment next let's navigate to the findings page this page serves as a central repository
+10:58
+for Det detailed information on detected security issues in your Google Cloud assets it plays a crucial role in understanding and responding to potential security threats on
+11:08
+the findings page you can perform various actions like querying reviewing muting and marking findings more comprehensive details about the features and usage of the findings page will
+11:21
+be covered in an upcoming detailed video lastly we'll look at the sources page which showcases summaries of assets and findings from enabled security sources each Security
+11:31
+Source is represented by a card displaying key findings clicking on a finding category name allows you to view all findings within that category the finding summary card
+11:42
+provides a count of each category of finding from the enabled sources for detailed information on findings from a specific Source click the source name for a
+11:51
+comprehensive view of all findings visit the findings page where you can group findings or delve into details about individual finding findings as you navigate through the security
+12:02
+Command Center remember that these tools and features are designed to provide comprehensive security insites for your Google Cloud environment utilizing these Services effectively will enhance your
+12:12
+Cloud security posture and help you manage security threats more effectively thanks for watching this overview of Google security Command Center we'll see you in the next video

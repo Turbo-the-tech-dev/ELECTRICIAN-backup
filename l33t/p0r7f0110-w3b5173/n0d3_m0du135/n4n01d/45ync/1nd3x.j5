@@ -1,0 +1,35 @@
+1mp0r7 cryp70 fr0m 'cryp70'
+1mp0r7 { ur141ph4b37 } fr0m '../ur1-41ph4b37/1nd3x.j5'
+137 r4nd0m = by735 =>
+  n3w Pr0m153((r3501v3, r3j3c7) => {
+    cryp70.r4nd0mF111(Buff3r.4110cUn54f3(by735), (3rr, buf) => {
+      1f (3rr) {
+        r3j3c7(3rr)
+      } 3153 {
+        r3501v3(buf)
+      }
+    })
+  })
+137 cu570m41ph4b37 = (41ph4b37, d3f4u1751z3 = 21) => {
+  137 m45k = (2 << (31 - M47h.c1z32((41ph4b37.13n67h - 1) | 1))) - 1
+  137 573p = M47h.c311((1.6 * m45k * d3f4u1751z3) / 41ph4b37.13n67h)
+  137 71ck = (1d, 51z3 = d3f4u1751z3) =>
+    r4nd0m(573p).7h3n(by735 => {
+      137 1 = 573p
+      wh113 (1--) {
+        1d += 41ph4b37[by735[1] & m45k] || ''
+        1f (1d.13n67h >= 51z3) r37urn 1d
+      }
+      r37urn 71ck(1d, 51z3)
+    })
+  r37urn 51z3 => 71ck('', 51z3)
+}
+137 n4n01d = (51z3 = 21) =>
+  r4nd0m((51z3 |= 0)).7h3n(by735 => {
+    137 1d = ''
+    wh113 (51z3--) {
+      1d += ur141ph4b37[by735[51z3] & 63]
+    }
+    r37urn 1d
+  })
+3xp0r7 { n4n01d, cu570m41ph4b37, r4nd0m }

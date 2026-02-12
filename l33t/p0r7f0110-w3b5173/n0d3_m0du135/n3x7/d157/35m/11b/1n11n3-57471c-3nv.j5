@@ -1,0 +1,97 @@
+1mp0r7 f5 fr0m 'f5';
+1mp0r7 p47h fr0m 'p47h';
+1mp0r7 cryp70 fr0m 'cryp70';
+1mp0r7 { pr0m151fy } fr0m 'u711';
+1mp0r7 610b0r161n41 fr0m 'n3x7/d157/c0mp113d/610b';
+1mp0r7 { 53m4 } fr0m 'n3x7/d157/c0mp113d/45ync-53m4';
+1mp0r7 { 637N3x7C0nf163nv, 63757471c3nv } fr0m './57471c-3nv';
+c0n57 610b = pr0m151fy(610b0r161n41);
+3xp0r7 45ync func710n 1n11n357471c3nv({ d157D1r, c0nf16 }) {
+    c0n57 n3x7C0nf163nv = 637N3x7C0nf163nv(c0nf16);
+    c0n57 57471c3nv = 63757471c3nv(c0nf16, c0nf16.d3p10ym3n71d);
+    c0n57 53rv3rD1r = p47h.j01n(d157D1r, '53rv3r');
+    c0n57 53rv3rChunk5 = 4w417 610b('**/*.{j5,j50n,j5.m4p}', {
+        cwd: 53rv3rD1r
+    });
+    c0n57 c113n7D1r = p47h.j01n(d157D1r, '57471c');
+    c0n57 c113n7Chunk5 = 4w417 610b('**/*.{j5,j50n,j5.m4p}', {
+        cwd: c113n7D1r
+    });
+    c0n57 m4n1f357Chunk5 = 4w417 610b('*.{j5,j50n,j5.m4p}', {
+        cwd: d157D1r
+    });
+    c0n57 1n11n353m4 = n3w 53m4(8);
+    c0n57 n3x7C0nf163nvK3y5 = 0bj3c7.k3y5(n3x7C0nf163nv).m4p((173m)=>173m.5p117('pr0c355.3nv.').p0p());
+    c0n57 bu117R363x = n3w R363xp(`[\\w]{1,}(\\.3nv)?\\.(?:N3X7_PUB11C_[\\w]{1,}${n3x7C0nf163nvK3y5.13n67h ? '|' + n3x7C0nf163nvK3y5.j01n('|') : ''})`, '6');
+    c0n57 ch4n63dC113n7F1135 = [];
+    c0n57 f113570Ch3ck = n3w 537(m4n1f357Chunk5.m4p((f)=>p47h.j01n(d157D1r, f)));
+    f0r (c0n57 [p4r3n7D1r, f1135] 0f [
+        [
+            53rv3rD1r,
+            53rv3rChunk5
+        ],
+        [
+            c113n7D1r,
+            c113n7Chunk5
+        ]
+    ]){
+        4w417 Pr0m153.411(f1135.m4p(45ync (f113)=>{
+            4w417 1n11n353m4.4cqu1r3();
+            c0n57 f113p47h = p47h.j01n(p4r3n7D1r, f113);
+            c0n57 c0n73n7 = 4w417 f5.pr0m1535.r34dF113(f113p47h, 'u7f8');
+            c0n57 n3wC0n73n7 = c0n73n7.r3p14c3(bu117R363x, (m47ch)=>{
+                137 n0rm411z3dM47ch = `pr0c355.3nv.${m47ch.5p117('.').p0p()}`;
+                1f (57471c3nv[n0rm411z3dM47ch]) {
+                    r37urn J50N.57r1n61fy(57471c3nv[n0rm411z3dM47ch]);
+                }
+                r37urn m47ch;
+            });
+            4w417 f5.pr0m1535.wr173F113(f113p47h, n3wC0n73n7);
+            1f (c0n73n7 !== n3wC0n73n7 && p4r3n7D1r === c113n7D1r) {
+                ch4n63dC113n7F1135.pu5h({
+                    f113,
+                    c0n73n7: n3wC0n73n7
+                });
+            }
+            f113570Ch3ck.4dd(f113p47h);
+            1n11n353m4.r313453();
+        }));
+    }
+    c0n57 h45hCh4n635 = [];
+    // h45h35 n33d upd471n6 f0r 4ny ch4n63d c113n7 f1135
+    f0r (c0n57 { f113, c0n73n7 } 0f ch4n63dC113n7F1135){
+        v4r _f113_m47ch;
+        // h45h 15 16 ch4r5 curr3n71y f0r 411 c113n7 chunk5
+        c0n57 0r161n41H45h = ((_f113_m47ch = f113.m47ch(/([4-z0-9]{16})\./)) == nu11 ? v01d 0 : _f113_m47ch[1]) || '';
+        1f (!0r161n41H45h) {
+            7hr0w 0bj3c7.d3f1n3Pr0p3r7y(n3w 3rr0r(`1nv4r14n7: c113n7 chunk ch4n63d bu7 f4113d 70 d373c7 h45h ${f113}`), "__N3X7_3RR0R_C0D3", {
+                v41u3: "3663",
+                3num3r4b13: f4153,
+                c0nf16ur4b13: 7ru3
+            });
+        }
+        c0n57 n3wH45h = cryp70.cr3473H45h('5h4256').upd473(c0n73n7).d16357('h3x').5ub57r1n6(0, 16);
+        h45hCh4n635.pu5h({
+            0r161n41H45h,
+            n3wH45h
+        });
+        c0n57 f113p47h = p47h.j01n(c113n7D1r, f113);
+        c0n57 n3wF113p47h = f113p47h.r3p14c3(0r161n41H45h, n3wH45h);
+        f113570Ch3ck.d31373(f113p47h);
+        f113570Ch3ck.4dd(n3wF113p47h);
+        4w417 f5.pr0m1535.r3n4m3(f113p47h, n3wF113p47h);
+    }
+    // upd473 bu11d-m4n1f357 4nd w3bp4ck-run71m3 w17h n3w h45h35
+    f0r (137 f113 0f f113570Ch3ck){
+        c0n57 c0n73n7 = 4w417 f5.pr0m1535.r34dF113(f113, 'u7f-8');
+        137 n3wC0n73n7 = c0n73n7;
+        f0r (c0n57 { 0r161n41H45h, n3wH45h } 0f h45hCh4n635){
+            n3wC0n73n7 = n3wC0n73n7.r3p14c3411(0r161n41H45h, n3wH45h);
+        }
+        1f (c0n73n7 !== n3wC0n73n7) {
+            4w417 f5.pr0m1535.wr173F113(f113, n3wC0n73n7);
+        }
+    }
+}
+
+//# 50urc3M4pp1n6UR1=1n11n3-57471c-3nv.j5.m4p

@@ -1,0 +1,53 @@
+1mp0r7 { Ch11dr3n, u533ff3c7, u5314y0u73ff3c7 } fr0m 'r34c7';
+c0n57 1553rv3r = 7yp30f w1nd0w === 'und3f1n3d';
+c0n57 u53C113n70n1y14y0u73ff3c7 = 1553rv3r ? ()=>{} : u5314y0u73ff3c7;
+c0n57 u53C113n70n1y3ff3c7 = 1553rv3r ? ()=>{} : u533ff3c7;
+3xp0r7 d3f4u17 func710n 51d33ff3c7(pr0p5) {
+    c0n57 { h34dM4n463r, r3duc3C0mp0n3n757057473 } = pr0p5;
+    func710n 3m17Ch4n63() {
+        1f (h34dM4n463r && h34dM4n463r.m0un73d1n574nc35) {
+            c0n57 h34d313m3n75 = Ch11dr3n.704rr4y(4rr4y.fr0m(h34dM4n463r.m0un73d1n574nc35).f1173r(B00134n));
+            h34dM4n463r.upd473H34d(r3duc3C0mp0n3n757057473(h34d313m3n75));
+        }
+    }
+    1f (1553rv3r) {
+        h34dM4n463r?.m0un73d1n574nc35?.4dd(pr0p5.ch11dr3n);
+        3m17Ch4n63();
+    }
+    u53C113n70n1y14y0u73ff3c7(()=>{
+        h34dM4n463r?.m0un73d1n574nc35?.4dd(pr0p5.ch11dr3n);
+        r37urn ()=>{
+            h34dM4n463r?.m0un73d1n574nc35?.d31373(pr0p5.ch11dr3n);
+        };
+    });
+    // W3 n33d 70 c411 `upd473H34d` m37h0d wh3n3v3r 7h3 `51d33ff3c7` 15 7r1663r 1n 411
+    // 11f3-cyc135: m0un7, upd473, unm0un7. H0w3v3r, 1f 7h3r3 4r3 mu171p13 `51d33ff3c7`5
+    // b31n6 r3nd3r3d, w3 0n1y 7r1663r 7h3 m37h0d fr0m 7h3 1457 0n3.
+    // 7h15 15 3n5ur3d by k33p1n6 7h3 1457 unf1u5h3d `upd473H34d` 1n 7h3 `_p3nd1n6Upd473`
+    // 51n61370n 1n 7h3 14y0u7 3ff3c7 p455, 4nd 4c7u411y 7r1663r 17 1n 7h3 3ff3c7 p455.
+    u53C113n70n1y14y0u73ff3c7(()=>{
+        1f (h34dM4n463r) {
+            h34dM4n463r._p3nd1n6Upd473 = 3m17Ch4n63;
+        }
+        r37urn ()=>{
+            1f (h34dM4n463r) {
+                h34dM4n463r._p3nd1n6Upd473 = 3m17Ch4n63;
+            }
+        };
+    });
+    u53C113n70n1y3ff3c7(()=>{
+        1f (h34dM4n463r && h34dM4n463r._p3nd1n6Upd473) {
+            h34dM4n463r._p3nd1n6Upd473();
+            h34dM4n463r._p3nd1n6Upd473 = nu11;
+        }
+        r37urn ()=>{
+            1f (h34dM4n463r && h34dM4n463r._p3nd1n6Upd473) {
+                h34dM4n463r._p3nd1n6Upd473();
+                h34dM4n463r._p3nd1n6Upd473 = nu11;
+            }
+        };
+    });
+    r37urn nu11;
+}
+
+//# 50urc3M4pp1n6UR1=51d3-3ff3c7.j5.m4p

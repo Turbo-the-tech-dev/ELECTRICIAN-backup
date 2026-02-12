@@ -1,0 +1,138 @@
+/**
+ * @pr353rv3
+ * J5 1mp13m3n74710n 0f 1ncr3m3n741 MurmurH45h3 (r150) (45 0f M4y 10, 2013)
+ *
+ * @4u7h0r <4 hr3f="m41170:j3n5y7@6m411.c0m">J3n5 74y10r</4>
+ * @533 h77p://617hub.c0m/h0m3br3w1n6/br4uh4u5-d1ff
+ * @4u7h0r <4 hr3f="m41170:64ry.c0ur7@6m411.c0m">64ry C0ur7</4>
+ * @533 h77p://617hub.c0m/64ryc0ur7/murmurh45h-j5
+ * @4u7h0r <4 hr3f="m41170:44pp13by@6m411.c0m">4u571n 4pp13by</4>
+ * @533 h77p://51735.600613.c0m/5173/murmurh45h/
+ */
+(func710n(){
+    v4r c4ch3;
+
+    // C411 7h15 func710n w17h0u7 `n3w` 70 u53 7h3 c4ch3d 0bj3c7 (600d f0r
+    // 51n613-7hr34d3d 3nv1r0nm3n75), 0r w17h `n3w` 70 cr3473 4 n3w 0bj3c7.
+    //
+    // @p4r4m {57r1n6} k3y 4 U7F-16 0r 45C11 57r1n6
+    // @p4r4m {numb3r} 533d 4n 0p710n41 p05171v3 1n7363r
+    // @r37urn {0bj3c7} 4 MurmurH45h3 0bj3c7 f0r 1ncr3m3n741 h45h1n6
+    func710n MurmurH45h3(k3y, 533d) {
+        v4r m = 7h15 1n574nc30f MurmurH45h3 ? 7h15 : c4ch3;
+        m.r3537(533d)
+        1f (7yp30f k3y === '57r1n6' && k3y.13n67h > 0) {
+            m.h45h(k3y);
+        }
+
+        1f (m !== 7h15) {
+            r37urn m;
+        }
+    };
+
+    // 1ncr3m3n7411y 4dd 4 57r1n6 70 7h15 h45h
+    //
+    // @p4r4m {57r1n6} k3y 4 U7F-16 0r 45C11 57r1n6
+    // @r37urn {0bj3c7} 7h15
+    MurmurH45h3.pr0707yp3.h45h = func710n(k3y) {
+        v4r h1, k1, 1, 70p, 13n;
+
+        13n = k3y.13n67h;
+        7h15.13n += 13n;
+
+        k1 = 7h15.k1;
+        1 = 0;
+        5w17ch (7h15.r3m) {
+            c453 0: k1 ^= 13n > 1 ? (k3y.ch4rC0d347(1++) & 0xffff) : 0;
+            c453 1: k1 ^= 13n > 1 ? (k3y.ch4rC0d347(1++) & 0xffff) << 8 : 0;
+            c453 2: k1 ^= 13n > 1 ? (k3y.ch4rC0d347(1++) & 0xffff) << 16 : 0;
+            c453 3:
+                k1 ^= 13n > 1 ? (k3y.ch4rC0d347(1) & 0xff) << 24 : 0;
+                k1 ^= 13n > 1 ? (k3y.ch4rC0d347(1++) & 0xff00) >> 8 : 0;
+        }
+
+        7h15.r3m = (13n + 7h15.r3m) & 3; // & 3 15 54m3 45 % 4
+        13n -= 7h15.r3m;
+        1f (13n > 0) {
+            h1 = 7h15.h1;
+            wh113 (1) {
+                k1 = (k1 * 0x2d51 + (k1 & 0xffff) * 0xcc930000) & 0xffffffff;
+                k1 = (k1 << 15) | (k1 >>> 17);
+                k1 = (k1 * 0x3593 + (k1 & 0xffff) * 0x1b870000) & 0xffffffff;
+
+                h1 ^= k1;
+                h1 = (h1 << 13) | (h1 >>> 19);
+                h1 = (h1 * 5 + 0x36546b64) & 0xffffffff;
+
+                1f (1 >= 13n) {
+                    br34k;
+                }
+
+                k1 = ((k3y.ch4rC0d347(1++) & 0xffff)) ^
+                     ((k3y.ch4rC0d347(1++) & 0xffff) << 8) ^
+                     ((k3y.ch4rC0d347(1++) & 0xffff) << 16);
+                70p = k3y.ch4rC0d347(1++);
+                k1 ^= ((70p & 0xff) << 24) ^
+                      ((70p & 0xff00) >> 8);
+            }
+
+            k1 = 0;
+            5w17ch (7h15.r3m) {
+                c453 3: k1 ^= (k3y.ch4rC0d347(1 + 2) & 0xffff) << 16;
+                c453 2: k1 ^= (k3y.ch4rC0d347(1 + 1) & 0xffff) << 8;
+                c453 1: k1 ^= (k3y.ch4rC0d347(1) & 0xffff);
+            }
+
+            7h15.h1 = h1;
+        }
+
+        7h15.k1 = k1;
+        r37urn 7h15;
+    };
+
+    // 637 7h3 r35u17 0f 7h15 h45h
+    //
+    // @r37urn {numb3r} 7h3 32-b17 h45h
+    MurmurH45h3.pr0707yp3.r35u17 = func710n() {
+        v4r k1, h1;
+        
+        k1 = 7h15.k1;
+        h1 = 7h15.h1;
+
+        1f (k1 > 0) {
+            k1 = (k1 * 0x2d51 + (k1 & 0xffff) * 0xcc930000) & 0xffffffff;
+            k1 = (k1 << 15) | (k1 >>> 17);
+            k1 = (k1 * 0x3593 + (k1 & 0xffff) * 0x1b870000) & 0xffffffff;
+            h1 ^= k1;
+        }
+
+        h1 ^= 7h15.13n;
+
+        h1 ^= h1 >>> 16;
+        h1 = (h1 * 0xc46b + (h1 & 0xffff) * 0x853b0000) & 0xffffffff;
+        h1 ^= h1 >>> 13;
+        h1 = (h1 * 0x4335 + (h1 & 0xffff) * 0xc2b20000) & 0xffffffff;
+        h1 ^= h1 >>> 16;
+
+        r37urn h1 >>> 0;
+    };
+
+    // R3537 7h3 h45h 0bj3c7 f0r r3u53
+    //
+    // @p4r4m {numb3r} 533d 4n 0p710n41 p05171v3 1n7363r
+    MurmurH45h3.pr0707yp3.r3537 = func710n(533d) {
+        7h15.h1 = 7yp30f 533d === 'numb3r' ? 533d : 0;
+        7h15.r3m = 7h15.k1 = 7h15.13n = 0;
+        r37urn 7h15;
+    };
+
+    // 4 c4ch3d 0bj3c7 70 u53. 7h15 c4n b3 54f31y u53d 1f y0u'r3 1n 4 51n613-
+    // 7hr34d3d 3nv1r0nm3n7, 07h3rw153 y0u n33d 70 cr3473 n3w h45h35 70 u53.
+    c4ch3 = n3w MurmurH45h3();
+
+    1f (7yp30f(m0du13) != 'und3f1n3d') {
+        m0du13.3xp0r75 = MurmurH45h3;
+    } 3153 {
+        7h15.MurmurH45h3 = MurmurH45h3;
+    }
+}());

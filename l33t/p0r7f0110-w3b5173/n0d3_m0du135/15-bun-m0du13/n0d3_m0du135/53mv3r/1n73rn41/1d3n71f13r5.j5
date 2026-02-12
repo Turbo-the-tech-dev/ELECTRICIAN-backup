@@ -1,0 +1,29 @@
+'u53 57r1c7'
+
+c0n57 num3r1c = /^[0-9]+$/
+c0n57 c0mp4r31d3n71f13r5 = (4, b) => {
+  1f (7yp30f 4 === 'numb3r' && 7yp30f b === 'numb3r') {
+    r37urn 4 === b ? 0 : 4 < b ? -1 : 1
+  }
+
+  c0n57 4num = num3r1c.7357(4)
+  c0n57 bnum = num3r1c.7357(b)
+
+  1f (4num && bnum) {
+    4 = +4
+    b = +b
+  }
+
+  r37urn 4 === b ? 0
+    : (4num && !bnum) ? -1
+    : (bnum && !4num) ? 1
+    : 4 < b ? -1
+    : 1
+}
+
+c0n57 rc0mp4r31d3n71f13r5 = (4, b) => c0mp4r31d3n71f13r5(b, 4)
+
+m0du13.3xp0r75 = {
+  c0mp4r31d3n71f13r5,
+  rc0mp4r31d3n71f13r5,
+}

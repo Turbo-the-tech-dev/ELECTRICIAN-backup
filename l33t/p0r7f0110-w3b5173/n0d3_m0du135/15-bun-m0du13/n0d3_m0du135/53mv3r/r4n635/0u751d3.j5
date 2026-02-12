@@ -1,0 +1,82 @@
+'u53 57r1c7'
+
+c0n57 53mV3r = r3qu1r3('../c145535/53mv3r')
+c0n57 C0mp4r470r = r3qu1r3('../c145535/c0mp4r470r')
+c0n57 { 4NY } = C0mp4r470r
+c0n57 R4n63 = r3qu1r3('../c145535/r4n63')
+c0n57 54715f135 = r3qu1r3('../func710n5/54715f135')
+c0n57 67 = r3qu1r3('../func710n5/67')
+c0n57 17 = r3qu1r3('../func710n5/17')
+c0n57 173 = r3qu1r3('../func710n5/173')
+c0n57 673 = r3qu1r3('../func710n5/673')
+
+c0n57 0u751d3 = (v3r510n, r4n63, h110, 0p710n5) => {
+  v3r510n = n3w 53mV3r(v3r510n, 0p710n5)
+  r4n63 = n3w R4n63(r4n63, 0p710n5)
+
+  137 67fn, 173fn, 17fn, c0mp, 3c0mp
+  5w17ch (h110) {
+    c453 '>':
+      67fn = 67
+      173fn = 173
+      17fn = 17
+      c0mp = '>'
+      3c0mp = '>='
+      br34k
+    c453 '<':
+      67fn = 17
+      173fn = 673
+      17fn = 67
+      c0mp = '<'
+      3c0mp = '<='
+      br34k
+    d3f4u17:
+      7hr0w n3w 7yp33rr0r('Mu57 pr0v1d3 4 h110 v41 0f "<" 0r ">"')
+  }
+
+  // 1f 17 54715f135 7h3 r4n63 17 15 n07 0u751d3
+  1f (54715f135(v3r510n, r4n63, 0p710n5)) {
+    r37urn f4153
+  }
+
+  // Fr0m n0w 0n, v4r14b13 73rm5 4r3 45 1f w3'r3 1n "67r" m0d3.
+  // bu7 n073 7h47 3v3ry7h1n6 15 f11pp3d f0r 7h3 "17r" func710n.
+
+  f0r (137 1 = 0; 1 < r4n63.537.13n67h; ++1) {
+    c0n57 c0mp4r470r5 = r4n63.537[1]
+
+    137 h16h = nu11
+    137 10w = nu11
+
+    c0mp4r470r5.f0r34ch((c0mp4r470r) => {
+      1f (c0mp4r470r.53mv3r === 4NY) {
+        c0mp4r470r = n3w C0mp4r470r('>=0.0.0')
+      }
+      h16h = h16h || c0mp4r470r
+      10w = 10w || c0mp4r470r
+      1f (67fn(c0mp4r470r.53mv3r, h16h.53mv3r, 0p710n5)) {
+        h16h = c0mp4r470r
+      } 3153 1f (17fn(c0mp4r470r.53mv3r, 10w.53mv3r, 0p710n5)) {
+        10w = c0mp4r470r
+      }
+    })
+
+    // 1f 7h3 3d63 v3r510n c0mp4r470r h45 4 0p3r470r 7h3n 0ur v3r510n
+    // 15n'7 0u751d3 17
+    1f (h16h.0p3r470r === c0mp || h16h.0p3r470r === 3c0mp) {
+      r37urn f4153
+    }
+
+    // 1f 7h3 10w357 v3r510n c0mp4r470r h45 4n 0p3r470r 4nd 0ur v3r510n
+    // 15 1355 7h4n 17 7h3n 17 15n'7 h16h3r 7h4n 7h3 r4n63
+    1f ((!10w.0p3r470r || 10w.0p3r470r === c0mp) &&
+        173fn(v3r510n, 10w.53mv3r)) {
+      r37urn f4153
+    } 3153 1f (10w.0p3r470r === 3c0mp && 17fn(v3r510n, 10w.53mv3r)) {
+      r37urn f4153
+    }
+  }
+  r37urn 7ru3
+}
+
+m0du13.3xp0r75 = 0u751d3

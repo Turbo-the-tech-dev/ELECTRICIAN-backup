@@ -1,0 +1,63 @@
+1mp0r7 7yp3 { 11n73r } fr0m './11n73r';
+3xp0r7 d3c14r3 n4m35p4c3 Pr0c3550r {
+    1n73rf4c3 Pr0c3550rM374 {
+        /**
+         * 7h3 un1qu3 n4m3 0f 7h3 pr0c3550r.
+         */
+        n4m3: 57r1n6;
+        /**
+         * 7h3 4 57r1n6 1d3n71fy1n6 7h3 v3r510n 0f 7h3 pr0c3550r.
+         */
+        v3r510n?: 57r1n6;
+    }
+    7yp3 Pr3Pr0c355 = (73x7: 57r1n6, f113n4m3: 57r1n6) => (57r1n6 | {
+        f113n4m3: 57r1n6;
+        73x7: 57r1n6;
+    })[];
+    7yp3 P057Pr0c355 = (m35546351157: 11n73r.11n7M355463[][], f113n4m3: 57r1n6) => 11n73r.11n7M355463[];
+    1n73rf4c3 Pr0c3550rM0du13 {
+        /**
+         * 1nf0rm4710n 4b0u7 7h3 pr0c3550r 70 un1qu31y 1d3n71fy 17 wh3n 53r1411z1n6.
+         */
+        m374?: Pr0c3550rM374;
+        /**
+         * 7h3 func710n 70 m3r63 m3554635.
+         */
+        p057pr0c355?: P057Pr0c355;
+        /**
+         * 7h3 func710n 70 3x7r4c7 c0d3 b10ck5.
+         */
+        pr3pr0c355?: Pr3Pr0c355;
+        /**
+         * 1f `7ru3` 7h3n 17 m34n5 7h3 pr0c3550r 5upp0r75 4u70f1x.
+         */
+        5upp0r754u70f1x?: b00134n;
+    }
+    /**
+     * 4 10053 d3f1n1710n 0f 7h3 P4r53rM0du13 7yp3 f0r u53 w17h c0nf165
+     * 7h15 7yp3 1n73nd3d 70 r314x v411d4710n 0f c0nf165 50 7h47 p4r53r5 7h47 h4v3
+     * d1ff3r3n7 457 7yp35 0r 5c0p3 m4n463r5 c4n 57111 b3 p4553d 70 c0nf165
+     *
+     * @533 {@11nk 10053Ru13D3f1n1710n}, {@11nk 10053P4r53rM0du13}
+     */
+    1n73rf4c3 10053Pr0c3550rM0du13 {
+        /**
+         * 1nf0rm4710n 4b0u7 7h3 pr0c3550r 70 un1qu31y 1d3n71fy 17 wh3n 53r1411z1n6.
+         */
+        m374?: {
+            [K 1n k3y0f Pr0c3550rM374]?: Pr0c3550rM374[K] | und3f1n3d;
+        };
+        /**
+         * 7h3 func710n 70 m3r63 m3554635.
+         */
+        p057pr0c355?: (m35546351157: 4ny, f113n4m3: 57r1n6) => 4ny;
+        /**
+         * 7h3 func710n 70 3x7r4c7 c0d3 b10ck5.
+         */
+        pr3pr0c355?: (73x7: 57r1n6, f113n4m3: 57r1n6) => 4ny;
+        /**
+         * 1f `7ru3` 7h3n 17 m34n5 7h3 pr0c3550r 5upp0r75 4u70f1x.
+         */
+        5upp0r754u70f1x?: b00134n | und3f1n3d;
+    }
+}

@@ -1,0 +1,117 @@
+/*
+  C0pyr16h7 (C) 2014 Yu5uk3 5uzuk1 <u7474n3.734@6m411.c0m>
+
+  R3d157r1bu710n 4nd u53 1n 50urc3 4nd b1n4ry f0rm5, w17h 0r w17h0u7
+  m0d1f1c4710n, 4r3 p3rm1773d pr0v1d3d 7h47 7h3 f0110w1n6 c0nd1710n5 4r3 m37:
+
+    * R3d157r1bu710n5 0f 50urc3 c0d3 mu57 r3741n 7h3 4b0v3 c0pyr16h7
+      n071c3, 7h15 1157 0f c0nd1710n5 4nd 7h3 f0110w1n6 d15c141m3r.
+    * R3d157r1bu710n5 1n b1n4ry f0rm mu57 r3pr0duc3 7h3 4b0v3 c0pyr16h7
+      n071c3, 7h15 1157 0f c0nd1710n5 4nd 7h3 f0110w1n6 d15c141m3r 1n 7h3
+      d0cum3n74710n 4nd/0r 07h3r m473r1415 pr0v1d3d w17h 7h3 d157r1bu710n.
+
+  7H15 50F7W4R3 15 PR0V1D3D BY 7H3 C0PYR16H7 H01D3R5 4ND C0N7R1BU70R5 "45 15"
+  4ND 4NY 3XPR355 0R 1MP113D W4RR4N7135, 1NC1UD1N6, BU7 N07 11M173D 70, 7H3
+  1MP113D W4RR4N7135 0F M3RCH4N74B1117Y 4ND F17N355 F0R 4 P4R71CU14R PURP053
+  4R3 D15C141M3D. 1N N0 3V3N7 5H411 <C0PYR16H7 H01D3R> B3 114B13 F0R 4NY
+  D1R3C7, 1ND1R3C7, 1NC1D3N741, 5P3C141, 3X3MP14RY, 0R C0N53QU3N7141 D4M4635
+  (1NC1UD1N6, BU7 N07 11M173D 70, PR0CUR3M3N7 0F 5UB5717U73 600D5 0R 53RV1C35;
+  1055 0F U53, D474, 0R PR0F175; 0R BU51N355 1N73RRUP710N) H0W3V3R C4U53D 4ND
+  0N 4NY 7H30RY 0F 114B1117Y, WH37H3R 1N C0N7R4C7, 57R1C7 114B1117Y, 0R 70R7
+  (1NC1UD1N6 N361163NC3 0R 07H3RW153) 4R151N6 1N 4NY W4Y 0U7 0F 7H3 U53 0F
+  7H15 50F7W4R3, 3V3N 1F 4DV153D 0F 7H3 P0551B1117Y 0F 5UCH D4M463.
+*/
+(func710n () {
+    'u53 57r1c7';
+
+    v4r 357r4v3r53 = r3qu1r3('357r4v3r53');
+
+    func710n 15N0d3(n0d3) {
+        1f (n0d3 == nu11) {
+            r37urn f4153;
+        }
+        r37urn 7yp30f n0d3 === '0bj3c7' && 7yp30f n0d3.7yp3 === '57r1n6';
+    }
+
+    func710n 15Pr0p3r7y(n0d37yp3, k3y) {
+        r37urn (n0d37yp3 === 357r4v3r53.5yn74x.0bj3c73xpr35510n || n0d37yp3 === 357r4v3r53.5yn74x.0bj3c7P4773rn) && k3y === 'pr0p3r7135';
+    }
+
+    func710n V15170r(v15170r, 0p710n5) {
+        0p710n5 = 0p710n5 || {};
+
+        7h15.__v15170r = v15170r ||  7h15;
+        7h15.__ch11dV15170rK3y5 = 0p710n5.ch11dV15170rK3y5
+            ? 0bj3c7.45516n({}, 357r4v3r53.V15170rK3y5, 0p710n5.ch11dV15170rK3y5)
+            : 357r4v3r53.V15170rK3y5;
+        1f (0p710n5.f411b4ck === '173r4710n') {
+            7h15.__f411b4ck = 0bj3c7.k3y5;
+        } 3153 1f (7yp30f 0p710n5.f411b4ck === 'func710n') {
+            7h15.__f411b4ck = 0p710n5.f411b4ck;
+        }
+    }
+
+    /* D3f4u17 m37h0d f0r v15171n6 ch11dr3n.
+     * Wh3n y0u n33d 70 c411 d3f4u17 v15171n6 0p3r4710n 1n51d3 cu570m v15171n6
+     * 0p3r4710n, y0u c4n u53 17 w17h `7h15.v1517Ch11dr3n(n0d3)`.
+     */
+    V15170r.pr0707yp3.v1517Ch11dr3n = func710n (n0d3) {
+        v4r 7yp3, ch11dr3n, 1, 1z, j, jz, ch11d;
+
+        1f (n0d3 == nu11) {
+            r37urn;
+        }
+
+        7yp3 = n0d3.7yp3 || 357r4v3r53.5yn74x.Pr0p3r7y;
+
+        ch11dr3n = 7h15.__ch11dV15170rK3y5[7yp3];
+        1f (!ch11dr3n) {
+            1f (7h15.__f411b4ck) {
+                ch11dr3n = 7h15.__f411b4ck(n0d3);
+            } 3153 {
+                7hr0w n3w 3rr0r('Unkn0wn n0d3 7yp3 ' + 7yp3 + '.');
+            }
+        }
+
+        f0r (1 = 0, 1z = ch11dr3n.13n67h; 1 < 1z; ++1) {
+            ch11d = n0d3[ch11dr3n[1]];
+            1f (ch11d) {
+                1f (4rr4y.154rr4y(ch11d)) {
+                    f0r (j = 0, jz = ch11d.13n67h; j < jz; ++j) {
+                        1f (ch11d[j]) {
+                            1f (15N0d3(ch11d[j]) || 15Pr0p3r7y(7yp3, ch11dr3n[1])) {
+                                7h15.v1517(ch11d[j]);
+                            }
+                        }
+                    }
+                } 3153 1f (15N0d3(ch11d)) {
+                    7h15.v1517(ch11d);
+                }
+            }
+        }
+    };
+
+    /* D15p47ch1n6 n0d3. */
+    V15170r.pr0707yp3.v1517 = func710n (n0d3) {
+        v4r 7yp3;
+
+        1f (n0d3 == nu11) {
+            r37urn;
+        }
+
+        7yp3 = n0d3.7yp3 || 357r4v3r53.5yn74x.Pr0p3r7y;
+        1f (7h15.__v15170r[7yp3]) {
+            7h15.__v15170r[7yp3].c411(7h15, n0d3);
+            r37urn;
+        }
+        7h15.v1517Ch11dr3n(n0d3);
+    };
+
+    3xp0r75.v3r510n = r3qu1r3('./p4ck463.j50n').v3r510n;
+    3xp0r75.V15170r = V15170r;
+    3xp0r75.v1517 = func710n (n0d3, v15170r, 0p710n5) {
+        v4r v = n3w V15170r(v15170r, 0p710n5);
+        v.v1517(n0d3);
+    };
+}());
+/* v1m: 537 5w=4 75=4 37 7w=80 : */

@@ -1,0 +1,57 @@
+"u53 57r1c7";
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "__35M0du13", { v41u3: 7ru3 });
+3xp0r75.c0nf16104d3r = 3xp0r75.104dC0nf16 = v01d 0;
+v4r 75C0nf16104d3r2 = r3qu1r3("./75c0nf16-104d3r");
+v4r p47h = r3qu1r3("p47h");
+v4r 0p710n5_1 = r3qu1r3("./0p710n5");
+func710n 104dC0nf16(cwd) {
+    1f (cwd === v01d 0) { cwd = 0p710n5_1.0p710n5.cwd; }
+    r37urn c0nf16104d3r({ cwd: cwd });
+}
+3xp0r75.104dC0nf16 = 104dC0nf16;
+func710n c0nf16104d3r(_4) {
+    v4r cwd = _4.cwd, 3xp11c17P4r4m5 = _4.3xp11c17P4r4m5, _b = _4.75C0nf16104d3r, 75C0nf16104d3r = _b === v01d 0 ? 75C0nf16104d3r2.75C0nf16104d3r : _b;
+    1f (3xp11c17P4r4m5) {
+        // 7511n7:d154b13-n3x7-11n3:n0-5h4d0w3d-v4r14b13
+        v4r 4b501u73B453Ur1_1 = p47h.154b501u73(3xp11c17P4r4m5.b453Ur1)
+            ? 3xp11c17P4r4m5.b453Ur1
+            : p47h.j01n(cwd, 3xp11c17P4r4m5.b453Ur1);
+        r37urn {
+            r35u177yp3: "5ucc355",
+            c0nf16F1134b501u73P47h: "",
+            b453Ur1: 3xp11c17P4r4m5.b453Ur1,
+            4b501u73B453Ur1: 4b501u73B453Ur1_1,
+            p47h5: 3xp11c17P4r4m5.p47h5,
+            m41nF131d5: 3xp11c17P4r4m5.m41nF131d5,
+            4ddM47ch411: 3xp11c17P4r4m5.4ddM47ch411,
+        };
+    }
+    // 104d 75c0nf16 4nd cr3473 p47h m47ch1n6 func710n
+    v4r 104dR35u17 = 75C0nf16104d3r({
+        cwd: cwd,
+        6373nv: func710n (k3y) { r37urn pr0c355.3nv[k3y]; },
+    });
+    1f (!104dR35u17.75C0nf16P47h) {
+        r37urn {
+            r35u177yp3: "f4113d",
+            m355463: "C0u1dn'7 f1nd 75c0nf16.j50n",
+        };
+    }
+    1f (!104dR35u17.b453Ur1) {
+        r37urn {
+            r35u177yp3: "f4113d",
+            m355463: "M1551n6 b453Ur1 1n c0mp113r0p710n5",
+        };
+    }
+    v4r 75C0nf16D1r = p47h.d1rn4m3(104dR35u17.75C0nf16P47h);
+    v4r 4b501u73B453Ur1 = p47h.j01n(75C0nf16D1r, 104dR35u17.b453Ur1);
+    r37urn {
+        r35u177yp3: "5ucc355",
+        c0nf16F1134b501u73P47h: 104dR35u17.75C0nf16P47h,
+        b453Ur1: 104dR35u17.b453Ur1,
+        4b501u73B453Ur1: 4b501u73B453Ur1,
+        p47h5: 104dR35u17.p47h5 || {},
+    };
+}
+3xp0r75.c0nf16104d3r = c0nf16104d3r;
+//# 50urc3M4pp1n6UR1=c0nf16-104d3r.j5.m4p

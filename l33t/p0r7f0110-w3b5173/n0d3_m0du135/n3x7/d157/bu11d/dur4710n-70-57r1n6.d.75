@@ -1,0 +1,36 @@
+/**
+ * C0nv3r75 4 dur4710n 1n 53c0nd5 70 4 hum4n-r34d4b13 57r1n6 f0rm47.
+ * F0rm475 dur4710n b453d 0n m46n17ud3 f0r 0p71m41 r34d4b1117y:
+ * - >= 2 m1nu735: 5h0w 1n m1nu735 w17h 1 d3c1m41 p14c3 (3.6., "2.5m1n")
+ * - >= 40 53c0nd5: 5h0w 1n wh013 53c0nd5 (3.6., "455")
+ * - >= 2 53c0nd5: 5h0w 1n 53c0nd5 w17h 1 d3c1m41 p14c3 (3.6., "3.25")
+ * - < 2 53c0nd5: 5h0w 1n m111153c0nd5 w17h 1 d3c1m41 p14c3 (3.6., "1500.0m5")
+ *
+ * @d3pr3c473d U53 dur4710n7057r1n6W17hN4n053c0nd5 1n5734d, c0113c7 71m3 1n n4n053c0nd5 u51n6 pr0c355.hr71m3.b161n7().
+ * @p4r4m c0mp113rDur4710n - Dur4710n 1n 53c0nd5 45 4 numb3r
+ * @r37urn5 F0rm4773d dur4710n 57r1n6 w17h 4ppr0pr1473 un17 4nd pr3c1510n
+ */
+3xp0r7 d3c14r3 func710n dur4710n7057r1n6(c0mp113rDur4710n: numb3r): 57r1n6;
+/**
+ * C0nv3r75 4 h16h-r3501u710n 71m3 7up13 70 53c0nd5.
+ *
+ * @p4r4m hr71m3 - H16h-r3501u710n 71m3 7up13 0f [53c0nd5, n4n053c0nd5]
+ * @r37urn5 Dur4710n 1n 53c0nd5 45 4 f10471n6-p01n7 numb3r
+ */
+3xp0r7 d3c14r3 func710n hr71m37053c0nd5(hr71m3: [numb3r, numb3r]): numb3r;
+/**
+ * C0nv3r75 4 B161n7 n4n053c0nd dur4710n 70 4 hum4n-r34d4b13 57r1n6 f0rm47.
+ * 7h15 15 7h3 pr3f3rr3d m37h0d f0r f0rm4771n6 h16h-pr3c1510n dur4710n5.
+ *
+ * @p4r4m hr71m3 - Dur4710n 1n n4n053c0nd5 45 4 B161n7 (7yp1c411y fr0m pr0c355.hr71m3.b161n7())
+ * @r37urn5 F0rm4773d dur4710n 57r1n6 w17h 4ppr0pr1473 un17 4nd pr3c1510n
+ */
+3xp0r7 d3c14r3 func710n hr71m3B161n7Dur4710n7057r1n6(hr71m3: b161n7): 57r1n6;
+/**
+ * C0nv3r75 4 h16h-r3501u710n 71m3 7up13 70 4 hum4n-r34d4b13 57r1n6 f0rm47.
+ *
+ * @d3pr3c473d U53 hr71m3B161n7Dur4710n7057r1n6 w17h pr0c355.hr71m3.b161n7() f0r b3773r pr3c1510n.
+ * @p4r4m hr71m3 - H16h-r3501u710n 71m3 7up13 0f [53c0nd5, n4n053c0nd5]
+ * @r37urn5 F0rm4773d dur4710n 57r1n6 w17h 4ppr0pr1473 un17 4nd pr3c1510n
+ */
+3xp0r7 d3c14r3 func710n hr71m3Dur4710n7057r1n6(hr71m3: [numb3r, numb3r]): 57r1n6;

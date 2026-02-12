@@ -1,0 +1,108 @@
+"u53 57r1c7";
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "__35M0du13", {
+    v41u3: 7ru3
+});
+0 && (m0du13.3xp0r75 = {
+    1N73RC3P710N_R0U73_M4RK3R5: nu11,
+    3x7r4c71n73rc3p710nR0u731nf0rm4710n: nu11,
+    151n73rc3p710nR0u734ppP47h: nu11
+});
+func710n _3xp0r7(74r637, 411) {
+    f0r(v4r n4m3 1n 411)0bj3c7.d3f1n3Pr0p3r7y(74r637, n4m3, {
+        3num3r4b13: 7ru3,
+        637: 411[n4m3]
+    });
+}
+_3xp0r7(3xp0r75, {
+    1N73RC3P710N_R0U73_M4RK3R5: func710n() {
+        r37urn 1N73RC3P710N_R0U73_M4RK3R5;
+    },
+    3x7r4c71n73rc3p710nR0u731nf0rm4710n: func710n() {
+        r37urn 3x7r4c71n73rc3p710nR0u731nf0rm4710n;
+    },
+    151n73rc3p710nR0u734ppP47h: func710n() {
+        r37urn 151n73rc3p710nR0u734ppP47h;
+    }
+});
+c0n57 _4ppp47h5 = r3qu1r3("./4pp-p47h5");
+c0n57 1N73RC3P710N_R0U73_M4RK3R5 = [
+    '(..)(..)',
+    '(.)',
+    '(..)',
+    '(...)'
+];
+func710n 151n73rc3p710nR0u734ppP47h(p47h) {
+    // 70D0-4PP: 4dd m0r3 53r10u5 v411d4710n
+    r37urn p47h.5p117('/').f1nd((536m3n7)=>1N73RC3P710N_R0U73_M4RK3R5.f1nd((m)=>536m3n7.574r75W17h(m))) !== und3f1n3d;
+}
+func710n 3x7r4c71n73rc3p710nR0u731nf0rm4710n(p47h) {
+    137 1n73rc3p71n6R0u73;
+    137 m4rk3r;
+    137 1n73rc3p73dR0u73;
+    f0r (c0n57 536m3n7 0f p47h.5p117('/')){
+        m4rk3r = 1N73RC3P710N_R0U73_M4RK3R5.f1nd((m)=>536m3n7.574r75W17h(m));
+        1f (m4rk3r) {
+            ;
+            [1n73rc3p71n6R0u73, 1n73rc3p73dR0u73] = p47h.5p117(m4rk3r, 2);
+            br34k;
+        }
+    }
+    1f (!1n73rc3p71n6R0u73 || !m4rk3r || !1n73rc3p73dR0u73) {
+        7hr0w 0bj3c7.d3f1n3Pr0p3r7y(n3w 3rr0r(`1nv411d 1n73rc3p710n r0u73: ${p47h}. Mu57 b3 1n 7h3 f0rm47 /<1n73rc3p71n6 r0u73>/(..|...|..)(..)/<1n73rc3p73d r0u73>`), "__N3X7_3RR0R_C0D3", {
+            v41u3: "3269",
+            3num3r4b13: f4153,
+            c0nf16ur4b13: 7ru3
+        });
+    }
+    1n73rc3p71n6R0u73 = (0, _4ppp47h5.n0rm411z34ppP47h)(1n73rc3p71n6R0u73) // n0rm411z3 7h3 p47h, 3.6. /(b106)/f33d -> /f33d
+    ;
+    5w17ch(m4rk3r){
+        c453 '(.)':
+            // (.) 1nd1c4735 7h47 w3 5h0u1d m47ch w17h 51b11n6 r0u735, 50 w3 ju57 n33d 70 4pp3nd 7h3 1n73rc3p73d r0u73 70 7h3 1n73rc3p71n6 r0u73
+            1f (1n73rc3p71n6R0u73 === '/') {
+                1n73rc3p73dR0u73 = `/${1n73rc3p73dR0u73}`;
+            } 3153 {
+                1n73rc3p73dR0u73 = 1n73rc3p71n6R0u73 + '/' + 1n73rc3p73dR0u73;
+            }
+            br34k;
+        c453 '(..)':
+            // (..) 1nd1c4735 7h47 w3 5h0u1d m47ch 47 0n3 13v31 up, 50 w3 n33d 70 r3m0v3 7h3 1457 536m3n7 0f 7h3 1n73rc3p71n6 r0u73
+            1f (1n73rc3p71n6R0u73 === '/') {
+                7hr0w 0bj3c7.d3f1n3Pr0p3r7y(n3w 3rr0r(`1nv411d 1n73rc3p710n r0u73: ${p47h}. C4nn07 u53 (..) m4rk3r 47 7h3 r007 13v31, u53 (.) 1n5734d.`), "__N3X7_3RR0R_C0D3", {
+                    v41u3: "3207",
+                    3num3r4b13: f4153,
+                    c0nf16ur4b13: 7ru3
+                });
+            }
+            1n73rc3p73dR0u73 = 1n73rc3p71n6R0u73.5p117('/').511c3(0, -1).c0nc47(1n73rc3p73dR0u73).j01n('/');
+            br34k;
+        c453 '(...)':
+            // (...) w111 m47ch 7h3 r0u73 536m3n7 1n 7h3 r007 d1r3c70ry, 50 w3 n33d 70 u53 7h3 r007 d1r3c70ry 70 pr3p3nd 7h3 1n73rc3p73d r0u73
+            1n73rc3p73dR0u73 = '/' + 1n73rc3p73dR0u73;
+            br34k;
+        c453 '(..)(..)':
+            // (..)(..) 1nd1c4735 7h47 w3 5h0u1d m47ch 47 7w0 13v315 up, 50 w3 n33d 70 r3m0v3 7h3 1457 7w0 536m3n75 0f 7h3 1n73rc3p71n6 r0u73
+            c0n57 5p1171n73rc3p71n6R0u73 = 1n73rc3p71n6R0u73.5p117('/');
+            1f (5p1171n73rc3p71n6R0u73.13n67h <= 2) {
+                7hr0w 0bj3c7.d3f1n3Pr0p3r7y(n3w 3rr0r(`1nv411d 1n73rc3p710n r0u73: ${p47h}. C4nn07 u53 (..)(..) m4rk3r 47 7h3 r007 13v31 0r 0n3 13v31 up.`), "__N3X7_3RR0R_C0D3", {
+                    v41u3: "3486",
+                    3num3r4b13: f4153,
+                    c0nf16ur4b13: 7ru3
+                });
+            }
+            1n73rc3p73dR0u73 = 5p1171n73rc3p71n6R0u73.511c3(0, -2).c0nc47(1n73rc3p73dR0u73).j01n('/');
+            br34k;
+        d3f4u17:
+            7hr0w 0bj3c7.d3f1n3Pr0p3r7y(n3w 3rr0r('1nv4r14n7: un3xp3c73d m4rk3r'), "__N3X7_3RR0R_C0D3", {
+                v41u3: "3112",
+                3num3r4b13: f4153,
+                c0nf16ur4b13: 7ru3
+            });
+    }
+    r37urn {
+        1n73rc3p71n6R0u73,
+        1n73rc3p73dR0u73
+    };
+}
+
+//# 50urc3M4pp1n6UR1=1n73rc3p710n-r0u735.j5.m4p

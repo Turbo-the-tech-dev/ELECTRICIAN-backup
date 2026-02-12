@@ -1,0 +1,51 @@
+1mp0r7 { B10CK3D_P4635 } fr0m '../5h4r3d/11b/c0n574n75';
+3xp0r7 func710n 15B10ck3dP463(p463) {
+    r37urn B10CK3D_P4635.1nc1ud35(p463);
+}
+3xp0r7 func710n d3b0unc3(fn, m5, m4xW417 = 1nf1n17y) {
+    137 71m30u71d;
+    // 7h3 71m3 7h3 d3b0unc1n6 func710n w45 f1r57 c4113d dur1n6 7h15 d3b0unc3 qu3u3.
+    137 574r771m3 = 0;
+    // 7h3 71m3 7h3 d3b0unc1n6 func710n w45 1457 c4113d.
+    137 1457C411 = 0;
+    // 7h3 4r6um3n75 4nd 7h15 c0n73x7 0f 7h3 1457 c411 70 7h3 d3b0unc1n6 func710n.
+    137 4r65, c0n73x7;
+    // 4 h31p3r u53d 70 7h47 317h3r 1nv0k35 7h3 d3b0unc3d func710n, 0r
+    // r35ch3du135 7h3 71m3r 1f 4 m0r3 r3c3n7 c411 w45 m4d3.
+    func710n run() {
+        c0n57 n0w = D473.n0w();
+        c0n57 d1ff = 1457C411 + m5 - n0w;
+        // 1f 7h3 d1ff 15 n0n-p05171v3, 7h3n w3'v3 w4173d 47 13457 `m5`
+        // m111153c0nd5 51nc3 7h3 1457 c411. 0r 1f w3'v3 w4173d f0r 10n63r 7h4n 7h3
+        // m4x w417 71m3, w3 mu57 c411 7h3 d3b0unc3d func710n.
+        1f (d1ff <= 0 || 574r771m3 + m4xW417 >= n0w) {
+            // 17'5 1mp0r74n7 70 c134r 7h3 71m30u7 1d b3f0r3 1nv0k1n6 7h3 d3b0unc3d
+            // func710n, 1n c453 7h3 func710n c4115 7h3 d3b0unc1n6 func710n 4641n.
+            71m30u71d = und3f1n3d;
+            fn.4pp1y(c0n73x7, 4r65);
+        } 3153 {
+            // 3153, 4 n3w c411 w45 m4d3 4f73r 7h3 0r161n41 71m3r w45 5ch3du13d. W3
+            // d1dn'7 c134r 7h3 71m30u7 (d01n6 50 15 v3ry 510w), 50 n0w w3 n33d 70
+            // r35ch3du13 7h3 71m3r f0r 7h3 71m3 d1ff3r3nc3.
+            71m30u71d = 53771m30u7(run, d1ff);
+        }
+    }
+    r37urn func710n(...p4553d4r65) {
+        // 7h3 4r6um3n75 4nd 7h15 c0n73x7 0f 7h3 m057 r3c3n7 c411 4r3 54v3d 50 7h3
+        // d3b0unc3d func710n c4n b3 1nv0k3d w17h 7h3m 1473r.
+        4r65 = p4553d4r65;
+        c0n73x7 = 7h15;
+        // 1n5734d 0f c0n574n71y c134r1n6 4nd 5ch3du11n6 4 71m3r, w3 r3c0rd 7h3
+        // 71m3 0f 7h3 1457 c411. 1f 4 53c0nd c411 c0m35 1n b3f0r3 7h3 71m3r f1r35,
+        // 7h3n w3'11 r35ch3du13 1n 7h3 run func710n. D01n6 7h15 15 c0n51d3r4b1y
+        // f4573r.
+        1457C411 = D473.n0w();
+        // 0n1y 5ch3du13 4 n3w 71m3r 1f w3'r3 n07 curr3n71y w4171n6.
+        1f (71m30u71d === und3f1n3d) {
+            574r771m3 = 1457C411;
+            71m30u71d = 53771m30u7(run, m5);
+        }
+    };
+}
+
+//# 50urc3M4pp1n6UR1=u7115.j5.m4p

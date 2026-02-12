@@ -1,0 +1,131 @@
+
+Autoplay
+Transcript
+00:03
+welcome to another video in our security Command Center Series today we're delving into a vital component security health analytics security health analytics is an integral part
+00:15
+of security Command Center offering automatic detection of common vulnerabilities and misconfigurations across numerous Google cloud services including compute engine cloud storage Cloud SQL Cloud DNS and
+00:28
+more security health analytics is enabled by default with the activation of either the standard or premium tiers of the security Command Center however access and modification
+00:40
+of configurations require specific roles such as the security Center admin editor role in Cloud IM setting up the correct role for security health analytics in the security
+00:54
+Command Center is a straightforward task first access the identity and access management I am by clicking on the navigation menu and selecting I am an admin
+01:08
+this displays the IM page where a list of various principles including users and service accounts is displayed for this demonstration we'll be assigning permissions to an existing
+01:19
+principal we've chosen demo user 2@gmail.com for this purpose on the IM page locate this principle in the list then click the pencil icon on to the
+01:30
+right of their name this opens the edit access page here we find the option to add another role clicking on it brings up a drop- down box
+01:39
+making it easy to select the role needed there's also a handy filter feature to quickly find the specific role you're looking for in this case we'll
+01:48
+find the security Center admin role begin typing security Center admin in the filter box and select it from the filtered results finally click save to assign this
+01:59
+Ro to the principal with these steps completed we've successfully granted the necessary permissions to the user for managing security health analytics in the security Command Center
+02:10
+this role is vital as it enables viewing and configuration the security settings in analytics which are essential for maintaining the security posture of your Cloud environment with
+02:24
+the appropriate permissions secured we can head back to the security Command Center to manage security health analytics the interface here allows for service management at both
+02:33
+project and folder levels offering the flexibility to tailor the service to specific areas within the cloud ecosystem even though security health analytics is typically enabled by default
+02:45
+there are times when you may need to manually activate or deactivate it for certain folders or projects this is a straightforward process within the security Command
+02:56
+Center interface to manually enable or disable security health Analytics first click on overview in the navigation menu of the security Command Center to ensure you're on the
+03:06
+main dashboard next click the settings button in the upper right corner the services are displayed in card format locate the security health analytics card and select
+03:19
+manage settings the service enablement page is displayed on this page identify the specific resource for which you want to enable security health analytics it could be an
+03:29
+entire or organization a particular folder or a specific project under the security health analytics column click the dropd down list for the resource chosen select enable
+03:40
+from this list security health analytics then becomes active for the chosen area in the security Command Center ready to identify any misconfigurations and vulnerabilities note that it
+03:52
+may take up to 12 hours for the initial scan to complete after this initial scan the system will regularly scan the resource twice a day ensuring
+04:02
+continuous monitoring and Protection security health analytics employs a range of detectors each designed to pinpoint specific types of vulnerabilities and misconfigurations within your Cloud ecosystem note that
+04:17
+detectors are referred to as modules in security command center with a comprehensive Suite of built-in detectors security health analytics systematically scans for a variety of security
+04:29
+concerns s covering an extensive array of categories and types of resources each one is aligned with a different category of findings including API Keys compute images containers
+04:40
+firewall rules and many more all to safeguard your Cloud environment from potential risks for a more extensive list of categories and types of resources refer to
+04:50
+the security health analytics documentation it's important to note that not every detector is automatically active to activate or deactivate specific detectors click on the modules tab to
+05:02
+find the module in question then within the status column use the drop- down box to choose either enable or disable as needed periodically you will want
+05:15
+to tailor Security checks to your organization's specific needs to do this you need to create a custom detector or module in this segment we'll dive into the
+05:25
+process of creating a custom module within the security health analytics of the security command center before we begin let's ensure we have everything in place it's
+05:34
+important to note that creating custom modules is a feature exclusive to the premium tier of the security Command Center if you haven't already upgraded this will be
+05:44
+a necessary step additionally confirm that the security Command Center API is activated as it's essential for this process to work smoothly the security Command Center API
+05:54
+provides programmatic access to the functionality and data of the security Command Center will quick quickly walk through how to activate this API click on the navigation menu
+06:04
+from the drop-down list find and click on apis and services then library in the API Library type security Command Center API into the search bar once
+06:17
+you found the security Command Center API in the list click on it you'll be taken to the API page where you can read more about what the
+06:27
+API offers to enable it click on the enable button after clicking enable wait for the process to complete you'll be redirected to the security Command Center
+06:36
+API overview page where it should now show that the API is enabled now that the API is enabled return to the security Command Center by clicking on
+06:46
+the navigation menu again and selecting security settings on the security health analytics C click the manage settings button then the modules tab next to proceed with
+07:03
+creating custom modules in security health analytics click create module a wizard will guide you through setting up your custom module Begin by giving it a name like
+07:15
+demo module number one next select a resource type from the drop-down menu for this example let's choose Cloud KMS crypto key as our resource The crucial
+07:27
+part is defining the detection logic with a cell common expression language expression this logic helps the system evaluate properties of the objects to spot misconfigurations and vulnerabilities
+07:40
+for instance create a cell expression to detect if a crypto key hasn't been recycled within a specific period there are many cell examples available online for
+07:51
+reference once you've input your cell expression click next Now define the severity of the findings from opt options ranging from critical to low let's set ours to
+08:04
+medium also add a detailed description of what you're finding is designed to detect an important aspect of custom modules is remediation steps detail the steps necessary
+08:16
+to correct the detected issue after adding this proceed to the next stage here you can choose to enable or disable your custom module let's keep it enabled
+08:28
+for now you you also have the option to test your module using a yaml file this file is crucial for ensuring your module functions as intended
+08:36
+upload a sample yaml file for a test run if you need guidance on creating this file refer to the learn more about generating asset data link after
+08:45
+testing click to create your module once created it will appear in the list of modules under the security health analytics page with our custom module now
+08:56
+set up we've taken a significant step step in enhancing our Cloud environment security remember these customizations allow us to focus on what's most crucial for our organization's
+09:06
+unique security requirements so far we have explored how security health analytics in the security Command Center helps detect vulnerabilities and misconfigurations within our Cloud ecosystem once
+09:22
+these vulnerabilities are identified they're listed in the security Command Center where we can view them in various ways let's delve into how you can navigate and interpret
+09:32
+these findings in the navigation panel on the left select vulnerabilities this brings up a dashboard displaying numerous vulnerabilities organized across multiple columns these columns include the
+09:45
+status of the vulnerability indicating its severity and the last detection time as well as various categories of vulnerabilities such as open firewall open SSH port and public
+09:56
+IP addresses another key element in this display is the module IDs which correspond to the detectors in security health analytics you'll also notice recommendations alongside each
+10:08
+vulnerability offering guidance for remediation active findings are also listed showing the count of detected vulnerabilities another important feature is the standards column which aligns each vulnerability with
+10:22
+regulatory standards like PCI CIS or nist this alignment is crucial for maintain aing compliance within your organization with potentially numerous vulnerabilities filtering them becomes essential click
+10:38
+on the vulnerability space to access a dropdown for filtering options for instance by selecting categories you can filter for specific types such as firewalls select open firewalls
+10:50
+to narrow down the search for more detailed information on a particular vulnerability click on its category this action opens a new window the findings window where
+11:01
+you can fine-tune your search for vulnerabilities threats and misconfigurations if you're specifically interested in findings from security health analytics use the quick filters at the bottom to
+11:12
+select the source display name filtering the display to only show relevant findings in an upcoming video we'll dive deeper into optimizing the use of the findings
+11:23
+page for now let's focus on an individual finding click on a category like open firewall to view Det detailed information you'll see an AI generated summary offering
+11:33
+real-time analysis and Remediation suggestions further in the findings details you'll find descriptions the state of the finding creation time which is useful for Audits and the
+11:45
+resource display name including the full name and path of the detected resource this level of detail helps understand the context and origin of each finding finally next
+11:57
+steps for remediation recommendation this walkthrough gives you a comprehensive view of how to navigate and utilize the findings from security health analytics providing a deeper understanding
+12:08
+of your Cloud ecosystem security posture this concludes our review of the security health analytics for security Command Center thank you and see you in the next video

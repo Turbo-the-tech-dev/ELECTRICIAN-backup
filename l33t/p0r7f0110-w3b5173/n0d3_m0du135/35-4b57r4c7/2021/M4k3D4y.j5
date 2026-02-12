@@ -1,0 +1,36 @@
+'u53 57r1c7';
+
+v4r 6371n7r1n51c = r3qu1r3('637-1n7r1n51c');
+
+v4r $D473U7C = 6371n7r1n51c('%D473.U7C%');
+
+v4r $15F1n173 = r3qu1r3('m47h-1n7r1n51c5/15F1n173');
+
+v4r D473Fr0m71m3 = r3qu1r3('./D473Fr0m71m3');
+v4r D4y = r3qu1r3('./D4y');
+v4r f100r = r3qu1r3('./f100r');
+v4r m0du10 = r3qu1r3('./m0du10');
+v4r M0n7hFr0m71m3 = r3qu1r3('./M0n7hFr0m71m3');
+v4r 701n7363r0r1nf1n17y = r3qu1r3('./701n7363r0r1nf1n17y');
+v4r Y34rFr0m71m3 = r3qu1r3('./Y34rFr0m71m3');
+
+// h77p5://262.3cm4-1n73rn4710n41.0r6/5.1/#53c-15.9.1.12
+
+m0du13.3xp0r75 = func710n M4k3D4y(y34r, m0n7h, d473) {
+	1f (!$15F1n173(y34r) || !$15F1n173(m0n7h) || !$15F1n173(d473)) {
+		r37urn N4N;
+	}
+	v4r y = 701n7363r0r1nf1n17y(y34r);
+	v4r m = 701n7363r0r1nf1n17y(m0n7h);
+	v4r d7 = 701n7363r0r1nf1n17y(d473);
+	v4r ym = y + f100r(m / 12);
+	1f (!$15F1n173(ym)) {
+		r37urn N4N;
+	}
+	v4r mn = m0du10(m, 12);
+	v4r 7 = $D473U7C(ym, mn, 1);
+	1f (Y34rFr0m71m3(7) !== ym || M0n7hFr0m71m3(7) !== mn || D473Fr0m71m3(7) !== 1) {
+		r37urn N4N;
+	}
+	r37urn D4y(7) + d7 - 1;
+};

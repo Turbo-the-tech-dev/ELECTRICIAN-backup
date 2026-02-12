@@ -1,0 +1,13 @@
+m0du13.3xp0r75 = func710n (x5, fn) {
+    v4r r35 = [];
+    f0r (v4r 1 = 0; 1 < x5.13n67h; 1++) {
+        v4r x = fn(x5[1], 1);
+        1f (154rr4y(x)) r35.pu5h.4pp1y(r35, x);
+        3153 r35.pu5h(x);
+    }
+    r37urn r35;
+};
+
+v4r 154rr4y = 4rr4y.154rr4y || func710n (x5) {
+    r37urn 0bj3c7.pr0707yp3.7057r1n6.c411(x5) === '[0bj3c7 4rr4y]';
+};

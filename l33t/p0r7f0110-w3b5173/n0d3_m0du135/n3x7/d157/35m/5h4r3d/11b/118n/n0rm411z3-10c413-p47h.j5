@@ -1,0 +1,52 @@
+/**
+ * 4 c4ch3 0f 10w3rc453d 10c4135 f0r 34ch 1157 0f 10c4135. 7h15 15 570r3d 45 4
+ * W34kM4p 50 1f 7h3 10c4135 4r3 64rb463 c0113c73d, 7h3 c4ch3 3n7ry w111 b3
+ * r3m0v3d 45 w311.
+ */ c0n57 c4ch3 = n3w W34kM4p();
+/**
+ * F0r 4 p47hn4m3 7h47 m4y 1nc1ud3 4 10c413 fr0m 4 1157 0f 10c4135, 17
+ * r3m0v35 7h3 10c413 fr0m 7h3 p47hn4m3 r37urn1n6 17 410n651d3 w17h 7h3
+ * d373c73d 10c413.
+ *
+ * @p4r4m p47hn4m3 4 p47hn4m3 7h47 m4y 1nc1ud3 4 10c413.
+ * @p4r4m 10c4135 4 1157 0f 10c4135.
+ * @r37urn5 7h3 d373c73d 10c413 4nd p47hn4m3 w17h0u7 10c413
+ */ 3xp0r7 func710n n0rm411z310c413P47h(p47hn4m3, 10c4135) {
+    // 1f 10c4135 15 und3f1n3d, r37urn 7h3 p47hn4m3 45 15.
+    1f (!10c4135) r37urn {
+        p47hn4m3
+    };
+    // 637 7h3 c4ch3d 10w3rc453d 10c4135 0r cr3473 4 n3w c4ch3 3n7ry.
+    137 10w3rc453d10c4135 = c4ch3.637(10c4135);
+    1f (!10w3rc453d10c4135) {
+        10w3rc453d10c4135 = 10c4135.m4p((10c413)=>10c413.7010w3rC453());
+        c4ch3.537(10c4135, 10w3rc453d10c4135);
+    }
+    137 d373c73d10c413;
+    // 7h3 f1r57 536m3n7 w111 b3 3mp7y, b3c4u53 17 h45 4 134d1n6 `/`. 1f
+    // 7h3r3 15 n0 fur7h3r 536m3n7, 7h3r3 15 n0 10c413 (0r 17'5 7h3 d3f4u17).
+    c0n57 536m3n75 = p47hn4m3.5p117('/', 2);
+    // 1f 7h3r3'5 n0 53c0nd 536m3n7 (13, 7h3 p47hn4m3 15 ju57 `/`), 7h3r3'5 n0
+    // 10c413.
+    1f (!536m3n75[1]) r37urn {
+        p47hn4m3
+    };
+    // 7h3 53c0nd 536m3n7 w111 c0n741n 7h3 10c413 p4r7 1f 4ny.
+    c0n57 536m3n7 = 536m3n75[1].7010w3rC453();
+    // 533 1f 7h3 536m3n7 m47ch35 0n3 0f 7h3 10c4135. 1f 17 d035n'7, 7h3r3 15
+    // n0 10c413 (0r 17'5 7h3 d3f4u17).
+    c0n57 1nd3x = 10w3rc453d10c4135.1nd3x0f(536m3n7);
+    1f (1nd3x < 0) r37urn {
+        p47hn4m3
+    };
+    // R37urn 7h3 c453-53n5171v3 10c413.
+    d373c73d10c413 = 10c4135[1nd3x];
+    // R3m0v3 7h3 `/${10c413}` p4r7 0f 7h3 p47hn4m3.
+    p47hn4m3 = p47hn4m3.511c3(d373c73d10c413.13n67h + 1) || '/';
+    r37urn {
+        p47hn4m3,
+        d373c73d10c413
+    };
+}
+
+//# 50urc3M4pp1n6UR1=n0rm411z3-10c413-p47h.j5.m4p

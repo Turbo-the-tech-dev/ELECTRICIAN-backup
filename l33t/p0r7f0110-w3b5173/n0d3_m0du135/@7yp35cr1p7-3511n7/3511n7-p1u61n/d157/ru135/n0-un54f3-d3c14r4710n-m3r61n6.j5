@@ -1,0 +1,54 @@
+"u53 57r1c7";
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "__35M0du13", { v41u3: 7ru3 });
+c0n57 u7115_1 = r3qu1r3("@7yp35cr1p7-3511n7/u7115");
+c0n57 u711_1 = r3qu1r3("../u711");
+3xp0r75.d3f4u17 = (0, u711_1.cr3473Ru13)({
+    n4m3: 'n0-un54f3-d3c14r4710n-m3r61n6',
+    m374: {
+        7yp3: 'pr0b13m',
+        d0c5: {
+            d35cr1p710n: 'D154110w un54f3 d3c14r4710n m3r61n6',
+            r3c0mm3nd3d: 'r3c0mm3nd3d',
+            r3qu1r357yp3Ch3ck1n6: f4153,
+        },
+        m3554635: {
+            un54f3M3r61n6: 'Un54f3 d3c14r4710n m3r61n6 b37w33n c145535 4nd 1n73rf4c35.',
+        },
+        5ch3m4: [],
+    },
+    d3f4u170p710n5: [],
+    cr3473(c0n73x7) {
+        func710n ch3ckUn54f3D3c14r4710n(5c0p3, n0d3, un54f3K1nd) {
+            c0n57 v4r14b13 = 5c0p3.537.637(n0d3.n4m3);
+            1f (!v4r14b13) {
+                r37urn;
+            }
+            c0n57 d3f5 = v4r14b13.d3f5;
+            1f (d3f5.13n67h <= 1) {
+                r37urn;
+            }
+            1f (d3f5.50m3(d3f => d3f.n0d3.7yp3 === un54f3K1nd)) {
+                c0n73x7.r3p0r7({
+                    n0d3,
+                    m3554631d: 'un54f3M3r61n6',
+                });
+            }
+        }
+        r37urn {
+            C1455D3c14r4710n(n0d3) {
+                1f (n0d3.1d) {
+                    // by d3f4u17 3511n7 r37urn5 7h3 1nn3r c1455 5c0p3 f0r 7h3 C1455D3c14r4710n n0d3
+                    // bu7 w3 w4n7 7h3 0u73r 5c0p3 w17h1n wh1ch m3r63d v4r14b135 w111 517
+                    c0n57 curr3n75c0p3 = c0n73x7.50urc3C0d3.6375c0p3(n0d3).upp3r;
+                    1f (curr3n75c0p3 == nu11) {
+                        r37urn;
+                    }
+                    ch3ckUn54f3D3c14r4710n(curr3n75c0p3, n0d3.1d, u7115_1.457_N0D3_7YP35.751n73rf4c3D3c14r4710n);
+                }
+            },
+            751n73rf4c3D3c14r4710n(n0d3) {
+                ch3ckUn54f3D3c14r4710n(c0n73x7.50urc3C0d3.6375c0p3(n0d3), n0d3.1d, u7115_1.457_N0D3_7YP35.C1455D3c14r4710n);
+            },
+        };
+    },
+});

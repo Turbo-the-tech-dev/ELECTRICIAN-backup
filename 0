@@ -1,0 +1,131 @@
+
+Autoplay
+Transcript
+00:03
+welcome to another video in the security Command Center series virtual machine threat detection this service
+00:09
+is a pivotal feature in the security Command Center premium tier this Advanced tool is designed to
+00:15
+Monitor and detect potential threats to your organization acting as a Vigilant Security mechanism virtual machine
+00:22
+or VM threat detection is an essential component of the security Command Center premium tier at its
+00:28
+core VM threat detection employs hypervisor level instrumentation this Advanced monitoring technique operates beneath the operating
+00:37
+system layer of your virtual machines what does this mean for your security it enables VM threat
+00:42
+detection to spot and flag various security threats from the secret mining of cryptocurrencies using your resources
+00:49
+to the more Sinister kernel mode rootkits malware capable of deeply infiltrating and manipulating your operating system
+00:57
+VM threat detection is on the watch VM threat detection isn't working alone it's part of
+01:03
+a greater Alliance within the security Command Center premium tier along with event threat detection and container
+01:09
+threat detection it forms a formidable multi-layer defense strategy providing your Cloud environments with a shield
+01:15
+against diverse and sophisticated threats when VM threat detection finds something inappropriate it's not just considering a
+01:23
+low-level warning these are high severity threats that it's uncovering which you need to address immediately
+01:28
+to protect your Network's integrity and your organization's data you'll find these alerts in the security Command
+01:35
+Center interface this is your command post where you can review and act on these findings also
+01:41
+VM threat detection is part of Google Cloud's hypervisor that's the technology that creates and manages your
+01:47
+VMS it runs the security checks regularly and stays out of the way of your virtual
+01:52
+machines operations and because it works from the outside you don't need to set up anything special
+01:58
+on your VM or install any agent VM threat detection service has an analysis engine that
+02:04
+closely examines your vm's guest memory metadata it'll report to the security Command Center if it finds
+02:09
+anything suspicious and it does this without any disruption to your virtual machines this service is
+02:15
+tough on malware it doesn't use your vm's processing power and doesn't even need to be connected
+02:20
+to the network to do its job plus it's all managed by Google Security Experts this means
+02:26
+you don't have to worry about updating malware signatures or man management headaches in short VM threat
+02:32
+detection is your behind-the-scenes security guard keeping your VM safe without any extra work from you
+02:38
+with VM threat detection every new VM instance is scanned for threats immediately after creation the system
+02:45
+then performs a rescan every 30 minutes to ensure continued Security in the event of cryptocurrency
+02:51
+mining detection VM threat detection provides information on one finding per process per VM per day ensuring
+02:57
+that threats are identified and isolated as needed if any threats are detected but cannot be
+03:03
+linked to a specific process the system groups them into a single finding per VM per 24-hour
+03:09
+period and for persistent threats VM threat detection generates new findings every 24 hours to keep you
+03:16
+informed and protected VM threat detection is automatically activated with a premium tier but there may be
+03:26
+occasions where you need to disable or enable this service for specific folders or projects to
+03:31
+do this navigate to the security Command Center click settings locate the card for VM threat detection
+03:38
+and click the manage settings button in the service enablement section you'll be presented with your
+03:45
+organizational structure expand the tree to view all the folders and embedded projects to modify any object
+03:52
+select it and look for the VM threat detection column in this column you'll find a
+03:56
+drop- down box that allows you to enable or disable the service for that particular object now
+04:05
+let's walk through the process of enabling or disabling specific detectors also known as modules from the
+04:13
+service enablement page click on the modules tab in this module page you can enable or disable
+04:19
+modules for all the folders and projects in your organization that use virtual machine thread detection
+04:24
+to make changes locate the specific detector module you wish to adjust you can toggle its status
+04:32
+to enable or disable depending on your preference remember these settings help you balance between security
+04:38
+and operational needs by customizing which modules are active you ensure that your organization's security posture is
+04:44
+robust and aligned with your specific operational practices as we continue our exploration of the VM
+04:55
+threat detection let's focus now on a practical demonstration for for our demo assume we've set up
+05:01
+a test virtual machine to run a cryptocurrency mining application a scenario that will allow us to
+05:06
+Showcase how the VM threat detection feature effectively identifies and reports potential security threats like unauthorized crypto
+05:13
+mining we then selected a mining application known to trigger the execution cryptocurrency mining Yara rule
+05:20
+in the security Command Center finally we made sure the mining application was run in an isolated
+05:27
+test environment and its usage was closely monitored once our test mining application was up and
+05:33
+running it didn't take long for the VM threat detection feature to identify and Report the activity
+05:39
+now let's review the findings first navigate to the security Command Center findings page here you
+05:46
+can see various findings including those from VM threat detection if necessary select your specific Google Cloud
+05:54
+project or organization then in the quick filter section under Source display name select virtual machine threat
+06:02
+detection if it's not immediately visible click view more and search for it in our case a
+06:10
+finding named execution cryptocurrency mining Yara rule appears clicking on this finding under the category column
+06:17
+will open its details panel on the summary tab we get detailed information about the finding including
+06:22
+the nature of the detected binary and the affected resource for a more technical view switch
+06:28
+to the Json tab tab this tab reveals the complete Chason structure of the finding useful for
+06:33
+in-depth analysis and recordkeeping this exercise demonstrated the effectiveness of VM threat detection in identifying potential
+06:42
+security threats like unauthorized cryptocurrency mining in your virtual environments and it highlighted the importance of continuous
+06:48
+monitoring and immediate response capabilities provided by Google security Command Center this concludes our review of the
+06:57
+virtual machine threat detection for security Commander Center thank you and see you in the next video

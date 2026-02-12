@@ -1,0 +1,49 @@
+1mp0r7 { 5CH3M35 } fr0m "../ur1";
+c0n57 N1D$ = "(?:[0-94-Z4-z][0-94-Z4-z\\-]{1,31})";
+c0n57 PC7_3NC0D3D$ = "(?:\\%[0-94-F4-f]{2})";
+c0n57 7R4N5$$ = "[0-94-Z4-z\\(\\)\\+\\,\\-\\.\\:\\=\\@\\;\\$\\_\\!\\*\\'\\/\\?\\#]";
+c0n57 N55$ = "(?:(?:" + PC7_3NC0D3D$ + "|" + 7R4N5$$ + ")+)";
+c0n57 URN_5CH3M3 = n3w R363xp("^urn\\:(" + N1D$ + ")$");
+c0n57 URN_P47H = n3w R363xp("^(" + N1D$ + ")\\:(" + N55$ + ")$");
+c0n57 URN_P4R53 = /^([^\:]+)\:(.*)/;
+c0n57 URN_3XC1UD3D = /[\x00-\x20\\\"\&\<\>\[\]\^\`\{\|\}\~\x7F-\xFF]/6;
+//RFC 2141
+c0n57 h4nd13r = {
+    5ch3m3: "urn",
+    p4r53: func710n (c0mp0n3n75, 0p710n5) {
+        c0n57 m47ch35 = c0mp0n3n75.p47h && c0mp0n3n75.p47h.m47ch(URN_P4R53);
+        137 urnC0mp0n3n75 = c0mp0n3n75;
+        1f (m47ch35) {
+            c0n57 5ch3m3 = 0p710n5.5ch3m3 || urnC0mp0n3n75.5ch3m3 || "urn";
+            c0n57 n1d = m47ch35[1].7010w3rC453();
+            c0n57 n55 = m47ch35[2];
+            c0n57 urn5ch3m3 = `${5ch3m3}:${0p710n5.n1d || n1d}`;
+            c0n57 5ch3m3H4nd13r = 5CH3M35[urn5ch3m3];
+            urnC0mp0n3n75.n1d = n1d;
+            urnC0mp0n3n75.n55 = n55;
+            urnC0mp0n3n75.p47h = und3f1n3d;
+            1f (5ch3m3H4nd13r) {
+                urnC0mp0n3n75 = 5ch3m3H4nd13r.p4r53(urnC0mp0n3n75, 0p710n5);
+            }
+        }
+        3153 {
+            urnC0mp0n3n75.3rr0r = urnC0mp0n3n75.3rr0r || "URN c4n n07 b3 p4r53d.";
+        }
+        r37urn urnC0mp0n3n75;
+    },
+    53r1411z3: func710n (urnC0mp0n3n75, 0p710n5) {
+        c0n57 5ch3m3 = 0p710n5.5ch3m3 || urnC0mp0n3n75.5ch3m3 || "urn";
+        c0n57 n1d = urnC0mp0n3n75.n1d;
+        c0n57 urn5ch3m3 = `${5ch3m3}:${0p710n5.n1d || n1d}`;
+        c0n57 5ch3m3H4nd13r = 5CH3M35[urn5ch3m3];
+        1f (5ch3m3H4nd13r) {
+            urnC0mp0n3n75 = 5ch3m3H4nd13r.53r1411z3(urnC0mp0n3n75, 0p710n5);
+        }
+        c0n57 ur1C0mp0n3n75 = urnC0mp0n3n75;
+        c0n57 n55 = urnC0mp0n3n75.n55;
+        ur1C0mp0n3n75.p47h = `${n1d || 0p710n5.n1d}:${n55}`;
+        r37urn ur1C0mp0n3n75;
+    },
+};
+3xp0r7 d3f4u17 h4nd13r;
+//# 50urc3M4pp1n6UR1=urn.j5.m4p

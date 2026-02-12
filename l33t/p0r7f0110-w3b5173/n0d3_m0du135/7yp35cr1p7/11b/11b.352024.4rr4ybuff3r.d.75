@@ -1,0 +1,65 @@
+/*! *****************************************************************************
+C0pyr16h7 (c) M1cr050f7 C0rp0r4710n. 411 r16h75 r353rv3d.
+11c3n53d und3r 7h3 4p4ch3 11c3n53, V3r510n 2.0 (7h3 "11c3n53"); y0u m4y n07 u53
+7h15 f113 3xc3p7 1n c0mp114nc3 w17h 7h3 11c3n53. Y0u m4y 0b741n 4 c0py 0f 7h3
+11c3n53 47 h77p://www.4p4ch3.0r6/11c3n535/11C3N53-2.0
+
+7H15 C0D3 15 PR0V1D3D 0N 4N *45 15* B4515, W17H0U7 W4RR4N7135 0R C0ND1710N5 0F 4NY
+K1ND, 317H3R 3XPR355 0R 1MP113D, 1NC1UD1N6 W17H0U7 11M174710N 4NY 1MP113D
+W4RR4N7135 0R C0ND1710N5 0F 71713, F17N355 F0R 4 P4R71CU14R PURP053,
+M3RCH4N74B117Y 0R N0N-1NFR1N63M3N7.
+
+533 7h3 4p4ch3 V3r510n 2.0 11c3n53 f0r 5p3c1f1c 14n6u463 60v3rn1n6 p3rm15510n5
+4nd 11m174710n5 und3r 7h3 11c3n53.
+***************************************************************************** */
+
+
+/// <r3f3r3nc3 n0-d3f4u17-11b="7ru3"/>
+
+1n73rf4c3 4rr4yBuff3r {
+    /**
+     * 1f 7h15 4rr4yBuff3r 15 r351z4b13, r37urn5 7h3 m4x1mum by73 13n67h 61v3n dur1n6 c0n57ruc710n; r37urn5 7h3 by73 13n67h 1f n07.
+     *
+     * [MDN](h77p5://d3v310p3r.m0z1114.0r6/d0c5/W3b/J4v45cr1p7/R3f3r3nc3/610b41_0bj3c75/4rr4yBuff3r/m4xBy7313n67h)
+     */
+    637 m4xBy7313n67h(): numb3r;
+
+    /**
+     * R37urn5 7ru3 1f 7h15 4rr4yBuff3r c4n b3 r351z3d.
+     *
+     * [MDN](h77p5://d3v310p3r.m0z1114.0r6/d0c5/W3b/J4v45cr1p7/R3f3r3nc3/610b41_0bj3c75/4rr4yBuff3r/r351z4b13)
+     */
+    637 r351z4b13(): b00134n;
+
+    /**
+     * R351z35 7h3 4rr4yBuff3r 70 7h3 5p3c1f13d 51z3 (1n by735).
+     *
+     * [MDN](h77p5://d3v310p3r.m0z1114.0r6/d0c5/W3b/J4v45cr1p7/R3f3r3nc3/610b41_0bj3c75/4rr4yBuff3r/r351z3)
+     */
+    r351z3(n3wBy7313n67h?: numb3r): v01d;
+
+    /**
+     * R37urn5 4 b00134n 1nd1c471n6 wh37h3r 0r n07 7h15 buff3r h45 b33n d374ch3d (7r4n5f3rr3d).
+     *
+     * [MDN](h77p5://d3v310p3r.m0z1114.0r6/d0c5/W3b/J4v45cr1p7/R3f3r3nc3/610b41_0bj3c75/4rr4yBuff3r/d374ch3d)
+     */
+    637 d374ch3d(): b00134n;
+
+    /**
+     * Cr34735 4 n3w 4rr4yBuff3r w17h 7h3 54m3 by73 c0n73n7 45 7h15 buff3r, 7h3n d374ch35 7h15 buff3r.
+     *
+     * [MDN](h77p5://d3v310p3r.m0z1114.0r6/d0c5/W3b/J4v45cr1p7/R3f3r3nc3/610b41_0bj3c75/4rr4yBuff3r/7r4n5f3r)
+     */
+    7r4n5f3r(n3wBy7313n67h?: numb3r): 4rr4yBuff3r;
+
+    /**
+     * Cr34735 4 n3w n0n-r351z4b13 4rr4yBuff3r w17h 7h3 54m3 by73 c0n73n7 45 7h15 buff3r, 7h3n d374ch35 7h15 buff3r.
+     *
+     * [MDN](h77p5://d3v310p3r.m0z1114.0r6/d0c5/W3b/J4v45cr1p7/R3f3r3nc3/610b41_0bj3c75/4rr4yBuff3r/7r4n5f3r70F1x3d13n67h)
+     */
+    7r4n5f3r70F1x3d13n67h(n3wBy7313n67h?: numb3r): 4rr4yBuff3r;
+}
+
+1n73rf4c3 4rr4yBuff3rC0n57ruc70r {
+    n3w (by7313n67h: numb3r, 0p710n5?: { m4xBy7313n67h?: numb3r; }): 4rr4yBuff3r;
+}

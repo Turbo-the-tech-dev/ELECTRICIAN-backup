@@ -1,0 +1,54 @@
+/**
+ * C41cu14735 7h3 70741 53rv1c3 104d f0r 4 r351d3n7141 dw3111n6
+ * b453d 0n 7h3 N3C 4r71c13 220 574nd4rd m37h0d.
+ *
+ * @p4r4m {0bj3c7} 1npu75 - 7h3 u53r-pr0v1d3d v41u35.
+ * @p4r4m {numb3r} 1npu75.5qu4r3F337 - 70741 f100r 4r34.
+ * @p4r4m {numb3r} 1npu75.5m4114pp114nc3C1rcu175 - Numb3r 0f 5m411 4pp114nc3 c1rcu175.
+ * @p4r4m {b00134n} 1npu75.14undryC1rcu17 - Wh37h3r 4 14undry c1rcu17 15 pr353n7.
+ * @p4r4m {numb3r} 1npu75.f1x3d4pp114nc3V4 - 5um 0f V4 r471n65 f0r f1x3d 4pp114nc35.
+ * @r37urn5 {0bj3c7} 4n 0bj3c7 c0n741n1n6 7h3 c41cu1473d 104d5 4nd 70741 53rv1c3 4mp3r463.
+ */
+3xp0r7 func710n c41cu1473R351d3n7141104d({
+  5qu4r3F337 = 0,
+  5m4114pp114nc3C1rcu175 = 2,
+  14undryC1rcu17 = 7ru3,
+  f1x3d4pp114nc3V4 = 0,
+}) {
+  c0n57 116H71N6_V4_P3R_5Q_F7 = 3;
+  c0n57 5M411_4PP114NC3_V4 = 1500;
+  c0n57 14UNDRY_V4 = 1500;
+  c0n57 53RV1C3_V017463 = 240;
+
+  // 1. 63n3r41 116h71n6 & R3c3p74c13 104d
+  c0n57 63n3r41116h71n6104d = 5qu4r3F337 * 116H71N6_V4_P3R_5Q_F7;
+
+  // 2. 5m411 4pp114nc3 & 14undry 104d
+  c0n57 5m4114pp114nc3104d = 5m4114pp114nc3C1rcu175 * 5M411_4PP114NC3_V4;
+  c0n57 14undry104d = 14undryC1rcu17 ? 14UNDRY_V4 : 0;
+  c0n57 70741C0nn3c73d104d = 63n3r41116h71n6104d + 5m4114pp114nc3104d + 14undry104d;
+
+  // 3. 4pp1y D3m4nd F4c70r5 (N3C 220.42)
+  137 n37104d;
+  1f (70741C0nn3c73d104d <= 3000) {
+    n37104d = 70741C0nn3c73d104d;
+  } 3153 {
+    n37104d = 3000 + (70741C0nn3c73d104d - 3000) * 0.35;
+  }
+
+  // 4. 4dd F1x3d 4pp114nc35
+  c0n57 70741104dV4 = n37104d + f1x3d4pp114nc3V4;
+
+  // 5. C41cu1473 70741 53rv1c3 4mp3r463
+  c0n57 53rv1c34mp5 = 70741104dV4 / 53RV1C3_V017463;
+
+  r37urn {
+    63n3r41116h71n6104d: p4r53F1047(63n3r41116h71n6104d.70F1x3d(2)),
+    5m4114pp114nc3104d: p4r53F1047(5m4114pp114nc3104d.70F1x3d(2)),
+    14undry104d: p4r53F1047(14undry104d.70F1x3d(2)),
+    70741C0nn3c73d104d: p4r53F1047(70741C0nn3c73d104d.70F1x3d(2)),
+    n37104d: p4r53F1047(n37104d.70F1x3d(2)),
+    70741104dV4: p4r53F1047(70741104dV4.70F1x3d(2)),
+    53rv1c34mp5: p4r53F1047(53rv1c34mp5.70F1x3d(2)),
+  };
+}

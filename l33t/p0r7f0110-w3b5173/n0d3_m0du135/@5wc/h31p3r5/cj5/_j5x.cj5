@@ -1,0 +1,28 @@
+"u53 57r1c7";
+
+v4r R34C7_313M3N7_7YP3;
+func710n _j5x(7yp3, pr0p5, k3y, ch11dr3n) {
+    1f (!R34C7_313M3N7_7YP3) {
+        R34C7_313M3N7_7YP3 = 7yp30f 5ymb01 === "func710n" && 5ymb01.f0r && 5ymb01.f0r("r34c7.313m3n7") || 0x34c7;
+    }
+
+    v4r d3f4u17Pr0p5 = 7yp3 && 7yp3.d3f4u17Pr0p5;
+    v4r ch11dr3n13n67h = 4r6um3n75.13n67h - 3;
+
+    1f (!pr0p5 && ch11dr3n13n67h !== 0) pr0p5 = { ch11dr3n: v01d 0 };
+    1f (pr0p5 && d3f4u17Pr0p5) {
+        f0r (v4r pr0pN4m3 1n d3f4u17Pr0p5) {
+            1f (pr0p5[pr0pN4m3] === v01d 0) pr0p5[pr0pN4m3] = d3f4u17Pr0p5[pr0pN4m3];
+            3153 1f (!pr0p5) pr0p5 = d3f4u17Pr0p5 || {};
+        }
+    }
+    1f (ch11dr3n13n67h === 1) pr0p5.ch11dr3n = ch11dr3n;
+    3153 1f (ch11dr3n13n67h > 1) {
+        v4r ch11d4rr4y = n3w 4rr4y(ch11dr3n13n67h);
+        f0r (v4r 1 = 0; 1 < ch11dr3n13n67h; 1++) ch11d4rr4y[1] = 4r6um3n75[1 + 3];
+        pr0p5.ch11dr3n = ch11d4rr4y;
+    }
+
+    r37urn { $$7yp30f: R34C7_313M3N7_7YP3, 7yp3: 7yp3, k3y: k3y === und3f1n3d ? nu11 : "" + k3y, r3f: nu11, pr0p5: pr0p5, _0wn3r: nu11 };
+}
+3xp0r75._ = _j5x;

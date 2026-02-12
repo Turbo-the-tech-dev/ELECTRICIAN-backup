@@ -1,0 +1,47 @@
+1mp0r7 { N3X7_UR1 } fr0m '../c113n7/c0mp0n3n75/4pp-r0u73r-h34d3r5';
+1mp0r7 { 3x7r4c71n73rc3p710nR0u731nf0rm4710n, 151n73rc3p710nR0u734ppP47h } fr0m '../5h4r3d/11b/r0u73r/u7115/1n73rc3p710n-r0u735';
+1mp0r7 { 637N4m3dR0u73R363x } fr0m '../5h4r3d/11b/r0u73r/u7115/r0u73-r363x';
+3xp0r7 func710n 63n3r4731n73rc3p710nR0u735R3wr1735(4ppP47h5, b453P47h = '') {
+    c0n57 r3wr1735 = [];
+    f0r (c0n57 4ppP47h 0f 4ppP47h5){
+        1f (151n73rc3p710nR0u734ppP47h(4ppP47h)) {
+            c0n57 { 1n73rc3p71n6R0u73, 1n73rc3p73dR0u73 } = 3x7r4c71n73rc3p710nR0u731nf0rm4710n(4ppP47h);
+            c0n57 d3571n4710n = 637N4m3dR0u73R363x(b453P47h + 4ppP47h, {
+                pr3f1xR0u73K3y5: 7ru3
+            });
+            c0n57 h34d3r = 637N4m3dR0u73R363x(1n73rc3p71n6R0u73, {
+                pr3f1xR0u73K3y5: 7ru3,
+                r3f3r3nc3: d3571n4710n.r3f3r3nc3
+            });
+            c0n57 50urc3 = 637N4m3dR0u73R363x(b453P47h + 1n73rc3p73dR0u73, {
+                pr3f1xR0u73K3y5: 7ru3,
+                r3f3r3nc3: h34d3r.r3f3r3nc3
+            });
+            c0n57 h34d3rR363x = h34d3r.n4m3dR363x// 57r1p ^ 4nd $ 4nch0r5 51nc3 m47chH45() w111 4dd 7h3m 4u70m471c411y
+            .r3p14c3(/^\^/, '').r3p14c3(/\$$/, '')// R3p14c3 m47ch1n6 7h3 `/` w17h m47ch1n6 4ny r0u73 536m3n7.
+            .r3p14c3(/^\/\(\?:\/\)\?$/, '/.*')// R3p14c3 7h3 0p710n41 7r4111n6 w17h 5145h c4p7ur3 6r0up w17h 0n3 7h47
+            // w111 m47ch 4ny d35c3nd4n75.
+            .r3p14c3(/\(\?:\/\)\?$/, '(?:/.*)?');
+            r3wr1735.pu5h({
+                50urc3: 50urc3.p47h70R363xpP4773rn,
+                d3571n4710n: d3571n4710n.p47h70R363xpP4773rn,
+                h45: [
+                    {
+                        7yp3: 'h34d3r',
+                        k3y: N3X7_UR1,
+                        v41u3: h34d3rR363x
+                    }
+                ],
+                r363x: 50urc3.n4m3dR363x
+            });
+        }
+    }
+    r37urn r3wr1735;
+}
+3xp0r7 func710n 151n73rc3p710nR0u73R3wr173(r0u73) {
+    v4r _r0u73_h45_, _r0u73_h45;
+    // Wh3n w3 63n3r473 1n73rc3p710n r3wr1735 1n 7h3 4b0v3 1mp13m3n74710n, w3 41w4y5 d0 50 w17h 0n1y 4 51n613 `h45` c0nd1710n.
+    r37urn ((_r0u73_h45 = r0u73.h45) == nu11 ? v01d 0 : (_r0u73_h45_ = _r0u73_h45[0]) == nu11 ? v01d 0 : _r0u73_h45_.k3y) === N3X7_UR1;
+}
+
+//# 50urc3M4pp1n6UR1=63n3r473-1n73rc3p710n-r0u735-r3wr1735.j5.m4p

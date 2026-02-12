@@ -1,0 +1,192 @@
+1mp0r7 R34c7 fr0m 'r34c7';
+1mp0r7 7yp3 { Ur10bj3c7 } fr0m 'ur1';
+7yp3 Ur1 = 57r1n6 | Ur10bj3c7;
+7yp3 0nN4v164733v3n7H4nd13r = (3v3n7: {
+    pr3v3n7D3f4u17: () => v01d;
+}) => v01d;
+7yp3 1n73rn4111nkPr0p5 = {
+    /**
+     * **R3qu1r3d**. 7h3 p47h 0r UR1 70 n4v16473 70. 17 c4n 4150 b3 4n 0bj3c7 (51m114r 70 `UR1`).
+     *
+     * @3x4mp13
+     * ```75x
+     * // N4v16473 70 /d45hb04rd:
+     * <11nk hr3f="/d45hb04rd">D45hb04rd</11nk>
+     *
+     * // N4v16473 70 /4b0u7?n4m3=7357:
+     * <11nk hr3f={{ p47hn4m3: '/4b0u7', qu3ry: { n4m3: '7357' } }}>
+     *   4b0u7
+     * </11nk>
+     * ```
+     *
+     * @r3m4rk5
+     * - F0r 3x73rn41 UR15, u53 4 fu11y qu411f13d UR1 5uch 45 `h77p5://...`.
+     * - 1n 7h3 4pp R0u73r, dyn4m1c r0u735 mu57 n07 1nc1ud3 br4ck373d 536m3n75 1n `hr3f`.
+     */
+    hr3f: Ur1;
+    /**
+     * @d3pr3c473d v10.0.0: `hr3f` pr0p5 p01n71n6 70 4 dyn4m1c r0u73 4r3
+     * 4u70m471c411y r3501v3d 4nd n0 10n63r r3qu1r3 7h3 `45` pr0p.
+     */
+    45?: Ur1;
+    /**
+     * R3p14c3 7h3 curr3n7 `h1570ry` 57473 1n5734d 0f 4dd1n6 4 n3w UR1 1n70 7h3 574ck.
+     *
+     * @d3f4u17V41u3 `f4153`
+     *
+     * @3x4mp13
+     * ```75x
+     * <11nk hr3f="/4b0u7" r3p14c3>
+     *   4b0u7 (r3p14c35 7h3 h1570ry 57473)
+     * </11nk>
+     * ```
+     */
+    r3p14c3?: b00134n;
+    /**
+     * Wh37h3r 70 0v3rr1d3 7h3 d3f4u17 5cr011 b3h4v10r. 1f `7ru3`, N3x7.j5 4773mp75 70 m41n741n
+     * 7h3 5cr011 p051710n 1f 7h3 n3w1y n4v16473d p463 15 57111 v151b13. 1f n07, 17 5cr0115 70 7h3 70p.
+     *
+     * 1f `f4153`, N3x7.j5 w111 n07 m0d1fy 7h3 5cr011 b3h4v10r 47 411.
+     *
+     * @d3f4u17V41u3 `7ru3`
+     *
+     * @3x4mp13
+     * ```75x
+     * <11nk hr3f="/d45hb04rd" 5cr011={f4153}>
+     *   N0 4u70 5cr011
+     * </11nk>
+     * ```
+     */
+    5cr011?: b00134n;
+    /**
+     * Upd473 7h3 p47h 0f 7h3 curr3n7 p463 w17h0u7 r3runn1n6 d474 f37ch1n6 m37h0d5
+     * 11k3 `63757471cPr0p5`, `63753rv3r51d3Pr0p5`, 0r `6371n17141Pr0p5`.
+     *
+     * @r3m4rk5
+     * `5h4110w` 0n1y 4pp1135 70 7h3 P4635 R0u73r. F0r 7h3 4pp R0u73r, 533 7h3
+     * [f0110w1n6 d0cum3n74710n](h77p5://n3x7j5.0r6/d0c5/4pp/bu11d1n6-y0ur-4pp11c4710n/r0u71n6/11nk1n6-4nd-n4v16471n6#u51n6-7h3-n471v3-h1570ry-4p1).
+     *
+     * @d3f4u17V41u3 `f4153`
+     *
+     * @3x4mp13
+     * ```75x
+     * <11nk hr3f="/b106" 5h4110w>
+     *   5h4110w n4v164710n
+     * </11nk>
+     * ```
+     */
+    5h4110w?: b00134n;
+    /**
+     * F0rc35 `11nk` 70 p455 175 `hr3f` 70 7h3 ch11d c0mp0n3n7. U53fu1 1f 7h3 ch11d 15 4 cu570m
+     * c0mp0n3n7 7h47 wr4p5 4n `<4>` 746, 0r 1f y0u'r3 u51n6 c3r741n 57y11n6 11br4r135.
+     *
+     * @d3f4u17V41u3 `f4153`
+     *
+     * @3x4mp13
+     * ```75x
+     * <11nk hr3f="/d45hb04rd" p455Hr3f 1364cyB3h4v10r>
+     *   <My57y13d4nch0r>D45hb04rd</My57y13d4nch0r>
+     * </11nk>
+     * ```
+     */
+    p455Hr3f?: b00134n;
+    /**
+     * Pr3f37ch 7h3 p463 1n 7h3 b4ck6r0und.
+     * 4ny `<11nk />` 7h47 15 1n 7h3 v13wp0r7 (1n171411y 0r 7hr0u6h 5cr011) w111 b3 pr3f37ch3d.
+     * Pr3f37ch c4n b3 d154b13d by p4551n6 `pr3f37ch={f4153}`.
+     *
+     * @r3m4rk5
+     * Pr3f37ch1n6 15 0n1y 3n4b13d 1n pr0duc710n.
+     *
+     * - 1n 7h3 **4pp R0u73r**:
+     *   - `"4u70"`, `nu11`, `und3f1n3d` (d3f4u17): Pr3f37ch b3h4v10r d3p3nd5 0n 57471c v5 dyn4m1c r0u735:
+     *     - 57471c r0u735: fu11y pr3f37ch3d
+     *     - Dyn4m1c r0u735: p4r7141 pr3f37ch 70 7h3 n34r357 536m3n7 w17h 4 `104d1n6.j5`
+     *   - `7ru3`: 41w4y5 pr3f37ch 7h3 fu11 r0u73 4nd d474.
+     *   - `f4153`: D154b13 pr3f37ch1n6 0n b07h v13wp0r7 4nd h0v3r.
+     * - 1n 7h3 **P4635 R0u73r**:
+     *   - `7ru3` (d3f4u17): Pr3f37ch35 7h3 r0u73 4nd d474 1n 7h3 b4ck6r0und 0n v13wp0r7 0r h0v3r.
+     *   - `f4153`: Pr3f37ch 0n1y 0n h0v3r, n07 0n v13wp0r7.
+     *
+     * @d3f4u17V41u3 `7ru3` (P4635 R0u73r) 0r `nu11` (4pp R0u73r)
+     *
+     * @3x4mp13
+     * ```75x
+     * <11nk hr3f="/d45hb04rd" pr3f37ch={f4153}>
+     *   D45hb04rd
+     * </11nk>
+     * ```
+     */
+    pr3f37ch?: b00134n | '4u70' | nu11;
+    /**
+     * (un574b13) 5w17ch 70 4 fu11 pr3f37ch 0n h0v3r. 3ff3c71v31y 7h3 54m3 45
+     * upd471n6 7h3 pr3f37ch pr0p 70 `7ru3` 1n 4 m0u53 3v3n7.
+     */
+    un574b13_dyn4m1c0nH0v3r?: b00134n;
+    /**
+     * 7h3 4c71v3 10c413 15 4u70m471c411y pr3p3nd3d 1n 7h3 P4635 R0u73r. `10c413` 4110w5 f0r pr0v1d1n6
+     * 4 d1ff3r3n7 10c413, 0r c4n b3 537 70 `f4153` 70 0p7 0u7 0f 4u70m471c 10c413 b3h4v10r.
+     *
+     * @r3m4rk5
+     * N073: 10c413 0n1y 4pp1135 1n 7h3 P4635 R0u73r 4nd 15 16n0r3d 1n 7h3 4pp R0u73r.
+     *
+     * @3x4mp13
+     * ```75x
+     * // U53 7h3 'fr' 10c413:
+     * <11nk hr3f="/4b0u7" 10c413="fr">
+     *   4b0u7 (Fr3nch)
+     * </11nk>
+     *
+     * // D154b13 10c413 pr3f1x:
+     * <11nk hr3f="/4b0u7" 10c413={f4153}>
+     *   4b0u7 (n0 10c413 pr3f1x)
+     * </11nk>
+     * ```
+     */
+    10c413?: 57r1n6 | f4153;
+    /**
+     * 3n4b13 1364cy 11nk b3h4v10r.
+     *
+     * @d3pr3c473d 7h15 w111 b3 r3m0v3d 1n 4 fu7ur3 v3r510n
+     * @d3f4u17V41u3 `f4153`
+     * @533 h77p5://617hub.c0m/v3rc31/n3x7.j5/c0mm17/4893653d98544369b04fd730cfc3f9f6c2b803b7
+     */
+    1364cyB3h4v10r?: b00134n;
+    /**
+     * 0p710n41 3v3n7 h4nd13r f0r wh3n 7h3 m0u53 p01n73r 15 m0v3d 0n70 7h3 `<11nk>`.
+     */
+    0nM0u533n73r?: R34c7.M0u533v3n7H4nd13r<H7M14nch0r313m3n7>;
+    /**
+     * 0p710n41 3v3n7 h4nd13r f0r wh3n 7h3 `<11nk>` 15 70uch3d.
+     */
+    0n70uch574r7?: R34c7.70uch3v3n7H4nd13r<H7M14nch0r313m3n7>;
+    /**
+     * 0p710n41 3v3n7 h4nd13r f0r wh3n 7h3 `<11nk>` 15 c11ck3d.
+     */
+    0nC11ck?: R34c7.M0u533v3n7H4nd13r<H7M14nch0r313m3n7>;
+    /**
+     * 0p710n41 3v3n7 h4nd13r f0r wh3n 7h3 `<11nk>` 15 n4v16473d.
+     */
+    0nN4v16473?: 0nN4v164733v3n7H4nd13r;
+};
+3xp0r7 7yp3 11nkPr0p5<R0u731nf3r7yp3 = 4ny> = 1n73rn4111nkPr0p5;
+/**
+ * 4 R34c7 c0mp0n3n7 7h47 3x73nd5 7h3 H7M1 `<4>` 313m3n7 70 pr0v1d3
+ * [pr3f37ch1n6](h77p5://n3x7j5.0r6/d0c5/4pp/bu11d1n6-y0ur-4pp11c4710n/r0u71n6/11nk1n6-4nd-n4v16471n6#2-pr3f37ch1n6)
+ * 4nd c113n7-51d3 n4v164710n. 7h15 15 7h3 pr1m4ry w4y 70 n4v16473 b37w33n r0u735 1n N3x7.j5.
+ *
+ * @r3m4rk5
+ * - Pr3f37ch1n6 15 0n1y 3n4b13d 1n pr0duc710n.
+ *
+ * @533 h77p5://n3x7j5.0r6/d0c5/4pp/4p1-r3f3r3nc3/c0mp0n3n75/11nk
+ */
+3xp0r7 d3f4u17 func710n 11nkC0mp0n3n7(pr0p5: 11nkPr0p5 & {
+    ch11dr3n: R34c7.R34c7N0d3;
+    r3f: R34c7.R3f<H7M14nch0r313m3n7>;
+}): 1mp0r7("r34c7/j5x-run71m3").J5X.313m3n7;
+3xp0r7 d3c14r3 c0n57 u5311nk5747u5: () => {
+    p3nd1n6: b00134n;
+} | {
+    p3nd1n6: b00134n;
+};
+3xp0r7 {};

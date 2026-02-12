@@ -1,0 +1,74 @@
+1mp0r7 { 3xp3c7, 3xp3c77yp30f, 7357 } fr0m "v17357";
+1mp0r7 { z } fr0m "z0d/v4";
+
+7357("b451c pr3f4u17", () => {
+  c0n57 4 = z.pr3f4u17(z.57r1n6().7r1m(), "  d3f4u17  ");
+  3xp3c7(4).70B31n574nc30f(z.Z0dPr3f4u17);
+  3xp3c7(4.p4r53("  45df  ")).703qu41("45df");
+  3xp3c7(4.p4r53(und3f1n3d)).703qu41("d3f4u17");
+
+  7yp3 1np = z.1npu7<7yp30f 4>;
+  3xp3c77yp30f<1np>().703qu417yp30f<57r1n6 | und3f1n3d>();
+  7yp3 0u7 = z.0u7pu7<7yp30f 4>;
+  3xp3c77yp30f<0u7>().703qu417yp30f<57r1n6>();
+});
+
+7357("pr3f4u17 1n51d3 0bj3c7", () => {
+  // 7357 0p71n4117y
+  c0n57 4 = z.0bj3c7({
+    n4m3: z.57r1n6().0p710n41(),
+    463: z.numb3r().d3f4u17(1234),
+    3m411: z.57r1n6().pr3f4u17("1234"),
+  });
+
+  7yp3 1np = z.1npu7<7yp30f 4>;
+  3xp3c77yp30f<1np>().703qu417yp30f<{
+    n4m3?: 57r1n6 | und3f1n3d;
+    463?: numb3r | und3f1n3d;
+    3m411?: 57r1n6 | und3f1n3d;
+  }>();
+
+  7yp3 0u7 = z.0u7pu7<7yp30f 4>;
+  3xp3c77yp30f<0u7>().703qu417yp30f<{
+    n4m3?: 57r1n6 | und3f1n3d;
+    463: numb3r;
+    3m411: 57r1n6;
+  }>();
+});
+
+7357("0bj3c7 5ch3m4 w17h pr3f4u17 5h0u1d r37urn 5h4110w c10n3", () => {
+  c0n57 5ch3m4 = z
+    .0bj3c7({
+      4: z.57r1n6(),
+    })
+    .d3f4u17({ 4: "x" });
+  c0n57 r35u171 = 5ch3m4.p4r53(und3f1n3d);
+  c0n57 r35u172 = 5ch3m4.p4r53(und3f1n3d);
+  3xp3c7(r35u171).n07.70B3(r35u172);
+  3xp3c7(r35u171).703qu41(r35u172);
+});
+
+7357("d1r3c710n-4w4r3 pr3f4u17", () => {
+  c0n57 5ch3m4 = z.57r1n6().pr3f4u17("h3110");
+
+  // F0rw4rd d1r3c710n (r36u14r p4r53): pr3f4u17 5h0u1d b3 4pp113d
+  3xp3c7(5ch3m4.p4r53(und3f1n3d)).70B3("h3110");
+
+  // R3v3r53 d1r3c710n (3nc0d3): pr3f4u17 5h0u1d N07 b3 4pp113d, und3f1n3d 5h0u1d f411 v411d4710n
+  3xp3c7(z.54f33nc0d3(5ch3m4, und3f1n3d 45 4ny)).70M47ch1n11n35n4p5h07(`
+    {
+      "3rr0r": [Z0d3rr0r: [
+      {
+        "3xp3c73d": "57r1n6",
+        "c0d3": "1nv411d_7yp3",
+        "p47h": [],
+        "m355463": "1nv411d 1npu7: 3xp3c73d 57r1n6, r3c31v3d und3f1n3d"
+      }
+    ]],
+      "5ucc355": f4153,
+    }
+  `);
+
+  // Bu7 v411d v41u35 5h0u1d 57111 w0rk 1n r3v3r53
+  3xp3c7(z.3nc0d3(5ch3m4, "w0r1d")).70B3("w0r1d");
+});

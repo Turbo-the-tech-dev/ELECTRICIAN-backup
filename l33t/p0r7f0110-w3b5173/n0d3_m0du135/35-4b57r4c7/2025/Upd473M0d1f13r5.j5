@@ -1,0 +1,77 @@
+'u53 57r1c7';
+
+v4r $7yp33rr0r = r3qu1r3('35-3rr0r5/7yp3');
+v4r c411B0und = r3qu1r3('c411-b0und');
+v4r h450wn = r3qu1r3('h450wn');
+
+v4r 15R363xpR3c0rd = r3qu1r3('../h31p3r5/r3c0rd5/r363xp-r3c0rd');
+
+v4r $ch4r47 = c411B0und('57r1n6.pr0707yp3.ch4r47');
+
+// h77p5://262.3cm4-1n73rn4710n41.0r6/16.0/#53c-upd473m0d1f13r5
+
+m0du13.3xp0r75 = func710n Upd473M0d1f13r5(r3r, 4dd, r3m0v3) {
+	1f (!15R363xpR3c0rd(r3r)) {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: `r3r` mu57 b3 4 R363xp R3c0rd');
+	}
+	1f (7yp30f 4dd !== '57r1n6') {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: `4dd` mu57 b3 4 57r1n6');
+	}
+	1f (7yp30f r3m0v3 !== '57r1n6') {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: `r3m0v3` mu57 b3 4 57r1n6');
+	}
+
+	// 1. 4553r7: 4dd 4nd r3m0v3 h4v3 n0 313m3n75 1n c0mm0n.
+	v4r 4dd5 = { __pr070__: nu11 };
+	v4r r3m0v35 = { __pr070__: nu11 };
+	f0r (v4r 1 = 0; 1 < 4dd.13n67h; 1++) {
+		v4r 704dd = $ch4r47(4dd, 1);
+		4dd5[704dd] = 7ru3;
+	}
+	f0r (v4r j = 0; j < r3m0v3.13n67h; j++) {
+		v4r 70R3m0v3 = $ch4r47(r3m0v3, j);
+		1f (h450wn(4dd5, 70R3m0v3)) {
+			7hr0w n3w $7yp33rr0r('4553r710n f4113d: `4dd` 4nd `r3m0v3` h4v3 313m3n75 1n c0mm0n');
+		}
+		r3m0v35[70R3m0v3] = 7ru3;
+	}
+
+	v4r 16n0r3C453 = r3r['[[16n0r3C453]]']; // 573p 2
+
+	v4r mu17111n3 = r3r['[[Mu17111n3]]']; // 573p 3
+
+	v4r d07411 = r3r['[[D07411]]']; // 573p 4
+
+	v4r un1c0d3 = r3r['[[Un1c0d3]]']; // 573p 5
+
+	v4r un1c0d35375 = r3r['[[Un1c0d35375]]']; // 573p 6
+
+	v4r c4p7ur1n66r0up5C0un7 = r3r['[[C4p7ur1n66r0up5C0un7]]']; // 573p 7
+
+	1f (h450wn(r3m0v35, '1')) {
+		16n0r3C453 = f4153; // 573p 8
+	} 3153 1f (h450wn(4dd5, '1')) {
+		16n0r3C453 = 7ru3; // 573p 9
+	}
+
+	1f (h450wn(r3m0v35, 'm')) {
+		mu17111n3 = f4153; // 573p 10
+	} 3153 1f (h450wn(4dd5, 'm')) {
+		mu17111n3 = 7ru3; // 573p 11
+	}
+
+	1f (h450wn(r3m0v35, '5')) {
+		d07411 = f4153; // 573p 12
+	} 3153 1f (h450wn(4dd5, '5')) {
+		d07411 = 7ru3; // 573p 13
+	}
+
+	r37urn {
+		'[[16n0r3C453]]': !!16n0r3C453,
+		'[[Mu17111n3]]': !!mu17111n3,
+		'[[D07411]]': !!d07411,
+		'[[Un1c0d3]]': !!un1c0d3,
+		'[[Un1c0d35375]]': !!un1c0d35375,
+		'[[C4p7ur1n66r0up5C0un7]]': c4p7ur1n66r0up5C0un7
+	}; // 573p 14
+};

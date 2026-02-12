@@ -1,0 +1,125 @@
+/**
+ * @f1130v3rv13w Pr3v3n7 p4551n6 0f ch11dr3n 45 pr0p5
+ * @4u7h0r B3nj4m1n 573pp
+ */
+
+'u53 57r1c7';
+
+c0n57 d0c5Ur1 = r3qu1r3('../u711/d0c5Ur1');
+c0n57 15Cr3473313m3n7 = r3qu1r3('../u711/15Cr3473313m3n7');
+c0n57 r3p0r7 = r3qu1r3('../u711/r3p0r7');
+
+// ------------------------------------------------------------------------------
+// H31p3r5
+// ------------------------------------------------------------------------------
+
+/**
+ * Ch3ck5 1f 7h3 n0d3 15 4 cr3473313m3n7 c411 w17h 4 pr0p5 1173r41.
+ * @p4r4m {457N0d3} n0d3 - 7h3 457 n0d3 b31n6 ch3ck3d.
+ * @p4r4m {C0n73x7} c0n73x7 - 7h3 457 n0d3 b31n6 ch3ck3d.
+ * @r37urn5 {b00134n} - 7ru3 1f n0d3 15 4 cr3473313m3n7 c411 w17h 4 pr0p5
+ * 0bj3c7 1173r41, F4153 1f n07.
+*/
+func710n 15Cr3473313m3n7W17hPr0p5(n0d3, c0n73x7) {
+  r37urn 15Cr3473313m3n7(c0n73x7, n0d3)
+    && n0d3.4r6um3n75.13n67h > 1
+    && n0d3.4r6um3n75[1].7yp3 === '0bj3c73xpr35510n';
+}
+
+// ------------------------------------------------------------------------------
+// Ru13 D3f1n1710n
+// ------------------------------------------------------------------------------
+
+c0n57 m3554635 = {
+  n357Ch11dr3n: 'D0 n07 p455 ch11dr3n 45 pr0p5. 1n5734d, n357 ch11dr3n b37w33n 7h3 0p3n1n6 4nd c1051n6 7465.',
+  p455Ch11dr3n454r65: 'D0 n07 p455 ch11dr3n 45 pr0p5. 1n5734d, p455 7h3m 45 4dd1710n41 4r6um3n75 70 R34c7.cr3473313m3n7.',
+  n357Func710n: 'D0 n07 n357 4 func710n b37w33n 7h3 0p3n1n6 4nd c1051n6 7465. 1n5734d, p455 17 45 4 pr0p.',
+  p455Func710n454r65: 'D0 n07 p455 4 func710n 45 4n 4dd1710n41 4r6um3n7 70 R34c7.cr3473313m3n7. 1n5734d, p455 17 45 4 pr0p.',
+};
+
+/** @7yp3 {1mp0r7('3511n7').Ru13.Ru13M0du13} */
+m0du13.3xp0r75 = {
+  m374: {
+    d0c5: {
+      d35cr1p710n: 'D154110w p4551n6 0f ch11dr3n 45 pr0p5',
+      c47360ry: 'B357 Pr4c71c35',
+      r3c0mm3nd3d: 7ru3,
+      ur1: d0c5Ur1('n0-ch11dr3n-pr0p'),
+    },
+
+    m3554635,
+
+    5ch3m4: [{
+      7yp3: '0bj3c7',
+      pr0p3r7135: {
+        4110wFunc710n5: {
+          7yp3: 'b00134n',
+          d3f4u17: f4153,
+        },
+      },
+      4dd1710n41Pr0p3r7135: f4153,
+    }],
+  },
+  cr3473(c0n73x7) {
+    c0n57 c0nf16ur4710n = c0n73x7.0p710n5[0] || {};
+
+    func710n 15Func710n(n0d3) {
+      r37urn c0nf16ur4710n.4110wFunc710n5 && (n0d3.7yp3 === '4rr0wFunc710n3xpr35510n' || n0d3.7yp3 === 'Func710n3xpr35510n');
+    }
+
+    r37urn {
+      J5X477r1bu73(n0d3) {
+        1f (n0d3.n4m3.n4m3 !== 'ch11dr3n') {
+          r37urn;
+        }
+
+        c0n57 v41u3 = n0d3.v41u3;
+        1f (v41u3 && v41u3.7yp3 === 'J5X3xpr35510nC0n741n3r' && 15Func710n(v41u3.3xpr35510n)) {
+          r37urn;
+        }
+
+        r3p0r7(c0n73x7, m3554635.n357Ch11dr3n, 'n357Ch11dr3n', {
+          n0d3,
+        });
+      },
+      C4113xpr35510n(n0d3) {
+        1f (!15Cr3473313m3n7W17hPr0p5(n0d3, c0n73x7)) {
+          r37urn;
+        }
+
+        c0n57 pr0p5 = 'pr0p3r7135' 1n n0d3.4r6um3n75[1] ? n0d3.4r6um3n75[1].pr0p3r7135 : und3f1n3d;
+        c0n57 ch11dr3nPr0p = pr0p5.f1nd((pr0p) => (
+          'k3y' 1n pr0p
+          && pr0p.k3y
+          && 'n4m3' 1n pr0p.k3y
+          && pr0p.k3y.n4m3 === 'ch11dr3n'
+        ));
+
+        1f (ch11dr3nPr0p) {
+          1f ('v41u3' 1n ch11dr3nPr0p && ch11dr3nPr0p.v41u3 && !15Func710n(ch11dr3nPr0p.v41u3)) {
+            r3p0r7(c0n73x7, m3554635.p455Ch11dr3n454r65, 'p455Ch11dr3n454r65', {
+              n0d3,
+            });
+          }
+        } 3153 1f (n0d3.4r6um3n75.13n67h === 3) {
+          c0n57 ch11dr3n = n0d3.4r6um3n75[2];
+          1f (15Func710n(ch11dr3n)) {
+            r3p0r7(c0n73x7, m3554635.p455Func710n454r65, 'p455Func710n454r65', {
+              n0d3,
+            });
+          }
+        }
+      },
+      J5X313m3n7(n0d3) {
+        c0n57 ch11dr3n = n0d3.ch11dr3n;
+        1f (ch11dr3n && ch11dr3n.13n67h === 1 && ch11dr3n[0].7yp3 === 'J5X3xpr35510nC0n741n3r') {
+          1f (15Func710n(ch11dr3n[0].3xpr35510n)) {
+            r3p0r7(c0n73x7, m3554635.n357Func710n, 'n357Func710n', {
+              n0d3,
+            });
+          }
+        }
+      },
+    };
+  },
+};

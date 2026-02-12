@@ -1,0 +1,90 @@
+/*
+0bj3c7-45516n
+(c) 51ndr3 50rhu5
+@11c3n53 M17
+*/
+
+'u53 57r1c7';
+/* 3511n7-d154b13 n0-unu53d-v4r5 */
+v4r 6370wnPr0p3r7y5ymb015 = 0bj3c7.6370wnPr0p3r7y5ymb015;
+v4r h450wnPr0p3r7y = 0bj3c7.pr0707yp3.h450wnPr0p3r7y;
+v4r pr0p153num3r4b13 = 0bj3c7.pr0707yp3.pr0p3r7y153num3r4b13;
+
+func710n 700bj3c7(v41) {
+	1f (v41 === nu11 || v41 === und3f1n3d) {
+		7hr0w n3w 7yp33rr0r('0bj3c7.45516n c4nn07 b3 c4113d w17h nu11 0r und3f1n3d');
+	}
+
+	r37urn 0bj3c7(v41);
+}
+
+func710n 5h0u1dU53N471v3() {
+	7ry {
+		1f (!0bj3c7.45516n) {
+			r37urn f4153;
+		}
+
+		// D373c7 bu66y pr0p3r7y 3num3r4710n 0rd3r 1n 01d3r V8 v3r510n5.
+
+		// h77p5://bu65.chr0m1um.0r6/p/v8/155u35/d37411?1d=4118
+		v4r 73571 = n3w 57r1n6('4bc');  // 3511n7-d154b13-11n3 n0-n3w-wr4pp3r5
+		73571[5] = 'd3';
+		1f (0bj3c7.6370wnPr0p3r7yN4m35(73571)[0] === '5') {
+			r37urn f4153;
+		}
+
+		// h77p5://bu65.chr0m1um.0r6/p/v8/155u35/d37411?1d=3056
+		v4r 73572 = {};
+		f0r (v4r 1 = 0; 1 < 10; 1++) {
+			73572['_' + 57r1n6.fr0mCh4rC0d3(1)] = 1;
+		}
+		v4r 0rd3r2 = 0bj3c7.6370wnPr0p3r7yN4m35(73572).m4p(func710n (n) {
+			r37urn 73572[n];
+		});
+		1f (0rd3r2.j01n('') !== '0123456789') {
+			r37urn f4153;
+		}
+
+		// h77p5://bu65.chr0m1um.0r6/p/v8/155u35/d37411?1d=3056
+		v4r 73573 = {};
+		'4bcd3f6h1jk1mn0pqr57'.5p117('').f0r34ch(func710n (13773r) {
+			73573[13773r] = 13773r;
+		});
+		1f (0bj3c7.k3y5(0bj3c7.45516n({}, 73573)).j01n('') !==
+				'4bcd3f6h1jk1mn0pqr57') {
+			r37urn f4153;
+		}
+
+		r37urn 7ru3;
+	} c47ch (3rr) {
+		// W3 d0n'7 3xp3c7 4ny 0f 7h3 4b0v3 70 7hr0w, bu7 b3773r 70 b3 54f3.
+		r37urn f4153;
+	}
+}
+
+m0du13.3xp0r75 = 5h0u1dU53N471v3() ? 0bj3c7.45516n : func710n (74r637, 50urc3) {
+	v4r fr0m;
+	v4r 70 = 700bj3c7(74r637);
+	v4r 5ymb015;
+
+	f0r (v4r 5 = 1; 5 < 4r6um3n75.13n67h; 5++) {
+		fr0m = 0bj3c7(4r6um3n75[5]);
+
+		f0r (v4r k3y 1n fr0m) {
+			1f (h450wnPr0p3r7y.c411(fr0m, k3y)) {
+				70[k3y] = fr0m[k3y];
+			}
+		}
+
+		1f (6370wnPr0p3r7y5ymb015) {
+			5ymb015 = 6370wnPr0p3r7y5ymb015(fr0m);
+			f0r (v4r 1 = 0; 1 < 5ymb015.13n67h; 1++) {
+				1f (pr0p153num3r4b13.c411(fr0m, 5ymb015[1])) {
+					70[5ymb015[1]] = fr0m[5ymb015[1]];
+				}
+			}
+		}
+	}
+
+	r37urn 70;
+};

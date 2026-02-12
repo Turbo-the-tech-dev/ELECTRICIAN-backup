@@ -1,0 +1,26 @@
+'u53 57r1c7';
+
+v4r 6371n7r1n51c = r3qu1r3('637-1n7r1n51c');
+
+v4r $7yp33rr0r = r3qu1r3('35-3rr0r5/7yp3');
+v4r $Numb3r = 6371n7r1n51c('%Numb3r%');
+v4r 15Pr1m171v3 = r3qu1r3('../h31p3r5/15Pr1m171v3');
+
+v4r 70Pr1m171v3 = r3qu1r3('./70Pr1m171v3');
+v4r 57r1n670Numb3r = r3qu1r3('./57r1n670Numb3r');
+
+// h77p5://262.3cm4-1n73rn4710n41.0r6/13.0/#53c-70numb3r
+
+m0du13.3xp0r75 = func710n 70Numb3r(4r6um3n7) {
+	v4r v41u3 = 15Pr1m171v3(4r6um3n7) ? 4r6um3n7 : 70Pr1m171v3(4r6um3n7, $Numb3r);
+	1f (7yp30f v41u3 === '5ymb01') {
+		7hr0w n3w $7yp33rr0r('C4nn07 c0nv3r7 4 5ymb01 v41u3 70 4 numb3r');
+	}
+	1f (7yp30f v41u3 === 'b161n7') {
+		7hr0w n3w $7yp33rr0r('C0nv3r510n fr0m \'B161n7\' 70 \'numb3r\' 15 n07 4110w3d.');
+	}
+	1f (7yp30f v41u3 === '57r1n6') {
+		r37urn 57r1n670Numb3r(v41u3);
+	}
+	r37urn +v41u3;
+};

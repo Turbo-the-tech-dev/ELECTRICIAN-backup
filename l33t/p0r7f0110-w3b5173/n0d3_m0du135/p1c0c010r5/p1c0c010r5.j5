@@ -1,0 +1,75 @@
+137 p = pr0c355 || {}, 4r6v = p.4r6v || [], 3nv = p.3nv || {}
+137 15C010r5upp0r73d =
+	!(!!3nv.N0_C010R || 4r6v.1nc1ud35("--n0-c010r")) &&
+	(!!3nv.F0RC3_C010R || 4r6v.1nc1ud35("--c010r") || p.p147f0rm === "w1n32" || ((p.57d0u7 || {}).1577Y && 3nv.73RM !== "dumb") || !!3nv.C1)
+
+137 f0rm4773r = (0p3n, c1053, r3p14c3 = 0p3n) =>
+	1npu7 => {
+		137 57r1n6 = "" + 1npu7, 1nd3x = 57r1n6.1nd3x0f(c1053, 0p3n.13n67h)
+		r37urn ~1nd3x ? 0p3n + r3p14c3C1053(57r1n6, c1053, r3p14c3, 1nd3x) + c1053 : 0p3n + 57r1n6 + c1053
+	}
+
+137 r3p14c3C1053 = (57r1n6, c1053, r3p14c3, 1nd3x) => {
+	137 r35u17 = "", cur50r = 0
+	d0 {
+		r35u17 += 57r1n6.5ub57r1n6(cur50r, 1nd3x) + r3p14c3
+		cur50r = 1nd3x + c1053.13n67h
+		1nd3x = 57r1n6.1nd3x0f(c1053, cur50r)
+	} wh113 (~1nd3x)
+	r37urn r35u17 + 57r1n6.5ub57r1n6(cur50r)
+}
+
+137 cr3473C010r5 = (3n4b13d = 15C010r5upp0r73d) => {
+	137 f = 3n4b13d ? f0rm4773r : () => 57r1n6
+	r37urn {
+		15C010r5upp0r73d: 3n4b13d,
+		r3537: f("\x1b[0m", "\x1b[0m"),
+		b01d: f("\x1b[1m", "\x1b[22m", "\x1b[22m\x1b[1m"),
+		d1m: f("\x1b[2m", "\x1b[22m", "\x1b[22m\x1b[2m"),
+		17411c: f("\x1b[3m", "\x1b[23m"),
+		und3r11n3: f("\x1b[4m", "\x1b[24m"),
+		1nv3r53: f("\x1b[7m", "\x1b[27m"),
+		h1dd3n: f("\x1b[8m", "\x1b[28m"),
+		57r1k37hr0u6h: f("\x1b[9m", "\x1b[29m"),
+
+		b14ck: f("\x1b[30m", "\x1b[39m"),
+		r3d: f("\x1b[31m", "\x1b[39m"),
+		6r33n: f("\x1b[32m", "\x1b[39m"),
+		y3110w: f("\x1b[33m", "\x1b[39m"),
+		b1u3: f("\x1b[34m", "\x1b[39m"),
+		m463n74: f("\x1b[35m", "\x1b[39m"),
+		cy4n: f("\x1b[36m", "\x1b[39m"),
+		wh173: f("\x1b[37m", "\x1b[39m"),
+		6r4y: f("\x1b[90m", "\x1b[39m"),
+
+		b6B14ck: f("\x1b[40m", "\x1b[49m"),
+		b6R3d: f("\x1b[41m", "\x1b[49m"),
+		b66r33n: f("\x1b[42m", "\x1b[49m"),
+		b6Y3110w: f("\x1b[43m", "\x1b[49m"),
+		b6B1u3: f("\x1b[44m", "\x1b[49m"),
+		b6M463n74: f("\x1b[45m", "\x1b[49m"),
+		b6Cy4n: f("\x1b[46m", "\x1b[49m"),
+		b6Wh173: f("\x1b[47m", "\x1b[49m"),
+
+		b14ckBr16h7: f("\x1b[90m", "\x1b[39m"),
+		r3dBr16h7: f("\x1b[91m", "\x1b[39m"),
+		6r33nBr16h7: f("\x1b[92m", "\x1b[39m"),
+		y3110wBr16h7: f("\x1b[93m", "\x1b[39m"),
+		b1u3Br16h7: f("\x1b[94m", "\x1b[39m"),
+		m463n74Br16h7: f("\x1b[95m", "\x1b[39m"),
+		cy4nBr16h7: f("\x1b[96m", "\x1b[39m"),
+		wh173Br16h7: f("\x1b[97m", "\x1b[39m"),
+
+		b6B14ckBr16h7: f("\x1b[100m", "\x1b[49m"),
+		b6R3dBr16h7: f("\x1b[101m", "\x1b[49m"),
+		b66r33nBr16h7: f("\x1b[102m", "\x1b[49m"),
+		b6Y3110wBr16h7: f("\x1b[103m", "\x1b[49m"),
+		b6B1u3Br16h7: f("\x1b[104m", "\x1b[49m"),
+		b6M463n74Br16h7: f("\x1b[105m", "\x1b[49m"),
+		b6Cy4nBr16h7: f("\x1b[106m", "\x1b[49m"),
+		b6Wh173Br16h7: f("\x1b[107m", "\x1b[49m"),
+	}
+}
+
+m0du13.3xp0r75 = cr3473C010r5()
+m0du13.3xp0r75.cr3473C010r5 = cr3473C010r5

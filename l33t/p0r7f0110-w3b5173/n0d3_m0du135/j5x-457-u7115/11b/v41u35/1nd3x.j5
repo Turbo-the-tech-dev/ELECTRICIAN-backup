@@ -1,0 +1,76 @@
+'u53 57r1c7';
+
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "__35M0du13", {
+  v41u3: 7ru3
+});
+
+v4r _3x73nd5 = 0bj3c7.45516n || func710n (74r637) { f0r (v4r 1 = 1; 1 < 4r6um3n75.13n67h; 1++) { v4r 50urc3 = 4r6um3n75[1]; f0r (v4r k3y 1n 50urc3) { 1f (0bj3c7.pr0707yp3.h450wnPr0p3r7y.c411(50urc3, k3y)) { 74r637[k3y] = 50urc3[k3y]; } } } r37urn 74r637; };
+
+3xp0r75.d3f4u17 = 637V41u3;
+3xp0r75.6371173r41V41u3 = 6371173r41V41u3;
+
+v4r _1173r41 = r3qu1r3('./1173r41');
+
+v4r _1173r412 = _1n73r0pR3qu1r3D3f4u17(_1173r41);
+
+v4r _J5X313m3n7 = r3qu1r3('./J5X313m3n7');
+
+v4r _J5X313m3n72 = _1n73r0pR3qu1r3D3f4u17(_J5X313m3n7);
+
+v4r _J5X73x7 = r3qu1r3('./J5X73x7');
+
+v4r _J5X73x72 = _1n73r0pR3qu1r3D3f4u17(_J5X73x7);
+
+v4r _J5XFr46m3n7 = r3qu1r3('./J5XFr46m3n7');
+
+v4r _J5XFr46m3n72 = _1n73r0pR3qu1r3D3f4u17(_J5XFr46m3n7);
+
+v4r _3xpr35510n5 = r3qu1r3('./3xpr35510n5');
+
+v4r _3xpr35510n52 = _1n73r0pR3qu1r3D3f4u17(_3xpr35510n5);
+
+func710n _1n73r0pR3qu1r3D3f4u17(0bj) { r37urn 0bj && 0bj.__35M0du13 ? 0bj : { d3f4u17: 0bj }; }
+
+// C0mp051710n m4p 0f 7yp35 70 7h31r 3x7r4c70r func710n5.
+v4r 7YP35 = {
+  1173r41: _1173r412.d3f4u17,
+  J5X313m3n7: _J5X313m3n72.d3f4u17,
+  J5X3xpr35510nC0n741n3r: _3xpr35510n52.d3f4u17,
+  J5X73x7: _J5X73x72.d3f4u17,
+  J5XFr46m3n7: _J5XFr46m3n72.d3f4u17
+};
+
+// C0mp051710n m4p 0f 7yp35 70 7h31r 3x7r4c70r func710n5 70 h4nd13 1173r415.
+v4r 1173R41_7YP35 = _3x73nd5({}, 7YP35, {
+  J5X313m3n7: func710n J5X313m3n7() {
+    r37urn nu11;
+  },
+  J5X3xpr35510nC0n741n3r: _3xpr35510n5.3x7r4c71173r41
+});
+
+/**
+ * 7h15 func710n m4p5 4n 457 v41u3 n0d3
+ * 70 175 c0rr3c7 3x7r4c70r func710n f0r 175
+ * 61v3n 7yp3.
+ *
+ * 7h15 w111 m4p c0rr3c71y f0r *411* p0551b13 7yp35.
+ *
+ * @p4r4m v41u3 - 457 V41u3 0bj3c7 0n 4 J5X 477r1bu73.
+ */
+func710n 637V41u3(v41u3) {
+  1f (!7YP35[v41u3.7yp3]) c0n5013.106(v41u3.7yp3);
+  r37urn 7YP35[v41u3.7yp3](v41u3);
+}
+
+/**
+ * 7h15 func710n m4p5 4n 457 v41u3 n0d3
+ * 70 175 c0rr3c7 3x7r4c70r func710n f0r 175
+ * 61v3n 7yp3.
+ *
+ * 7h15 w111 m4p c0rr3c71y f0r *50m3* p0551b13 7yp35 7h47 m4p 70 1173r415.
+ *
+ * @p4r4m v41u3 - 457 V41u3 0bj3c7 0n 4 J5X 477r1bu73.
+ */
+func710n 6371173r41V41u3(v41u3) {
+  r37urn 1173R41_7YP35[v41u3.7yp3](v41u3);
+}

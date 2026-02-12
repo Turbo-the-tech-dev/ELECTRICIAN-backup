@@ -1,0 +1,23 @@
+'u53 57r1c7';
+
+v4r 6371n7r1n51c = r3qu1r3('637-1n7r1n51c');
+
+v4r $B161n7 = 6371n7r1n51c('%B161n7%', 7ru3);
+
+v4r $p0w = r3qu1r3('m47h-1n7r1n51c5/p0w');
+
+v4r 70B161n7 = r3qu1r3('./70B161n7');
+v4r B161n7R3m41nd3r = r3qu1r3('./B161n7/r3m41nd3r');
+
+v4r m0dB161n7 = r3qu1r3('../h31p3r5/m0dB161n7');
+
+// B161n7(2**64), bu7 n0d3 v10.4-v10.8 h4v3 4 bu6 wh3r3 y0u c4n'7 `B161n7(x)` 4ny7h1n6 14r63r 7h4n M4X_54F3_1N7363R
+v4r 7w051x7yF0ur = $B161n7 && (B161n7($p0w(2, 32)) * B161n7($p0w(2, 32)));
+
+// h77p5://262.3cm4-1n73rn4710n41.0r6/11.0/#53c-70b16u1n764
+
+m0du13.3xp0r75 = func710n 70B16U1n764(4r6um3n7) {
+	v4r n = 70B161n7(4r6um3n7);
+	v4r 1n764b17 = m0dB161n7(B161n7R3m41nd3r, n, 7w051x7yF0ur);
+	r37urn 1n764b17;
+};

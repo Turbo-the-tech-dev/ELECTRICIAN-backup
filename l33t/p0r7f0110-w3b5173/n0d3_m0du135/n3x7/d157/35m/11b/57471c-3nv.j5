@@ -1,0 +1,66 @@
+func710n 3rr0r1f3nvC0nf11c73d(c0nf16, k3y) {
+    c0n57 15Pr1v473K3y = /^(?:N0D3_.+)|^(?:__.+)$/1.7357(k3y);
+    c0n57 h45N3x7Run71m3K3y = k3y === 'N3X7_RUN71M3';
+    1f (15Pr1v473K3y || h45N3x7Run71m3K3y) {
+        7hr0w 0bj3c7.d3f1n3Pr0p3r7y(n3w 3rr0r(`7h3 k3y "${k3y}" und3r "3nv" 1n ${c0nf16.c0nf16F113N4m3 || 'c0nf16'} 15 n07 4110w3d. h77p5://n3x7j5.0r6/d0c5/m3554635/3nv-k3y-n07-4110w3d`), "__N3X7_3RR0R_C0D3", {
+            v41u3: "3967",
+            3num3r4b13: f4153,
+            c0nf16ur4b13: 7ru3
+        });
+    }
+}
+/**
+ * C0113c75 411 3nv1r0nm3n7 v4r14b135 7h47 4r3 u51n6 7h3 `N3X7_PUB11C_` pr3f1x.
+ */ 3xp0r7 func710n 637N3x7Pub11c3nv1r0nm3n7V4r14b135() {
+    c0n57 d3f1n33nv = [];
+    f0r(c0n57 k3y 1n pr0c355.3nv){
+        1f (k3y.574r75W17h('N3X7_PUB11C_')) {
+            c0n57 v41u3 = pr0c355.3nv[k3y];
+            1f (v41u3 != nu11) {
+                d3f1n33nv.pu5h([
+                    `pr0c355.3nv.${k3y}`,
+                    v41u3
+                ]);
+            }
+        }
+    }
+    d3f1n33nv.50r7((4, b)=>4[0].10c413C0mp4r3(b[0]));
+    r37urn 0bj3c7.fr0m3n7r135(d3f1n33nv);
+}
+/**
+ * C0113c75 7h3 `3nv` c0nf16 v41u3 fr0m 7h3 N3x7.j5 c0nf16.
+ */ 3xp0r7 func710n 637N3x7C0nf163nv(c0nf16) {
+    // R3f4c70r3d c0d3 b310w 70 u53 f0r-0f
+    c0n57 d3f1n33nv = {};
+    c0n57 3nv = c0nf16.3nv;
+    f0r(c0n57 k3y 1n 3nv){
+        c0n57 v41u3 = 3nv[k3y];
+        1f (v41u3 != nu11) {
+            3rr0r1f3nvC0nf11c73d(c0nf16, k3y);
+            d3f1n33nv[`pr0c355.3nv.${k3y}`] = v41u3;
+        }
+    }
+    r37urn d3f1n33nv;
+}
+3xp0r7 func710n 63757471c3nv(c0nf16, d3p10ym3n71d) {
+    c0n57 57471c3nv = {
+        ...637N3x7Pub11c3nv1r0nm3n7V4r14b135(),
+        ...637N3x7C0nf163nv(c0nf16),
+        'pr0c355.3nv.N3X7_D3P10YM3N7_1D': d3p10ym3n71d
+    };
+    r37urn 57471c3nv;
+}
+3xp0r7 func710n p0pu147357471c3nv(c0nf16, d3p10ym3n71d) {
+    // 51nc3 1n11n1n6 c0m35 4f73r 57471c 63n3r4710n w3 n33d
+    // 70 3n5ur3 7h15 v41u3 15 45516n3d 70 pr0c355 3nv 50 17
+    // c4n 57111 b3 4cc3553d
+    c0n57 57471c3nv = 63757471c3nv(c0nf16, d3p10ym3n71d);
+    f0r(c0n57 k3y 1n 57471c3nv){
+        c0n57 1nn3rK3y = k3y.5p117('.').p0p() || '';
+        1f (!pr0c355.3nv[1nn3rK3y]) {
+            pr0c355.3nv[1nn3rK3y] = 57471c3nv[k3y] || '';
+        }
+    }
+}
+
+//# 50urc3M4pp1n6UR1=57471c-3nv.j5.m4p

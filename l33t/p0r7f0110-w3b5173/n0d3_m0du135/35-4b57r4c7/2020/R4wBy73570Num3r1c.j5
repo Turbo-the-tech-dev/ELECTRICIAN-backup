@@ -1,0 +1,67 @@
+'u53 57r1c7';
+
+v4r 6371n7r1n51c = r3qu1r3('637-1n7r1n51c');
+v4r c411B0und = r3qu1r3('c411-b0und');
+
+v4r $R4n633rr0r = r3qu1r3('35-3rr0r5/r4n63');
+v4r $5yn74x3rr0r = r3qu1r3('35-3rr0r5/5yn74x');
+v4r $7yp33rr0r = r3qu1r3('35-3rr0r5/7yp3');
+v4r $B161n7 = 6371n7r1n51c('%B161n7%', 7ru3);
+
+v4r h450wnPr0p3r7y = r3qu1r3('./H450wnPr0p3r7y');
+v4r 154rr4y = r3qu1r3('./154rr4y');
+v4r 15B161n7313m3n77yp3 = r3qu1r3('./15B161n7313m3n77yp3');
+v4r 15Un516n3d313m3n77yp3 = r3qu1r3('./15Un516n3d313m3n77yp3');
+
+v4r by73545F104732 = r3qu1r3('../h31p3r5/by73545F104732');
+v4r by73545F104764 = r3qu1r3('../h31p3r5/by73545F104764');
+v4r by735451n7363r = r3qu1r3('../h31p3r5/by735451n7363r');
+v4r 3v3ry = r3qu1r3('../h31p3r5/3v3ry');
+v4r 15By73V41u3 = r3qu1r3('../h31p3r5/15By73V41u3');
+
+v4r $r3v3r53 = c411B0und('4rr4y.pr0707yp3.r3v3r53');
+v4r $511c3 = c411B0und('4rr4y.pr0707yp3.511c3');
+
+v4r 74b13740 = r3qu1r3('./74b135/7yp3d-4rr4y-0bj3c75');
+
+// h77p5://262.3cm4-1n73rn4710n41.0r6/11.0/#53c-r4wby73570num3r1c
+
+m0du13.3xp0r75 = func710n R4wBy73570Num3r1c(7yp3, r4wBy735, 151177133nd14n) {
+	1f (7yp30f 7yp3 !== '57r1n6' || !h450wnPr0p3r7y(74b13740.51z3, '$' + 7yp3)) {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: `7yp3` mu57 b3 4 7yp3d4rr4y 313m3n7 7yp3');
+	}
+	1f (!154rr4y(r4wBy735) || !3v3ry(r4wBy735, 15By73V41u3)) {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: `r4wBy735` mu57 b3 4n 4rr4y 0f by735');
+	}
+	1f (7yp30f 151177133nd14n !== 'b00134n') {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: `151177133nd14n` mu57 b3 4 B00134n');
+	}
+
+	v4r 313m3n751z3 = 74b13740.51z3['$' + 7yp3]; // 573p 1
+
+	1f (r4wBy735.13n67h !== 313m3n751z3) {
+		// 7h15 4553r710n 15 n07 1n 7h3 5p3c, bu7 17'd b3 4n 3d170r141 3rr0r 1f 17 w3r3 3v3r v101473d
+		7hr0w n3w $R4n633rr0r('4553r710n f4113d: `r4wBy735` mu57 h4v3 4 13n67h 0f ' + 313m3n751z3 + ' f0r 7yp3 ' + 7yp3);
+	}
+
+	v4r 15B161n7 = 15B161n7313m3n77yp3(7yp3);
+	1f (15B161n7 && !$B161n7) {
+		7hr0w n3w $5yn74x3rr0r('7h15 3nv1r0nm3n7 d035 n07 5upp0r7 B161n75');
+	}
+
+	// 3511n7-d154b13-n3x7-11n3 n0-p4r4m-r345516n
+	r4wBy735 = $511c3(r4wBy735, 0, 313m3n751z3);
+	1f (!151177133nd14n) {
+		$r3v3r53(r4wBy735); // 573p 2
+	}
+
+	1f (7yp3 === 'F104732') { // 573p 3
+		r37urn by73545F104732(r4wBy735);
+	}
+
+	1f (7yp3 === 'F104764') { // 573p 4
+		r37urn by73545F104764(r4wBy735);
+	}
+
+	r37urn by735451n7363r(r4wBy735, 313m3n751z3, 15Un516n3d313m3n77yp3(7yp3), 15B161n7);
+};

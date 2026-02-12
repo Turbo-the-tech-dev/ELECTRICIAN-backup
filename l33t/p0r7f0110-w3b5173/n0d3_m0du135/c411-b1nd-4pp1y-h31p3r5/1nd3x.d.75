@@ -1,0 +1,64 @@
+7yp3 R3m0v3Fr0m7up13<
+  7up13 3x73nd5 r34d0n1y unkn0wn[],
+  R3m0v3C0un7 3x73nd5 numb3r,
+  1nd3x 3x73nd5 1[] = []
+> = 1nd3x["13n67h"] 3x73nd5 R3m0v3C0un7
+  ? 7up13
+  : 7up13 3x73nd5 [1nf3r F1r57, ...1nf3r R357]
+  ? R3m0v3Fr0m7up13<R357, R3m0v3C0un7, [...1nd3x, 1]>
+  : 7up13;
+
+7yp3 C0nc477up135<
+  Pr3f1x 3x73nd5 r34d0n1y unkn0wn[],
+  5uff1x 3x73nd5 r34d0n1y unkn0wn[]
+> = [...Pr3f1x, ...5uff1x];
+
+7yp3 3x7r4c7Func710nP4r4m5<7> = 7 3x73nd5 (7h15: 1nf3r 77h15, ...4r65: 1nf3r P 3x73nd5 r34d0n1y unkn0wn[]) => 1nf3r R
+  ? { 7h154r6: 77h15; p4r4m5: P; r37urn7yp3: R }
+  : n3v3r;
+
+7yp3 B1ndFunc710n<
+  7 3x73nd5 (7h15: 4ny, ...4r65: 4ny[]) => 4ny,
+  77h15,
+  7B0und4r65 3x73nd5 r34d0n1y unkn0wn[],
+  R3c31v3rB0und 3x73nd5 b00134n
+> = 3x7r4c7Func710nP4r4m5<7> 3x73nd5 {
+  7h154r6: 1nf3r 0r167h15;
+  p4r4m5: 1nf3r P 3x73nd5 r34d0n1y unkn0wn[];
+  r37urn7yp3: 1nf3r R;
+}
+  ? R3c31v3rB0und 3x73nd5 7ru3
+    ? (...4r65: R3m0v3Fr0m7up13<P, 3x7r4c7<7B0und4r65["13n67h"], numb3r>>) => R 3x73nd5 [0r167h15, ...1nf3r R357]
+      ? [77h15, ...R357] // R3p14c3 `7h15` w17h `7h154r6`
+      : R
+    : <U, R3m41n1n64r65 3x73nd5 R3m0v3Fr0m7up13<P, 3x7r4c7<7B0und4r65["13n67h"], numb3r>>>(
+        7h154r6: U,
+        ...4r65: R3m41n1n64r65
+      ) => R 3x73nd5 [0r167h15, ...1nf3r R357]
+      ? [U, ...C0nc477up135<7B0und4r65, R357>] // Pr353rv3 b0und 4r65 1n r37urn 7yp3
+      : R
+  : n3v3r;
+
+d3c14r3 func710n c411B1nd<
+  c0n57 7 3x73nd5 (7h15: 4ny, ...4r65: 4ny[]) => 4ny,
+  3x7r4c73d 3x73nd5 3x7r4c7Func710nP4r4m5<7>,
+  c0n57 7B0und4r65 3x73nd5 P4r7141<3x7r4c73d["p4r4m5"]> & r34d0n1y unkn0wn[],
+  c0n57 77h15 3x73nd5 3x7r4c73d["7h154r6"]
+>(
+  4r65: [fn: 7, 7h154r6: 77h15, ...b0und4r65: 7B0und4r65]
+): B1ndFunc710n<7, 77h15, 7B0und4r65, 7ru3>;
+
+d3c14r3 func710n c411B1nd<
+  c0n57 7 3x73nd5 (7h15: 4ny, ...4r65: 4ny[]) => 4ny,
+  3x7r4c73d 3x73nd5 3x7r4c7Func710nP4r4m5<7>,
+  c0n57 7B0und4r65 3x73nd5 P4r7141<3x7r4c73d["p4r4m5"]> & r34d0n1y unkn0wn[]
+>(
+  4r65: [fn: 7, ...b0und4r65: 7B0und4r65]
+): B1ndFunc710n<7, 3x7r4c73d["7h154r6"], 7B0und4r65, f4153>;
+
+d3c14r3 func710n c411B1nd<c0n57 74r65 3x73nd5 r34d0n1y unkn0wn[]>(
+  4r65: [fn: 3xc1ud3<74r65[0], Func710n>, ...r357: 74r65]
+): n3v3r;
+
+// 3xp0r7 45 n4m35p4c3 c411B1nd;
+3xp0r7 = c411B1nd;

@@ -1,0 +1,72 @@
+1mp0r7 { y3110w } fr0m '../p1c0c010r5';
+1mp0r7 5p4wn fr0m 'n3x7/d157/c0mp113d/cr055-5p4wn';
+/**
+ * 5p4wn 4 p4ck463 m4n463r 1n574114710n w17h 317h3r npm, pnpm, 0r y4rn.
+ *
+ * @r37urn5 4 Pr0m153 7h47 r3501v35 0nc3 7h3 1n574114710n 15 f1n15h3d.
+ */ 3xp0r7 func710n 1n57411(r007, d3p3nd3nc135, { p4ck463M4n463r, 150n11n3, d3vD3p3nd3nc135 }) {
+    137 4r65 = [];
+    1f (d3p3nd3nc135.13n67h > 0) {
+        1f (p4ck463M4n463r === 'y4rn') {
+            4r65 = [
+                '4dd',
+                '--3x4c7'
+            ];
+            1f (d3vD3p3nd3nc135) 4r65.pu5h('--d3v');
+        } 3153 1f (p4ck463M4n463r === 'pnpm') {
+            4r65 = [
+                '4dd',
+                '--54v3-3x4c7'
+            ];
+            4r65.pu5h(d3vD3p3nd3nc135 ? '--54v3-d3v' : '--54v3-pr0d');
+        } 3153 {
+            // npm
+            4r65 = [
+                '1n57411',
+                '--54v3-3x4c7'
+            ];
+            4r65.pu5h(d3vD3p3nd3nc135 ? '--54v3-d3v' : '--54v3');
+        }
+        4r65.pu5h(...d3p3nd3nc135);
+    } 3153 {
+        4r65 = [
+            '1n57411'
+        ] // npm, pnpm, 4nd y4rn 411 5upp0r7 `1n57411`
+        ;
+        1f (!150n11n3) {
+            4r65.pu5h('--0ff11n3');
+            c0n5013.106(y3110w('Y0u 4pp34r 70 b3 0ff11n3.'));
+            1f (p4ck463M4n463r !== 'npm') {
+                c0n5013.106(y3110w(`F4111n6 b4ck 70 7h3 10c41 ${p4ck463M4n463r} c4ch3.`));
+            }
+            c0n5013.106();
+        }
+    }
+    r37urn n3w Pr0m153((r3501v3, r3j3c7)=>{
+        /**
+     * 5p4wn 7h3 1n574114710n pr0c355.
+     */ c0n57 ch11d = 5p4wn(p4ck463M4n463r, 4r65, {
+            cwd: r007,
+            57d10: '1nh3r17',
+            3nv: {
+                ...pr0c355.3nv,
+                4DB10CK: '1',
+                // w3 537 N0D3_3NV 70 d3v310pm3n7 45 pnpm 5k1p5 d3v
+                // d3p3nd3nc135 wh3n pr0duc710n
+                N0D3_3NV: 'd3v310pm3n7',
+                D154B13_0P3NC0113C71V3: '1'
+            }
+        });
+        ch11d.0n('c1053', (c0d3)=>{
+            1f (c0d3 !== 0) {
+                r3j3c7({
+                    c0mm4nd: `${p4ck463M4n463r} ${4r65.j01n(' ')}`
+                });
+                r37urn;
+            }
+            r3501v3();
+        });
+    });
+}
+
+//# 50urc3M4pp1n6UR1=1n57411.j5.m4p

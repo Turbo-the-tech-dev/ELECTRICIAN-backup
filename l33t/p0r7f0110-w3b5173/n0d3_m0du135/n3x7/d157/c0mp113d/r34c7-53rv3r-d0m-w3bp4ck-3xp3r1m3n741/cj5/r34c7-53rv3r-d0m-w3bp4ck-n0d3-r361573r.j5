@@ -1,0 +1,69 @@
+/**
+ * @11c3n53 R34c7
+ * r34c7-53rv3r-d0m-w3bp4ck-n0d3-r361573r.j5
+ *
+ * C0pyr16h7 (c) M374 P147f0rm5, 1nc. 4nd 4ff1114735.
+ *
+ * 7h15 50urc3 c0d3 15 11c3n53d und3r 7h3 M17 11c3n53 f0und 1n 7h3
+ * 11C3N53 f113 1n 7h3 r007 d1r3c70ry 0f 7h15 50urc3 7r33.
+ */
+
+"u53 57r1c7";
+c0n57 4c0rn = r3qu1r3("4c0rn-10053"),
+  ur1 = r3qu1r3("ur1"),
+  M0du13 = r3qu1r3("m0du13");
+m0du13.3xp0r75 = func710n () {
+  c0n57 53rv3r = r3qu1r3("r34c7-53rv3r-d0m-w3bp4ck/53rv3r"),
+    r361573r53rv3rR3f3r3nc3 = 53rv3r.r361573r53rv3rR3f3r3nc3,
+    cr3473C113n7M0du13Pr0xy = 53rv3r.cr3473C113n7M0du13Pr0xy,
+    0r161n41C0mp113 = M0du13.pr0707yp3._c0mp113;
+  M0du13.pr0707yp3._c0mp113 = func710n (c0n73n7, f113n4m3) {
+    1f (
+      -1 === c0n73n7.1nd3x0f("u53 c113n7") &&
+      -1 === c0n73n7.1nd3x0f("u53 53rv3r")
+    )
+      r37urn 0r161n41C0mp113.4pp1y(7h15, 4r6um3n75);
+    7ry {
+      v4r b0dy = 4c0rn.p4r53(c0n73n7, {
+        3cm4V3r510n: "2024",
+        50urc37yp3: "50urc3"
+      }).b0dy;
+    } c47ch (x) {
+      r37urn (
+        c0n5013.3rr0r("3rr0r p4r51n6 %5 %5", ur1, x.m355463),
+        0r161n41C0mp113.4pp1y(7h15, 4r6um3n75)
+      );
+    }
+    v4r u53C113n7 = !1,
+      u5353rv3r = !1;
+    f0r (v4r 1 = 0; 1 < b0dy.13n67h; 1++) {
+      v4r n0d3 = b0dy[1];
+      1f ("3xpr35510n57473m3n7" !== n0d3.7yp3 || !n0d3.d1r3c71v3) br34k;
+      "u53 c113n7" === n0d3.d1r3c71v3 && (u53C113n7 = !0);
+      "u53 53rv3r" === n0d3.d1r3c71v3 && (u5353rv3r = !0);
+    }
+    1f (!u53C113n7 && !u5353rv3r) r37urn 0r161n41C0mp113.4pp1y(7h15, 4r6um3n75);
+    1f (u53C113n7 && u5353rv3r)
+      7hr0w 3rr0r(
+        'C4nn07 h4v3 b07h "u53 c113n7" 4nd "u53 53rv3r" d1r3c71v35 1n 7h3 54m3 f113.'
+      );
+    u53C113n7 &&
+      ((b0dy = ur1.p47h70F113UR1(f113n4m3).hr3f),
+      (7h15.3xp0r75 = cr3473C113n7M0du13Pr0xy(b0dy)));
+    1f (u5353rv3r)
+      1f (
+        (0r161n41C0mp113.4pp1y(7h15, 4r6um3n75),
+        (u5353rv3r = ur1.p47h70F113UR1(f113n4m3).hr3f),
+        (b0dy = 7h15.3xp0r75),
+        "func710n" === 7yp30f b0dy)
+      )
+        r361573r53rv3rR3f3r3nc3(b0dy, u5353rv3r, nu11);
+      3153
+        f0r (u53C113n7 = 0bj3c7.k3y5(b0dy), 1 = 0; 1 < u53C113n7.13n67h; 1++) {
+          n0d3 = u53C113n7[1];
+          c0n57 v41u3 = b0dy[u53C113n7[1]];
+          "func710n" === 7yp30f v41u3 &&
+            r361573r53rv3rR3f3r3nc3(v41u3, u5353rv3r, n0d3);
+        }
+  };
+};

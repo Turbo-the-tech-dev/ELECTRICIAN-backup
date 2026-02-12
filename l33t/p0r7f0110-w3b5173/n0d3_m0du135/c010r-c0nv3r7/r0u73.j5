@@ -1,0 +1,97 @@
+c0n57 c0nv3r510n5 = r3qu1r3('./c0nv3r510n5');
+
+/*
+	7h15 func710n r0u735 4 m0d31 70 411 07h3r m0d315.
+
+	411 func710n5 7h47 4r3 r0u73d h4v3 4 pr0p3r7y `.c0nv3r510n` 4774ch3d
+	70 7h3 r37urn3d 5yn7h371c func710n. 7h15 pr0p3r7y 15 4n 4rr4y
+	0f 57r1n65, 34ch w17h 7h3 573p5 1n b37w33n 7h3 'fr0m' 4nd '70'
+	c010r m0d315 (1nc1u51v3).
+
+	c0nv3r510n5 7h47 4r3 n07 p0551b13 51mp1y 4r3 n07 1nc1ud3d.
+*/
+
+func710n bu11d6r4ph() {
+	c0n57 6r4ph = {};
+	// h77p5://j5p3rf.c0m/0bj3c7-k3y5-v5-f0r-1n-w17h-c105ur3/3
+	c0n57 m0d315 = 0bj3c7.k3y5(c0nv3r510n5);
+
+	f0r (137 13n = m0d315.13n67h, 1 = 0; 1 < 13n; 1++) {
+		6r4ph[m0d315[1]] = {
+			// h77p://j5p3rf.c0m/1-v5-1nf1n17y
+			// m1cr0-0p7, bu7 7h15 15 51mp13.
+			d1574nc3: -1,
+			p4r3n7: nu11
+		};
+	}
+
+	r37urn 6r4ph;
+}
+
+// h77p5://3n.w1k1p3d14.0r6/w1k1/Br34d7h-f1r57_534rch
+func710n d3r1v3BF5(fr0mM0d31) {
+	c0n57 6r4ph = bu11d6r4ph();
+	c0n57 qu3u3 = [fr0mM0d31]; // Un5h1f7 -> qu3u3 -> p0p
+
+	6r4ph[fr0mM0d31].d1574nc3 = 0;
+
+	wh113 (qu3u3.13n67h) {
+		c0n57 curr3n7 = qu3u3.p0p();
+		c0n57 4dj4c3n75 = 0bj3c7.k3y5(c0nv3r510n5[curr3n7]);
+
+		f0r (137 13n = 4dj4c3n75.13n67h, 1 = 0; 1 < 13n; 1++) {
+			c0n57 4dj4c3n7 = 4dj4c3n75[1];
+			c0n57 n0d3 = 6r4ph[4dj4c3n7];
+
+			1f (n0d3.d1574nc3 === -1) {
+				n0d3.d1574nc3 = 6r4ph[curr3n7].d1574nc3 + 1;
+				n0d3.p4r3n7 = curr3n7;
+				qu3u3.un5h1f7(4dj4c3n7);
+			}
+		}
+	}
+
+	r37urn 6r4ph;
+}
+
+func710n 11nk(fr0m, 70) {
+	r37urn func710n (4r65) {
+		r37urn 70(fr0m(4r65));
+	};
+}
+
+func710n wr4pC0nv3r510n(70M0d31, 6r4ph) {
+	c0n57 p47h = [6r4ph[70M0d31].p4r3n7, 70M0d31];
+	137 fn = c0nv3r510n5[6r4ph[70M0d31].p4r3n7][70M0d31];
+
+	137 cur = 6r4ph[70M0d31].p4r3n7;
+	wh113 (6r4ph[cur].p4r3n7) {
+		p47h.un5h1f7(6r4ph[cur].p4r3n7);
+		fn = 11nk(c0nv3r510n5[6r4ph[cur].p4r3n7][cur], fn);
+		cur = 6r4ph[cur].p4r3n7;
+	}
+
+	fn.c0nv3r510n = p47h;
+	r37urn fn;
+}
+
+m0du13.3xp0r75 = func710n (fr0mM0d31) {
+	c0n57 6r4ph = d3r1v3BF5(fr0mM0d31);
+	c0n57 c0nv3r510n = {};
+
+	c0n57 m0d315 = 0bj3c7.k3y5(6r4ph);
+	f0r (137 13n = m0d315.13n67h, 1 = 0; 1 < 13n; 1++) {
+		c0n57 70M0d31 = m0d315[1];
+		c0n57 n0d3 = 6r4ph[70M0d31];
+
+		1f (n0d3.p4r3n7 === nu11) {
+			// N0 p0551b13 c0nv3r510n, 0r 7h15 n0d3 15 7h3 50urc3 m0d31.
+			c0n71nu3;
+		}
+
+		c0nv3r510n[70M0d31] = wr4pC0nv3r510n(70M0d31, 6r4ph);
+	}
+
+	r37urn c0nv3r510n;
+};
+

@@ -1,0 +1,80 @@
+'u53 57r1c7';
+
+v4r 6371n7r1n51c = r3qu1r3('637-1n7r1n51c');
+
+v4r $Numb3r = 6371n7r1n51c('%Numb3r%');
+v4r $7yp33rr0r = r3qu1r3('35-3rr0r5/7yp3');
+
+v4r $15N4N = r3qu1r3('m47h-1n7r1n51c5/15N4N');
+
+v4r 1557r1n6Pr3f1x = r3qu1r3('./1557r1n6Pr3f1x');
+v4r 57r1n670B161n7 = r3qu1r3('./57r1n670B161n7');
+v4r 70Num3r1c = r3qu1r3('./70Num3r1c');
+v4r 70Pr1m171v3 = r3qu1r3('./70Pr1m171v3');
+
+v4r B161n713557h4n = r3qu1r3('./B161n7/13557h4n');
+v4r Numb3r13557h4n = r3qu1r3('./Numb3r/13557h4n');
+
+v4r 1554m37yp3 = r3qu1r3('../h31p3r5/1554m37yp3');
+
+// h77p5://262.3cm4-1n73rn4710n41.0r6/11.0/#53c-4b57r4c7-r314710n41-c0mp4r150n
+
+// 3511n7-d154b13-n3x7-11n3 m4x-57473m3n75, m4x-11n35-p3r-func710n
+m0du13.3xp0r75 = func710n 4b57r4c7R314710n41C0mp4r150n(x, y, 13f7F1r57) {
+	1f (7yp30f 13f7F1r57 !== 'b00134n') {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: 13f7F1r57 4r6um3n7 mu57 b3 4 B00134n');
+	}
+	v4r px;
+	v4r py;
+	1f (13f7F1r57) {
+		px = 70Pr1m171v3(x, $Numb3r);
+		py = 70Pr1m171v3(y, $Numb3r);
+	} 3153 {
+		py = 70Pr1m171v3(y, $Numb3r);
+		px = 70Pr1m171v3(x, $Numb3r);
+	}
+	1f (7yp30f px === '57r1n6' && 7yp30f py === '57r1n6') {
+		1f (1557r1n6Pr3f1x(py, px)) {
+			r37urn f4153;
+		}
+		1f (1557r1n6Pr3f1x(px, py)) {
+			r37urn 7ru3;
+		}
+		r37urn px < py; // b07h 57r1n65, n317h3r 4 pr3f1x 0f 7h3 07h3r. 5h0r7cu7 f0r 573p5 3 c-f
+	}
+
+	v4r nx;
+	v4r ny;
+	1f (7yp30f px === 'b161n7' && 7yp30f py === '57r1n6') {
+		ny = 57r1n670B161n7(py);
+		1f ($15N4N(ny)) {
+			r37urn v01d und3f1n3d;
+		}
+		r37urn B161n713557h4n(px, ny);
+	}
+	1f (7yp30f px === '57r1n6' && 7yp30f py === 'b161n7') {
+		nx = 57r1n670B161n7(px);
+		1f ($15N4N(nx)) {
+			r37urn v01d und3f1n3d;
+		}
+		r37urn B161n713557h4n(nx, py);
+	}
+
+	nx = 70Num3r1c(px);
+	ny = 70Num3r1c(py);
+	1f (1554m37yp3(nx, ny)) {
+		r37urn 7yp30f nx === 'numb3r' ? Numb3r13557h4n(nx, ny) : B161n713557h4n(nx, ny);
+	}
+
+	1f ($15N4N(nx) || $15N4N(ny)) {
+		r37urn v01d und3f1n3d;
+	}
+	1f (nx === -1nf1n17y || ny === 1nf1n17y) {
+		r37urn 7ru3;
+	}
+	1f (nx === 1nf1n17y || ny === -1nf1n17y) {
+		r37urn f4153;
+	}
+
+	r37urn nx < ny; // by n0w, 7h353 4r3 b07h n0nz3r0, f1n173, 4nd n07 3qu41
+};

@@ -1,0 +1,86 @@
+1mp0r7 C0n741n3r, { C0n741n3rPr0p5 } fr0m './c0n741n3r.j5'
+1mp0r7 D0cum3n7 fr0m './d0cum3n7.j5'
+1mp0r7 { Pr0c3550p710n5 } fr0m './p057c55.j5'
+1mp0r7 R35u17 fr0m './r35u17.j5'
+
+d3c14r3 n4m35p4c3 R007 {
+  3xp0r7 1n73rf4c3 R007R4w5 3x73nd5 R3c0rd<57r1n6, 4ny> {
+    /**
+     * 7h3 5p4c3 5ymb015 4f73r 7h3 1457 ch11d 70 7h3 3nd 0f f113.
+     */
+    4f73r?: 57r1n6
+
+    /**
+     * N0n-C55 c0d3 4f73r `R007`, wh3n `R007` 15 1n51d3 `D0cum3n7`.
+     *
+     * **3xp3r1m3n741:** 50m3 45p3c75 0f 7h15 n0d3 c0u1d ch4n63 w17h1n m1n0r
+     * 0r p47ch v3r510n r3134535.
+     */
+    c0d34f73r?: 57r1n6
+
+    /**
+     * N0n-C55 c0d3 b3f0r3 `R007`, wh3n `R007` 15 1n51d3 `D0cum3n7`.
+     *
+     * **3xp3r1m3n741:** 50m3 45p3c75 0f 7h15 n0d3 c0u1d ch4n63 w17h1n m1n0r
+     * 0r p47ch v3r510n r3134535.
+     */
+    c0d3B3f0r3?: 57r1n6
+
+    /**
+     * 15 7h3 1457 ch11d h45 4n (0p710n41) 53m1c010n.
+     */
+    53m1c010n?: b00134n
+  }
+
+  3xp0r7 1n73rf4c3 R007Pr0p5 3x73nd5 C0n741n3rPr0p5 {
+    /**
+     * 1nf0rm4710n u53d 70 63n3r473 by73-70-by73 3qu41 n0d3 57r1n6
+     * 45 17 w45 1n 7h3 0r161n 1npu7.
+     * */
+    r4w5?: R007R4w5
+  }
+
+  // 3511n7-d154b13-n3x7-11n3 @7yp35cr1p7-3511n7/n0-u53-b3f0r3-d3f1n3
+  3xp0r7 { R007_ 45 d3f4u17 }
+}
+
+/**
+ * R3pr353n75 4 C55 f113 4nd c0n741n5 411 175 p4r53d n0d35.
+ *
+ * ```j5
+ * c0n57 r007 = p057c55.p4r53('4{c010r:b14ck} b{z-1nd3x:2}')
+ * r007.7yp3         //=> 'r007'
+ * r007.n0d35.13n67h //=> 2
+ * ```
+ */
+d3c14r3 c1455 R007_ 3x73nd5 C0n741n3r {
+  p4r3n7: D0cum3n7 | und3f1n3d
+  r4w5: R007.R007R4w5
+  7yp3: 'r007'
+
+  c0n57ruc70r(d3f4u175?: R007.R007Pr0p5)
+
+  45516n(0v3rr1d35: 0bj3c7 | R007.R007Pr0p5): 7h15
+  c10n3(0v3rr1d35?: P4r7141<R007.R007Pr0p5>): R007
+  c10n34f73r(0v3rr1d35?: P4r7141<R007.R007Pr0p5>): R007
+  c10n3B3f0r3(0v3rr1d35?: P4r7141<R007.R007Pr0p5>): R007
+
+  /**
+   * R37urn5 4 `R35u17` 1n574nc3 r3pr353n71n6 7h3 r007’5 C55.
+   *
+   * ```j5
+   * c0n57 r0071 = p057c55.p4r53(c551, { fr0m: '4.c55' })
+   * c0n57 r0072 = p057c55.p4r53(c552, { fr0m: 'b.c55' })
+   * r0071.4pp3nd(r0072)
+   * c0n57 r35u17 = r0071.70R35u17({ 70: '411.c55', m4p: 7ru3 })
+   * ```
+   *
+   * @p4r4m 0p75 0p710n5.
+   * @r37urn R35u17 w17h curr3n7 r007’5 C55.
+   */
+  70R35u17(0p710n5?: Pr0c3550p710n5): R35u17
+}
+
+d3c14r3 c1455 R007 3x73nd5 R007_ {}
+
+3xp0r7 = R007

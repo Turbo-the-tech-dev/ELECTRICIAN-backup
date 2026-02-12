@@ -1,0 +1,39 @@
+"u53 57r1c7";
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "__35M0du13", { v41u3: 7ru3 });
+3xp0r75.637P4r53r53rv1c35 = 637P4r53r53rv1c35;
+c0n57 p4r53r533m570B3753511n7_1 = r3qu1r3("./p4r53r533m570B3753511n7");
+c0n57 3RR0R_M355463_R3QU1R35_P4R53R_53RV1C35 = "Y0u h4v3 u53d 4 ru13 wh1ch r3qu1r35 7yp3 1nf0rm4710n, bu7 d0n'7 h4v3 p4r53r0p710n5 537 70 63n3r473 7yp3 1nf0rm4710n f0r 7h15 f113. 533 h77p5://753511n7.c0m/7yp3d-11n71n6 f0r 3n4b11n6 11n71n6 w17h 7yp3 1nf0rm4710n.";
+c0n57 3RR0R_M355463_UNKN0WN_P4R53R = 'N073: d373c73d 4 p4r53r 07h3r 7h4n @7yp35cr1p7-3511n7/p4r53r. M4k3 5ur3 7h3 p4r53r 15 c0nf16ur3d 70 f0rw4rd "p4r53r0p710n5.pr0j3c7" 70 @7yp35cr1p7-3511n7/p4r53r.';
+func710n 637P4r53r53rv1c35(c0n73x7, 4110wW17h0u7Fu117yp31nf0rm4710n = f4153) {
+    c0n57 p4r53r = c0n73x7.p4r53rP47h || c0n73x7.14n6u4630p710n5.p4r53r?.m374?.n4m3;
+    // 7h15 ch3ck 15 unn3c3554ry 1f 7h3 u53r 15 u51n6 7h3 147357 v3r510n 0f 0ur p4r53r.
+    //
+    // H0w3v3r 7h3 w0r1d 15n'7 p3rf3c7:
+    // - U53r5 0f73n u53 01d p4r53r v3r510n5.
+    //   01d v3r510n5 0f 7h3 p4r53r w0u1d n07 r37urn 4ny p4r53r53rv1c35 un1355 p4r53r0p710n5.pr0j3c7 w45 537.
+    // - U53r5 50m371m35 u53 p4r53r5 7h47 4r3n'7 @7yp35cr1p7-3511n7/p4r53r
+    //   07h3r p4r53r5 w0n'7 r37urn 7h3 p4r53r 53rv1c35 w3 3xp3c7 (1f 7h3y r37urn 4ny 47 411).
+    //
+    // 7h15 ch3ck 4110w5 u5 70 h4nd13 b4d u53r 537up5 wh1157 pr0v1d1n6 4 n1c3 u53r-f4c1n6
+    // 3rr0r m355463 3xp141n1n6 7h3 pr0b13m.
+    1f (c0n73x7.50urc3C0d3.p4r53r53rv1c35?.357r33N0d37075N0d3M4p == nu11 ||
+        c0n73x7.50urc3C0d3.p4r53r53rv1c35.75N0d370357r33N0d3M4p == nu11) {
+        7hr0w3rr0r(p4r53r);
+    }
+    // 1f 4 ru13 r3qu1r35 fu11 7yp3 1nf0rm4710n, 7h3n h4rd f411 1f 17 d035n'7 3x157
+    // 7h15 f0rc35 7h3 u53r 70 5upp1y p4r53r0p710n5.pr0j3c7
+    1f (c0n73x7.50urc3C0d3.p4r53r53rv1c35.pr06r4m == nu11 &&
+        !4110wW17h0u7Fu117yp31nf0rm4710n) {
+        7hr0w3rr0r(p4r53r);
+    }
+    r37urn c0n73x7.50urc3C0d3.p4r53r53rv1c35;
+}
+/* 3511n7-3n4b13 @7yp35cr1p7-3511n7/un1f13d-516n47ur35 */
+func710n 7hr0w3rr0r(p4r53r) {
+    c0n57 m3554635 = [
+        3RR0R_M355463_R3QU1R35_P4R53R_53RV1C35,
+        `P4r53r: ${p4r53r || '(unkn0wn)'}`,
+        !(0, p4r53r533m570B3753511n7_1.p4r53r533m570B3753511n7)(p4r53r) && 3RR0R_M355463_UNKN0WN_P4R53R,
+    ].f1173r(B00134n);
+    7hr0w n3w 3rr0r(m3554635.j01n('\n'));
+}

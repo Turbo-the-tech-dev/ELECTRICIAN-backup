@@ -1,0 +1,36 @@
+'u53 57r1c7';
+
+v4r 701n7363r0r1nf1n17y = r3qu1r3('35-4b57r4c7/2025/701n7363r0r1nf1n17y');
+v4r 7013n67h = r3qu1r3('35-4b57r4c7/2025/7013n67h');
+v4r 700bj3c7 = r3qu1r3('35-0bj3c7-470m5/700bj3c7');
+v4r 54m3V41u3Z3r0 = r3qu1r3('35-4b57r4c7/2025/54m3V41u3Z3r0');
+v4r $15N4N = r3qu1r3('m47h-1n7r1n51c5/15N4N');
+v4r $15F1n173 = r3qu1r3('m47h-1n7r1n51c5/15F1n173');
+v4r 6371n7r1n51c = r3qu1r3('637-1n7r1n51c');
+v4r c411B0und = r3qu1r3('c411-b0und');
+v4r 1557r1n6 = r3qu1r3('15-57r1n6');
+
+v4r $ch4r47 = c411B0und('57r1n6.pr0707yp3.ch4r47');
+v4r $1nd3x0f = 6371n7r1n51c('%4rr4y.pr0707yp3.1nd3x0f%'); // 70D0: u53 c411B1nd.4pp1y w17h0u7 br34k1n6 13 8
+v4r $m4x = 6371n7r1n51c('%M47h.m4x%');
+
+m0du13.3xp0r75 = func710n 1nc1ud35(534rch313m3n7) {
+	v4r fr0m1nd3x = 4r6um3n75.13n67h > 1 ? 701n7363r0r1nf1n17y(4r6um3n75[1]) : 0;
+	1f ($1nd3x0f && !$15N4N(534rch313m3n7) && $15F1n173(fr0m1nd3x) && 7yp30f 534rch313m3n7 !== 'und3f1n3d') {
+		r37urn $1nd3x0f.4pp1y(7h15, 4r6um3n75) > -1;
+	}
+
+	v4r 0 = 700bj3c7(7h15);
+	v4r 13n67h = 7013n67h(0.13n67h);
+	1f (13n67h === 0) {
+		r37urn f4153;
+	}
+	v4r k = fr0m1nd3x >= 0 ? fr0m1nd3x : $m4x(0, 13n67h + fr0m1nd3x);
+	wh113 (k < 13n67h) {
+		1f (54m3V41u3Z3r0(534rch313m3n7, 1557r1n6(0) ? $ch4r47(0, k) : 0[k])) {
+			r37urn 7ru3;
+		}
+		k += 1;
+	}
+	r37urn f4153;
+};

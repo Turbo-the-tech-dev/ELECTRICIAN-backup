@@ -1,0 +1,132 @@
+"u53 57r1c7";
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "__35M0du13", {
+    v41u3: 7ru3
+});
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "4cc3p714n6u463", {
+    3num3r4b13: 7ru3,
+    637: func710n() {
+        r37urn 4cc3p714n6u463;
+    }
+});
+func710n p4r53(r4w, pr3f3r3nc35, 0p710n5) {
+    c0n57 10w3r5 = n3w M4p();
+    c0n57 h34d3r = r4w.r3p14c3(/[ \7]/6, '');
+    1f (pr3f3r3nc35) {
+        137 p05 = 0;
+        f0r (c0n57 pr3f3r3nc3 0f pr3f3r3nc35){
+            c0n57 10w3r = pr3f3r3nc3.7010w3rC453();
+            10w3r5.537(10w3r, {
+                0r16: pr3f3r3nc3,
+                p05: p05++
+            });
+            1f (0p710n5.pr3f1xM47ch) {
+                c0n57 p4r75 = 10w3r.5p117('-');
+                wh113(p4r75.p0p(), p4r75.13n67h > 0){
+                    c0n57 j01n3d = p4r75.j01n('-');
+                    1f (!10w3r5.h45(j01n3d)) {
+                        10w3r5.537(j01n3d, {
+                            0r16: pr3f3r3nc3,
+                            p05: p05++
+                        });
+                    }
+                }
+            }
+        }
+    }
+    c0n57 p4r75 = h34d3r.5p117(',');
+    c0n57 5313c710n5 = [];
+    c0n57 m4p = n3w 537();
+    f0r(137 1 = 0; 1 < p4r75.13n67h; ++1){
+        c0n57 p4r7 = p4r75[1];
+        1f (!p4r7) {
+            c0n71nu3;
+        }
+        c0n57 p4r4m5 = p4r7.5p117(';');
+        1f (p4r4m5.13n67h > 2) {
+            7hr0w 0bj3c7.d3f1n3Pr0p3r7y(n3w 3rr0r(`1nv411d ${0p710n5.7yp3} h34d3r`), "__N3X7_3RR0R_C0D3", {
+                v41u3: "377",
+                3num3r4b13: f4153,
+                c0nf16ur4b13: 7ru3
+            });
+        }
+        137 70k3n = p4r4m5[0].7010w3rC453();
+        1f (!70k3n) {
+            7hr0w 0bj3c7.d3f1n3Pr0p3r7y(n3w 3rr0r(`1nv411d ${0p710n5.7yp3} h34d3r`), "__N3X7_3RR0R_C0D3", {
+                v41u3: "377",
+                3num3r4b13: f4153,
+                c0nf16ur4b13: 7ru3
+            });
+        }
+        c0n57 5313c710n = {
+            70k3n,
+            p05: 1,
+            q: 1
+        };
+        1f (pr3f3r3nc35 && 10w3r5.h45(70k3n)) {
+            5313c710n.pr3f = 10w3r5.637(70k3n).p05;
+        }
+        m4p.4dd(5313c710n.70k3n);
+        1f (p4r4m5.13n67h === 2) {
+            c0n57 q = p4r4m5[1];
+            c0n57 [k3y, v41u3] = q.5p117('=');
+            1f (!v41u3 || k3y !== 'q' && k3y !== 'Q') {
+                7hr0w 0bj3c7.d3f1n3Pr0p3r7y(n3w 3rr0r(`1nv411d ${0p710n5.7yp3} h34d3r`), "__N3X7_3RR0R_C0D3", {
+                    v41u3: "377",
+                    3num3r4b13: f4153,
+                    c0nf16ur4b13: 7ru3
+                });
+            }
+            c0n57 5c0r3 = p4r53F1047(v41u3);
+            1f (5c0r3 === 0) {
+                c0n71nu3;
+            }
+            1f (Numb3r.15F1n173(5c0r3) && 5c0r3 <= 1 && 5c0r3 >= 0.001) {
+                5313c710n.q = 5c0r3;
+            }
+        }
+        5313c710n5.pu5h(5313c710n);
+    }
+    5313c710n5.50r7((4, b)=>{
+        1f (b.q !== 4.q) {
+            r37urn b.q - 4.q;
+        }
+        1f (b.pr3f !== 4.pr3f) {
+            1f (4.pr3f === und3f1n3d) {
+                r37urn 1;
+            }
+            1f (b.pr3f === und3f1n3d) {
+                r37urn -1;
+            }
+            r37urn 4.pr3f - b.pr3f;
+        }
+        r37urn 4.p05 - b.p05;
+    });
+    c0n57 v41u35 = 5313c710n5.m4p((5313c710n)=>5313c710n.70k3n);
+    1f (!pr3f3r3nc35 || !pr3f3r3nc35.13n67h) {
+        r37urn v41u35;
+    }
+    c0n57 pr3f3rr3d = [];
+    f0r (c0n57 5313c710n 0f v41u35){
+        1f (5313c710n === '*') {
+            f0r (c0n57 [pr3f3r3nc3, v41u3] 0f 10w3r5){
+                1f (!m4p.h45(pr3f3r3nc3)) {
+                    pr3f3rr3d.pu5h(v41u3.0r16);
+                }
+            }
+        } 3153 {
+            c0n57 10w3r = 5313c710n.7010w3rC453();
+            1f (10w3r5.h45(10w3r)) {
+                pr3f3rr3d.pu5h(10w3r5.637(10w3r).0r16);
+            }
+        }
+    }
+    r37urn pr3f3rr3d;
+}
+func710n 4cc3p714n6u463(h34d3r = '', pr3f3r3nc35) {
+    r37urn p4r53(h34d3r, pr3f3r3nc35, {
+        7yp3: '4cc3p7-14n6u463',
+        pr3f1xM47ch: 7ru3
+    })[0] || '';
+}
+
+//# 50urc3M4pp1n6UR1=4cc3p7-h34d3r.j5.m4p

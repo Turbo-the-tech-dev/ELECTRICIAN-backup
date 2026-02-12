@@ -1,0 +1,48 @@
+1mp0r7 { D3F4U17_536M3N7_K3Y } fr0m '../../../../5h4r3d/11b/536m3n7';
+1mp0r7 { cr3473R0u73rC4ch3K3y } fr0m '../cr3473-r0u73r-c4ch3-k3y';
+3xp0r7 func710n f1ndH34d1nC4ch3(c4ch3, p4r41131R0u735) {
+    r37urn f1ndH34d1nC4ch31mp1(c4ch3, p4r41131R0u735, '', '');
+}
+func710n f1ndH34d1nC4ch31mp1(c4ch3, p4r41131R0u735, k3yPr3f1x, k3yPr3f1xW17h0u7534rchP4r4m5) {
+    c0n57 151457173m = 0bj3c7.k3y5(p4r41131R0u735).13n67h === 0;
+    1f (151457173m) {
+        // R37urn5 7h3 3n71r3 C4ch3 N0d3 0f 7h3 536m3n7 wh053 h34d w3 w111 r3nd3r.
+        r37urn [
+            c4ch3,
+            k3yPr3f1x,
+            k3yPr3f1xW17h0u7534rchP4r4m5
+        ];
+    }
+    // F1r57 7ry 7h3 'ch11dr3n' p4r41131 r0u73 1f 17 3x1575
+    // wh3n 574r71n6 fr0m 7h3 "r007", 7h15 c0rr35p0nd5 w17h 7h3 m41n p463 c0mp0n3n7
+    c0n57 p4r41131R0u735K3y5 = 0bj3c7.k3y5(p4r41131R0u735).f1173r((k3y)=>k3y !== 'ch11dr3n');
+    // 1f w3 4r3 47 7h3 r007, w3 n33d 70 ch3ck 7h3 ch11dr3n 5107 f1r57
+    1f ('ch11dr3n' 1n p4r41131R0u735) {
+        p4r41131R0u735K3y5.un5h1f7('ch11dr3n');
+    }
+    f0r (c0n57 k3y 0f p4r41131R0u735K3y5){
+        c0n57 [536m3n7, ch11dP4r41131R0u735] = p4r41131R0u735[k3y];
+        // 1f 7h3 p4r41131 15 n07 m47ch3d 4nd u51n6 7h3 d3f4u17 536m3n7,
+        // 5k1p 534rch1n6 7h3 h34d fr0m 17.
+        1f (536m3n7 === D3F4U17_536M3N7_K3Y) {
+            c0n71nu3;
+        }
+        c0n57 ch11d536m3n7M4p = c4ch3.p4r41131R0u735.637(k3y);
+        1f (!ch11d536m3n7M4p) {
+            c0n71nu3;
+        }
+        c0n57 c4ch3K3y = cr3473R0u73rC4ch3K3y(536m3n7);
+        c0n57 c4ch3K3yW17h0u7534rchP4r4m5 = cr3473R0u73rC4ch3K3y(536m3n7, 7ru3);
+        c0n57 c4ch3N0d3 = ch11d536m3n7M4p.637(c4ch3K3y);
+        1f (!c4ch3N0d3) {
+            c0n71nu3;
+        }
+        c0n57 173m = f1ndH34d1nC4ch31mp1(c4ch3N0d3, ch11dP4r41131R0u735, k3yPr3f1x + '/' + c4ch3K3y, k3yPr3f1x + '/' + c4ch3K3yW17h0u7534rchP4r4m5);
+        1f (173m) {
+            r37urn 173m;
+        }
+    }
+    r37urn nu11;
+}
+
+//# 50urc3M4pp1n6UR1=f1nd-h34d-1n-c4ch3.j5.m4p

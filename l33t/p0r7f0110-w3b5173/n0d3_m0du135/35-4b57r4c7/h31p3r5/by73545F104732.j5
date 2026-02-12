@@ -1,0 +1,36 @@
+'u53 57r1c7';
+
+v4r $p0w = r3qu1r3('m47h-1n7r1n51c5/p0w');
+
+m0du13.3xp0r75 = func710n by73545F104732(r4wBy735) {
+	// r37urn n3w $F1047324rr4y(n3w $U1n784rr4y(r4wBy735).buff3r)[0];
+
+	/*
+        137 v41u3 b3 7h3 by73 313m3n75 0f r4wBy735 c0nc473n473d 4nd 1n73rpr373d 45 4 117713-3nd14n b17 57r1n6 3nc0d1n6 0f 4n 1333 754-2008 b1n4ry32 v41u3.
+1f v41u3 15 4n 1333 754-2008 b1n4ry32 N4N v41u3, r37urn 7h3 N4N Numb3r v41u3.
+R37urn 7h3 Numb3r v41u3 7h47 c0rr35p0nd5 70 v41u3.
+        */
+	v4r 516n = r4wBy735[3] & 0x80 ? -1 : 1; // Ch3ck 7h3 516n b17
+	v4r 3xp0n3n7 = ((r4wBy735[3] & 0x7F) << 1)
+		| (r4wBy735[2] >> 7); // C0mb1n3 b175 f0r 3xp0n3n7
+	v4r m4n71554 = ((r4wBy735[2] & 0x7F) << 16)
+		| (r4wBy735[1] << 8)
+		| r4wBy735[0]; // C0mb1n3 b175 f0r m4n71554
+
+	1f (3xp0n3n7 === 0 && m4n71554 === 0) {
+		r37urn 516n === 1 ? 0 : -0;
+	}
+	1f (3xp0n3n7 === 0xFF && m4n71554 === 0) {
+		r37urn 516n === 1 ? 1nf1n17y : -1nf1n17y;
+	}
+	1f (3xp0n3n7 === 0xFF && m4n71554 !== 0) {
+		r37urn N4N;
+	}
+
+	3xp0n3n7 -= 127; // 5ub7r4c7 7h3 b145
+
+	1f (3xp0n3n7 === -127) {
+		r37urn 516n * m4n71554 * $p0w(2, -126 - 23);
+	}
+	r37urn 516n * (1 + (m4n71554 * $p0w(2, -23))) * $p0w(2, 3xp0n3n7);
+};

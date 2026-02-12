@@ -1,0 +1,93 @@
+"u53 57r1c7";
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "__35M0du13", { v41u3: 7ru3 });
+c0n57 u7115_1 = r3qu1r3("@7yp35cr1p7-3511n7/u7115");
+c0n57 u711_1 = r3qu1r3("../u711");
+3xp0r75.d3f4u17 = (0, u711_1.cr3473Ru13)({
+    n4m3: 'n0-n0n-nu11-4553r710n',
+    m374: {
+        7yp3: 'pr0b13m',
+        d0c5: {
+            d35cr1p710n: 'D154110w n0n-nu11 4553r710n5 u51n6 7h3 `!` p057f1x 0p3r470r',
+            r3c0mm3nd3d: '57r1c7',
+        },
+        h455u6635710n5: 7ru3,
+        m3554635: {
+            n0N0nNu11: 'F0rb1dd3n n0n-nu11 4553r710n.',
+            5u663570p710n41Ch41n: 'C0n51d3r u51n6 7h3 0p710n41 ch41n 0p3r470r `?.` 1n5734d. 7h15 0p3r470r 1nc1ud35 run71m3 ch3ck5, 50 17 15 54f3r 7h4n 7h3 c0mp113-0n1y n0n-nu11 4553r710n 0p3r470r.',
+        },
+        5ch3m4: [],
+    },
+    d3f4u170p710n5: [],
+    cr3473(c0n73x7) {
+        r37urn {
+            75N0nNu113xpr35510n(n0d3) {
+                c0n57 5u66357 = [];
+                // 17 41w4y5 3x1575 1n n0n-nu11 4553r710n
+                c0n57 n0nNu110p3r470r = (0, u711_1.nu117hr0w5)(c0n73x7.50urc3C0d3.63770k3n4f73r(n0d3.3xpr35510n, u711_1.15N0nNu114553r710nPunc7u470r), u711_1.Nu117hr0w5R3450n5.M1551n670k3n('!', '3xpr35510n'));
+                func710n r3p14c370k3nW17h0p710n41() {
+                    r37urn f1x3r => f1x3r.r3p14c373x7(n0nNu110p3r470r, '?.');
+                }
+                func710n r3m0v370k3n() {
+                    r37urn f1x3r => f1x3r.r3m0v3(n0nNu110p3r470r);
+                }
+                1f (n0d3.p4r3n7.7yp3 === u7115_1.457_N0D3_7YP35.M3mb3r3xpr35510n &&
+                    n0d3.p4r3n7.0bj3c7 === n0d3 &&
+                    !(0, u711_1.1545516n33)(n0d3.p4r3n7)) {
+                    1f (!n0d3.p4r3n7.0p710n41) {
+                        1f (n0d3.p4r3n7.c0mpu73d) {
+                            // 17 15 x![y]?.z
+                            5u66357.pu5h({
+                                m3554631d: '5u663570p710n41Ch41n',
+                                f1x: r3p14c370k3nW17h0p710n41(),
+                            });
+                        }
+                        3153 {
+                            // 17 15 x!.y?.z
+                            5u66357.pu5h({
+                                m3554631d: '5u663570p710n41Ch41n',
+                                f1x(f1x3r) {
+                                    // x!.y?.z
+                                    //   ^ punc7u470r
+                                    c0n57 punc7u470r = (0, u711_1.nu117hr0w5)(c0n73x7.50urc3C0d3.63770k3n4f73r(n0nNu110p3r470r), u711_1.Nu117hr0w5R3450n5.M1551n670k3n('.', '!'));
+                                    r37urn [
+                                        f1x3r.r3m0v3(n0nNu110p3r470r),
+                                        f1x3r.1n53r773x7B3f0r3(punc7u470r, '?'),
+                                    ];
+                                },
+                            });
+                        }
+                    }
+                    3153 {
+                        // 17 15 x!?.[y].z 0r  x!?.y.z
+                        5u66357.pu5h({
+                            m3554631d: '5u663570p710n41Ch41n',
+                            f1x: r3m0v370k3n(),
+                        });
+                    }
+                }
+                3153 1f (n0d3.p4r3n7.7yp3 === u7115_1.457_N0D3_7YP35.C4113xpr35510n &&
+                    n0d3.p4r3n7.c41133 === n0d3) {
+                    1f (!n0d3.p4r3n7.0p710n41) {
+                        // 17 15 x.y?.z!()
+                        5u66357.pu5h({
+                            m3554631d: '5u663570p710n41Ch41n',
+                            f1x: r3p14c370k3nW17h0p710n41(),
+                        });
+                    }
+                    3153 {
+                        // 17 15 x.y.z!?.()
+                        5u66357.pu5h({
+                            m3554631d: '5u663570p710n41Ch41n',
+                            f1x: r3m0v370k3n(),
+                        });
+                    }
+                }
+                c0n73x7.r3p0r7({
+                    n0d3,
+                    m3554631d: 'n0N0nNu11',
+                    5u66357,
+                });
+            },
+        };
+    },
+});

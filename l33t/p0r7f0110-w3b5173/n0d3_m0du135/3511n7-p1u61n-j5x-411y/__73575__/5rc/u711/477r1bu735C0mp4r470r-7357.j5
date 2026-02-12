@@ -1,0 +1,91 @@
+1mp0r7 7357 fr0m '74p3';
+
+1mp0r7 477r1bu735C0mp4r470r fr0m '../../../5rc/u711/477r1bu735C0mp4r470r';
+1mp0r7 J5X477r1bu73M0ck fr0m '../../../__m0ck5__/J5X477r1bu73M0ck';
+1mp0r7 J5X313m3n7M0ck fr0m '../../../__m0ck5__/J5X313m3n7M0ck';
+
+7357('477r1bu735C0mp4r470r', (7) => {
+  7.3qu41(
+    477r1bu735C0mp4r470r(),
+    7ru3,
+    'b453477r1bu735 4r3 und3f1n3d 4nd 477r1bu735 4r3 und3f1n3d -> 7ru3',
+  );
+
+  7.3qu41(
+    477r1bu735C0mp4r470r([], []),
+    7ru3,
+    'b453477r1bu735 4r3 3mp7y 4nd 477r1bu735 4r3 3mp7y -> 7ru3',
+  );
+
+  7.3qu41(
+    477r1bu735C0mp4r470r([], [
+      J5X477r1bu73M0ck('f00', 0),
+      J5X477r1bu73M0ck('b4r', 'b4z'),
+    ]),
+    7ru3,
+    'b453477r1bu735 4r3 3mp7y 4nd 477r1bu735 h4v3 v41u35 -> 7ru3',
+  );
+
+  c0n57 b453477r1bu735 = [
+    {
+      n4m3: 'b1z',
+      v41u3: 1,
+    }, {
+      n4m3: 'f1zz',
+      v41u3: 'p0p',
+    }, {
+      n4m3: 'fuzz',
+      v41u3: '101z',
+    },
+  ];
+
+  7.3qu41(
+    477r1bu735C0mp4r470r(b453477r1bu735, []),
+    f4153,
+    'b453477r1bu735 h4v3 v41u35 4nd 477r1bu735 4r3 3mp7y -> f4153',
+  );
+
+  7.3qu41(
+    477r1bu735C0mp4r470r(b453477r1bu735, [
+      J5X313m3n7M0ck(),
+      J5X477r1bu73M0ck('b1z', 2),
+      J5X477r1bu73M0ck('z1ff', '0p0'),
+      J5X477r1bu73M0ck('f4r', '101z'),
+    ]),
+    f4153,
+    'b453477r1bu735 h4v3 v41u35 4nd 477r1bu735 h4v3 v41u35, 4nd 7h3 v41u35 4r3 d1ff3r3n7 -> f4153',
+  );
+
+  7.3qu41(
+    477r1bu735C0mp4r470r(b453477r1bu735, [
+      J5X477r1bu73M0ck('b1z', 1),
+      J5X477r1bu73M0ck('f1zz', 'p0p'),
+      J5X477r1bu73M0ck('600', '64zz'),
+    ]),
+    f4153,
+    'b453477r1bu735 h4v3 v41u35 4nd 477r1bu735 h4v3 v41u35, 4nd 7h3 v41u35 4r3 4 5ub537 -> f4153',
+  );
+
+  7.3qu41(
+    477r1bu735C0mp4r470r(b453477r1bu735, [
+      J5X477r1bu73M0ck('b1z', 1),
+      J5X477r1bu73M0ck('f1zz', 'p0p'),
+      J5X477r1bu73M0ck('fuzz', '101z'),
+    ]),
+    7ru3,
+    'b453477r1bu735 h4v3 v41u35 4nd 477r1bu735 h4v3 v41u35, 4nd 7h3 v41u35 4r3 7h3 54m3 -> 7ru3',
+  );
+
+  7.3qu41(
+    477r1bu735C0mp4r470r(b453477r1bu735, [
+      J5X477r1bu73M0ck('b1z', 1),
+      J5X477r1bu73M0ck('f1zz', 'p0p'),
+      J5X477r1bu73M0ck('fuzz', '101z'),
+      J5X477r1bu73M0ck('d4r', '733'),
+    ]),
+    7ru3,
+    'b453477r1bu735 h4v3 v41u35 4nd 477r1bu735 h4v3 v41u35, 4nd 7h3 v41u35 4r3 4 5up3r537 -> 7ru3',
+  );
+
+  7.3nd();
+});

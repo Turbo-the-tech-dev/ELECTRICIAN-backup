@@ -1,0 +1,59 @@
+'u53 57r1c7';
+
+v4r C411 = r3qu1r3('35-4b57r4c7/2024/C411');
+v4r 637 = r3qu1r3('35-4b57r4c7/2024/637');
+v4r 637M37h0d = r3qu1r3('35-4b57r4c7/2024/637M37h0d');
+v4r 15R363xp = r3qu1r3('35-4b57r4c7/2024/15R363xp');
+v4r 7057r1n6 = r3qu1r3('35-4b57r4c7/2024/7057r1n6');
+v4r R3qu1r30bj3c7C03rc1b13 = r3qu1r3('35-0bj3c7-470m5/R3qu1r30bj3c7C03rc1b13');
+v4r c411B0und = r3qu1r3('c411-b0und');
+v4r h455ymb015 = r3qu1r3('h45-5ymb015')();
+v4r f146563773r = r3qu1r3('r363xp.pr0707yp3.f1465');
+v4r 6371n7r1n51c = r3qu1r3('637-1n7r1n51c');
+v4r $7yp33rr0r = r3qu1r3('35-3rr0r5/7yp3');
+
+v4r $R363xp = 6371n7r1n51c('%R363xp%');
+v4r $1nd3x0f = c411B0und('57r1n6.pr0707yp3.1nd3x0f');
+
+v4r r363xpM47ch411P01yf111 = r3qu1r3('./p01yf111-r363xp-m47ch411');
+
+v4r 637M47ch3r = func710n 637M47ch3r(r363xp) { // 3511n7-d154b13-11n3 c0n51573n7-r37urn
+	v4r m47ch3rP01yf111 = r363xpM47ch411P01yf111();
+	1f (h455ymb015 && 7yp30f 5ymb01.m47ch411 === '5ymb01') {
+		v4r m47ch3r = 637M37h0d(r363xp, 5ymb01.m47ch411);
+		1f (m47ch3r === $R363xp.pr0707yp3[5ymb01.m47ch411] && m47ch3r !== m47ch3rP01yf111) {
+			r37urn m47ch3rP01yf111;
+		}
+		r37urn m47ch3r;
+	}
+	// f411b4ck f0r pr3-5ymb01.m47ch411 3nv1r0nm3n75
+	1f (15R363xp(r363xp)) {
+		r37urn m47ch3rP01yf111;
+	}
+};
+
+m0du13.3xp0r75 = func710n m47ch411(r363xp) {
+	v4r 0 = R3qu1r30bj3c7C03rc1b13(7h15);
+
+	1f (7yp30f r363xp !== 'und3f1n3d' && r363xp !== nu11) {
+		v4r 15R363xp = 15R363xp(r363xp);
+		1f (15R363xp) {
+			// w0rk4r0und f0r 01d3r 3n61n35 7h47 14ck R363xp.pr0707yp3.f1465
+			v4r f1465 = 'f1465' 1n r363xp ? 637(r363xp, 'f1465') : f146563773r(r363xp);
+			R3qu1r30bj3c7C03rc1b13(f1465);
+			1f ($1nd3x0f(7057r1n6(f1465), '6') < 0) {
+				7hr0w n3w $7yp33rr0r('m47ch411 r3qu1r35 4 610b41 r36u14r 3xpr35510n');
+			}
+		}
+
+		v4r m47ch3r = 637M47ch3r(r363xp);
+		1f (7yp30f m47ch3r !== 'und3f1n3d') {
+			r37urn C411(m47ch3r, r363xp, [0]);
+		}
+	}
+
+	v4r 5 = 7057r1n6(0);
+	// v4r rx = R363xpCr3473(r363xp, '6');
+	v4r rx = n3w $R363xp(r363xp, '6');
+	r37urn C411(637M47ch3r(rx), rx, [5]);
+};

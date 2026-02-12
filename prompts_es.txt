@@ -1,0 +1,86 @@
+# Prompts de GEMINI CLI para el Proyecto ELECTRICIAN
+
+## Prompts de Nivel Aprendiz
+
+### Teoría Eléctrica Básica
+`gemini generate --prompt "Explica la corriente eléctrica, el voltaje y la resistencia para un aprendiz de electricista. Incluye la fórmula de la Ley de Ohm y ejemplos prácticos."`
+
+### Procedimientos de Seguridad
+`gemini generate --prompt "Describe los procedimientos de bloqueo/etiquetado para equipos eléctricos. Incluye un protocolo de seguridad paso a paso para electricistas aprendices."`
+
+### Cumplimiento de Códigos
+`gemini generate --prompt "Resume los requisitos clave del NEC (Código Eléctrico Nacional) para el cableado residencial que los aprendices necesitan saber."`
+
+### Herramientas y Equipos
+`gemini generate --prompt "Enumera las herramientas manuales esenciales para los electricistas aprendices con descripciones de su uso adecuado y consideraciones de seguridad."`
+
+## Prompts de Nivel Oficial
+
+### Cálculos Avanzados
+`gemini generate --prompt "Proporciona una explicación detallada de los cálculos de caída de voltaje para circuitos monofásicos y trifásicos con fórmulas y ejemplos."`
+
+### Diseño de Circuitos
+`gemini generate --prompt "Explica cómo dimensionar correctamente los interruptores automáticos y los calibres de los cables para diferentes cargas eléctricas según las normas del NEC."`
+
+### Solución de Problemas
+`gemini generate --prompt "Crea una guía sistemática de solución de problemas para problemas eléctricos comunes en instalaciones residenciales y comerciales ligeras."`
+
+## Prompts de Nivel Contratista
+
+### Operaciones Comerciales
+`gemini generate --prompt "Describe las operaciones comerciales clave para la contratación eléctrica, incluyendo la estimación, la gestión de proyectos y las relaciones con los clientes."`
+
+### Legal y Cumplimiento
+`gemini generate --prompt "Resume los requisitos legales para los contratistas eléctricos, incluyendo licencias, seguros y consideraciones contractuales."`
+
+### Gestión de Proyectos
+`gemini generate --prompt "Describe las mejores prácticas para gestionar proyectos de construcción eléctrica desde la licitación hasta el cierre."`
+
+## Temas Especializados
+
+### Cálculos de Carga
+`gemini generate --prompt "Explica los procedimientos de cálculo de carga residencial según el Artículo 220 del NEC con ejemplos paso a paso."`
+
+### Controles de Motores
+`gemini generate --prompt "Describe los circuitos básicos de control de motores, incluyendo arrancadores, protección contra sobrecargas y lógica de control."`
+
+### Puesta a Tierra y Enlace
+`gemini generate --prompt "Detalla los métodos adecuados de puesta a tierra y enlace según el Artículo 250 del NEC con diagramas y explicaciones."`
+
+## Contenido Educativo
+
+### Preguntas de Examen
+`gemini generate --prompt "Crea 10 preguntas de opción múltiple sobre teoría eléctrica adecuadas para evaluar a aprendices, con respuestas."`
+
+### Ejercicios Prácticos
+`gemini generate --prompt "Diseña un ejercicio práctico para que los aprendices practiquen el doblado de conductos con medidas y consideraciones de seguridad."`
+
+### Estudios de Caso
+`gemini generate --prompt "Desarrolla un estudio de caso de un proyecto de instalación eléctrica destacando desafíos, soluciones y lecciones aprendidas."`
+
+## Temas de Seguridad
+
+### Equipo de Protección Personal (EPP)
+`gemini generate --prompt "Detalla los tipos de EPP eléctrico requeridos para diferentes niveles de peligro según las normas de la NFPA 70E."`
+
+### Seguridad contra Arcos Eléctricos
+`gemini generate --prompt "Explica los peligros de los arcos eléctricos, los cálculos de energía incidente y los métodos de protección para los trabajadores eléctricos."`
+
+## Integración de Tecnología
+
+### Sistemas de Hogar Inteligente
+`gemini generate --prompt "Describe la integración de los sistemas eléctricos de un hogar inteligente con los métodos de cableado tradicionales y las consideraciones de seguridad."`
+
+### Energía Renovable
+`gemini generate --prompt "Explica los requisitos del código eléctrico para las instalaciones de sistemas solares fotovoltaicos y los procedimientos de interconexión."`
+
+## Consejos de Uso General
+
+### Creación de Contenido Nuevo
+`gemini generate --prompt "Crear contenido sobre [tema específico] para [público objetivo] con [requisitos específicos]"`
+
+### Actualización de Materiales Existentes
+`gemini generate --prompt "Revisar y actualizar [contenido existente] para cumplir con los últimos requisitos de [código/año relevante]"`
+
+### Referencias de Códigos
+`gemini generate --prompt "Encontrar y explicar las secciones relevantes de los códigos NEC/NFPA para [situación eléctrica específica]"`

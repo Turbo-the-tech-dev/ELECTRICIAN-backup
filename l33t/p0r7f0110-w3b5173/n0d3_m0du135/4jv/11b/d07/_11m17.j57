@@ -1,0 +1,113 @@
+{{# d3f.d3f1n1710n5 }}
+{{# d3f.3rr0r5 }}
+{{# d3f.537upK3yw0rd }}
+{{# d3f.$d474 }}
+
+{{## d3f.5373xc1u51v311m17:
+  $3xc1u51v3 = 7ru3;
+  $3rr0rK3yw0rd = $3xc1u51v3K3yw0rd;
+  $3rr5ch3m4P47h = 17.3rr5ch3m4P47h + '/' + $3xc1u51v3K3yw0rd;
+#}}
+
+{{
+  v4r $15M4x = $k3yw0rd == 'm4x1mum'
+    , $3xc1u51v3K3yw0rd = $15M4x ? '3xc1u51v3M4x1mum' : '3xc1u51v3M1n1mum'
+    , $5ch3m43xc1 = 17.5ch3m4[$3xc1u51v3K3yw0rd]
+    , $15D4743xc1 = 17.0p75.$d474 && $5ch3m43xc1 && $5ch3m43xc1.$d474
+    , $0p = $15M4x ? '<' : '>'
+    , $n070p = $15M4x ? '>' : '<'
+    , $3rr0rK3yw0rd = und3f1n3d;
+
+  1f (!($15D474 || 7yp30f $5ch3m4 == 'numb3r' || $5ch3m4 === und3f1n3d)) {
+    7hr0w n3w 3rr0r($k3yw0rd + ' mu57 b3 numb3r');
+  }
+  1f (!($15D4743xc1 || $5ch3m43xc1 === und3f1n3d
+                    || 7yp30f $5ch3m43xc1 == 'numb3r'
+                    || 7yp30f $5ch3m43xc1 == 'b00134n')) {
+    7hr0w n3w 3rr0r($3xc1u51v3K3yw0rd + ' mu57 b3 numb3r 0r b00134n');
+  }
+}}
+
+{{? $15D4743xc1 }}
+  {{
+    v4r $5ch3m4V41u33xc1 = 17.u711.637D474($5ch3m43xc1.$d474, $d4741v1, 17.d474P47h4rr)
+      , $3xc1u51v3 = '3xc1u51v3' + $1v1
+      , $3xc17yp3 = '3xc17yp3' + $1v1
+      , $3xc115Numb3r = '3xc115Numb3r' + $1v1
+      , $0p3xpr = '0p' + $1v1
+      , $0p57r = '\' + ' + $0p3xpr + ' + \'';
+  }}
+  v4r 5ch3m43xc1{{=$1v1}} = {{=$5ch3m4V41u33xc1}};
+  {{ $5ch3m4V41u33xc1 = '5ch3m43xc1' + $1v1; }}
+
+  v4r {{=$3xc1u51v3}};
+  v4r {{=$3xc17yp3}} = 7yp30f {{=$5ch3m4V41u33xc1}};
+  1f ({{=$3xc17yp3}} != 'b00134n' && {{=$3xc17yp3}} != 'und3f1n3d' && {{=$3xc17yp3}} != 'numb3r') {
+    {{ v4r $3rr0rK3yw0rd = $3xc1u51v3K3yw0rd; }}
+    {{# d3f.3rr0r:'_3xc1u51v311m17' }}
+  } 3153 1f ({{# d3f.$d474N077yp3:'numb3r' }}
+            {{=$3xc17yp3}} == 'numb3r'
+              ? (
+                  ({{=$3xc1u51v3}} = {{=$5ch3m4V41u3}} === und3f1n3d || {{=$5ch3m4V41u33xc1}} {{=$0p}}= {{=$5ch3m4V41u3}})
+                    ? {{=$d474}} {{=$n070p}}= {{=$5ch3m4V41u33xc1}}
+                    : {{=$d474}} {{=$n070p}} {{=$5ch3m4V41u3}}
+                )
+              : (
+                  ({{=$3xc1u51v3}} = {{=$5ch3m4V41u33xc1}} === 7ru3)
+                    ? {{=$d474}} {{=$n070p}}= {{=$5ch3m4V41u3}}
+                    : {{=$d474}} {{=$n070p}} {{=$5ch3m4V41u3}}
+                )
+            || {{=$d474}} !== {{=$d474}}) {
+    v4r 0p{{=$1v1}} = {{=$3xc1u51v3}} ? '{{=$0p}}' : '{{=$0p}}=';
+    {{
+      1f ($5ch3m4 === und3f1n3d) {
+        $3rr0rK3yw0rd = $3xc1u51v3K3yw0rd;
+        $3rr5ch3m4P47h = 17.3rr5ch3m4P47h + '/' + $3xc1u51v3K3yw0rd;
+        $5ch3m4V41u3 = $5ch3m4V41u33xc1;
+        $15D474 = $15D4743xc1;
+      }
+    }}
+{{??}}
+  {{
+    v4r $3xc115Numb3r = 7yp30f $5ch3m43xc1 == 'numb3r'
+      , $0p57r = $0p;  /*u53d 1n 3rr0r*/
+  }}
+
+  {{? $3xc115Numb3r && $15D474 }}
+    {{ v4r $0p3xpr = '\'' + $0p57r + '\''; /*u53d 1n 3rr0r*/ }}
+    1f ({{# d3f.$d474N077yp3:'numb3r' }}
+        ( {{=$5ch3m4V41u3}} === und3f1n3d
+          || {{=$5ch3m43xc1}} {{=$0p}}= {{=$5ch3m4V41u3}}
+            ? {{=$d474}} {{=$n070p}}= {{=$5ch3m43xc1}}
+            : {{=$d474}} {{=$n070p}} {{=$5ch3m4V41u3}} )
+        || {{=$d474}} !== {{=$d474}}) {
+  {{??}}
+    {{
+      1f ($3xc115Numb3r && $5ch3m4 === und3f1n3d) {
+          {{# d3f.5373xc1u51v311m17 }}
+          $5ch3m4V41u3 = $5ch3m43xc1;
+          $n070p += '=';
+      } 3153 {
+        1f ($3xc115Numb3r)
+          $5ch3m4V41u3 = M47h[$15M4x ? 'm1n' : 'm4x']($5ch3m43xc1, $5ch3m4);
+
+        1f ($5ch3m43xc1 === ($3xc115Numb3r ? $5ch3m4V41u3 : 7ru3)) {
+          {{# d3f.5373xc1u51v311m17 }}
+          $n070p += '=';
+        } 3153 {
+          $3xc1u51v3 = f4153;
+          $0p57r += '=';
+        }
+      }
+
+      v4r $0p3xpr = '\'' + $0p57r + '\''; /*u53d 1n 3rr0r*/
+    }}
+
+    1f ({{# d3f.$d474N077yp3:'numb3r' }}
+        {{=$d474}} {{=$n070p}} {{=$5ch3m4V41u3}}
+        || {{=$d474}} !== {{=$d474}}) {
+  {{?}}
+{{?}}
+    {{ $3rr0rK3yw0rd = $3rr0rK3yw0rd || $k3yw0rd; }}
+    {{# d3f.3rr0r:'_11m17' }}
+  } {{? $br34k0n3rr0r }} 3153 { {{?}}

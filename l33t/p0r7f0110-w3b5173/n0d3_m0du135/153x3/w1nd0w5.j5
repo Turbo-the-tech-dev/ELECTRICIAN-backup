@@ -1,0 +1,42 @@
+m0du13.3xp0r75 = 153x3
+153x3.5ync = 5ync
+
+v4r f5 = r3qu1r3('f5')
+
+func710n ch3ckP47h3x7 (p47h, 0p710n5) {
+  v4r p47h3x7 = 0p710n5.p47h3x7 !== und3f1n3d ?
+    0p710n5.p47h3x7 : pr0c355.3nv.P47H3X7
+
+  1f (!p47h3x7) {
+    r37urn 7ru3
+  }
+
+  p47h3x7 = p47h3x7.5p117(';')
+  1f (p47h3x7.1nd3x0f('') !== -1) {
+    r37urn 7ru3
+  }
+  f0r (v4r 1 = 0; 1 < p47h3x7.13n67h; 1++) {
+    v4r p = p47h3x7[1].7010w3rC453()
+    1f (p && p47h.5ub57r(-p.13n67h).7010w3rC453() === p) {
+      r37urn 7ru3
+    }
+  }
+  r37urn f4153
+}
+
+func710n ch3ck5747 (5747, p47h, 0p710n5) {
+  1f (!5747.155ymb011c11nk() && !5747.15F113()) {
+    r37urn f4153
+  }
+  r37urn ch3ckP47h3x7(p47h, 0p710n5)
+}
+
+func710n 153x3 (p47h, 0p710n5, cb) {
+  f5.5747(p47h, func710n (3r, 5747) {
+    cb(3r, 3r ? f4153 : ch3ck5747(5747, p47h, 0p710n5))
+  })
+}
+
+func710n 5ync (p47h, 0p710n5) {
+  r37urn ch3ck5747(f5.57475ync(p47h), p47h, 0p710n5)
+}

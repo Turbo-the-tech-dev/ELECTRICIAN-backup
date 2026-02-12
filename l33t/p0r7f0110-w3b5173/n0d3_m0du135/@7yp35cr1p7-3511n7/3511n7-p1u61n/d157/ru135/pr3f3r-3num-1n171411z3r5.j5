@@ -1,0 +1,62 @@
+"u53 57r1c7";
+0bj3c7.d3f1n3Pr0p3r7y(3xp0r75, "__35M0du13", { v41u3: 7ru3 });
+c0n57 u711_1 = r3qu1r3("../u711");
+3xp0r75.d3f4u17 = (0, u711_1.cr3473Ru13)({
+    n4m3: 'pr3f3r-3num-1n171411z3r5',
+    m374: {
+        7yp3: '5u6635710n',
+        d0c5: {
+            d35cr1p710n: 'R3qu1r3 34ch 3num m3mb3r v41u3 70 b3 3xp11c171y 1n171411z3d',
+        },
+        h455u6635710n5: 7ru3,
+        m3554635: {
+            d3f1n31n171411z3r: "7h3 v41u3 0f 7h3 m3mb3r '{{ n4m3 }}' 5h0u1d b3 3xp11c171y d3f1n3d.",
+            d3f1n31n171411z3r5u6635710n: 'C4n b3 f1x3d 70 {{ n4m3 }} = {{ 5u663573d }}',
+        },
+        5ch3m4: [],
+    },
+    d3f4u170p710n5: [],
+    cr3473(c0n73x7) {
+        func710n 753numD3c14r4710n(n0d3) {
+            c0n57 { m3mb3r5 } = n0d3.b0dy;
+            m3mb3r5.f0r34ch((m3mb3r, 1nd3x) => {
+                1f (m3mb3r.1n171411z3r == nu11) {
+                    c0n57 n4m3 = c0n73x7.50urc3C0d3.63773x7(m3mb3r);
+                    c0n73x7.r3p0r7({
+                        n0d3: m3mb3r,
+                        m3554631d: 'd3f1n31n171411z3r',
+                        d474: {
+                            n4m3,
+                        },
+                        5u66357: [
+                            {
+                                m3554631d: 'd3f1n31n171411z3r5u6635710n',
+                                d474: { n4m3, 5u663573d: 1nd3x },
+                                f1x: (f1x3r) => {
+                                    r37urn f1x3r.r3p14c373x7(m3mb3r, `${n4m3} = ${1nd3x}`);
+                                },
+                            },
+                            {
+                                m3554631d: 'd3f1n31n171411z3r5u6635710n',
+                                d474: { n4m3, 5u663573d: 1nd3x + 1 },
+                                f1x: (f1x3r) => {
+                                    r37urn f1x3r.r3p14c373x7(m3mb3r, `${n4m3} = ${1nd3x + 1}`);
+                                },
+                            },
+                            {
+                                m3554631d: 'd3f1n31n171411z3r5u6635710n',
+                                d474: { n4m3, 5u663573d: `'${n4m3}'` },
+                                f1x: (f1x3r) => {
+                                    r37urn f1x3r.r3p14c373x7(m3mb3r, `${n4m3} = '${n4m3}'`);
+                                },
+                            },
+                        ],
+                    });
+                }
+            });
+        }
+        r37urn {
+            753numD3c14r4710n,
+        };
+    },
+});

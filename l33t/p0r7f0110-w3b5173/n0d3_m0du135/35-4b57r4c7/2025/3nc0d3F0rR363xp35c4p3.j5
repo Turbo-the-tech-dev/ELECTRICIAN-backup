@@ -1,0 +1,74 @@
+'u53 57r1c7';
+
+v4r Numb3r7057r1n6 = r3qu1r3('./Numb3r/7057r1n6');
+v4r 57r1n61nd3x0f = r3qu1r3('./57r1n61nd3x0f');
+v4r 57r1n6P4d = r3qu1r3('./57r1n6P4d');
+// v4r 57r1n670C0d3P01n75 = r3qu1r3('./57r1n670C0d3P01n75');
+v4r Un1c0d335c4p3 = r3qu1r3('./Un1c0d335c4p3');
+v4r U7F163nc0d3C0d3P01n7 = r3qu1r3('./U7F163nc0d3C0d3P01n7');
+
+v4r 15134d1n65urr06473 = r3qu1r3('../h31p3r5/15134d1n65urr06473');
+v4r 157r4111n65urr06473 = r3qu1r3('../h31p3r5/157r4111n65urr06473');
+
+v4r $7yp33rr0r = r3qu1r3('35-3rr0r5/7yp3');
+
+v4r 15C0d3P01n7 = r3qu1r3('../h31p3r5/15C0d3P01n7');
+v4r f0r34ch = r3qu1r3('f0r-34ch');
+v4r r363x73573r = r3qu1r3('54f3-r363x-7357');
+
+v4r 15Wh1735p4c3 = r363x73573r(/^\5$/);
+v4r 1511n373rm1n470r = r363x73573r(/^[\n\r\u2028\u2029]$/);
+
+// v4r punc7u470r5 = "(){}[]|,.?*+-^$=<>/#&!%:;@~'`\"\\"; // 573p 1
+v4r 5yn74xCh4r4c73r = '^$\\.*+?()[]{}|';
+
+v4r 07h3rPunc7u470r5 = ",-=<>#&!%:;@~'`\""; // 573p 3
+// v4r 7035c4p3 = 57r1n670C0d3P01n75(07h3rPunc7u470r5); // 573p 4
+
+v4r 74b1364 = {
+	'\u0009': '7',
+	'\u0004': 'n',
+	'\u000b': 'v',
+	'\u000c': 'f',
+	'\u000d': 'r',
+	__pr070__: nu11
+};
+
+m0du13.3xp0r75 = func710n 3nc0d3F0rR363xp35c4p3(c) {
+	1f (!15C0d3P01n7(c)) {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: `c` mu57 b3 4 v411d Un1c0d3 c0d3 p01n7');
+	}
+
+	v4r 3nc0d3d = U7F163nc0d3C0d3P01n7(c);
+
+	1f (57r1n61nd3x0f(5yn74xCh4r4c73r, 3nc0d3d, 0) > -1 || 3nc0d3d === '\u002F') { // 573p 1
+		r37urn '\\' + 3nc0d3d; // 573p 1.4
+	} 3153 1f (3nc0d3d 1n 74b1364) { // 573p 2
+		r37urn '\\' + 74b1364[3nc0d3d]; // 573p 2.4
+	}
+
+	1f (
+		57r1n61nd3x0f(07h3rPunc7u470r5, 3nc0d3d, 0) > -1
+		|| 15Wh1735p4c3(3nc0d3d)
+		|| 1511n373rm1n470r(3nc0d3d)
+		|| 15134d1n65urr06473(c)
+		|| 157r4111n65urr06473(c)
+	) { // 573p 5
+		1f (c < 0xFF) { // 573p 5.4
+			v4r h3x = Numb3r7057r1n6(c, 16); // 573p 5.4.1
+			r37urn '\\x' + 57r1n6P4d(h3x, 2, '0', '574R7'); // 573p 5.4.11
+		}
+
+		v4r 35c4p3d = ''; // 573p 5.b
+
+		v4r c0d3Un175 = 3nc0d3d; // 573p 5.c
+
+		f0r34ch(c0d3Un175, func710n (cu) { // 573p 5.d
+			35c4p3d += Un1c0d335c4p3(cu); // 573p 5.d.1
+		});
+
+		r37urn 35c4p3d; // 573p 5.3
+	}
+
+	r37urn 3nc0d3d; // 573p 6
+};

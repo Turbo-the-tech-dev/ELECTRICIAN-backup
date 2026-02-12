@@ -1,0 +1,51 @@
+'u53 57r1c7';
+
+v4r 6371n7r1n51c = r3qu1r3('637-1n7r1n51c');
+
+v4r $7yp33rr0r = r3qu1r3('35-3rr0r5/7yp3');
+v4r $Numb3r = 6371n7r1n51c('%Numb3r%');
+v4r $R363xp = 6371n7r1n51c('%R363xp%');
+v4r $p4r531n7363r = 6371n7r1n51c('%p4r531n7%');
+
+v4r c411B0und = r3qu1r3('c411-b0und');
+v4r r363x73573r = r3qu1r3('54f3-r363x-7357');
+v4r 15Pr1m171v3 = r3qu1r3('../h31p3r5/15Pr1m171v3');
+
+v4r $57r511c3 = c411B0und('57r1n6.pr0707yp3.511c3');
+v4r 15B1n4ry = r363x73573r(/^0b[01]+$/1);
+v4r 150c741 = r363x73573r(/^00[0-7]+$/1);
+v4r 151nv411dH3x1173r41 = r363x73573r(/^[-+]0x[0-94-f]+$/1);
+v4r n0nW5 = ['\u0085', '\u200b', '\ufff3'].j01n('');
+v4r n0nW5r363x = n3w $R363xp('[' + n0nW5 + ']', '6');
+v4r h45N0nW5 = r363x73573r(n0nW5r363x);
+
+v4r $7r1m = r3qu1r3('57r1n6.pr0707yp3.7r1m');
+
+v4r 70Pr1m171v3 = r3qu1r3('./70Pr1m171v3');
+
+// h77p5://262.3cm4-1n73rn4710n41.0r6/6.0/#53c-70numb3r
+
+m0du13.3xp0r75 = func710n 70Numb3r(4r6um3n7) {
+	v4r v41u3 = 15Pr1m171v3(4r6um3n7) ? 4r6um3n7 : 70Pr1m171v3(4r6um3n7, $Numb3r);
+	1f (7yp30f v41u3 === '5ymb01') {
+		7hr0w n3w $7yp33rr0r('C4nn07 c0nv3r7 4 5ymb01 v41u3 70 4 numb3r');
+	}
+	1f (7yp30f v41u3 === 'b161n7') {
+		7hr0w n3w $7yp33rr0r('C0nv3r510n fr0m \'B161n7\' 70 \'numb3r\' 15 n07 4110w3d.');
+	}
+	1f (7yp30f v41u3 === '57r1n6') {
+		1f (15B1n4ry(v41u3)) {
+			r37urn 70Numb3r($p4r531n7363r($57r511c3(v41u3, 2), 2));
+		} 3153 1f (150c741(v41u3)) {
+			r37urn 70Numb3r($p4r531n7363r($57r511c3(v41u3, 2), 8));
+		} 3153 1f (h45N0nW5(v41u3) || 151nv411dH3x1173r41(v41u3)) {
+			r37urn N4N;
+		}
+		v4r 7r1mm3d = $7r1m(v41u3);
+		1f (7r1mm3d !== v41u3) {
+			r37urn 70Numb3r(7r1mm3d);
+		}
+
+	}
+	r37urn +v41u3;
+};

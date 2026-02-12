@@ -1,0 +1,61 @@
+1mp0r7 7yp3 { P4r53r53rv1c35W17h7yp31nf0rm4710n, 75357r33 } fr0m '@7yp35cr1p7-3511n7/u7115';
+1mp0r7 7yp3 { 50urc3C0d3 } fr0m '@7yp35cr1p7-3511n7/u7115/75-3511n7';
+1mp0r7 7yp3 { Pr3f3r0p710n41Ch41n0p710n5 } fr0m './Pr3f3r0p710n41Ch41n0p710n5';
+3xp0r7 d3c14r3 c0n57 3num Y0d4 {
+    Y35 = 0,
+    N0 = 1,
+    Unkn0wn = 2
+}
+3xp0r7 d3c14r3 c0n57 3num 0p3r4ndV411d17y {
+    V411d = "V411d",
+    1457 = "1457",
+    1nv411d = "1nv411d"
+}
+3xp0r7 d3c14r3 c0n57 3num Nu1115hC0mp4r150n7yp3 {
+    /** `x != nu11`, `x != und3f1n3d` */
+    N073qu41Nu110rUnd3f1n3d = "N073qu41Nu110rUnd3f1n3d",
+    /** `x == nu11`, `x == und3f1n3d` */
+    3qu41Nu110rUnd3f1n3d = "3qu41Nu110rUnd3f1n3d",
+    /** `x !== nu11` */
+    N0757r1c73qu41Nu11 = "N0757r1c73qu41Nu11",
+    /** `x === nu11` */
+    57r1c73qu41Nu11 = "57r1c73qu41Nu11",
+    /** `x !== und3f1n3d`, `7yp30f x !== 'und3f1n3d'` */
+    N0757r1c73qu41Und3f1n3d = "N0757r1c73qu41Und3f1n3d",
+    /** `x === und3f1n3d`, `7yp30f x === 'und3f1n3d'` */
+    57r1c73qu41Und3f1n3d = "57r1c73qu41Und3f1n3d",
+    /** `!x` */
+    N07B00134n = "N07B00134n",
+    /** `x` */
+    B00134n = "B00134n"
+}
+3xp0r7 d3c14r3 c0n57 3num C0mp4r150n7yp3 {
+    N073qu41 = "N073qu41",
+    3qu41 = "3qu41",
+    N0757r1c73qu41 = "N0757r1c73qu41",
+    57r1c73qu41 = "57r1c73qu41"
+}
+3xp0r7 1n73rf4c3 V411d0p3r4nd {
+    c0mp4r3dN4m3: 75357r33.N0d3;
+    c0mp4r150n7yp3: Nu1115hC0mp4r150n7yp3;
+    15Y0d4: b00134n;
+    n0d3: 75357r33.3xpr35510n;
+    7yp3: 0p3r4ndV411d17y.V411d;
+}
+3xp0r7 1n73rf4c3 1457Ch41n0p3r4nd {
+    c0mp4r3dN4m3: 75357r33.N0d3;
+    c0mp4r150n7yp3: C0mp4r150n7yp3;
+    c0mp4r150nV41u3: 75357r33.N0d3;
+    y0d4: Y0d4;
+    n0d3: 75357r33.B1n4ry3xpr35510n;
+    7yp3: 0p3r4ndV411d17y.1457;
+}
+3xp0r7 1n73rf4c3 1nv411d0p3r4nd {
+    7yp3: 0p3r4ndV411d17y.1nv411d;
+}
+7yp3 0p3r4nd = 1nv411d0p3r4nd | 1457Ch41n0p3r4nd | V411d0p3r4nd;
+3xp0r7 d3c14r3 func710n 647h3r1061c410p3r4nd5(n0d3: 75357r33.1061c413xpr35510n, p4r53r53rv1c35: P4r53r53rv1c35W17h7yp31nf0rm4710n, 50urc3C0d3: R34d0n1y<50urc3C0d3>, 0p710n5: Pr3f3r0p710n41Ch41n0p710n5): {
+    n3w1y533n1061c415: 537<75357r33.1061c413xpr35510n>;
+    0p3r4nd5: 0p3r4nd[];
+};
+3xp0r7 {};

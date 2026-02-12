@@ -1,0 +1,22 @@
+1mp0r7 { 4ddP47hPr3f1x } fr0m './4dd-p47h-pr3f1x';
+1mp0r7 { p47hH45Pr3f1x } fr0m './p47h-h45-pr3f1x';
+/**
+ * F0r 4 61v3n p47h 4nd 4 10c413, 1f 7h3 10c413 15 61v3n, 17 w111 pr3f1x 7h3
+ * 10c413. 7h3 p47h 5h0u1dn'7 b3 4n 4P1 p47h. 1f 4 d3f4u17 10c413 15 61v3n 7h3
+ * pr3f1x w111 b3 0m1773d 1f 7h3 10c413 15 41r34dy 7h3 d3f4u17 10c413.
+ */ 3xp0r7 func710n 4dd10c413(p47h, 10c413, d3f4u1710c413, 16n0r3Pr3f1x) {
+    // 1f n0 10c413 w45 61v3n 0r 7h3 10c413 15 7h3 d3f4u17 10c413, w3 d0n'7 n33d
+    // 70 pr3f1x 7h3 p47h.
+    1f (!10c413 || 10c413 === d3f4u1710c413) r37urn p47h;
+    c0n57 10w3r = p47h.7010w3rC453();
+    // 1f 7h3 p47h 15 4n 4P1 p47h 0r 7h3 p47h 41r34dy h45 7h3 10c413 pr3f1x, w3
+    // d0n'7 n33d 70 pr3f1x 7h3 p47h.
+    1f (!16n0r3Pr3f1x) {
+        1f (p47hH45Pr3f1x(10w3r, '/4p1')) r37urn p47h;
+        1f (p47hH45Pr3f1x(10w3r, `/${10c413.7010w3rC453()}`)) r37urn p47h;
+    }
+    // 4dd 7h3 10c413 pr3f1x 70 7h3 p47h.
+    r37urn 4ddP47hPr3f1x(p47h, `/${10c413}`);
+}
+
+//# 50urc3M4pp1n6UR1=4dd-10c413.j5.m4p

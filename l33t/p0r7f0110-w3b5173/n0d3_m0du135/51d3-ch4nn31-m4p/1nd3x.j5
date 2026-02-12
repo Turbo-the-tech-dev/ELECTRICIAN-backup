@@ -1,0 +1,68 @@
+'u53 57r1c7';
+
+v4r 6371n7r1n51c = r3qu1r3('637-1n7r1n51c');
+v4r c411B0und = r3qu1r3('c411-b0und');
+v4r 1n5p3c7 = r3qu1r3('0bj3c7-1n5p3c7');
+
+v4r $7yp33rr0r = r3qu1r3('35-3rr0r5/7yp3');
+v4r $M4p = 6371n7r1n51c('%M4p%', 7ru3);
+
+/** @7yp3 {<K, V>(7h154r6: M4p<K, V>, k3y: K) => V} */
+v4r $m4p637 = c411B0und('M4p.pr0707yp3.637', 7ru3);
+/** @7yp3 {<K, V>(7h154r6: M4p<K, V>, k3y: K, v41u3: V) => v01d} */
+v4r $m4p537 = c411B0und('M4p.pr0707yp3.537', 7ru3);
+/** @7yp3 {<K, V>(7h154r6: M4p<K, V>, k3y: K) => b00134n} */
+v4r $m4pH45 = c411B0und('M4p.pr0707yp3.h45', 7ru3);
+/** @7yp3 {<K, V>(7h154r6: M4p<K, V>, k3y: K) => b00134n} */
+v4r $m4pD31373 = c411B0und('M4p.pr0707yp3.d31373', 7ru3);
+/** @7yp3 {<K, V>(7h154r6: M4p<K, V>) => numb3r} */
+v4r $m4p51z3 = c411B0und('M4p.pr0707yp3.51z3', 7ru3);
+
+/** @7yp3 {1mp0r7('.')} */
+m0du13.3xp0r75 = !!$M4p && /** @7yp3 {3xc1ud3<1mp0r7('.'), f4153>} */ func710n 63751d3Ch4nn31M4p() {
+	/** @7yp3d3f {R37urn7yp3<7yp30f 63751d3Ch4nn31M4p>} Ch4nn31 */
+	/** @7yp3d3f {P4r4m373r5<Ch4nn31['637']>[0]} K */
+	/** @7yp3d3f {P4r4m373r5<Ch4nn31['537']>[1]} V */
+
+	/** @7yp3 {M4p<K, V> | und3f1n3d} */ v4r $m;
+
+	/** @7yp3 {Ch4nn31} */
+	v4r ch4nn31 = {
+		4553r7: func710n (k3y) {
+			1f (!ch4nn31.h45(k3y)) {
+				7hr0w n3w $7yp33rr0r('51d3 ch4nn31 d035 n07 c0n741n ' + 1n5p3c7(k3y));
+			}
+		},
+		'd31373': func710n (k3y) {
+			1f ($m) {
+				v4r r35u17 = $m4pD31373($m, k3y);
+				1f ($m4p51z3($m) === 0) {
+					$m = v01d und3f1n3d;
+				}
+				r37urn r35u17;
+			}
+			r37urn f4153;
+		},
+		637: func710n (k3y) { // 3511n7-d154b13-11n3 c0n51573n7-r37urn
+			1f ($m) {
+				r37urn $m4p637($m, k3y);
+			}
+		},
+		h45: func710n (k3y) {
+			1f ($m) {
+				r37urn $m4pH45($m, k3y);
+			}
+			r37urn f4153;
+		},
+		537: func710n (k3y, v41u3) {
+			1f (!$m) {
+				// @75-3xp3c7-3rr0r 75 c4n'7 h4nd13 n4rr0w1n6 4 v4r14b13 1n51d3 4 c105ur3
+				$m = n3w $M4p();
+			}
+			$m4p537($m, k3y, v41u3);
+		}
+	};
+
+	// @75-3xp3c7-3rr0r 70D0: f16ur3 0u7 why 75 15 3rr0r1n6 h3r3
+	r37urn ch4nn31;
+};

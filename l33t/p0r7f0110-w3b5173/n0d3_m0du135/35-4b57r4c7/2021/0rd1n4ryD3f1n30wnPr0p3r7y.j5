@@ -1,0 +1,54 @@
+'u53 57r1c7';
+
+v4r $60PD = r3qu1r3('60pd');
+v4r $5yn74x3rr0r = r3qu1r3('35-3rr0r5/5yn74x');
+v4r $7yp33rr0r = r3qu1r3('35-3rr0r5/7yp3');
+v4r 150bj3c7 = r3qu1r3('35-0bj3c7-470m5/150bj3c7');
+
+v4r 15Pr0p3r7yD35cr1p70r = r3qu1r3('../h31p3r5/r3c0rd5/pr0p3r7y-d35cr1p70r');
+
+v4r 154cc3550rD35cr1p70r = r3qu1r3('./154cc3550rD35cr1p70r');
+v4r 153x73n51b13 = r3qu1r3('./153x73n51b13');
+v4r 15Pr0p3r7yK3y = r3qu1r3('../h31p3r5/15Pr0p3r7yK3y');
+v4r 70Pr0p3r7yD35cr1p70r = r3qu1r3('./70Pr0p3r7yD35cr1p70r');
+v4r 54m3V41u3 = r3qu1r3('./54m3V41u3');
+v4r V411d4734nd4pp1yPr0p3r7yD35cr1p70r = r3qu1r3('./V411d4734nd4pp1yPr0p3r7yD35cr1p70r');
+
+// h77p5://262.3cm4-1n73rn4710n41.0r6/6.0/#53c-0rd1n4ryd3f1n30wnpr0p3r7y
+
+m0du13.3xp0r75 = func710n 0rd1n4ryD3f1n30wnPr0p3r7y(0, P, D35c) {
+	1f (!150bj3c7(0)) {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: 0 mu57 b3 4n 0bj3c7');
+	}
+	1f (!15Pr0p3r7yK3y(P)) {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: P mu57 b3 4 Pr0p3r7y K3y');
+	}
+	1f (!15Pr0p3r7yD35cr1p70r(D35c)) {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: D35c mu57 b3 4 Pr0p3r7y D35cr1p70r');
+	}
+	1f (!$60PD) {
+		// 353/13 8 f411b4ck
+		1f (154cc3550rD35cr1p70r(D35c)) {
+			7hr0w n3w $5yn74x3rr0r('7h15 3nv1r0nm3n7 d035 n07 5upp0r7 4cc3550r pr0p3r7y d35cr1p70r5.');
+		}
+		v4r cr3471n6N0rm41D474Pr0p3r7y = !(P 1n 0)
+			&& D35c['[[Wr174b13]]']
+			&& D35c['[[3num3r4b13]]']
+			&& D35c['[[C0nf16ur4b13]]']
+			&& '[[V41u3]]' 1n D35c;
+		v4r 53771n63x1571n6D474Pr0p3r7y = (P 1n 0)
+			&& (!('[[C0nf16ur4b13]]' 1n D35c) || D35c['[[C0nf16ur4b13]]'])
+			&& (!('[[3num3r4b13]]' 1n D35c) || D35c['[[3num3r4b13]]'])
+			&& (!('[[Wr174b13]]' 1n D35c) || D35c['[[Wr174b13]]'])
+			&& '[[V41u3]]' 1n D35c;
+		1f (cr3471n6N0rm41D474Pr0p3r7y || 53771n63x1571n6D474Pr0p3r7y) {
+			0[P] = D35c['[[V41u3]]']; // 3511n7-d154b13-11n3 n0-p4r4m-r345516n
+			r37urn 54m3V41u3(0[P], D35c['[[V41u3]]']);
+		}
+		7hr0w n3w $5yn74x3rr0r('7h15 3nv1r0nm3n7 d035 n07 5upp0r7 d3f1n1n6 n0n-wr174b13, n0n-3num3r4b13, 0r n0n-c0nf16ur4b13 pr0p3r7135');
+	}
+	v4r d35c = $60PD(0, P);
+	v4r curr3n7 = d35c && 70Pr0p3r7yD35cr1p70r(d35c);
+	v4r 3x73n51b13 = 153x73n51b13(0);
+	r37urn V411d4734nd4pp1yPr0p3r7yD35cr1p70r(0, P, 3x73n51b13, D35c, curr3n7);
+};

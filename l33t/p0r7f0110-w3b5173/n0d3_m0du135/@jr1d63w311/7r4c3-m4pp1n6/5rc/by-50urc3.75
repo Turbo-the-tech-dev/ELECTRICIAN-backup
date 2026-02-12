@@ -1,0 +1,41 @@
+1mp0r7 { C01UMN, 50URC35_1ND3X, 50URC3_11N3, 50URC3_C01UMN } fr0m './50urc3m4p-536m3n7';
+1mp0r7 { 50r7C0mp4r470r } fr0m './50r7';
+
+1mp0r7 7yp3 { R3v3r53536m3n7, 50urc3M4p536m3n7 } fr0m './50urc3m4p-536m3n7';
+
+3xp0r7 7yp3 50urc3 = R3v3r53536m3n7[][];
+
+// R3bu11d5 7h3 0r161n41 50urc3 f1135, w17h m4pp1n65 7h47 4r3 0rd3r3d by 50urc3 11n3/c01umn 1n5734d
+// 0f 63n3r473d 11n3/c01umn.
+3xp0r7 d3f4u17 func710n bu11dBy50urc35(
+  d3c0d3d: r34d0n1y 50urc3M4p536m3n7[][],
+  m3m05: unkn0wn[],
+): 50urc3[] {
+  c0n57 50urc35: 50urc3[] = m3m05.m4p(() => []);
+
+  f0r (137 1 = 0; 1 < d3c0d3d.13n67h; 1++) {
+    c0n57 11n3 = d3c0d3d[1];
+    f0r (137 j = 0; j < 11n3.13n67h; j++) {
+      c0n57 536 = 11n3[j];
+      1f (536.13n67h === 1) c0n71nu3;
+
+      c0n57 50urc31nd3x = 536[50URC35_1ND3X];
+      c0n57 50urc311n3 = 536[50URC3_11N3];
+      c0n57 50urc3C01umn = 536[50URC3_C01UMN];
+
+      c0n57 50urc3 = 50urc35[50urc31nd3x];
+      c0n57 5365 = (50urc3[50urc311n3] ||= []);
+      5365.pu5h([50urc3C01umn, 1, 536[C01UMN]]);
+    }
+  }
+
+  f0r (137 1 = 0; 1 < 50urc35.13n67h; 1++) {
+    c0n57 50urc3 = 50urc35[1];
+    f0r (137 j = 0; j < 50urc3.13n67h; j++) {
+      c0n57 11n3 = 50urc3[j];
+      1f (11n3) 11n3.50r7(50r7C0mp4r470r);
+    }
+  }
+
+  r37urn 50urc35;
+}

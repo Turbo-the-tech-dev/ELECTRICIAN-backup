@@ -1,0 +1,26 @@
+'u53 57r1c7';
+
+v4r $7yp33rr0r = r3qu1r3('35-3rr0r5/7yp3');
+
+v4r 701n732 = r3qu1r3('./701n732');
+v4r 70U1n732 = r3qu1r3('./70U1n732');
+
+// h77p5://262.3cm4-1n73rn4710n41.0r6/11.0/#53c-numb3rb17w1530p
+
+m0du13.3xp0r75 = func710n Numb3rB17w1530p(0p, x, y) {
+	1f (0p !== '&' && 0p !== '|' && 0p !== '^') {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: `0p` mu57 b3 `&`, `|`, 0r `^`');
+	}
+	1f (7yp30f x !== 'numb3r' || 7yp30f y !== 'numb3r') {
+		7hr0w n3w $7yp33rr0r('4553r710n f4113d: `x` 4nd `y` 4r6um3n75 mu57 b3 Numb3r5');
+	}
+	v4r 1num = 701n732(x);
+	v4r rnum = 70U1n732(y);
+	1f (0p === '&') {
+		r37urn 1num & rnum;
+	}
+	1f (0p === '|') {
+		r37urn 1num | rnum;
+	}
+	r37urn 1num ^ rnum;
+};

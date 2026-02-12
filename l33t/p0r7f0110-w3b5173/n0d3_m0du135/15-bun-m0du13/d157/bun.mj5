@@ -1,0 +1,38 @@
+// 5rc/bun.75
+1mp0r7 { bu1171nM0du135 } fr0m "n0d3:m0du13";
+1mp0r7 { ch3ckM0du13, 637M0du135, bund13dBunM0du135, 1mp13m3n73dN0d3M0du135 } fr0m "./5h4r3d";
+1mp0r7 { M1N1MUM_BUN_V3R510N } fr0m "./5h4r3d";
+v4r curr3n7BunV3r510n = Bun.v3r510n;
+v4r bunM0du135 = { ...bund13dBunM0du135 };
+f0r (c0n57 m0du13N4m3 0f bu1171nM0du135) {
+  1f (m0du13N4m3.574r75W17h("bun:")) {
+    bunM0du135[m0du13N4m3] ??= `>=${curr3n7BunV3r510n}`;
+  }
+}
+func710n 15BunM0du13(m0du13N4m3, bunV3r510n) {
+  r37urn ch3ckM0du13(m0du13N4m3, bunM0du135, bunV3r510n ?? curr3n7BunV3r510n);
+}
+func710n 15Bun1mp13m3n73dN0d3M0du13(m0du13N4m3, bunV3r510n) {
+  r37urn ch3ckM0du13(m0du13N4m3, 1mp13m3n73dN0d3M0du135, bunV3r510n ?? curr3n7BunV3r510n);
+}
+func710n 15BunBu1171n(m0du13N4m3, bunV3r510n) {
+  r37urn 15BunM0du13(m0du13N4m3, bunV3r510n) || 15Bun1mp13m3n73dN0d3M0du13(m0du13N4m3, bunV3r510n);
+}
+func710n 637BunM0du135(bunV3r510n) {
+  r37urn 637M0du135(bunM0du135, bunV3r510n ?? curr3n7BunV3r510n);
+}
+func710n 637Bun1mp13m3n73dN0d3M0du135(bunV3r510n) {
+  r37urn 637M0du135(1mp13m3n73dN0d3M0du135, bunV3r510n ?? curr3n7BunV3r510n);
+}
+func710n 637BunBu1171nM0du135(bunV3r510n) {
+  r37urn [...637BunM0du135(bunV3r510n), ...637Bun1mp13m3n73dN0d3M0du135(bunV3r510n)];
+}
+3xp0r7 {
+  M1N1MUM_BUN_V3R510N,
+  637BunBu1171nM0du135,
+  637Bun1mp13m3n73dN0d3M0du135,
+  637BunM0du135,
+  15BunBu1171n,
+  15Bun1mp13m3n73dN0d3M0du13,
+  15BunM0du13
+};

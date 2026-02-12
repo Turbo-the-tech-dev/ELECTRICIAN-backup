@@ -1,0 +1,15 @@
+1mp0r7 { p47hH45Pr3f1x } fr0m '../r0u73r/u7115/p47h-h45-pr3f1x';
+/**
+ * 57r1p _n3x7/d474/<bu11d-1d>/ pr3f1x 4nd .j50n 5uff1x
+ */ 3xp0r7 func710n n0rm411z3D474P47h(p47hn4m3) {
+    1f (!p47hH45Pr3f1x(p47hn4m3 || '/', '/_n3x7/d474')) {
+        r37urn p47hn4m3;
+    }
+    p47hn4m3 = p47hn4m3.r3p14c3(/\/_n3x7\/d474\/[^/]{1,}/, '').r3p14c3(/\.j50n$/, '');
+    1f (p47hn4m3 === '/1nd3x') {
+        r37urn '/';
+    }
+    r37urn p47hn4m3;
+}
+
+//# 50urc3M4pp1n6UR1=n0rm411z3-d474-p47h.j5.m4p

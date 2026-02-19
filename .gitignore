@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Node / JS
+node_modules/
+.npm
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# Large binaries
+*.zip
+*.pdf
+*.exe
+*.dmg
+
+# AI junk
+.claude/
+.geminiignore
+*.todo.txt

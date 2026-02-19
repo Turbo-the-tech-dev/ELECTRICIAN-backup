@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(claude -p \"Say hello in one sentence.\")",
-      "Bash(echo:*)",
-      "Bash(TMPDIR=/data/data/com.termux/files/usr/tmp claude:*)"
-    ]
-  }
-}
